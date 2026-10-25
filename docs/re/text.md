@@ -50,6 +50,18 @@ slots move.
 - Graphics compressor (`tools/gfx.py compress`) recompresses 355/356 blocks byte for byte; 0D_0A stores a redundant
   zero row (decodes the same).
 
+## Extraction coverage (verified: `tests/test_roundtrip.py`)
+
+- Every main/sub/name string decodes and re-encodes to its original bytes; `script/*.json` jp matches the ROM.
+- Main: pointer table, then strings back to back to 0x2F882, 0xFF to 0x2FEFF. Sub: table 0x2FF00, strings
+  0x2FF30-0x2FFB7, 0xFF to the bank end. Names: the five tables sit back to back 0x103BB-0x1081B, each pointer table
+  followed by its strings with no gap; the bytes around them are numeric tables.
+- The string pointer $1113-$1115 has exactly four writers, all in bank $07: the opener (main table, $07:97D0),
+  substring call ($07:9B4C) and return ($07:9A41), byte advance ($07:9E0C); the font bank is read only through
+  $1116 ($07:9AC1). So the 12px renderer has no text source beyond main/sub (plus the RAM name slots); other
+  on-screen Japanese is graphics (graphics.md). A whole-ROM `jp_left.py --tbl` sweep is useless here: with a
+  one-byte encoding every bank decodes as kana (25,159 runs in the original).
+
 ## Renderer
 
 - 12x16 glyphs, 1bpp, 32 bytes each (8x8 tiles TL, TR, BL, BR; 12 px used) at $06:8000 = file 0x30000.
