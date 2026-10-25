@@ -12,4 +12,5 @@ Addresses are for the dump in `rom.sha1` unless a note says otherwise.
 
 | File | Covers | State |
 |---|---|---|
-| <text.md> | <encoding, control codes, pointer tables> | <verified / partly guessed> |
+| text.md | encoding, control codes, message/substring/name tables, 12x16 font, renderer | verified (decode + disassembly); renderer layout partly guessed |
+| graphics.md | resource directory, tile compression, graphics-text survey, free space | directory/compression verified; survey preliminary |
