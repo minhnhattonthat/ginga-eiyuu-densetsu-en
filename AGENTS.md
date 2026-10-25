@@ -6,7 +6,9 @@ Skill: translate-retro-game; `python tools/skill.py` prints its folder. Read its
 - Build:    `python -X utf8 tools/build.py`  -> build/logh_en.sfc (checks the dump against `rom.sha1` first)
 - Check:    `python -X utf8 tools/check.py`  (tests + lint; the pre-commit hook runs this)
 - Smoke:    `python -X utf8 "$(python tools/skill.py)/scripts/emu.py" build/logh_en.sfc --out work/qa/smoke --route tools/routes/boot.txt --smoke`
-- Warp:     `python -X utf8 "$(python tools/skill.py)/scripts/emu.py" build/logh_en.sfc --out work/qa/warp --script tools/debug/warp.lua --var "SCENE='<name>'" --frames 900 --sheet` (scenes: `tools/debug/scenes.lua`; never ask the user to play to a scene)
+- Warp:     `python -X utf8 "$(python tools/skill.py)/scripts/emu.py" build/logh_en.sfc --out work/qa/warp1 --script tools/debug/warp.lua --var "SCENE='<name>'" --frames 16000 --sheet` (scenes: `tools/debug/scenes.lua`, facts `docs/re/debug.md`; never ask the user to play to a scene)
+- States:   `python -X utf8 tools/debug/regen.py [SCENE..]` (every scene from a cold boot -> `work/states/<scene>.mss` + `work/qa/warp/proof*.png`; rerun after code/font/gfx changes)
+- Events:   `python -X utf8 tools/events.py [--event N [--dump]] [--unreached]` (event scripts -> message ids)
 - Release:  `python -X utf8 tools/release.py` (patch + verify; never publish without the user)
 - Clean:    `python -X utf8 tools/clean.py` (published projects: lists rebuildable/downloadable files; `--yes` deletes)
 

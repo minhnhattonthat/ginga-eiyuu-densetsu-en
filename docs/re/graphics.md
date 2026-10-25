@@ -29,6 +29,9 @@
 | G10 | Unclear text-like blocks | 08_2F, 09_2F-09_31, 09_33, 10_06, 10_2F, 0D_0F, 0D_1B | mixed | no | confirm in game or rule out |
 | G11 | Title logo 銀河英雄伝説 | not in the directory | ? | yes | official English title exists (D5): add it |
 | G12 | Council screen header bar | ? | ? | yes (first council) | source unknown |
+| G13 | Scenario title bars (1. 永遠の夜の中で, 2. はばたく禿鷹, 3. 神々の黄昏) | graphics id 7+scenario via $00:9BBA | ? | yes (`title_scenario`) | orange bar |
+| G14 | Command menu icons + 終了 button | ? | ? | yes (`cmd_menu`) | SYS already English |
+| G15 | Credits logo "Heldensagen vom Kosmosinsel" + staff names | ? | ? | yes (`credits`) | already German/English |
 
 ## Free space candidates (0xFF runs at bank ends; trap-test before use, docs: pipeline.md §Recon)
 
