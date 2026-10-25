@@ -27,3 +27,4 @@ tools/*/
 *.sstate
 *.ppst
 evidence/private/
+!tools/emu-config/
