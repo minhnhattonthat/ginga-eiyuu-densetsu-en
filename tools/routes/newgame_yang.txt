@@ -1,0 +1,14 @@
+# cold boot -> title -> NEW -> 1 PLAY -> Yang
+600 -
+6 start
+300 -
+6 start
+300 -
+8 right
+60 -
+8 a
+90 -
+8 a
+90 -
+8 a
+300 -

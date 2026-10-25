@@ -1,0 +1,692 @@
+[
+ {
+  "id": "officer_fpa_00",
+  "off": "0103F9",
+  "jp": "ヤン{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_fpa_01",
+  "off": "0103FD",
+  "jp": "メルカッツ{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_fpa_02",
+  "off": "010404",
+  "jp": "ビュコック{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_fpa_03",
+  "off": "01040C",
+  "jp": "ウランフ{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_fpa_04",
+  "off": "010412",
+  "jp": "ボロディン{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_fpa_05",
+  "off": "01041B",
+  "jp": "モートン{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_fpa_06",
+  "off": "010421",
+  "jp": "ルグランジュ{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_fpa_07",
+  "off": "010429",
+  "jp": "アル．サレム{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_fpa_08",
+  "off": "010431",
+  "jp": "アップルトン{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_fpa_09",
+  "off": "01043A",
+  "jp": "ホーウッド{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_fpa_10",
+  "off": "010442",
+  "jp": "パエッタ{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_fpa_11",
+  "off": "010449",
+  "jp": "パストーレ{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_fpa_12",
+  "off": "010451",
+  "jp": "ムーア{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_fpa_13",
+  "off": "010456",
+  "jp": "ルフェーブル{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_fpa_14",
+  "off": "01045F",
+  "jp": "キャゼルヌ{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_fpa_15",
+  "off": "010466",
+  "jp": "アッテンボロー{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_fpa_16",
+  "off": "010470",
+  "jp": "フイッシャー{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_fpa_17",
+  "off": "010478",
+  "jp": "グエン{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_fpa_18",
+  "off": "01047D",
+  "jp": "マリノ{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_fpa_19",
+  "off": "010482",
+  "jp": "ストークス{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_fpa_20",
+  "off": "010489",
+  "jp": "アラルコン{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_fpa_21",
+  "off": "010490",
+  "jp": "マリネッティ{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_fpa_22",
+  "off": "010498",
+  "jp": "ザーニアル{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_fpa_23",
+  "off": "01049F",
+  "jp": "ユリアン{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_fpa_24",
+  "off": "0104A5",
+  "jp": "{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_fpa_25",
+  "off": "0104A7",
+  "jp": "フレデリカ{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_fpa_26",
+  "off": "0104AF",
+  "jp": "ラップ{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_fpa_27",
+  "off": "0104B5",
+  "jp": "シェーンコップ{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_fpa_28",
+  "off": "0104BF",
+  "jp": "トリューニヒト{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_fpa_29",
+  "off": "0104C8",
+  "jp": "ルビンスキー{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_fpa_30",
+  "off": "0104D1",
+  "jp": "ルパート{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_emp_00",
+  "off": "010520",
+  "jp": "ラインハルト{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_emp_01",
+  "off": "010528",
+  "jp": "キルヒアイス{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_emp_02",
+  "off": "010530",
+  "jp": "ミッターマイヤー{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_emp_03",
+  "off": "01053A",
+  "jp": "ロイエンタール{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_emp_04",
+  "off": "010543",
+  "jp": "ビッテンフェルト{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_emp_05",
+  "off": "01054E",
+  "jp": "ミュラー{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_emp_06",
+  "off": "010554",
+  "jp": "メックリンガー{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_emp_07",
+  "off": "01055D",
+  "jp": "ケンプ{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_emp_08",
+  "off": "010563",
+  "jp": "ルッツ{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_emp_09",
+  "off": "010568",
+  "jp": "ワーレン{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_emp_10",
+  "off": "01056E",
+  "jp": "アイゼナッハ{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_emp_11",
+  "off": "010576",
+  "jp": "フォーレンハイト{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_emp_12",
+  "off": "010580",
+  "jp": "シュタインメッツ{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_emp_13",
+  "off": "01058A",
+  "jp": "レンネンカンプ{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_emp_14",
+  "off": "010594",
+  "jp": "ケスラー{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_emp_15",
+  "off": "01059A",
+  "jp": "メルカッツ{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_emp_16",
+  "off": "0105A1",
+  "jp": "シュターデン{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_emp_17",
+  "off": "0105AA",
+  "jp": "エルラッハ{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_emp_18",
+  "off": "0105B1",
+  "jp": "バイエルライン{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_emp_19",
+  "off": "0105BB",
+  "jp": "ドロイゼン{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_emp_20",
+  "off": "0105C3",
+  "jp": "トゥルナイゼン{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_emp_21",
+  "off": "0105CC",
+  "jp": "アルトリンゲン{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_emp_22",
+  "off": "0105D5",
+  "jp": "ブラウヒッチ{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_emp_23",
+  "off": "0105DE",
+  "jp": "カルナップ{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_emp_24",
+  "off": "0105E6",
+  "jp": "アイヘンドルフ{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_emp_25",
+  "off": "0105F0",
+  "jp": "パトリッケン{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_emp_26",
+  "off": "0105F9",
+  "jp": "オルラウ{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_emp_27",
+  "off": "0105FF",
+  "jp": "レッケンドルフ{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_emp_28",
+  "off": "010609",
+  "jp": "{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_emp_29",
+  "off": "01060B",
+  "jp": "オーベルシュタイン{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_emp_30",
+  "off": "010617",
+  "jp": "ヒルダ{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_emp_31",
+  "off": "01061C",
+  "jp": "シュナイダー{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_emp_32",
+  "off": "010624",
+  "jp": "ブラウンシュベイク{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_emp_33",
+  "off": "010631",
+  "jp": "アンスバッハ{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_emp_34",
+  "off": "01063A",
+  "jp": "シャフト{end}",
+  "en": ""
+ },
+ {
+  "id": "officer_emp_35",
+  "off": "010640",
+  "jp": "リッテンハイム{end}",
+  "en": ""
+ },
+ {
+  "id": "ship_fpa_00",
+  "off": "010675",
+  "jp": "レダ２{end}",
+  "en": ""
+ },
+ {
+  "id": "ship_fpa_01",
+  "off": "01067A",
+  "jp": "ヒューベリオン{end}",
+  "en": ""
+ },
+ {
+  "id": "ship_fpa_02",
+  "off": "010684",
+  "jp": "リオグランデ{end}",
+  "en": ""
+ },
+ {
+  "id": "ship_fpa_03",
+  "off": "01068D",
+  "jp": "バンコ{end}",
+  "en": ""
+ },
+ {
+  "id": "ship_fpa_04",
+  "off": "010693",
+  "jp": "ベルーン{end}",
+  "en": ""
+ },
+ {
+  "id": "ship_fpa_05",
+  "off": "01069A",
+  "jp": "ディオメデス{end}",
+  "en": ""
+ },
+ {
+  "id": "ship_fpa_06",
+  "off": "0106A4",
+  "jp": "レオニダス２{end}",
+  "en": ""
+ },
+ {
+  "id": "ship_fpa_07",
+  "off": "0106AC",
+  "jp": "パラミデュース{end}",
+  "en": ""
+ },
+ {
+  "id": "ship_fpa_08",
+  "off": "0106B7",
+  "jp": "クリシュナ{end}",
+  "en": ""
+ },
+ {
+  "id": "ship_fpa_09",
+  "off": "0106BE",
+  "jp": "ケツアルコアトル{end}",
+  "en": ""
+ },
+ {
+  "id": "ship_fpa_10",
+  "off": "0106C8",
+  "jp": "パトロクロス{end}",
+  "en": ""
+ },
+ {
+  "id": "ship_fpa_11",
+  "off": "0106D1",
+  "jp": "レオニダス{end}",
+  "en": ""
+ },
+ {
+  "id": "ship_fpa_12",
+  "off": "0106D8",
+  "jp": "ペルガモン{end}",
+  "en": ""
+ },
+ {
+  "id": "ship_fpa_13",
+  "off": "0106E0",
+  "jp": "ク．ホリン{end}",
+  "en": ""
+ },
+ {
+  "id": "ship_fpa_14",
+  "off": "0106E7",
+  "jp": "イゼルローン{end}",
+  "en": ""
+ },
+ {
+  "id": "ship_fpa_15",
+  "off": "0106EF",
+  "jp": "トリグラフ{end}",
+  "en": ""
+ },
+ {
+  "id": "ship_fpa_16",
+  "off": "0106F6",
+  "jp": "アガートラム{end}",
+  "en": ""
+ },
+ {
+  "id": "ship_fpa_17",
+  "off": "0106FE",
+  "jp": "マウリア{end}",
+  "en": ""
+ },
+ {
+  "id": "ship_fpa_18",
+  "off": "010704",
+  "jp": "マルドゥーク{end}",
+  "en": ""
+ },
+ {
+  "id": "ship_fpa_19",
+  "off": "01070D",
+  "jp": "ユリシーズ{end}",
+  "en": ""
+ },
+ {
+  "id": "ship_fpa_20",
+  "off": "010714",
+  "jp": "シバァ{end}",
+  "en": ""
+ },
+ {
+  "id": "ship_fpa_21",
+  "off": "01071A",
+  "jp": "ノーマル．タイプ{end}",
+  "en": ""
+ },
+ {
+  "id": "ship_emp_00",
+  "off": "010747",
+  "jp": "ブリュンヒルト{end}",
+  "en": ""
+ },
+ {
+  "id": "ship_emp_01",
+  "off": "010751",
+  "jp": "バルバロッサ{end}",
+  "en": ""
+ },
+ {
+  "id": "ship_emp_02",
+  "off": "01075B",
+  "jp": "ジンロウ{end}",
+  "en": ""
+ },
+ {
+  "id": "ship_emp_03",
+  "off": "010761",
+  "jp": "トリスタン{end}",
+  "en": ""
+ },
+ {
+  "id": "ship_emp_04",
+  "off": "010768",
+  "jp": "オウコ{end}",
+  "en": ""
+ },
+ {
+  "id": "ship_emp_05",
+  "off": "01076D",
+  "jp": "リューベック{end}",
+  "en": ""
+ },
+ {
+  "id": "ship_emp_06",
+  "off": "010776",
+  "jp": "クヴァシル{end}",
+  "en": ""
+ },
+ {
+  "id": "ship_emp_07",
+  "off": "01077E",
+  "jp": "ヨーツンハイム{end}",
+  "en": ""
+ },
+ {
+  "id": "ship_emp_08",
+  "off": "010787",
+  "jp": "スキールニル{end}",
+  "en": ""
+ },
+ {
+  "id": "ship_emp_09",
+  "off": "01078F",
+  "jp": "カリュウ{end}",
+  "en": ""
+ },
+ {
+  "id": "ship_emp_10",
+  "off": "010795",
+  "jp": "ヴィーザル{end}",
+  "en": ""
+ },
+ {
+  "id": "ship_emp_11",
+  "off": "01079D",
+  "jp": "アースグリム{end}",
+  "en": ""
+ },
+ {
+  "id": "ship_emp_12",
+  "off": "0107A5",
+  "jp": "フォンケル{end}",
+  "en": ""
+ },
+ {
+  "id": "ship_emp_13",
+  "off": "0107AC",
+  "jp": "ガルガ．ファルムル{end}",
+  "en": ""
+ },
+ {
+  "id": "ship_emp_14",
+  "off": "0107B7",
+  "jp": "ファルセティ{end}",
+  "en": ""
+ },
+ {
+  "id": "ship_emp_15",
+  "off": "0107BF",
+  "jp": "ガイエスブルグ{end}",
+  "en": ""
+ },
+ {
+  "id": "ship_emp_16",
+  "off": "0107C9",
+  "jp": "ノーマル．タイプ{end}",
+  "en": ""
+ },
+ {
+  "id": "rank_00",
+  "off": "0107EE",
+  "jp": "元帥{end}",
+  "en": ""
+ },
+ {
+  "id": "rank_01",
+  "off": "0107F4",
+  "jp": "大将{end}",
+  "en": ""
+ },
+ {
+  "id": "rank_02",
+  "off": "0107FA",
+  "jp": "中将{end}",
+  "en": ""
+ },
+ {
+  "id": "rank_03",
+  "off": "010800",
+  "jp": "少将{end}",
+  "en": ""
+ },
+ {
+  "id": "rank_04",
+  "off": "010806",
+  "jp": "准将{end}",
+  "en": ""
+ },
+ {
+  "id": "rank_05",
+  "off": "01080C",
+  "jp": "大尉{end}",
+  "en": ""
+ },
+ {
+  "id": "rank_07",
+  "off": "010812",
+  "jp": "上級大将{end}",
+  "en": ""
+ },
+ {
+  "id": "side_0",
+  "off": "0074EE",
+  "jp": "同盟軍{end}",
+  "en": ""
+ },
+ {
+  "id": "side_1",
+  "off": "0074F6",
+  "jp": "帝国軍{end}",
+  "en": ""
+ }
+]
