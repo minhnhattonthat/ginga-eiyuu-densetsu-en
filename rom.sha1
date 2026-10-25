@@ -1,2 +1,2 @@
-# SHA-1 of the supported dump, in sha1sum format (`sha1sum -c rom.sha1` works too). One line per file for discs.
-<sha1>  rom/<file>
+# SHA-1 of the supported dump, in sha1sum format (`sha1sum -c rom.sha1` works too). No-Intro: Ginga Eiyuu Densetsu (Japan), 1,048,576 bytes, no header.
+b90cc0f0cd63859bea96f0c3eb109e3a9db88e5d  rom/Ginga Eiyuu Densetsu (Japan).sfc

@@ -1,0 +1,6 @@
+# cold boot to title, press start twice
+600 -
+6 start
+300 -
+6 start
+300 -
