@@ -40,6 +40,16 @@ slots move.
 | 87D4 / 87E0 | 0x107D4 | $00:F4FE | $1F30 | Ranks (元帥 大将 中将 少将 准将 大尉 上級大将) |
 | bank 00 F4EE/F4F6 | 0x074EE | $00:F4D6 | $1F60 | 同盟軍 / 帝国軍 |
 
+## Rebuild regions (`tools/build.py`, verified: identity build + `tests/test_identity.py`)
+
+- Main strings repack into 0x28476-0x2FEFF in their original order (not id order), then 0xFF fill; sub strings
+  into 0x2FF30-0x2FFFF. Main has 1661 bytes of slack, sub ~72.
+- Name tables repack in place, each into [end of its pointer table, end of its last string): **zero slack**, so any
+  longer name needs relocation (bank $02 0xFF tail 0x16DEA-0x17FFF, 4630 bytes: candidate, trap-test first).
+  `side_0/1` live inside bank $00 code: 8 bytes each, fixed.
+- Graphics compressor (`tools/gfx.py compress`) recompresses 355/356 blocks byte for byte; 0D_0A stores a redundant
+  zero row (decodes the same).
+
 ## Renderer
 
 - 12x16 glyphs, 1bpp, 32 bytes each (8x8 tiles TL, TR, BL, BR; 12 px used) at $06:8000 = file 0x30000.
