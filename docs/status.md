@@ -45,9 +45,16 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - G11 title logo + G16 copyright (2026-10-26): own stream $13:A9F2 with a third codec (`gfx.decompress_title`,
     roundtrip test), redrawn by `gfxtext.title` (LEGEND OF THE / GALACTIC HEROES; copyright in Ark 12px), stream
     moved to the bank $13 tail (trap3: 0 reads), checked in game. States regenerated, warp tour 101/101.
+  - Phase 8 QA tour (2026-10-27): `tools/tour.py` (+ `tools/lua/tourpress.lua`: shot per complete box, then A),
+    JP side from `work/states_jp` (regen `--states`). Two review rounds (visual-qa agents) found and fixed: result
+    scenes crashed at m134 (number digits written as JP $89: `$00:F557` now ASCII), officer plates clipped at 56 px on
+    the formation panel, FLEET/SENIOR ADMIRAL rank plates left a 7th tile on screen (now two lines, 4 tiles), m013
+    YES/NO (`/{yesno}` typo; lint now fails `/` touching a code), one-word last pages (lint rule `widow`), tour
+    artefacts (early press, `--changed 0.02` dropped text pages).
 - **Next:**
-  1. Graphics text: done (2026-10-26). Every row English, already romaji or ruled out (G10 = art, G12 = G3 bar,
-     G9 credits romaji seen); G2 flagship plates English in ROM but their loader $00:9CB2 looks unused.
+  1. Phase 8: round 3 running/next: `qa_gate.py init work/qa/manifest.tsv work/qa/tour` (fresh manifest: move the old
+     one + verdicts to work/qa/oldN first), `todo --size 30`, visual-qa agents 4 at a time, fix, until `check` exits 0.
+     Earlier verdicts: work/qa/old1 (round 1), round 2 in work/qa/verdicts (superseded by the rebuild).
   2. Phase 8 QA, items flagged by translators to see in game: m0E3 "Alliance    Empire" and m20A-m211/m238
      two-option menus (cursor columns), m13E-m163 `{sub0:0D}` joined to the next line, m071-m073 {speed} after the
      speaker colon, m026 indent, s0E ",000 ships" / s11 "Supply" / s13-s17 (where are they drawn?), m0D8 4th line
@@ -55,5 +62,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
   3. Polish pass (Minors deferred from review; reports were in the session, re-review sampled ~150 before release).
   4. Carried over: 68 message ids no event/direct call shows (`tools/events.py --unreached`) bind to the 17x4 box
      by default.
-- **Open bugs:** none.
+- **Open bugs:**
+  - Command screens (`cmd_area`, `cmd_fleet`): after picking Front/Fleet the box stays empty ~190 frames before m01C
+    "Which area will you attack?" (JP: 10). English m012 finishes typing (state $1116 = 5) before the command menu
+    freezes the text engine; JP freezes mid-type (state 3). Cosmetic; cause in the menu's wait not traced.
 - **Waiting on the user:** nothing.
