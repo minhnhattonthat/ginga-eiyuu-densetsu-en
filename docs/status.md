@@ -46,7 +46,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
     roundtrip test), redrawn by `gfxtext.title` (LEGEND OF THE / GALACTIC HEROES; copyright in Ark 12px), stream
     moved to the bank $13 tail (trap3: 0 reads), checked in game. States regenerated, warp tour 101/101.
 - **Next:**
-  1. Graphics text left: G10/G12 unconfirmed blocks (G12 council header: no warp scene named council yet).
+  1. Graphics text: all rows English or ruled out (G10 = art, G12 = G3 bar, 2026-10-26). Not yet seen in game:
+     G2 flagship plates (find the screen), G9 staff-credit names (romaji in ROM; credits scene stops at the logo).
   2. Phase 8 QA, items flagged by translators to see in game: m0E3 "Alliance    Empire" and m20A-m211/m238
      two-option menus (cursor columns), m13E-m163 `{sub0:0D}` joined to the next line, m071-m073 {speed} after the
      speaker colon, m026 indent, s0E ",000 ships" / s11 "Supply" / s13-s17 (where are they drawn?), m0D8 4th line
