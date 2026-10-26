@@ -39,17 +39,14 @@ Updated at the end of every session. Keep it to what the next session needs; his
     G2 flagship plates, G3 battle banners (both styles), G13 scenario bars, checked in game.
   - Graphics text (2026-10-26, all in `tools/gfxtext.py`, checked in game unless noted): G6 title buttons, G7/G14
     command help labels widened 3x2 -> 6x2 by engine hooks ($00:A705/A752, engine.md §Command buttons), G4 rank
-    plates (3x5 caps in the sheet's own 50 tiles, maps moved to 0x17F00), G8 ship-type labels (3x5 caps, in ROM
-    and tested; screen not found yet). `tools/debug/vramsweep.py` (VRAM dump of every state + free-tile check),
+    plates (3x5 caps in the sheet's own 50 tiles, maps moved to 0x17F00), G8 ship-type labels (3x5 caps; seen on the
+    detach-division panel, warp scene `cmd_detach`, debug.md §Command menu). `tools/debug/vramsweep.py` (VRAM dump of every state + free-tile check),
     `tools/lua/callx.lua` (log a routine's calls with registers).
   - G11 title logo + G16 copyright (2026-10-26): own stream $13:A9F2 with a third codec (`gfx.decompress_title`,
     roundtrip test), redrawn by `gfxtext.title` (LEGEND OF THE / GALACTIC HEROES; copyright in Ark 12px), stream
     moved to the bank $13 tail (trap3: 0 reads), checked in game. States regenerated, warp tour 101/101.
 - **Next:**
-  1. Graphics text left: G8 in-game check: the routine is $00:CCD6 (not $CCDE, mid-instruction), only caller
-     $04:D430 (fleet panel; callers of that at $04:C0ED/C111/C177/D147/D18C/D274/D32A). 15000-frame A-mash runs
-     from sys_auto, astarte_command, cmd_menu: 0 calls of $CCD6; trace which screen reaches $04:D376, or it may be
-     unused. G10/G12 unconfirmed blocks (G12 council header: no warp scene named council yet).
+  1. Graphics text left: G10/G12 unconfirmed blocks (G12 council header: no warp scene named council yet).
   2. Phase 8 QA, items flagged by translators to see in game: m0E3 "Alliance    Empire" and m20A-m211/m238
      two-option menus (cursor columns), m13E-m163 `{sub0:0D}` joined to the next line, m071-m073 {speed} after the
      speaker colon, m026 indent, s0E ",000 ships" / s11 "Supply" / s13-s17 (where are they drawn?), m0D8 4th line

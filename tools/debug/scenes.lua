@@ -67,6 +67,8 @@ S.cmd_menu    = cmd { arrive = { msg = 0x12 } }
 S.cmd_info    = cmd { arrive = { msg = 0x12 }, answers = { { 0x12, 0x1A82, 0 } }, keys = "6 a", settle = 120 }
 S.cmd_fleet   = cmd { arrive = { msg = 0x1B }, answers = { { 0x12, 0x1A82, 1 } } }
 S.cmd_area    = cmd { arrive = { msg = 0x1C }, answers = { { 0x12, 0x1A82, 1 } } }
+-- Fleet orders -> 3rd icon (detach a division, state $11BC=0E at $04:C0C9): the panel draws ship types (G8)
+S.cmd_detach  = cmd { arrive = { msg = 0x20 }, answers = { { 0x12, 0x1A82, 1 }, { 0x12, 0x1A83, 2 } }, settle = 150 }
 S.cmd_end     = cmd { arrive = { msg = 0x13 }, answers = { { 0x12, 0x1A82, 3 } } }
 S.sys_auto    = cmd { arrive = { msg = 0x15 }, answers = { { 0x12, 0x1A82, 2 }, { 0x12, 0x1A83, 0 } } }
 S.sys_save    = cmd { arrive = { msg = 0x16 }, answers = { { 0x12, 0x1A82, 2 }, { 0x12, 0x1A83, 1 } } }

@@ -49,6 +49,9 @@ cold boot, proof sheet `work/qa/warp/proof.png`) unless marked guess. Disassembl
 
 - Top menu `$04:B1F5` (msg 012), cursor `$1A82`: 0 map/info, 1 fleet orders (msg 01B, then attack area 01C),
   2 SYS, 3 end turn (msg 013). SYS cursor `$1A83`: 0 auto battle (015), 1 save (016, 017), 2 animation (018).
+- Menu state `$11BC` dispatches through `$04:B163` (word table). After picking a fleet (09 -> 0A) the icon bar
+  cursor `$1A83` (left/right) maps via `$04:BC43` to 0B attack area, 0D, 0E detach division (`$04:C0C9`, panel
+  with ship types, G8; needs `$1AC1` > 1 divisions), 0F, 10, 11.
 - Mashing A in SYS → save writes `tools/mesen/Saves/*.srm` (the save confirm defaults to yes).
 
 ## The warp (tools/debug/warp.lua)
