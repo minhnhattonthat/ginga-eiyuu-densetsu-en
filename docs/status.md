@@ -50,9 +50,11 @@ Updated at the end of every session. Keep it to what the next session needs; his
     scenes crashed at m134 (number digits written as JP $89: `$00:F557` now ASCII), officer plates clipped at 56 px on
     the formation panel, FLEET/SENIOR ADMIRAL rank plates left a 7th tile on screen (now two lines, 4 tiles), m013
     YES/NO (`/{yesno}` typo; lint now fails `/` touching a code), one-word last pages (lint rule `widow`), tour
-    artefacts (early press, `--changed 0.02` dropped text pages).
+    artefacts (early press, `--changed 0.02` dropped text pages). Round 3 (r3b, 455 sheets): m03A line 1 under
+    the rank plate; SYS bar "nimation" (slot 6 clear wiped the label's first column, engine.md); m017/m06B YES/NO on
+    line 2 while the cursor highlight stays on the JP's line 3 (lint rule: `{yesno}` on the JP's line).
 - **Next:**
-  1. Phase 8: round 3 running/next: `qa_gate.py init work/qa/manifest.tsv work/qa/tour` (fresh manifest: move the old
+  1. Phase 8: round 4 next (round-3 verdicts in work/qa/verdicts/r3b_*, superseded by the rebuild): `qa_gate.py init work/qa/manifest.tsv work/qa/tour` (fresh manifest: move the old
      one + verdicts to work/qa/oldN first), `todo --size 30`, visual-qa agents 4 at a time, fix, until `check` exits 0.
      Earlier verdicts: work/qa/old1 (round 1), round 2 in work/qa/verdicts (superseded by the rebuild).
   2. Phase 8 QA, items flagged by translators to see in game: m0E3 "Alliance    Empire" and m20A-m211/m238
@@ -63,7 +65,6 @@ Updated at the end of every session. Keep it to what the next session needs; his
   4. Carried over: 68 message ids no event/direct call shows (`tools/events.py --unreached`) bind to the 17x4 box
      by default.
 - **Open bugs:**
-  - Command screens (`cmd_area`, `cmd_fleet`): after picking Front/Fleet the box stays empty ~190 frames before m01C
-    "Which area will you attack?" (JP: 10). English m012 finishes typing (state $1116 = 5) before the command menu
-    freezes the text engine; JP freezes mid-type (state 3). Cosmetic; cause in the menu's wait not traced.
+  - none. (Closed: the "empty box after Front" was the Front/All Sides/Focus picker waiting for input; same route
+    from `cmd_fleet` gives the same frames and screens in JP, m01C at f378 both, `work/qa/probe/d3.png`.)
 - **Waiting on the user:** nothing.

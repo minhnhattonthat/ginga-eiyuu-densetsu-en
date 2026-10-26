@@ -40,8 +40,8 @@ Standing non-bugs, `ok`:
   key press per page, as the JP does);
 - the small round blink cursor at a box's bottom right (the wait-for-key mark);
 - names and numbers in romaji/digits in battle panels (`Legrange`, `VICE ADMIRAL`, `20000`) are the English build's;
-- after a command is picked (Front, Fleet...), the message box stays empty for ~3 s before the next prompt ("Which
-  area will you attack?"): known, logged in docs/status.md;
+- after a command is picked (Front, Fleet...), the message box stays empty while the icon picker waits for input
+  before the next prompt ("Which area will you attack?"): the JP does the same;
 - the 3x5 all-caps rank and ship-type plates (`VICE ADMIRAL`) are deliberate (small sheet tiles).
 
 ## Verdicts
