@@ -33,9 +33,16 @@ Updated at the end of every session. Keep it to what the next session needs; his
     m110...). Fit pass fit1: 16 messages that grew past their box's line count while the JP fit (a full box waits
     for A: the attract demo hung on m110; rule now in lint). `tools/lint.py` runs in check.py (0 errors).
     English warp tour 101/101 scenes (regen default frames 22000).
+  - Phase 7 (2026-10-26): build fails on any write outside `ALLOWED` (build.py); lint fails on jp without en;
+    bank $1F + gfx bank tails trap-tested (0 reads); jp_left on text regions: nothing unchanged left (only the
+    dead bank-$00 side-name copies). Graphics text via `tools/gfxtext.py` (Ark Pixel 10px): G1 officer plates,
+    G2 flagship plates, G3 battle banners (both styles), G13 scenario bars, checked in game.
 - **Next:**
-  1. Phase 7 (insert/fit/check): romdiff ranges check in build, overflow lint already clean; confirm far text space
-     and the bank $1F trap test; graphics text G1-G8, G13, G14 (small-font plates, docs/re/graphics.md).
+  1. Graphics text left: G4 rank plates (16x16 kanji tiles in 08_35 composed by code: RE the drawer, English
+     needs more cells), G6 title buttons ヤン/ラインハルト (09_32, 3bpp), G7 command buttons 0E_00-0E_31
+     (3x2 tiles = 24x16, 2-kanji labels: too small for English words, needs RE to widen or a tiny font; D4 says
+     engine first), G8 ship-type labels 0E_37-0E_3E (6x2; where shown?), G14 終了/艦隊 buttons (= G7 blocks),
+     G10/G12 unconfirmed, G11 logo.
   2. Phase 8 QA, items flagged by translators to see in game: m0E3 "Alliance    Empire" and m20A-m211/m238
      two-option menus (cursor columns), m13E-m163 `{sub0:0D}` joined to the next line, m071-m073 {speed} after the
      speaker colon, m026 indent, s0E ",000 ships" / s11 "Supply" / s13-s17 (where are they drawn?), m0D8 4th line

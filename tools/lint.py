@@ -7,6 +7,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import batches  # noqa: E402
 
 errs = batches.lint([(r["id"], r["en"]) for _, r in batches.rows() if r.get("en")])
+errs += [f"{r['id']}: jp without en" for _, r in batches.rows() if not r.get("en") and not batches.blank(r["jp"])]
 for e in errs:
     print(e)
 print(f"lint: {len(errs)} errors")

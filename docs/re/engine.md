@@ -35,7 +35,10 @@ reaches its string through `{far}` stubs, far strings stay in their bank) and th
   the 16-bit address, so no string may cross a bank (the allocator never splits one).
 - Names: all five bank-$02 tables' strings move to the bank $02 tail 0x16DEA-0x17FFF (pointer tables stay put).
 - Free space trap-tested (tools/lua/trap.lua over all 100 warp scenes on the original ROM, no reads): bank $0F,
-  bank $02 tail, bank $05 0x2F883-0x2FEFF. Bank $1F: not trap-tested yet (all 0xFF, no directory entry).
+  bank $02 tail, bank $05 0x2F883-0x2FEFF; 2026-10-26 also bank $1F, the 0xFF tails of banks $08 (0x46E38-),
+  $09 (0x4E079-) and $0E (0x74084-) (`work/qa/trap2`, 101 scenes, 0 reads).
+- `build.py` ALLOWED: every write must land in a listed range (hooks, text banks, name tables, gfx blocks and
+  directories, tails), checked with romdiff on every build.
 
 ## Boxes (width gate; `tools/boxes.py` -> `script/boxes.json`, `tools/widthgate.py`)
 

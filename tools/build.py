@@ -20,6 +20,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import bps  # noqa: E402
 import check_rom  # noqa: E402
 import font  # noqa: E402
+import gfxtext  # noqa: E402
 import romdiff  # noqa: E402
 import textdb  # noqa: E402
 import wrap  # noqa: E402
@@ -36,7 +37,17 @@ SUB_REGION = (0x2FF30, 0x30000)                                     # bank $05 e
 NAME_TAIL = (0x16DEA, 0x18000)                                      # bank $02 0xFF tail (trap-tested, engine.md)
 FAR_REGIONS = [(0x7B000, 0x80000), (0xF8000, 0x100000)]             # bank $0F after the font, bank $1F
 SIDE_FAR = {"side_0": 0x78E00, "side_1": 0x78E80}                   # $0F:8E00/8E80, asm/engine.asm points $00:F4D6 here
-NAME_SLOT = 16                                                      # RAM $1F10-$1F6F: chars + FF per slot (JP build)
+ALLOWED = [                                                         # every write must land in one (romdiff ranges)
+    (0x746B, 0x746F, "hook $00:F46B name_slot"), (0x74D7, 0x74FE, "hooks $00:F4D7-F4E3 + side names"),
+    (0x7FDC, 0x7FE0, "checksum"), (0x103BB, 0x1081C, "bank $02 name tables + old strings"), NAME_TAIL + ("names",),
+    (0x28000, 0x30000, "bank $05 main/sub tables + strings"), (0x39A39, 0x39A3E, "hook $07:9A39 ff_code"),
+    (0x39BBF, 0x39BC3, "hook $07:9BBF vwf_draw"), (0x78000, 0x80000, "bank $0F engine, font, side names, far"),
+    (0xF8000, 0x100000, "bank $1F far"),
+    (0x40000, 0x401E4, "bank $08 gfx directory"), (0x4517C, 0x46A56, "wide banners 08_37-08_3C + plates 08_3D-08_70"),
+    (0x46C78, 0x46E01, "wide banner 08_74"),
+    (0x48000, 0x480E8, "bank $09 gfx directory"), (0x480E8, 0x49AC9, "plates + banners 09_00-09_2E"),
+] + [(s, e, "gfxtext tail") for s, e in gfxtext.TAIL.values()]
+NAME_SLOT = 16                                                     # RAM $1F10-$1F6F: chars + FF per slot (JP build)
 FILLER = "The quick brown fox jumps over the lazy dog. "
 
 
@@ -234,11 +245,15 @@ def build(lang="en", marker_all=False, qa=None):
     if lang == "en":
         apply_engine(rom)
         build_text(rom, Table.load(EN_TBL), en_texts(marker_all, qa), Far(rom))
+        for off, data, by in gfxtext.writes(rom.orig):
+            rom.put(off, data, by)
     else:
         build_text(rom, t, texts(lang))
     fixed, _ = bps.snes_checksum(rom.data)
     rom.put(0x7FDC, fixed[0x7FDC:0x7FE0], "checksum")
     errs, _ = romdiff.check(rom.orig, bytes(rom.data), set(), rom.writes)
+    errs += ["0x%06X+%d: %s outside ALLOWED" % (o, len(b), by) for o, _, b, by in rom.writes
+             if not any(s <= o and o + len(b) <= e for s, e, _ in ALLOWED)]
     if errs:
         raise SystemExit("romdiff:\n" + "\n".join(errs[:20]))
     return bytes(rom.data), rom.writes

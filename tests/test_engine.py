@@ -96,3 +96,24 @@ def test_blank_strings_kept(marker):
     _, tx = marker
     blank = [r for r in build.rows() if build.blank(r["jp"])]
     assert len(blank) == 26 and all(tx[r["id"]] == r["jp"] for r in blank)
+
+
+def test_gfxtext_decodes_through_directory():
+    """Every redrawn block, in place or relocated, decompresses through the bank directory to its new tiles, and
+    differs from the JP only inside its text rect."""
+    import gfx, gfxtext
+    orig = ROM.read_bytes()
+    rom = bytearray(orig)
+    for off, data, _ in gfxtext.writes(orig):
+        rom[off:off + len(data)] = data
+    for bank, slot, _, base, new in gfxtext.blocks(orig):
+        d = gfx.lorom(bank, 0x8000 + 4 * slot)
+        tiles, _ = gfx.decompress(rom, gfx.lorom(bank, rom[d] | rom[d + 1] << 8), len(new) // 16, 2)
+        assert tiles == new, (bank, slot)
+        k = gfxtext.KINDS[gfxtext.GFX[bank, slot][0]]
+        x0, y0, x1, y1 = k["rect"]
+        if "frame" in k:
+            y0, y1 = y0 - 1, y1 + 1
+        a, b = gfxtext.to_pixels(base, k["cols"]), gfxtext.to_pixels(new, k["cols"])
+        assert all(a[y][x] == b[y][x] for y in range(16) for x in range(k["cols"] * 8)
+                   if not (x0 <= x < x1 and y0 <= y < y1)), (bank, slot)

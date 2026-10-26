@@ -175,6 +175,15 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | ユリシーズ | Ulysses | | | |
 | シバァ | Shiva | | | |
 | ノーマル．タイプ | Standard Type | | generic flagship | |
+| ヴィルヘルミナ | Wilhelmina | 64 px | plate only (09_0E, tools/gfxtext.py) | |
+
+## Graphics text (tools/gfxtext.py; max = px in the block)
+| JP | EN | max | notes | Avoid |
+| 一般将校 | Officer | 64 px | generic officer plate | |
+| 〜会戦 / 〜星域会戦 / 〜要塞戦 | Battle of ~ | 114 px | banners, as m0D4-m0DE | |
+| 1. 永遠の夜の中で | 1. In Eternal Night | 114 px | scenario 1 (anime ep. 1 title) | |
+| 2. はばたく禿鷹 | 2. The Vulture Soars | 114 px | scenario 2 | |
+| 3. 神々の黄昏 | 3. Twilight of the Gods | 114 px | scenario 3 | |
 
 ## Ranks and military terms
 | JP | EN | max | notes | Avoid |
