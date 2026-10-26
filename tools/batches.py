@@ -227,6 +227,10 @@ def lint(out, src=None):
                      f"(an extra line waits for a key press; the attract demo hangs)")
         if h and widow(game, h) and not widow(jp, h):
             e.append(f"last page of the {h}-line box holds only {widow(game, h)!r}: rewrap or tighten")
+        # the YES cursor highlight is drawn on the JP's icon line, wherever the text puts the icons
+        if "Ⓨ" in jp and game.split("Ⓨ")[0].count("{nl}") != jp.split("Ⓨ")[0].count("{nl}"):
+            e.append(f"{{yesno}} must be on line {jp.split('Ⓨ')[0].count('{nl}') + 1} as in the JP "
+                     "(the cursor highlight stays there)")
         if re.search(r"\{sub0:[0-9A-F]{2}\}(st|nd|rd|th)\b", en):
             e.append("ordinal suffix glued onto a variable")
         if re.search(r"\b(a|an)\s+\{sub0", en, re.I):

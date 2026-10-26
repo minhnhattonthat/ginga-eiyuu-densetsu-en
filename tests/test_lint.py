@@ -14,6 +14,13 @@ def test_no_one_word_last_line():
     assert wrap.wrap("Short. / Yes.", 208)[0] == "Short.{nl}Yes."     # a one-word paragraph stays
 
 
+def test_yesno_line():
+    src = {"m017": ("main", {"id": "m017", "jp": "{speed:00}a{nl}b{nl}ⓎⓈ　　ⓃⒹ{wait}{end}"})}
+    bad = batches.lint([("m017", "{speed:00}Save. Sure? / {yesno}{wait}{end}")], src)
+    good = batches.lint([("m017", "{speed:00}Save. / Sure? / {yesno}{wait}{end}")], src)
+    assert any("yesno" in str(x) for x in bad) and not any("yesno" in str(x) for x in good)
+
+
 def test_widow():
     assert batches.widow("a b{nl}c{nl}d{nl}e{nl}me.\"", 4) == "me.\""
     assert batches.widow("a{nl}b{nl}c{nl}d{nl}two words", 4) == "two words"

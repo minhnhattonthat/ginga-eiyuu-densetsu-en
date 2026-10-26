@@ -141,7 +141,7 @@
   "id": "m017",
   "off": "028600",
   "jp": "{speed:00}データをセーブします{nl}よろしいですか？{nl}ⓎⓈ　　ⓃⒹ{wait}{end}",
-  "en": "{speed:00}Save the data. Are you sure? / {yesno}{wait}{end}"
+  "en": "{speed:00}Save the data. / Are you sure? / {yesno}{wait}{end}"
  },
  {
   "id": "m018",
@@ -645,7 +645,7 @@
   "id": "m06B",
   "off": "02B08C",
   "jp": "{speed:09}{sub0:06}の意見をうけい{nl}れますか？{nl}ⓎⓈ　　ⓃⒹ{wait}{end}",
-  "en": "{speed:09}Will you accept {sub0:06}'s advice? / {yesno}{wait}{end}"
+  "en": "{speed:09}Will you accept / {sub0:06}'s advice? / {yesno}{wait}{end}"
  },
  {
   "id": "m06C",

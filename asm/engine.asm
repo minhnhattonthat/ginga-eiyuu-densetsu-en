@@ -315,7 +315,10 @@ name_slot:
 label_clear:                    ; M8 X16
         lda #$03
         ldx $46
-        cpx.w #$0007
+        cpx.w #$0006            ; slot 6 (x 21, never drawn) clears 2 columns: x 23 is the label's (SYS bar clears
+        bne +                   ; slots 3-6 after drawing the label)
+        lda #$02
++       cpx.w #$0007
         bne +
         lda #$06
 +       sta $D1
