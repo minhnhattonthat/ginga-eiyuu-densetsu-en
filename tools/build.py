@@ -47,7 +47,7 @@ ALLOWED = [                                                         # every writ
     (0x44B7A, 0x45178, "rank sheet 08_35"), gfxtext.RANK_MAPS + ("rank maps",),
     (gfxtext.RANK_TABLE + 2 * 29, gfxtext.RANK_TABLE + 2 * 37, "rank map pointers"), (0x4517C, 0x46A56, "wide banners 08_37-08_3C + plates 08_3D-08_70"),
     (0x46C78, 0x46E01, "wide banner 08_74"),
-    (0x70000, 0x70100, "bank $0E gfx directory"), (0x2705, 0x270D, "hook $00:A705 label_clear"),
+    (0x70000, 0x70100, "bank $0E gfx directory"), (0x73240, 0x73496, "ship-type labels 0E_37-0E_3E"), (0x2705, 0x270D, "hook $00:A705 label_clear"),
     (0x2752, 0x2763, "hook $00:A752 label_draw"), (0x27C6, 0x27C8, "label slot 7 position"),
     (0x48000, 0x480E8, "bank $09 gfx directory"), (0x480E8, 0x49AC9, "plates + banners 09_00-09_2E"),
 ] + [(s, e, "gfxtext tail") for s, e in gfxtext.TAIL.values()]

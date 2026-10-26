@@ -37,19 +37,21 @@ Updated at the end of every session. Keep it to what the next session needs; his
     bank $1F + gfx bank tails trap-tested (0 reads); jp_left on text regions: nothing unchanged left (only the
     dead bank-$00 side-name copies). Graphics text via `tools/gfxtext.py` (Ark Pixel 10px): G1 officer plates,
     G2 flagship plates, G3 battle banners (both styles), G13 scenario bars, checked in game.
+  - Graphics text (2026-10-26, all in `tools/gfxtext.py`, checked in game unless noted): G6 title buttons, G7/G14
+    command help labels widened 3x2 -> 6x2 by engine hooks ($00:A705/A752, engine.md §Command buttons), G4 rank
+    plates (3x5 caps in the sheet's own 50 tiles, maps moved to 0x17F00), G8 ship-type labels (3x5 caps, in ROM
+    and tested; screen not found yet). `tools/debug/vramsweep.py` (VRAM dump of every state + free-tile check),
+    `tools/lua/callx.lua` (log a routine's calls with registers). States regenerated on the current build.
 - **Next:**
-  1. Graphics text left: G4 rank plates (16x16 kanji tiles in 08_35 composed by code: RE the drawer, English
-     needs more cells), G6 title buttons ヤン/ラインハルト (09_32, 3bpp), G7 command buttons 0E_00-0E_31
-     (3x2 tiles = 24x16, 2-kanji labels: too small for English words, needs RE to widen or a tiny font; D4 says
-     engine first), G8 ship-type labels 0E_37-0E_3E (6x2; where shown?), G14 終了/艦隊 buttons (= G7 blocks),
-     G10/G12 unconfirmed, G11 logo.
+  1. Graphics text left: G11 title logo + G16 copyright lines (boot route, after start, f650-f850; graphics.md),
+     G8 in-game check (find the screen: results of the $00:CCDE hook runs in `work/qa/ship_*`, or trace who
+     calls it), G10/G12 unconfirmed blocks. Then regen states and run the full warp tour.
   2. Phase 8 QA, items flagged by translators to see in game: m0E3 "Alliance    Empire" and m20A-m211/m238
      two-option menus (cursor columns), m13E-m163 `{sub0:0D}` joined to the next line, m071-m073 {speed} after the
      speaker colon, m026 indent, s0E ",000 ships" / s11 "Supply" / s13-s17 (where are they drawn?), m0D8 4th line
      exactly 208 px with {sub0:09}.
   3. Polish pass (Minors deferred from review; reports were in the session, re-review sampled ~150 before release).
-  2. Carried over: graphics text G1-G8, G13, G14 need a small-font plate generator (phase 7/8); 68 message ids
-     no event/direct call shows (`tools/events.py --unreached`) bind to the 17x4 box by default; bank $1F not
-     trap-tested yet. work/states are from the marker build before the blank-string change (text only).
+  4. Carried over: 68 message ids no event/direct call shows (`tools/events.py --unreached`) bind to the 17x4 box
+     by default.
 - **Open bugs:** none.
 - **Waiting on the user:** nothing.

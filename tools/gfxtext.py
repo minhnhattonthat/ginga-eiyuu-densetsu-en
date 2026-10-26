@@ -34,6 +34,7 @@ KINDS = {
     # command help label: the JP block is 3x2; asm/engine.asm shows slot 7 as 6x2, so the block is rebuilt at
     # 12 tiles (border: 1 px frame of that index, the rest bg) and its directory tile count raised
     "label": dict(cols=6, rect=(1, 1, 47, 15), bg=3, ink=2, outline=None, margin=None, border=2),
+    "shiptype": dict(cols=6, rect=(0, 0, 48, 16), bg=0, ink=1, outline=None, margin=1, tiny=True),
 }
 # grid: rows of block tile numbers (default: cols x 2, the whole block).
 # frame: the JP outlines spill into the frame rows just above and below the rect; those rows are redrawn in it.
@@ -76,7 +77,14 @@ TINY = {"A": "010 101 111 101 101", "C": "011 100 100 100 011", "D": "110 101 10
         "E": "111 100 110 100 111", "F": "111 100 110 100 100", "I": "1 1 1 1 1", "L": "100 100 100 100 111",
         "M": "10001 11011 10101 10001 10001", "N": "1001 1101 1011 1001 1001", "O": "010 101 101 101 010",
         "R": "110 101 110 101 101", "S": "011 100 010 001 110", "T": "111 010 010 010 010",
-        "U": "101 101 101 101 111", "V": "101 101 101 101 010", " ": "00 00 00 00 00"}
+        "U": "101 101 101 101 111", "V": "101 101 101 101 010", " ": "00 00 00 00 00",
+        "B": "110 101 110 101 110", "H": "101 101 111 101 101", "P": "110 101 110 100 100",
+        "Y": "101 101 010 010 010"}
+# Ship-type labels (G8): ids $184-$18B, each 6x2 tiles loaded at BG3 $210 and drawn by $00:CD0E; $21C+ is used
+# by other screens, so they stay 48 px: 3x5 caps, "/" = second line.
+SHIPTYPES = ["BATTLESHIP", "CRUISER", "CARRIER", "DESTROYER", "FORTRESS", "TRANSPORT", "ASTEROID",
+             "FAST/BATTLESHIP"]
+GFX.update({(0xE, 0x37 + i): [("shiptype", t)] for i, t in enumerate(SHIPTYPES)})
 
 
 def names():
@@ -131,7 +139,7 @@ def draw(kind, text, base, glyphs):
     k = KINDS[kind]
     x0, y0, x1, y1 = k["rect"]
     px = to_pixels(base, grid(kind))
-    pts = ink(text, glyphs)
+    pts = tiny_ink(text) if k.get("tiny") else ink(text, glyphs)
     pad = 1 if k["outline"] is not None else 0
     w = max(x for x, _ in pts) + 1
     dx = x0 + pad + (min(k["margin"], x1 - x0 - 2 * pad - w) if k["margin"] is not None
@@ -172,9 +180,19 @@ def blocks(orig):
     return out
 
 
-def tiny(text):
-    """Rows (5) of ink columns for TINY caps text, 1 px between letters."""
-    rows, x = [[] for _ in range(5)], 2          # 2 px clear of the rank icon on its left
+def tiny_ink(text):
+    """Ink points for TINY caps, lines split at "/", each centred on the widest, the block centred on row 7.5."""
+    lines = [tiny(t, pad=0) for t in text.split("/")]
+    wide = max(w for _, w in lines)
+    top = round(7.5 - (7 * len(lines) - 3) / 2)
+    return {(x + (wide - w) // 2, top + 7 * n + r) for n, (rows, w) in enumerate(lines)
+            for r, xs in enumerate(rows) for x in xs}
+
+
+def tiny(text, pad=2):
+    """Rows (5) of ink columns for TINY caps text, 1 px between letters; pad = left margin (ranks: 2 px clear of
+    the rank icon on their left)."""
+    rows, x = [[] for _ in range(5)], pad
     for ch in text:
         g = TINY[ch].split()
         for r, bits in enumerate(g):
