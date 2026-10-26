@@ -111,13 +111,13 @@
   "id": "m012",
   "off": "028562",
   "jp": "{speed:00}どのコマンドを{nl}おこないますか？{wait}{end}",
-  "en": "{speed:00}Which command will you carry out?{wait}{end}"
+  "en": "{speed:00}Which command / will you carry out?{wait}{end}"
  },
  {
   "id": "m013",
   "off": "028577",
   "jp": "{speed:00}選択をおわります{nl}よろしいですか？{nl}ⓎⓈ　　ⓃⒹ{wait}{end}",
-  "en": "{speed:00}End your selection. Are you sure? / {yesno}{wait}{end}"
+  "en": "{speed:00}End your selection. / Are you sure? /{yesno}{wait}{end}"
  },
  {
   "id": "m014",
@@ -135,7 +135,7 @@
   "id": "m016",
   "off": "0285E3",
   "jp": "{speed:00}セーブするデータナンバーは{nl}どれにしますか？{wait}{end}",
-  "en": "{speed:00}Which data number will you save to?{wait}{end}"
+  "en": "{speed:00}Which data number / will you save to?{wait}{end}"
  },
  {
   "id": "m017",
@@ -471,7 +471,7 @@
   "id": "m04E",
   "off": "029D36",
   "jp": "{speed:09}ヤンは大将に昇進しイゼルローン要{nl}塞および要塞艦隊の司令官となった。{nl}ヤンは、ユリアン、{sub0:07}らと{nl}ともにイゼルローンへとむかった。{nl}イゼルローン要塞、それは２万隻の艦{nl}隊をもち、２００万の兵士をふくめ{nl}５００万もの人びとがせいかつできる{nl}小さな惑星であった。{end}",
-  "en": "{speed:09}Yang was promoted to Admiral and made commander of Iserlohn Fortress and its fortress fleet. With Julian, {sub0:07} and the others, Yang set out for Iserlohn. Iserlohn Fortress: it held a fleet of 20,000 ships and was a small planet where 5,000,000 people, 2,000,000 soldiers among them, could live.{end}"
+  "en": "{speed:09}Yang was promoted to Admiral and given command of Iserlohn Fortress and its fleet. With Julian, {sub0:07} and the others, he left for Iserlohn. Iserlohn held a fleet of 20,000 ships: a small planet where 5,000,000 people, 2,000,000 of them soldiers, could live.{end}"
  },
  {
   "id": "m04F",
@@ -1215,7 +1215,7 @@
   "id": "m0CA",
   "off": "02D0AF",
   "jp": "{speed:09}銀河の歴史は、とどまることをしら{nl}ない。{wait}{end}",
-  "en": "{speed:09}The history of the galaxy never stands still.{wait}{end}"
+  "en": "{speed:09}The history of the galaxy / never stands still.{wait}{end}"
  },
  {
   "id": "m0CB",

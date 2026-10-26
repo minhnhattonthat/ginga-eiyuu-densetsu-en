@@ -47,6 +47,12 @@ org $00F4DE
 org $00F4E3
         db $0F
 
+; $00:F538 writes a number (losses in m134 etc.) as digits into slot $1F40 for {sub0:03}: JP digit codes start at $89,
+; English ones at '0' ($30). Glyph $89 is past the English font: the VWF drew garbage and the result scenes crashed.
+assert read1($00F556) == $69 && read1($00F557) == $89, "number digit base moved"
+org $00F557
+        db $30
+
 ; 4. Command help label (slot 7 of the button drawer $00:A6DD: A = gfx id, X = slot 0-7) is 6x2 tiles at map x 23
 ;    instead of 3x2 at x 26, so English words fit; its blocks (0E_0F-18, 0E_27-31) hold 12 tiles (tools/gfxtext.py).
 ;    Tiles $AA-$B5 (BG3): $B0-$B5 were past the last slot, unused by the BG3 map on the command screens.

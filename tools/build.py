@@ -39,6 +39,7 @@ FAR_REGIONS = [(0x7B000, 0x80000), (0xF8000, 0x100000)]             # bank $0F a
 SIDE_FAR = {"side_0": 0x78E00, "side_1": 0x78E80}                   # $0F:8E00/8E80, asm/engine.asm points $00:F4D6 here
 ALLOWED = [                                                         # every write must land in one (romdiff ranges)
     (0x746B, 0x746F, "hook $00:F46B name_slot"), (0x74D7, 0x74FE, "hooks $00:F4D7-F4E3 + side names"),
+    (0x7557, 0x7558, "number digit base $00:F557"),
     (0x7FDC, 0x7FE0, "checksum"), (0x103BB, 0x1081C, "bank $02 name tables + old strings"), NAME_TAIL + ("names",),
     (0x28000, 0x30000, "bank $05 main/sub tables + strings"), (0x39A39, 0x39A3E, "hook $07:9A39 ff_code"),
     (0x39BBF, 0x39BC3, "hook $07:9BBF vwf_draw"), (0x78000, 0x80000, "bank $0F engine, font, side names, far"),

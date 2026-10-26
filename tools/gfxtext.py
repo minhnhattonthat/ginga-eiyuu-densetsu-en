@@ -20,10 +20,11 @@ SPACE = 3
 TAIL = {8: (0x46E38, 0x48000), 9: (0x4E079, 0x50000), 0xE: (0x74084, 0x78000)}   # 0xFF bank ends (trap-tested)
 
 # cols: tiles per row (2 rows); rect: x0, y0, x1, y1 the text may use; margin: left pad, None = centred.
-# Plates: the game shows the left 64 px (JP ink spans columns 3-62). Banners: frame 2/1 around a fill of 3,
+# Plates: the fleet panel shows the left 64 px (JP ink spans columns 3-62), the formation panel only 56: text keeps
+# to 56 (a name wider than that is drawn 1 px tighter per letter). Banners: frame 2/1 around a fill of 3,
 # glyph ink 1 with an outline of 2.
 KINDS = {
-    "plate": dict(cols=9, rect=(0, 0, 64, 16), bg=0, ink=1, outline=None, margin=3),
+    "plate": dict(cols=9, rect=(0, 0, 56, 16), bg=0, ink=1, outline=None, margin=3, squeeze=True),
     "banner": dict(cols=15, rect=(2, 2, 118, 14), bg=3, ink=1, outline=2, margin=None, frame=1),
     "wide": dict(cols=26, rect=(2, 2, 206, 14), bg=1, ink=3, outline=2, margin=None, frame=3),   # briefing bar
     # title character buttons, 08_31 (BG3 tile = block tile + $80): only each label's own tiles; the frame
@@ -122,15 +123,15 @@ def to_tiles(px, g, tiles):
     return bytes(out)
 
 
-def ink(text, glyphs):
-    """Set of (x, y) ink pixels, x from 0, y with the cap height of H centred on row 7.5."""
+def ink(text, glyphs, tight=0):
+    """Set of (x, y) ink pixels, x from 0, y with the cap height of H centred on row 7.5; tight = px less per advance."""
     hrows = [r for r, v in enumerate(glyphs[ord("H")][0]) if v]
     shift = round(7.5 - (hrows[0] + hrows[-1]) / 2)
     pts, x = set(), 0
     for ch in text:
         cell, adv = glyphs[ord(ch)]
         pts |= {(x + c, r + shift) for r, v in enumerate(cell) for c in range(16) if v >> (15 - c) & 1}
-        x += SPACE if ch == " " else adv
+        x += SPACE if ch == " " else adv - tight
     return pts
 
 
@@ -142,7 +143,10 @@ def draw(kind, text, base, glyphs):
     pts = tiny_ink(text) if k.get("tiny") else ink(text, glyphs)
     pad = 1 if k["outline"] is not None else 0
     w = max(x for x, _ in pts) + 1
-    dx = x0 + pad + (min(k["margin"], x1 - x0 - 2 * pad - w) if k["margin"] is not None
+    if k.get("squeeze") and w > x1 - x0:
+        pts = ink(text, glyphs, 1)
+        w = max(x for x, _ in pts) + 1
+    dx =x0 + pad + (min(k["margin"], x1 - x0 - 2 * pad - w) if k["margin"] is not None
                      else (x1 - x0 - 2 * pad - w) // 2)
     pts = {(x + dx, y) for x, y in pts}
     edge = {(x + i, y + j) for x, y in pts for i in (-1, 0, 1) for j in (-1, 0, 1)} if pad else pts
