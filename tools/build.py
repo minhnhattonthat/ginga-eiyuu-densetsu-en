@@ -22,6 +22,7 @@ import check_rom  # noqa: E402
 import font  # noqa: E402
 import romdiff  # noqa: E402
 import textdb  # noqa: E402
+import wrap  # noqa: E402
 from tbl import Table  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -88,10 +89,14 @@ def en_texts(marker_all=False, qa=None):
         sid = r["id"]
         if blank(r["jp"]):   # control codes only (24 main, 2 empty name slots): not text, kept as is
             out[sid] = r["jp"]
+        elif not marker_all and r.get("en"):     # authored form -> {nl} lines fitted to the box (tools/wrap.py)
+            out[sid], errs = wrap.wrap(r["en"], wrap.box_px(sid) if sid.startswith("m") else None)
+            if errs:
+                raise SystemExit(f"{sid}: " + "; ".join(errs))
         elif sid.startswith(("officer_", "ship_", "rank_", "side_")):
-            out[sid] = (r.get("en") if not marker_all else "") or sid + "{end}"
+            out[sid] = sid + "{end}"
         else:
-            out[sid] = (r.get("en") if not marker_all else "") or marker(sid, r["jp"], w)
+            out[sid] = marker(sid, r["jp"], w)
     out.update(qa or {})
     # English needs ~2x the glyphs of the JP line: halve each per-glyph delay to keep the JP pacing
     return {k: re.sub(r"\{speed:([0-9A-Fa-f]{2})\}", lambda m: "{speed:%02X}" % ((int(m[1], 16) + 1) // 2), v)
@@ -246,7 +251,7 @@ def main():
     ap.add_argument("--qa", action="append", default=[], metavar="ID=TEXT", help="override one string")
     ap.add_argument("--out")
     a = ap.parse_args()
-    out = Path(a.out) if a.out else ROOT / "build" / f"logh_{a.lang}.sfc"
+    out = Path(a.out).resolve() if a.out else ROOT / "build" / f"logh_{a.lang}.sfc"
     qa = dict(q.split("=", 1) for q in a.qa)
     data, writes = build(a.lang, a.marker, qa)
     out.parent.mkdir(parents=True, exist_ok=True)

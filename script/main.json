@@ -63,97 +63,97 @@
   "id": "m00A",
   "off": "02848A",
   "jp": "{speed:00}ＬＯＡＤかＮＥＷを{nl}選択してください{wait}{end}",
-  "en": ""
+  "en": "{speed:00}Select LOAD or NEW.{wait}{end}"
  },
  {
   "id": "m00B",
   "off": "0284A2",
   "jp": "{speed:00}ＤＡＴＡを{nl}選択してください{wait}{end}",
-  "en": ""
+  "en": "{speed:00}Select a DATA slot.{wait}{end}"
  },
  {
   "id": "m00C",
   "off": "0284B6",
   "jp": "{speed:00}これでいいですか？{nl}ⓎⓈ　　ⓃⒹ{wait}{end}",
-  "en": ""
+  "en": "{speed:00}Is this all right? / {yesno}{wait}{end}"
  },
  {
   "id": "m00D",
   "off": "0284CE",
   "jp": "{speed:00}プレイヤー数を{nl}選択してください{wait}{end}",
-  "en": ""
+  "en": "{speed:00}Select the number of players.{wait}{end}"
  },
  {
   "id": "m00E",
   "off": "0284E6",
   "jp": "{speed:00}プレイヤー１のキャラクタを{nl}選択してください{wait}{end}",
-  "en": ""
+  "en": "{speed:00}Select Player 1's character.{wait}{end}"
  },
  {
   "id": "m00F",
   "off": "028503",
   "jp": "{speed:00}開始するシナリオを{nl}選択してください{wait}{end}",
-  "en": ""
+  "en": "{speed:00}Select the scenario to begin.{wait}{end}"
  },
  {
   "id": "m010",
   "off": "02851D",
   "jp": "{speed:00}カーソル位置に配置する{nl}提督はだれにしますか？{wait}{end}",
-  "en": ""
+  "en": "{speed:00}Which admiral will you place at the cursor?{wait}{end}"
  },
  {
   "id": "m011",
   "off": "02853E",
   "jp": "{speed:00}カーソル位置の{nl}分艦隊司令官は{nl}だれにしますか？{wait}{end}",
-  "en": ""
+  "en": "{speed:00}Who will command the division at the cursor?{wait}{end}"
  },
  {
   "id": "m012",
   "off": "028562",
   "jp": "{speed:00}どのコマンドを{nl}おこないますか？{wait}{end}",
-  "en": ""
+  "en": "{speed:00}Which command will you carry out?{wait}{end}"
  },
  {
   "id": "m013",
   "off": "028577",
   "jp": "{speed:00}選択をおわります{nl}よろしいですか？{nl}ⓎⓈ　　ⓃⒹ{wait}{end}",
-  "en": ""
+  "en": "{speed:00}End your selection. Are you sure? / {yesno}{wait}{end}"
  },
  {
   "id": "m014",
   "off": "028599",
   "jp": "{speed:00}命令を継続します{nl}よろしいですか？{nl}ⓎⓈ　　ⓃⒹ{wait}{end}",
-  "en": ""
+  "en": "{speed:00}Continue the current orders. Are you sure? / {yesno}{wait}{end}"
  },
  {
   "id": "m015",
   "off": "0285BD",
   "jp": "{speed:00}戦闘をオートですすめます{nl}よろしいですか？{nl}ⓎⓈ　　ⓃⒹ{wait}{end}",
-  "en": ""
+  "en": "{speed:00}The battle will proceed automatically. Are you sure? / {yesno}{wait}{end}"
  },
  {
   "id": "m016",
   "off": "0285E3",
   "jp": "{speed:00}セーブするデータナンバーは{nl}どれにしますか？{wait}{end}",
-  "en": ""
+  "en": "{speed:00}Which data number will you save to?{wait}{end}"
  },
  {
   "id": "m017",
   "off": "028600",
   "jp": "{speed:00}データをセーブします{nl}よろしいですか？{nl}ⓎⓈ　　ⓃⒹ{wait}{end}",
-  "en": ""
+  "en": "{speed:00}Save the data. Are you sure? / {yesno}{wait}{end}"
  },
  {
   "id": "m018",
   "off": "028624",
   "jp": "{speed:00}戦闘アニメーションの{nl}ＯＮ／ＯＦＦを{nl}選択してください{wait}{end}",
-  "en": ""
+  "en": "{speed:00}Turn battle animations ON or OFF.{wait}{end}"
  },
  {
   "id": "m019",
   "off": "028647",
   "jp": "{speed:00}リセットボタンを{nl}おしてください。{wait}{end}",
-  "en": ""
+  "en": "{speed:00}Please press the RESET button.{wait}{end}"
  },
  {
   "id": "m01A",
@@ -165,19 +165,19 @@
   "id": "m01B",
   "off": "02865E",
   "jp": "{speed:00}どの艦隊に{nl}命令をあたえますか？{wait}{end}",
-  "en": ""
+  "en": "{speed:00}Which fleet will you give orders to?{wait}{end}"
  },
  {
   "id": "m01C",
   "off": "028676",
   "jp": "{speed:00}攻撃エリアは{nl}どれにしますか？{wait}{end}",
-  "en": ""
+  "en": "{speed:00}Which area will you attack?{wait}{end}"
  },
  {
   "id": "m01D",
   "off": "02868B",
   "jp": "{speed:00}Ａボタンをおしてください{end}",
-  "en": ""
+  "en": "{speed:00}Press the A button.{end}"
  },
  {
   "id": "m01E",
@@ -195,7 +195,7 @@
   "id": "m020",
   "off": "02869D",
   "jp": "{speed:00}この艦隊から分離させる{nl}分艦隊を選択してください{wait}{end}",
-  "en": ""
+  "en": "{speed:00}Select the division to detach from this fleet.{wait}{end}"
  },
  {
   "id": "m021",
@@ -207,97 +207,97 @@
   "id": "m022",
   "off": "0286C3",
   "jp": "{speed:00}この艦隊に合流させる{nl}艦隊を選択してください{wait}{end}",
-  "en": ""
+  "en": "{speed:00}Select the fleet that will join this one.{wait}{end}"
  },
  {
   "id": "m023",
   "off": "0286E5",
   "jp": "{speed:00}艦隊配置のパターンを{nl}選択してください{wait}{end}",
-  "en": ""
+  "en": "{speed:00}Select a fleet formation pattern.{wait}{end}"
  },
  {
   "id": "m024",
   "off": "028703",
   "jp": "{speed:00}どのポイントを目標として{nl}移動させますか？{wait}{end}",
-  "en": ""
+  "en": "{speed:00}Which point will you move toward?{wait}{end}"
  },
  {
   "id": "m025",
   "off": "028721",
   "jp": "{speed:00}移動のルート・パターンを{nl}選択してください{wait}{end}",
-  "en": ""
+  "en": "{speed:00}Select a movement route pattern.{wait}{end}"
  },
  {
   "id": "m026",
   "off": "028740",
   "jp": "{nl}{speed:00}　　作戦実行中です{wait}{end}",
-  "en": ""
+  "en": " / {speed:00}      Operation under way.{wait}{end}"
  },
  {
   "id": "m027",
   "off": "028753",
   "jp": "{speed:09}人びとは地球をはなれ、銀河を第２{nl}のふるさととしていた。人は銀河の{nl}星でうまれ、そして死んでいった。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}Humanity left Earth and made the galaxy its second home. People were born among its stars, and there they died.{wait}{end}"
  },
  {
   "id": "m028",
   "off": "028801",
   "jp": "銀河に一人の男が現れた。{nl}ルドルフ・フォン・ゴールデンバウム{nl}彼は、人びとの英雄となった。{wait}{end}",
-  "en": ""
+  "en": "A man appeared in the galaxy: / Rudolf von Goldenbaum. / He became the people's hero.{wait}{end}"
  },
  {
   "id": "m029",
   "off": "02894A",
   "jp": "ルドルフの死後も、歴代の皇帝による{nl}独裁は続き、人びとの反発は高まった{wait}{end}",
-  "en": ""
+  "en": "Even after Rudolf's death, the emperors who followed him kept up his dictatorship, and the people's resentment grew.{wait}{end}"
  },
  {
   "id": "m02A",
   "off": "028A47",
   "jp": "{sub0:09}をはじめ、おおくの人びと{nl}を失ったすえ、新しい惑星を見つける{nl}事ができた。{wait}{end}",
-  "en": ""
+  "en": "After losing many people, {sub0:09} first among them, they at last found a new planet.{wait}{end}"
  },
  {
   "id": "m02B",
   "off": "028AC9",
   "jp": "宇宙暦６４０年、帝国と同盟は初めて{nl}の戦闘をおこなった。それは、長く続{nl}く戦いの始まりでもあった。{wait}{end}",
-  "en": ""
+  "en": "In S.E. 640, the Empire and the Alliance fought their first battle. It was the beginning of a long war.{wait}{end}"
  },
  {
   "id": "m02C",
   "off": "028BD2",
   "jp": "長い戦いの歴史の中で、帝国に英雄が{nl}うまれた。{nl}{sub0:08}・フォン・ローエングラ{nl}ムである。{wait}{end}",
-  "en": ""
+  "en": "Over the long history of that war, a hero was born in the Empire: / {sub0:08} von Lohengramm.{wait}{end}"
  },
  {
   "id": "m02D",
   "off": "028CBA",
   "jp": "彼の望みは、あねをうばった皇帝とゴ{nl}ールデンバウム王朝を倒す事、そして{nl}自らが皇帝となる事だった。{wait}{end}",
-  "en": ""
+  "en": "His wish was to overthrow the emperor who had taken his sister, and the Goldenbaum dynasty with him, and to become emperor himself.{wait}{end}"
  },
  {
   "id": "m02E",
   "off": "028CFB",
   "jp": "同盟にも一人の英雄がうまれていた。{nl}ヤン・ウェンリー。{wait}{end}",
-  "en": ""
+  "en": "The Alliance, too, had produced a hero: / Yang Wen-li.{wait}{end}"
  },
  {
   "id": "m02F",
   "off": "028E36",
   "jp": "彼はミラクル・ヤンとよばれ同盟でも{nl}数少ない２０代の司令官となっていた{wait}{end}",
-  "en": ""
+  "en": "Called \"Miracle Yang,\" he had become one of the Alliance's few commanders still in his twenties.{wait}{end}"
  },
  {
   "id": "m030",
   "off": "028E65",
   "jp": "銀河の歴史は、英雄たちによって動き{nl}をはやめ、おおくの人びとをまきこん{nl}でいった。{wait}{end}",
-  "en": ""
+  "en": "Driven by its heroes, the history of the galaxy quickened its pace, sweeping up a great many people.{wait}{end}"
  },
  {
   "id": "m031",
   "off": "028EE1",
   "jp": "{speed:09}いくどかの同盟の攻撃を{nl}しりぞけてきたイゼルローン要塞は、{nl}ヤンの奇策とローゼンリッター隊に{nl}より、同盟のものとなった。{nl}これにより、同盟と帝国の、力の{nl}バランスは大きくくずれた。{nl}{nl}{nl}ヤン、そして{sub0:08}。{nl}二人は歴史を大きく{nl}かえ始めていた。{end}",
-  "en": ""
+  "en": "{speed:09}Iserlohn Fortress, which had repelled the Alliance's attacks time and again, fell to the Alliance through Yang's stratagem and the Rosen Ritter regiment. The balance of power between the Alliance and the Empire was badly shaken. / / / Yang, and {sub0:08}. / The two of them had begun to change history.{end}"
  },
  {
   "id": "m032",

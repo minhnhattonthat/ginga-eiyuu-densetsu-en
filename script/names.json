@@ -3,145 +3,145 @@
   "id": "officer_fpa_00",
   "off": "0103F9",
   "jp": "ヤン{end}",
-  "en": ""
+  "en": "Yang{end}"
  },
  {
   "id": "officer_fpa_01",
   "off": "0103FD",
   "jp": "メルカッツ{end}",
-  "en": ""
+  "en": "Merkatz{end}"
  },
  {
   "id": "officer_fpa_02",
   "off": "010404",
   "jp": "ビュコック{end}",
-  "en": ""
+  "en": "Bucock{end}"
  },
  {
   "id": "officer_fpa_03",
   "off": "01040C",
   "jp": "ウランフ{end}",
-  "en": ""
+  "en": "Uranff{end}"
  },
  {
   "id": "officer_fpa_04",
   "off": "010412",
   "jp": "ボロディン{end}",
-  "en": ""
+  "en": "Borodin{end}"
  },
  {
   "id": "officer_fpa_05",
   "off": "01041B",
   "jp": "モートン{end}",
-  "en": ""
+  "en": "Morton{end}"
  },
  {
   "id": "officer_fpa_06",
   "off": "010421",
   "jp": "ルグランジュ{end}",
-  "en": ""
+  "en": "Legrange{end}"
  },
  {
   "id": "officer_fpa_07",
   "off": "010429",
   "jp": "アル．サレム{end}",
-  "en": ""
+  "en": "Al Salem{end}"
  },
  {
   "id": "officer_fpa_08",
   "off": "010431",
   "jp": "アップルトン{end}",
-  "en": ""
+  "en": "Appleton{end}"
  },
  {
   "id": "officer_fpa_09",
   "off": "01043A",
   "jp": "ホーウッド{end}",
-  "en": ""
+  "en": "Hawood{end}"
  },
  {
   "id": "officer_fpa_10",
   "off": "010442",
   "jp": "パエッタ{end}",
-  "en": ""
+  "en": "Paetta{end}"
  },
  {
   "id": "officer_fpa_11",
   "off": "010449",
   "jp": "パストーレ{end}",
-  "en": ""
+  "en": "Pastolle{end}"
  },
  {
   "id": "officer_fpa_12",
   "off": "010451",
   "jp": "ムーア{end}",
-  "en": ""
+  "en": "Moore{end}"
  },
  {
   "id": "officer_fpa_13",
   "off": "010456",
   "jp": "ルフェーブル{end}",
-  "en": ""
+  "en": "Lefebvre{end}"
  },
  {
   "id": "officer_fpa_14",
   "off": "01045F",
   "jp": "キャゼルヌ{end}",
-  "en": ""
+  "en": "Cazerne{end}"
  },
  {
   "id": "officer_fpa_15",
   "off": "010466",
   "jp": "アッテンボロー{end}",
-  "en": ""
+  "en": "Attenborough{end}"
  },
  {
   "id": "officer_fpa_16",
   "off": "010470",
   "jp": "フイッシャー{end}",
-  "en": ""
+  "en": "Fischer{end}"
  },
  {
   "id": "officer_fpa_17",
   "off": "010478",
   "jp": "グエン{end}",
-  "en": ""
+  "en": "Nguyen{end}"
  },
  {
   "id": "officer_fpa_18",
   "off": "01047D",
   "jp": "マリノ{end}",
-  "en": ""
+  "en": "Marino{end}"
  },
  {
   "id": "officer_fpa_19",
   "off": "010482",
   "jp": "ストークス{end}",
-  "en": ""
+  "en": "Stokes{end}"
  },
  {
   "id": "officer_fpa_20",
   "off": "010489",
   "jp": "アラルコン{end}",
-  "en": ""
+  "en": "Alarcon{end}"
  },
  {
   "id": "officer_fpa_21",
   "off": "010490",
   "jp": "マリネッティ{end}",
-  "en": ""
+  "en": "Marinetti{end}"
  },
  {
   "id": "officer_fpa_22",
   "off": "010498",
   "jp": "ザーニアル{end}",
-  "en": ""
+  "en": "Zanial{end}"
  },
  {
   "id": "officer_fpa_23",
   "off": "01049F",
   "jp": "ユリアン{end}",
-  "en": ""
+  "en": "Julian{end}"
  },
  {
   "id": "officer_fpa_24",
@@ -153,205 +153,205 @@
   "id": "officer_fpa_25",
   "off": "0104A7",
   "jp": "フレデリカ{end}",
-  "en": ""
+  "en": "Frederica{end}"
  },
  {
   "id": "officer_fpa_26",
   "off": "0104AF",
   "jp": "ラップ{end}",
-  "en": ""
+  "en": "Lappe{end}"
  },
  {
   "id": "officer_fpa_27",
   "off": "0104B5",
   "jp": "シェーンコップ{end}",
-  "en": ""
+  "en": "Schonkopf{end}"
  },
  {
   "id": "officer_fpa_28",
   "off": "0104BF",
   "jp": "トリューニヒト{end}",
-  "en": ""
+  "en": "Trunicht{end}"
  },
  {
   "id": "officer_fpa_29",
   "off": "0104C8",
   "jp": "ルビンスキー{end}",
-  "en": ""
+  "en": "Rubinsky{end}"
  },
  {
   "id": "officer_fpa_30",
   "off": "0104D1",
   "jp": "ルパート{end}",
-  "en": ""
+  "en": "Rupert{end}"
  },
  {
   "id": "officer_emp_00",
   "off": "010520",
   "jp": "ラインハルト{end}",
-  "en": ""
+  "en": "Reinhard{end}"
  },
  {
   "id": "officer_emp_01",
   "off": "010528",
   "jp": "キルヒアイス{end}",
-  "en": ""
+  "en": "Kircheis{end}"
  },
  {
   "id": "officer_emp_02",
   "off": "010530",
   "jp": "ミッターマイヤー{end}",
-  "en": ""
+  "en": "Mittermeyer{end}"
  },
  {
   "id": "officer_emp_03",
   "off": "01053A",
   "jp": "ロイエンタール{end}",
-  "en": ""
+  "en": "Reuenthal{end}"
  },
  {
   "id": "officer_emp_04",
   "off": "010543",
   "jp": "ビッテンフェルト{end}",
-  "en": ""
+  "en": "Bittenfeld{end}"
  },
  {
   "id": "officer_emp_05",
   "off": "01054E",
   "jp": "ミュラー{end}",
-  "en": ""
+  "en": "Muller{end}"
  },
  {
   "id": "officer_emp_06",
   "off": "010554",
   "jp": "メックリンガー{end}",
-  "en": ""
+  "en": "Mecklinger{end}"
  },
  {
   "id": "officer_emp_07",
   "off": "01055D",
   "jp": "ケンプ{end}",
-  "en": ""
+  "en": "Kempf{end}"
  },
  {
   "id": "officer_emp_08",
   "off": "010563",
   "jp": "ルッツ{end}",
-  "en": ""
+  "en": "Lutz{end}"
  },
  {
   "id": "officer_emp_09",
   "off": "010568",
   "jp": "ワーレン{end}",
-  "en": ""
+  "en": "Wahlen{end}"
  },
  {
   "id": "officer_emp_10",
   "off": "01056E",
   "jp": "アイゼナッハ{end}",
-  "en": ""
+  "en": "Eisenach{end}"
  },
  {
   "id": "officer_emp_11",
   "off": "010576",
   "jp": "フォーレンハイト{end}",
-  "en": ""
+  "en": "Fahrenheit{end}"
  },
  {
   "id": "officer_emp_12",
   "off": "010580",
   "jp": "シュタインメッツ{end}",
-  "en": ""
+  "en": "Steinmetz{end}"
  },
  {
   "id": "officer_emp_13",
   "off": "01058A",
   "jp": "レンネンカンプ{end}",
-  "en": ""
+  "en": "Lennenkamp{end}"
  },
  {
   "id": "officer_emp_14",
   "off": "010594",
   "jp": "ケスラー{end}",
-  "en": ""
+  "en": "Kessler{end}"
  },
  {
   "id": "officer_emp_15",
   "off": "01059A",
   "jp": "メルカッツ{end}",
-  "en": ""
+  "en": "Merkatz{end}"
  },
  {
   "id": "officer_emp_16",
   "off": "0105A1",
   "jp": "シュターデン{end}",
-  "en": ""
+  "en": "Staden{end}"
  },
  {
   "id": "officer_emp_17",
   "off": "0105AA",
   "jp": "エルラッハ{end}",
-  "en": ""
+  "en": "Erlach{end}"
  },
  {
   "id": "officer_emp_18",
   "off": "0105B1",
   "jp": "バイエルライン{end}",
-  "en": ""
+  "en": "Bayerlein{end}"
  },
  {
   "id": "officer_emp_19",
   "off": "0105BB",
   "jp": "ドロイゼン{end}",
-  "en": ""
+  "en": "Droysen{end}"
  },
  {
   "id": "officer_emp_20",
   "off": "0105C3",
   "jp": "トゥルナイゼン{end}",
-  "en": ""
+  "en": "Thurneisen{end}"
  },
  {
   "id": "officer_emp_21",
   "off": "0105CC",
   "jp": "アルトリンゲン{end}",
-  "en": ""
+  "en": "Altringen{end}"
  },
  {
   "id": "officer_emp_22",
   "off": "0105D5",
   "jp": "ブラウヒッチ{end}",
-  "en": ""
+  "en": "Brauchitsch{end}"
  },
  {
   "id": "officer_emp_23",
   "off": "0105DE",
   "jp": "カルナップ{end}",
-  "en": ""
+  "en": "Karnap{end}"
  },
  {
   "id": "officer_emp_24",
   "off": "0105E6",
   "jp": "アイヘンドルフ{end}",
-  "en": ""
+  "en": "Eichendorf{end}"
  },
  {
   "id": "officer_emp_25",
   "off": "0105F0",
   "jp": "パトリッケン{end}",
-  "en": ""
+  "en": "Patricken{end}"
  },
  {
   "id": "officer_emp_26",
   "off": "0105F9",
   "jp": "オルラウ{end}",
-  "en": ""
+  "en": "Orlau{end}"
  },
  {
   "id": "officer_emp_27",
   "off": "0105FF",
   "jp": "レッケンドルフ{end}",
-  "en": ""
+  "en": "Reckendorf{end}"
  },
  {
   "id": "officer_emp_28",
@@ -363,330 +363,330 @@
   "id": "officer_emp_29",
   "off": "01060B",
   "jp": "オーベルシュタイン{end}",
-  "en": ""
+  "en": "Oberstein{end}"
  },
  {
   "id": "officer_emp_30",
   "off": "010617",
   "jp": "ヒルダ{end}",
-  "en": ""
+  "en": "Hilda{end}"
  },
  {
   "id": "officer_emp_31",
   "off": "01061C",
   "jp": "シュナイダー{end}",
-  "en": ""
+  "en": "Schneider{end}"
  },
  {
   "id": "officer_emp_32",
   "off": "010624",
   "jp": "ブラウンシュベイク{end}",
-  "en": ""
+  "en": "Braunschweig{end}"
  },
  {
   "id": "officer_emp_33",
   "off": "010631",
   "jp": "アンスバッハ{end}",
-  "en": ""
+  "en": "Ansbach{end}"
  },
  {
   "id": "officer_emp_34",
   "off": "01063A",
   "jp": "シャフト{end}",
-  "en": ""
+  "en": "Shaft{end}"
  },
  {
   "id": "officer_emp_35",
   "off": "010640",
   "jp": "リッテンハイム{end}",
-  "en": ""
+  "en": "Littenheim{end}"
  },
  {
   "id": "ship_fpa_00",
   "off": "010675",
   "jp": "レダ２{end}",
-  "en": ""
+  "en": "Leda II{end}"
  },
  {
   "id": "ship_fpa_01",
   "off": "01067A",
   "jp": "ヒューベリオン{end}",
-  "en": ""
+  "en": "Hyperion{end}"
  },
  {
   "id": "ship_fpa_02",
   "off": "010684",
   "jp": "リオグランデ{end}",
-  "en": ""
+  "en": "Rio Grande{end}"
  },
  {
   "id": "ship_fpa_03",
   "off": "01068D",
   "jp": "バンコ{end}",
-  "en": ""
+  "en": "Pangu{end}"
  },
  {
   "id": "ship_fpa_04",
   "off": "010693",
   "jp": "ベルーン{end}",
-  "en": ""
+  "en": "Perun{end}"
  },
  {
   "id": "ship_fpa_05",
   "off": "01069A",
   "jp": "ディオメデス{end}",
-  "en": ""
+  "en": "Diomedes{end}"
  },
  {
   "id": "ship_fpa_06",
   "off": "0106A4",
   "jp": "レオニダス２{end}",
-  "en": ""
+  "en": "Leonidas II{end}"
  },
  {
   "id": "ship_fpa_07",
   "off": "0106AC",
   "jp": "パラミデュース{end}",
-  "en": ""
+  "en": "Palamedes{end}"
  },
  {
   "id": "ship_fpa_08",
   "off": "0106B7",
   "jp": "クリシュナ{end}",
-  "en": ""
+  "en": "Krishna{end}"
  },
  {
   "id": "ship_fpa_09",
   "off": "0106BE",
   "jp": "ケツアルコアトル{end}",
-  "en": ""
+  "en": "Quetzalcoatl{end}"
  },
  {
   "id": "ship_fpa_10",
   "off": "0106C8",
   "jp": "パトロクロス{end}",
-  "en": ""
+  "en": "Patroclus{end}"
  },
  {
   "id": "ship_fpa_11",
   "off": "0106D1",
   "jp": "レオニダス{end}",
-  "en": ""
+  "en": "Leonidas{end}"
  },
  {
   "id": "ship_fpa_12",
   "off": "0106D8",
   "jp": "ペルガモン{end}",
-  "en": ""
+  "en": "Pergamon{end}"
  },
  {
   "id": "ship_fpa_13",
   "off": "0106E0",
   "jp": "ク．ホリン{end}",
-  "en": ""
+  "en": "Cu Chulainn{end}"
  },
  {
   "id": "ship_fpa_14",
   "off": "0106E7",
   "jp": "イゼルローン{end}",
-  "en": ""
+  "en": "Iserlohn{end}"
  },
  {
   "id": "ship_fpa_15",
   "off": "0106EF",
   "jp": "トリグラフ{end}",
-  "en": ""
+  "en": "Triglav{end}"
  },
  {
   "id": "ship_fpa_16",
   "off": "0106F6",
   "jp": "アガートラム{end}",
-  "en": ""
+  "en": "Agateram{end}"
  },
  {
   "id": "ship_fpa_17",
   "off": "0106FE",
   "jp": "マウリア{end}",
-  "en": ""
+  "en": "Mauria{end}"
  },
  {
   "id": "ship_fpa_18",
   "off": "010704",
   "jp": "マルドゥーク{end}",
-  "en": ""
+  "en": "Marduk{end}"
  },
  {
   "id": "ship_fpa_19",
   "off": "01070D",
   "jp": "ユリシーズ{end}",
-  "en": ""
+  "en": "Ulysses{end}"
  },
  {
   "id": "ship_fpa_20",
   "off": "010714",
   "jp": "シバァ{end}",
-  "en": ""
+  "en": "Shiva{end}"
  },
  {
   "id": "ship_fpa_21",
   "off": "01071A",
   "jp": "ノーマル．タイプ{end}",
-  "en": ""
+  "en": "Standard Type{end}"
  },
  {
   "id": "ship_emp_00",
   "off": "010747",
   "jp": "ブリュンヒルト{end}",
-  "en": ""
+  "en": "Brunhild{end}"
  },
  {
   "id": "ship_emp_01",
   "off": "010751",
   "jp": "バルバロッサ{end}",
-  "en": ""
+  "en": "Barbarossa{end}"
  },
  {
   "id": "ship_emp_02",
   "off": "01075B",
   "jp": "ジンロウ{end}",
-  "en": ""
+  "en": "Beowulf{end}"
  },
  {
   "id": "ship_emp_03",
   "off": "010761",
   "jp": "トリスタン{end}",
-  "en": ""
+  "en": "Tristan{end}"
  },
  {
   "id": "ship_emp_04",
   "off": "010768",
   "jp": "オウコ{end}",
-  "en": ""
+  "en": "Konigs Tiger{end}"
  },
  {
   "id": "ship_emp_05",
   "off": "01076D",
   "jp": "リューベック{end}",
-  "en": ""
+  "en": "Lubeck{end}"
  },
  {
   "id": "ship_emp_06",
   "off": "010776",
   "jp": "クヴァシル{end}",
-  "en": ""
+  "en": "Kvasir{end}"
  },
  {
   "id": "ship_emp_07",
   "off": "01077E",
   "jp": "ヨーツンハイム{end}",
-  "en": ""
+  "en": "Jotunheim{end}"
  },
  {
   "id": "ship_emp_08",
   "off": "010787",
   "jp": "スキールニル{end}",
-  "en": ""
+  "en": "Skirnir{end}"
  },
  {
   "id": "ship_emp_09",
   "off": "01078F",
   "jp": "カリュウ{end}",
-  "en": ""
+  "en": "Salamander{end}"
  },
  {
   "id": "ship_emp_10",
   "off": "010795",
   "jp": "ヴィーザル{end}",
-  "en": ""
+  "en": "Vidar{end}"
  },
  {
   "id": "ship_emp_11",
   "off": "01079D",
   "jp": "アースグリム{end}",
-  "en": ""
+  "en": "Asgrimm{end}"
  },
  {
   "id": "ship_emp_12",
   "off": "0107A5",
   "jp": "フォンケル{end}",
-  "en": ""
+  "en": "Fornkell{end}"
  },
  {
   "id": "ship_emp_13",
   "off": "0107AC",
   "jp": "ガルガ．ファルムル{end}",
-  "en": ""
+  "en": "Garga Falmul{end}"
  },
  {
   "id": "ship_emp_14",
   "off": "0107B7",
   "jp": "ファルセティ{end}",
-  "en": ""
+  "en": "Forseti{end}"
  },
  {
   "id": "ship_emp_15",
   "off": "0107BF",
   "jp": "ガイエスブルグ{end}",
-  "en": ""
+  "en": "Geiersburg{end}"
  },
  {
   "id": "ship_emp_16",
   "off": "0107C9",
   "jp": "ノーマル．タイプ{end}",
-  "en": ""
+  "en": "Standard Type{end}"
  },
  {
   "id": "rank_00",
   "off": "0107EE",
   "jp": "元帥{end}",
-  "en": ""
+  "en": "Fleet Admiral{end}"
  },
  {
   "id": "rank_01",
   "off": "0107F4",
   "jp": "大将{end}",
-  "en": ""
+  "en": "Admiral{end}"
  },
  {
   "id": "rank_02",
   "off": "0107FA",
   "jp": "中将{end}",
-  "en": ""
+  "en": "Vice Admiral{end}"
  },
  {
   "id": "rank_03",
   "off": "010800",
   "jp": "少将{end}",
-  "en": ""
+  "en": "Rear Admiral{end}"
  },
  {
   "id": "rank_04",
   "off": "010806",
   "jp": "准将{end}",
-  "en": ""
+  "en": "Commodore{end}"
  },
  {
   "id": "rank_05",
   "off": "01080C",
   "jp": "大尉{end}",
-  "en": ""
+  "en": "Lieutenant{end}"
  },
  {
   "id": "rank_07",
   "off": "010812",
   "jp": "上級大将{end}",
-  "en": ""
+  "en": "Senior Admiral{end}"
  },
  {
   "id": "side_0",
   "off": "0074EE",
   "jp": "同盟軍{end}",
-  "en": ""
+  "en": "Alliance{end}"
  },
  {
   "id": "side_1",
   "off": "0074F6",
   "jp": "帝国軍{end}",
-  "en": ""
+  "en": "Empire{end}"
  }
 ]
