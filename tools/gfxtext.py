@@ -17,7 +17,7 @@ import gfx  # noqa: E402
 ROOT = Path(__file__).resolve().parents[1]
 BDF = ROOT / "fonts" / "ark-pixel-10px-proportional-latin.bdf"
 SPACE = 3
-TAIL = {8: (0x46E38, 0x48000), 9: (0x4E079, 0x50000)}     # 0xFF runs at the bank ends (trap-tested, engine.md)
+TAIL = {8: (0x46E38, 0x48000), 9: (0x4E079, 0x50000), 0xE: (0x74084, 0x78000)}   # 0xFF bank ends (trap-tested)
 
 # cols: tiles per row (2 rows); rect: x0, y0, x1, y1 the text may use; margin: left pad, None = centred.
 # Plates: the game shows the left 64 px (JP ink spans columns 3-62). Banners: frame 2/1 around a fill of 3,
@@ -31,6 +31,9 @@ KINDS = {
     "btn_rein": dict(grid=[[60, 61, 62, 63, 64], [67, 68, 69, 70, 71]], rect=(0, 2, 40, 14), bg=2, ink=3,
                      outline=1, margin=None),
     "btn_yang": dict(grid=[[73, 74, 75], [77, 78, 79]], rect=(0, 2, 24, 14), bg=2, ink=3, outline=1, margin=None),
+    # command help label: the JP block is 3x2; asm/engine.asm shows slot 7 as 6x2, so the block is rebuilt at
+    # 12 tiles (border: 1 px frame of that index, the rest bg) and its directory tile count raised
+    "label": dict(cols=6, rect=(1, 1, 47, 15), bg=3, ink=2, outline=None, margin=None, border=2),
 }
 # grid: rows of block tile numbers (default: cols x 2, the whole block).
 # frame: the JP outlines spill into the frame rows just above and below the rect; those rows are redrawn in it.
@@ -54,6 +57,11 @@ GFX.update({(8, 0x37 + i): ("wide", t) for i, t in enumerate(BANNERS[1:7])})
 GFX[8, 0x74] = ("wide", BANNERS[0])
 GFX = {k: [v] for k, v in GFX.items()}
 GFX[8, 0x31] = [("btn_rein", "officer_emp_00"), ("btn_yang", "officer_fpa_00")]
+LABELS = {0x0F: "Defend", 0x10: "Join", 0x11: "Move", 0x12: "End", 0x13: "System", 0x14: "Fleet", 0x15: "Save",
+          0x16: "All Sides", 0x17: "Focus", 0x18: "Retreat", 0x27: "Attack", 0x28: "Detach", 0x29: "Deploy",
+          0x2A: "Info", 0x2B: "Continue", 0x2C: "Group", 0x2D: "Auto", 0x2E: "Animation", 0x2F: "Front",
+          0x30: "Standby", 0x31: "Priority"}
+GFX.update({(0xE, s): [("label", t)] for s, t in LABELS.items()})
 
 
 def names():
@@ -136,6 +144,12 @@ def blocks(orig):
         base, _ = gfx.decompress(orig, gfx.lorom(bank, orig[d] | orig[d + 1] << 8), n, 2)
         new, texts = base, []
         for kind, src in labels:
+            k = KINDS[kind]
+            if "border" in k:       # a fresh block: frame + fill
+                w, b = 8 * k["cols"], k["border"]
+                px = [[b if y in (0, 15) or x in (0, w - 1) else k["bg"] for x in range(w)] for y in range(16)]
+                new = to_tiles(px, grid(kind), bytes(32 * k["cols"]))
+                n = 2 * k["cols"]
             assert max(map(max, grid(kind))) < n, (bank, slot, n)
             texts.append((kind, nm.get(src, src)))
             new = draw(kind, texts[-1][1], new, glyphs)
@@ -152,17 +166,19 @@ def writes(orig):
     for bank, slot, _, _, new in blocks(orig):
         d = gfx.lorom(bank, 0x8000 + 4 * slot)
         off = gfx.lorom(bank, orig[d] | orig[d + 1] << 8)
-        _, used = gfx.decompress(orig, off, len(new) // 16, 2)
+        n, count = orig[d + 2] | orig[d + 3] << 8, len(new) // 16
+        _, used = gfx.decompress(orig, off, n, 2)
         data = gfx.compress(new, 2)
         by = "gfxtext:%02X_%02X" % (bank, slot)
-        if len(data) > used:
+        if len(data) > used or count != n:
             old, (off, tail[bank][0]) = off, (tail[bank][0], tail[bank][0] + len(data))
             if tail[bank][0] > tail[bank][1]:
                 raise SystemExit(f"{by}: bank ${bank:02X} tail full")
             addr = 0x8000 | off & 0x7FFF
             for b, s, o, _ in dirs:
                 if b == bank and o == old:
-                    out.append((gfx.lorom(b, 0x8000 + 4 * s), bytes([addr & 0xFF, addr >> 8]), by + ":dir"))
+                    e = bytes([addr & 0xFF, addr >> 8] + ([count & 0xFF, count >> 8] if s == slot and count != n else []))
+                    out.append((gfx.lorom(b, 0x8000 + 4 * s), e, by + ":dir"))
         out.append((off, data, by))
     return out
 
@@ -173,7 +189,7 @@ def main():
     print(f"{len(GFX)} blocks, {sum(by.endswith(':dir') for _, _, by in w)} directory entries repointed")
     if sys.argv[1:2] == ["--png"]:     # JP above English, one image per label
         from PIL import Image
-        imgs = [(to_pixels(base, grid(kind)), to_pixels(new, grid(kind)))
+        imgs = [(to_pixels(base.ljust(len(new), b"\0"), grid(kind)), to_pixels(new, grid(kind)))
                 for *_, texts, base, new in blocks(orig) for kind, _ in texts]
         W = max(len(a[0]) for a, _ in imgs)
         img = Image.new("L", (2 * (W + 8), (len(imgs) + 1) // 2 * 40), 128)

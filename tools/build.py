@@ -45,6 +45,8 @@ ALLOWED = [                                                         # every writ
     (0xF8000, 0x100000, "bank $1F far"),
     (0x40000, 0x401E4, "bank $08 gfx directory"), (0x440CC, 0x4445D, "title buttons 08_30/08_31"), (0x4517C, 0x46A56, "wide banners 08_37-08_3C + plates 08_3D-08_70"),
     (0x46C78, 0x46E01, "wide banner 08_74"),
+    (0x70000, 0x70100, "bank $0E gfx directory"), (0x2705, 0x270D, "hook $00:A705 label_clear"),
+    (0x2752, 0x2763, "hook $00:A752 label_draw"), (0x27C6, 0x27C8, "label slot 7 position"),
     (0x48000, 0x480E8, "bank $09 gfx directory"), (0x480E8, 0x49AC9, "plates + banners 09_00-09_2E"),
 ] + [(s, e, "gfxtext tail") for s, e in gfxtext.TAIL.values()]
 NAME_SLOT = 16                                                     # RAM $1F10-$1F6F: chars + FF per slot (JP build)

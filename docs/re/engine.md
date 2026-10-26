@@ -13,6 +13,16 @@ reaches its string through `{far}` stubs, far strings stay in their bank) and th
 | $07:9A39 | FF handler (`LDA $117E`) | `JML ff_code` | F8 = far jump; F9-FB/FF as before |
 | $00:F46B | copy a name into its 16-byte RAM slot | `JML name_slot` | slot gets `F8 <24-bit ptr>`: no name length cap |
 | $00:F4D7/F4DE/F4E3 | side name source $00:F4EE/F4F6 | $0F:8E00/8E80 | 同盟軍/帝国軍 lived inside code (8 bytes) |
+| $00:A705, $00:A752, $00:A7C6 | button slot map 3x2 / slot 7 at x 26 | `JML label_clear` / `JML label_draw`, x 23 | help label (slot 7) 6x2 tiles $AA-$B5 |
+
+## Command buttons ($00:A6DD; verified: `work/qa/lbl1`)
+
+- A = gfx id - $132 (FF = clear), X = slot 0-7. Tables per slot: $00:A798 tile base ($880 + 6*slot: palette 2,
+  BG3 tiles $80-$AF), $00:A7A8 VRAM word dest ($6400 + $30*slot), $00:A7B8 map position (lo x, hi y: x 3, 6 ...
+  26, y 17). Slots 0-6 = icons, slot 7 = the help label of the highlighted icon (終了, 艦隊, 前方 ...).
+- Each icon/label is a 6-tile 2bpp block in bank $0E (0E_00-0E_31; labels = 0E_0F-18, 0E_27-31, frame 2 / fill 3).
+  The map comes from a template ($00:94E3 builds 6 entries at $00:11DA) drawn by $00:8ED4 (X = $FFFF: caller
+  preset $CC long src, $CF dest, $D1 width, $D2 height). English labels: 12-tile blocks in the bank $0E tail.
 
 ## VWF (verified: title box in the marker build, `work/qa/warp/proof*.png`)
 

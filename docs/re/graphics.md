@@ -23,14 +23,14 @@
 | G4 | Rank plates + panel icons (大将 中将 ... 一般将校) | 08_34, 08_35, 08_70 | 2bpp | yes | |
 | G5 | Title menu buttons (LOAD NEW DATA 1PLAY 2PLAY ON OFF), NO DATA | 08_30, 08_31, 08_71 | 2bpp | yes | already English |
 | G6 | Title character buttons (ヤン, ラインハルト) | 08_31 tiles 60-80 (BG3 tile = block tile + $80; 09_32 is only portraits) | 2bpp | yes | **English** (gfxtext.py btn_rein/btn_yang) |
-| G7 | Command menu labels (攻撃 移動 ...) | 0E_00-0E_31 | 2bpp, 2-row labels | not yet | |
+| G7 | Command help labels (攻撃 移動 終了 艦隊 ...) | 0E_0F-0E_18, 0E_27-0E_31 (icons: the rest of 0E_00-0E_31, no text) | 2bpp, 3x2 -> 6x2 | yes (`cmd_menu`, `cmd_fleet`, `cmd_area`) | **English** (gfxtext.py `label` + engine.md §Command buttons) |
 | G8 | Battle UI labels (戦艦 巡航艦 ...?) | 0E_37-0E_3E | 2bpp | not yet | |
 | G9 | Staff credits font | 0E_36 | 2bpp | no | romaji already (NOBUAKI IKEUCHI ...): check the credits screen |
 | G10 | Unclear text-like blocks | 08_2F, 09_2F-09_31, 09_33, 10_06, 10_2F, 0D_0F, 0D_1B | mixed | no | confirm in game or rule out |
 | G11 | Title logo 銀河英雄伝説 | not in the directory | ? | yes | official English title exists (D5): add it |
 | G12 | Council screen header bar | ? | ? | yes (first council) | source unknown |
 | G13 | Scenario title bars (1. 永遠の夜の中で, 2. はばたく禿鷹, 3. 神々の黄昏) | 09_2C-09_2E (15x2, same style as G3) | 2bpp | yes (`title_scenario`) | **English** (gfxtext.py): In Eternal Night / The Vulture Soars / Twilight of the Gods |
-| G14 | Command menu icons + 終了 button | ? | ? | yes (`cmd_menu`) | SYS already English |
+| G14 | Command menu icons + 終了 button | = G7 | | yes (`cmd_menu`) | 終了 is a G7 label; icons have no text |
 | G15 | Credits logo "Heldensagen vom Kosmosinsel" + staff names | ? | ? | yes (`credits`) | already German/English |
 
 ## Free space candidates (0xFF runs at bank ends; trap-test before use, docs: pipeline.md §Recon)

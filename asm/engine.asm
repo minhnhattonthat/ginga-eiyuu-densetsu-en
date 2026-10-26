@@ -47,6 +47,19 @@ org $00F4DE
 org $00F4E3
         db $0F
 
+; 4. Command help label (slot 7 of the button drawer $00:A6DD: A = gfx id, X = slot 0-7) is 6x2 tiles at map x 23
+;    instead of 3x2 at x 26, so English words fit; its blocks (0E_0F-18, 0E_27-31) hold 12 tiles (tools/gfxtext.py).
+;    Tiles $AA-$B5 (BG3): $B0-$B5 were past the last slot, unused by the BG3 map on the command screens.
+assert read1($00A705) == $A9 && read1($00A706) == $03 && read1($00A709) == $A9, "label clear hook moved"
+org $00A705
+        jml label_clear         ; M8 X16, $46 = slot; was LDA #3 STA $D1 LDA #2 STA $D2
+assert read2($00A752) == $DAA2 && read1($00A75B) == $A9 && read1($00A762) == $D2, "label draw hook moved"
+org $00A752
+        jml label_draw          ; was: $CC = $00:11DA (template from $00:94E3), $D1 = 3, $D2 = 2
+assert read2($00A7C6) == $111A, "label position moved"
+org $00A7C6
+        dw $1117                ; slot 7 map position: x 26 -> 23, y 17
+
 org $0F8000
 vwf_draw:
         php
@@ -292,6 +305,41 @@ name_slot:
         sta.l $000003,x
         plp
         rtl
+
+label_clear:                    ; M8 X16
+        lda #$03
+        ldx $46
+        cpx.w #$0007
+        bne +
+        lda #$06
++       sta $D1
+        lda #$02
+        sta $D2
+        jml $00A70D
+
+label_draw:                     ; M8 X16
+        ldx $46
+        cpx.w #$0007
+        beq +
+        ldx.w #$11DA
+        stx $CC
+        lda #$00
+        sta $CE
+        lda #$03
+        bra ++
++       ldx.w #label_map
+        stx $CC
+        lda.b #label_map>>16
+        sta $CE
+        lda #$06
+++      sta $D1
+        lda #$02
+        sta $D2
+        jml $00A763
+
+label_map:                      ; 6x2 map entries for tiles $AA-$B5, palette 2 (as $00:94E3 builds them)
+        dw $08AA, $08AB, $08AC, $08AD, $08AE, $08AF
+        dw $08B0, $08B1, $08B2, $08B3, $08B4, $08B5
 
 assert pc() <= $0F8E00          ; $0F:8E00-8EFF: side names (written by tools/build.py)
 org $0F8F00

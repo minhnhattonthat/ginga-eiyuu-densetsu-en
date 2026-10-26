@@ -184,6 +184,8 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | 1. 永遠の夜の中で | 1. In Eternal Night | 114 px | scenario 1 (anime ep. 1 title) | |
 | 2. はばたく禿鷹 | 2. The Vulture Soars | 114 px | scenario 2 | |
 | 3. 神々の黄昏 | 3. Twilight of the Gods | 114 px | scenario 3 | |
+| 防御 合流 移動 終了 艦隊 セーブ 全天 集中 退却 | Defend, Join, Move, End, Fleet, Save, All Sides, Focus, Retreat | 46 px | command help labels (G7) | |
+| 攻撃 分離 配置 情報 継続 大隊 オート アニメ 前方 待機 優先 | Attack, Detach, Deploy, Info, Continue, Group, Auto, Animation, Front, Standby, Priority | 46 px | command help labels; SYS label = System | |
 
 ## Ranks and military terms
 | JP | EN | max | notes | Avoid |
