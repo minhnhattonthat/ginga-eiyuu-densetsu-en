@@ -351,7 +351,7 @@
   "id": "m03A",
   "off": "0292C2",
   "jp": "{speed:09}パエッタ「ヤン准将{nl}…私の…この{nl}ケガでは…艦隊に…{nl}司令ができん…{nl}{nl}無事な士官は…{nl}君だけのようだ…{nl}…君が全軍をひきい{nl}てくれ…」{wait}{end}",
-  "en": "{speed:09}Paetta: \"Commodore Yang... With my... wounds like this... I cannot command... the fleet... / / It seems... you are the only... officer unhurt... ...You must lead... all our forces...\"{wait}{end}"
+  "en": "{speed:09}Paetta: \"Commodore / Yang... With these wounds... I cannot command... the fleet... / / It seems... you are the only... officer unhurt... ...You must lead... all our forces...\"{wait}{end}"
  },
  {
   "id": "m03B",
