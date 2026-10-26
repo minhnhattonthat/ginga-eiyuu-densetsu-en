@@ -22,7 +22,7 @@
 | G3 | Battle title banners (アスターテ会戦, アムリッツァ星域会戦 ...) | 09_25-09_2B (15x2), 08_37-08_3C + 08_74 (26x2 briefing bar) | 2bpp | yes (`astarte_brief`) | **English** (gfxtext.py; JP outlines spill into the frame rows, redrawn) |
 | G4 | Rank plates + panel icons (大将 中将 ... 一般将校) | 08_34, 08_35, 08_70 | 2bpp | yes | |
 | G5 | Title menu buttons (LOAD NEW DATA 1PLAY 2PLAY ON OFF), NO DATA | 08_30, 08_31, 08_71 | 2bpp | yes | already English |
-| G6 | Title character buttons (ヤン, ラインハルト) | 09_32 | 3bpp | yes | |
+| G6 | Title character buttons (ヤン, ラインハルト) | 08_31 tiles 60-80 (BG3 tile = block tile + $80; 09_32 is only portraits) | 2bpp | yes | **English** (gfxtext.py btn_rein/btn_yang) |
 | G7 | Command menu labels (攻撃 移動 ...) | 0E_00-0E_31 | 2bpp, 2-row labels | not yet | |
 | G8 | Battle UI labels (戦艦 巡航艦 ...?) | 0E_37-0E_3E | 2bpp | not yet | |
 | G9 | Staff credits font | 0E_36 | 2bpp | no | romaji already (NOBUAKI IKEUCHI ...): check the credits screen |

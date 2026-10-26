@@ -106,14 +106,23 @@ def test_gfxtext_decodes_through_directory():
     rom = bytearray(orig)
     for off, data, _ in gfxtext.writes(orig):
         rom[off:off + len(data)] = data
-    for bank, slot, _, base, new in gfxtext.blocks(orig):
+    for bank, slot, texts, base, new in gfxtext.blocks(orig):
         d = gfx.lorom(bank, 0x8000 + 4 * slot)
-        tiles, _ = gfx.decompress(rom, gfx.lorom(bank, rom[d] | rom[d + 1] << 8), len(new) // 16, 2)
-        assert tiles == new, (bank, slot)
-        k = gfxtext.KINDS[gfxtext.GFX[bank, slot][0]]
-        x0, y0, x1, y1 = k["rect"]
-        if "frame" in k:
-            y0, y1 = y0 - 1, y1 + 1
-        a, b = gfxtext.to_pixels(base, k["cols"]), gfxtext.to_pixels(new, k["cols"])
-        assert all(a[y][x] == b[y][x] for y in range(16) for x in range(k["cols"] * 8)
-                   if not (x0 <= x < x1 and y0 <= y < y1)), (bank, slot)
+        src = orig[d] | orig[d + 1] << 8
+        for b, s, o, n in gfx.blocks(orig):     # every slot on this stream (08_30 shares 08_31's)
+            e = gfx.lorom(b, 0x8000 + 4 * s)
+            if b == bank and orig[e] | orig[e + 1] << 8 == src:
+                tiles, _ = gfx.decompress(rom, gfx.lorom(b, rom[e] | rom[e + 1] << 8), n, 2)
+                assert tiles == new[:16 * n], (b, s)
+        touched = set()
+        for kind, _ in texts:
+            k, g = gfxtext.KINDS[kind], gfxtext.grid(kind)
+            x0, y0, x1, y1 = k["rect"]
+            if "frame" in k:
+                y0, y1 = y0 - 1, y1 + 1
+            a, b = gfxtext.to_pixels(base, g), gfxtext.to_pixels(new, g)
+            assert all(a[y][x] == b[y][x] for y in range(len(a)) for x in range(len(a[0]))
+                       if not (x0 <= x < x1 and y0 <= y < y1)), (bank, slot, kind)
+            touched |= {t for row in g for t in row}
+        assert all(base[16 * t:16 * t + 16] == new[16 * t:16 * t + 16]
+                   for t in range(len(new) // 16) if t not in touched), (bank, slot)

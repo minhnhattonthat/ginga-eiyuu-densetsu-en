@@ -43,7 +43,7 @@ ALLOWED = [                                                         # every writ
     (0x28000, 0x30000, "bank $05 main/sub tables + strings"), (0x39A39, 0x39A3E, "hook $07:9A39 ff_code"),
     (0x39BBF, 0x39BC3, "hook $07:9BBF vwf_draw"), (0x78000, 0x80000, "bank $0F engine, font, side names, far"),
     (0xF8000, 0x100000, "bank $1F far"),
-    (0x40000, 0x401E4, "bank $08 gfx directory"), (0x4517C, 0x46A56, "wide banners 08_37-08_3C + plates 08_3D-08_70"),
+    (0x40000, 0x401E4, "bank $08 gfx directory"), (0x440CC, 0x4445D, "title buttons 08_30/08_31"), (0x4517C, 0x46A56, "wide banners 08_37-08_3C + plates 08_3D-08_70"),
     (0x46C78, 0x46E01, "wide banner 08_74"),
     (0x48000, 0x480E8, "bank $09 gfx directory"), (0x480E8, 0x49AC9, "plates + banners 09_00-09_2E"),
 ] + [(s, e, "gfxtext tail") for s, e in gfxtext.TAIL.values()]
