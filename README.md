@@ -1,6 +1,6 @@
-# <Game title> English translation
+# Ginga Eiyuu Densetsu English translation
 
-Unofficial English fan translation of **<Game title>** (<platform>, <publisher>, <year>): the source text and tools
+Unofficial English fan translation of **Ginga Eiyuu Densetsu** (Super Famicom, Tokuma Shoten, 1992): the source text and tools
 that build the patch.
 
 **Just want to play?** Download the patch from [Releases](../../releases) and follow its README. This repository holds
@@ -28,11 +28,11 @@ helps most.
 Needs Python 3.12+ and your own dump of the Japanese game.
 
 ```sh
-git clone https://github.com/minhnhattonthat/<repo>
-cd <repo>
-# copy your dump to: rom/<file>
-#   (<size> bytes, SHA-1 <sha1>; the build refuses any other dump, see rom.sha1)
-python -X utf8 tools/build.py                          # -> build/<game>_en.<ext>
+git clone https://github.com/minhnhattonthat/ginga-eiyuu-densetsu-en
+cd ginga-eiyuu-densetsu-en
+# copy your dump to: rom/Ginga Eiyuu Densetsu (Japan).sfc
+#   (1,048,576 bytes, SHA-1 b90cc0f0cd63859bea96f0c3eb109e3a9db88e5d; the build refuses any other dump, see rom.sha1)
+python -X utf8 tools/build.py                          # -> build/logh_en.sfc
 python -X utf8 tools/check.py                          # tests + text lint
 ```
 
@@ -44,8 +44,8 @@ If you enjoy this translation, you can support my work on Ko-fi:
 
 ## Licence
 
-Tools and English translation: MIT. The original Japanese text in `script/` is <publisher>'s and is included only so
-the translation can be checked against it. <Game title> is (c) <publisher>; this project is not affiliated with them.
+Tools and English translation: MIT. The original Japanese text in `script/` is Tokuma Shoten's and is included only so
+the translation can be checked against it. Ginga Eiyuu Densetsu is (c) Tokuma Shoten; this project is not affiliated with them.
 Do not share patched ROMs.
 
 The translation was made with extensive AI assistance (Claude by Anthropic). Corrections are very welcome.
