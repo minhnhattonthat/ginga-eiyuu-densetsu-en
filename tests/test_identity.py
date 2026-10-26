@@ -44,3 +44,11 @@ def test_gfx_compressor_roundtrip():
             assert gfx.decompress(packed, 0, n, q) == (tiles, len(packed))
             exact += packed == rom[off:off + used]
     assert exact >= 355   # 0D_0A stores a redundant zero row; every other block recompresses byte for byte
+
+
+def test_title_compressor_roundtrip():
+    import gfx
+    import gfxtext
+    rom = ROM.read_bytes()
+    tiles, used = gfx.decompress_title(rom, gfxtext.TITLE_TILES, gfxtext.TITLE_COUNT)
+    assert gfx.compress_title(tiles) == rom[gfxtext.TITLE_TILES:gfxtext.TITLE_TILES + used]

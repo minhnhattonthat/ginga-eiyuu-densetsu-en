@@ -72,6 +72,37 @@ def compress(tiledata, planes):
     return bytes(out)
 
 
+def decompress_title(rom, off, tiles):
+    """$00:86AD (title logo, $13:8602): 3 planes -> 4bpp. Per tile [m0 m1 m2][rows]; mask bits LSB first, m0/m1 =
+    rows 0-3/4-7 as (plane 0, plane 1) bit pairs, m2 = plane 2 rows; one 'last byte' shared by every plane, 0 per tile."""
+    out = bytearray()
+    pos = off
+    for _ in range(tiles):
+        m = rom[pos:pos + 3]
+        pos += 3
+        last, tile = 0, bytearray(32)
+        for i in range(24):  # 16 plane-0/1 bytes in VRAM order, then 8 plane-2 rows
+            if m[i // 8] >> (i % 8) & 1:
+                last = rom[pos]; pos += 1
+            tile[i if i < 16 else 16 + 2 * (i - 16)] = last
+        out += tile
+    return bytes(out), pos - off
+
+
+def compress_title(tiledata):
+    out = bytearray()
+    for t in range(0, len(tiledata), 32):
+        tile = tiledata[t:t + 32]
+        assert not any(tile[17::2]), "plane 3 must be empty"
+        m, data, last = [0, 0, 0], bytearray(), 0
+        for i in range(24):
+            v = tile[i if i < 16 else 16 + 2 * (i - 16)]
+            if v != last:
+                m[i // 8] |= 1 << (i % 8); data.append(v); last = v
+        out += bytes(m) + data
+    return bytes(out)
+
+
 def blocks(rom):
     """Every (bank, slot, src offset, tiles) the bank list reaches, sorted by offset."""
     banks = set()

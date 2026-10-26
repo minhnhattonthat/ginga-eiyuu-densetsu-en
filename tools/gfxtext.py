@@ -225,6 +225,124 @@ def ranks(orig):
     return bytes(tiles), maps
 
 
+# Title screen (G11 logo, G16 copyright): $13:8602 loads TITLE_COUNT tiles from $13:A9F2 to BG1 VRAM 0 with
+# $00:86AD (gfx.decompress_title); raw 32-word map rows follow: logo $13:BD39 (rows 4-8, tiles 1-$91 in order,
+# cols 1-29), copyright $13:BE79 (rows 19-26, tiles $92-$127 reused across lines, palette 4), BG2 stars $13:C079
+# (tiles $128-$13C). The copyright needs more tiles than it had, so the new ones go after the stars (VRAM tiles
+# $13D-$1EF are unused there) and the stream moves to the bank $13 0xFF tail.
+TITLE_TILES, TITLE_COUNT, TITLE_COPY_MAP, TITLE_TAIL = 0x9A9F2, 0x13D, 0x9BE79, (0x9D30E, 0xA0000)
+TITLE_LDX, TITLE_LDY = 0x98602, 0x9860E          # LDX #$A9F2 / LDY #$013D at $13:8602 / $13:860E
+LOGO = ("LEGEND OF THE", "GALACTIC HEROES")
+COPYRIGHT = ["\x001991 Yoshiki Tanaka, Tokuma Shoten,", "Tokuma Japan Communications,", "Kitty Film, TV Tokyo",
+             "\x001992 Tokuma Shoten Intermedia"]    # \x00 = the JP © (16x16, tiles $F6/$F7 over $F8/$F9)
+
+
+def title_px(tiles, t):
+    """Rows of colour indices of 4bpp tile t."""
+    b = tiles[32 * t:32 * t + 32]
+    return [[(b[2 * y] >> 7 - x & 1) | (b[2 * y + 1] >> 7 - x & 1) << 1 | (b[16 + 2 * y] >> 7 - x & 1) << 2
+             for x in range(8)] for y in range(8)]
+
+
+def title_tile(px, x0, y0):
+    """The 8x8 block of image px at (x0, y0) as a 4bpp tile (indices < 8)."""
+    out = bytearray(32)
+    for y in range(8):
+        for x in range(8):
+            v = px[y0 + y][x0 + x]
+            out[2 * y] |= (v & 1) << 7 - x
+            out[2 * y + 1] |= (v >> 1 & 1) << 7 - x
+            out[16 + 2 * y] |= (v >> 2 & 1) << 7 - x
+    return bytes(out)
+
+
+def fit_pts(pts):
+    """pts moved to x, y >= 0; (pts, width, height)."""
+    mx, my = min(x for x, _ in pts), min(y for _, y in pts)
+    pts = {(x - mx, y - my) for x, y in pts}
+    return pts, max(x for x, _ in pts) + 1, max(y for _, y in pts) + 1
+
+
+def logo_image(base):
+    """232x40 image for logo tiles 1-$91: LOGO in Ark Pixel 10px over 12px doubled, both emboldened 1 px, each ink
+    row in the fill index (1-3) the JP logo used most on that row, with a green extrusion down-right (small line 1 px
+    of 4, big line 4 then 5)."""
+    jp = [[v for row in range(29) for v in title_px(base, 1 + 29 * (y // 8) + row)[y % 8]] for y in range(40)]
+    fill = [max((1, 2, 3), key=[sum(1 for v in r if v == i) for i in range(4)].__getitem__) for r in jp]
+    small, sw, sh = fit_pts({(x + dx, y) for x, y in ink(LOGO[0], font.load(BDF)) for dx in (0, 1)})
+    big, bw, bh = fit_pts({(2 * x + dx, 2 * y + dy) for x, y in ink(LOGO[1], font.load())
+                           for dx in (0, 1, 2) for dy in (0, 1)})
+    gap = 3
+    top = (40 - (sh + gap + bh + 2)) // 2
+    if max(sw, bw) + 2 > 232 or top < 1:
+        raise SystemExit(f"logo: {max(sw, bw)}x{sh + gap + bh} px, room for 230x37")
+    small = {(x + (232 - sw) // 2, y + top) for x, y in small}
+    big = {(x + (232 - bw) // 2, y + top + sh + gap) for x, y in big}
+    px = [[0] * 232 for _ in range(40)]
+    for pts, steps in ((big, ((2, 5), (1, 4))), (small, ((1, 4),))):
+        for d, idx in steps:
+            for x, y in pts:
+                px[y + d][x + d] = idx
+    for x, y in small | big:
+        px[y][x] = fill[y]
+    return px
+
+
+def copyright_image(base):
+    """224x64 image of COPYRIGHT, one 16 px line each, Ark Pixel 12px ink 1; lines 2-3 indented past the ©."""
+    glyphs = font.load()
+    cmark = [a + b for t in (0xF6, 0xF8) for a, b in zip(title_px(base, t), title_px(base, t + 1))]
+    px = [[0] * 224 for _ in range(64)]
+    for n, line in enumerate(COPYRIGHT):
+        x = 16
+        if line.startswith("\x00"):
+            for y in range(16):
+                px[16 * n + y][:16] = cmark[y]
+            x, line = 17, line[1:]
+        pts = ink(line, glyphs)
+        if x + max(p for p, _ in pts) >= 224:
+            raise SystemExit(f"copyright line {n + 1} too wide")
+        for p, y in pts:
+            px[16 * n + y][x + p] = 1
+    return px
+
+
+def title(orig):
+    """[(file offset, bytes, by)] for the title screen."""
+    assert orig[TITLE_LDX:TITLE_LDX + 3] == b"\xa2\xf2\xa9" and orig[TITLE_LDY:TITLE_LDY + 3] == b"\xa0\x3d\x01"
+    base, used = gfx.decompress_title(orig, TITLE_TILES, TITLE_COUNT)
+    assert TITLE_TILES + used == 0x9BD39     # the logo map follows the stream
+    tiles = bytearray(base) + bytes(32 * (0x1F0 - TITLE_COUNT))
+    logo = logo_image(base)
+    for t in range(1, 0x92):
+        tiles[32 * t:32 * t + 32] = title_tile(logo, 8 * ((t - 1) % 29), 8 * ((t - 1) // 29))
+    cp = copyright_image(base)
+    free = list(range(0x92, 0x128)) + list(range(TITLE_COUNT, 0x1F0))
+    tiles[32 * 0x92:32 * 0x128] = bytes(32 * (0x128 - 0x92))
+    ids, cmap = {}, bytearray()
+    for row in range(8):
+        words = [0x1000] * 2
+        for col in range(28):
+            tile = title_tile(cp, 8 * col, 8 * row)
+            if any(tile):
+                if tile not in ids:
+                    if not free:
+                        raise SystemExit("copyright: out of VRAM tiles ($92-$127, $13D-$1EF)")
+                    ids[tile] = t = free.pop(0)
+                    tiles[32 * t:32 * t + 32] = tile
+                words.append(0x1000 | ids[tile])
+            else:
+                words.append(0x1000)
+        cmap += b"".join(w.to_bytes(2, "little") for w in words + [0x1000] * 2)
+    count = max([TITLE_COUNT - 1] + list(ids.values())) + 1
+    data = gfx.compress_title(bytes(tiles[:32 * count]))
+    if TITLE_TAIL[0] + len(data) > TITLE_TAIL[1]:
+        raise SystemExit("title tiles overflow the bank $13 tail")
+    addr = 0x8000 | TITLE_TAIL[0] & 0x7FFF
+    return [(TITLE_TAIL[0], data, "title:tiles"), (TITLE_LDX + 1, addr.to_bytes(2, "little"), "title:ptr"),
+            (TITLE_LDY + 1, count.to_bytes(2, "little"), "title:count"), (TITLE_COPY_MAP, bytes(cmap), "title:map")]
+
+
 def writes(orig):
     """[(file offset, bytes, by)]: each compressed block, plus its directory entries (every slot sharing the
     stream, e.g. 08_30 = the first 20 tiles of 08_31) when relocated."""
@@ -257,7 +375,7 @@ def writes(orig):
                     e = bytes([addr & 0xFF, addr >> 8] + ([count & 0xFF, count >> 8] if s == slot and count != n else []))
                     out.append((gfx.lorom(b, 0x8000 + 4 * s), e, by + ":dir"))
         out.append((off, data, by))
-    return out
+    return out + title(orig)
 
 
 def main():

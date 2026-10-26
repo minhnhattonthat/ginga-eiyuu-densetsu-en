@@ -9,6 +9,7 @@ local ranges = TRAP_RANGES or {
   {0x08EE38, 0x08FFFF},   -- bank $08 0xFF tail (file 0x46E38-0x47FFF): relocated plates
   {0x09E079, 0x09FFFF},   -- bank $09 0xFF tail (file 0x4E079-0x4FFFF): relocated plates
   {0x0EC084, 0x0EFFFF},   -- bank $0E 0xFF tail (file 0x74084-0x77FFF): relocated labels
+  {0x13D30E, 0x13FFFF},   -- bank $13 0xFF tail (file 0x9D30E-0x9FFFF): title tiles
 }
 local seen = {}
 for _, r in ipairs(ranges) do

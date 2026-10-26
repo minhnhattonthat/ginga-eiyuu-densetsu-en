@@ -50,6 +50,10 @@ ALLOWED = [                                                         # every writ
     (0x70000, 0x70100, "bank $0E gfx directory"), (0x73240, 0x73496, "ship-type labels 0E_37-0E_3E"), (0x2705, 0x270D, "hook $00:A705 label_clear"),
     (0x2752, 0x2763, "hook $00:A752 label_draw"), (0x27C6, 0x27C8, "label slot 7 position"),
     (0x48000, 0x480E8, "bank $09 gfx directory"), (0x480E8, 0x49AC9, "plates + banners 09_00-09_2E"),
+    (gfxtext.TITLE_LDX + 1, gfxtext.TITLE_LDX + 3, "title tiles pointer"),
+    (gfxtext.TITLE_LDY + 1, gfxtext.TITLE_LDY + 3, "title tile count"),
+    (gfxtext.TITLE_COPY_MAP, gfxtext.TITLE_COPY_MAP + 512, "title copyright map"),
+    gfxtext.TITLE_TAIL + ("title tiles (bank $13 tail)",),
 ] + [(s, e, "gfxtext tail") for s, e in gfxtext.TAIL.values()]
 NAME_SLOT = 16                                                     # RAM $1F10-$1F6F: chars + FF per slot (JP build)
 FILLER = "The quick brown fox jumps over the lazy dog. "
