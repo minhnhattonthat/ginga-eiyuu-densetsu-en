@@ -43,7 +43,10 @@ reaches its string through `{far}` stubs, far strings stay in their bank) and th
   the canvas is 8 * (w + w/2 + 1) px wide: 17 -> 208 px, 13 -> 160 px, 9 -> 112 px. Variants ($11A1, table
   $07:9E5A: x, y, w, h): 0 17x2 title, 1 17x4 battle start lines, 2 13x3 admiral placement, 3 13x3 battle /
   command menu, 4 9x5 (not seen), 5 17x4 results, 6 17x4 story.
-- Boxes scroll ($07:99D1 newline: past h lines it scrolls), so the line count is no limit; only the width is.
+- Boxes scroll, but a full box waits for A first ($07:99D1 newline: line count $116D reaches h = $11A3 -> state
+  $1116 = 7, handler $07:9DC0 polls $08D4/$08D6 bit 7). Story text may run past h (the JP does: one key press per
+  scroll), but a message the JP fits in h lines must fit in English too: the attract demo presses nothing and
+  hung on m110 at its 5th line. `tools/batches.py` / `tools/lint.py` enforce it.
 - Measured in game (`tools/widthgate.py`, 2026-10-26; ruler `[px]ooo|` ends whole, every torture glyph distinct):
 
 | Var | Box | Line px | Lines | Seen at | Notes |

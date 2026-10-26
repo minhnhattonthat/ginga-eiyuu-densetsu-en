@@ -97,7 +97,7 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | マリーンドルフ | Mariendorf | | | |
 | シュナイダー | Schneider | | Merkatz's aide | |
 | ブラウンシュヴァイク / ブラウンシュベイク | Braunschweig | | Duke Braunschweig | Brunswick |
-| リッテンハイム | Littenheim | | Marquis Littenheim | |
+| リッテンハイム | Littenheim | | Duke Littenheim (the game writes 公) | |
 | アンスバッハ | Ansbach | | Braunschweig's retainer | |
 | シャフト | Shaft | | Anton Hilmer von Shaft | |
 | リヒテンラーデ | Lichtenlade | | | |
@@ -132,7 +132,7 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | ランテマリオ | Rantemario | | | |
 | バーミリオン | Vermillion | | | Vermilion |
 | バーラト | Baalat | | バーラト和約 = Baalat Treaty | Barat |
-| ライガール・トリプラ | Raigal and Tripra | | two star systems | |
+| ライガール・トリプラ | Raigal-Tripra | | one stellar region (星域): "the Raigal-Tripra stellar region" | Raigal and Tripra |
 | タッシリ | Tassili | | | |
 | アルタイル | Altair | | | |
 | ラグナロック | Ragnarok | | Operation Ragnarok | |
@@ -179,7 +179,7 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 ## Ranks and military terms
 | JP | EN | max | notes | Avoid |
 |---|---|---|---|---|
-| 元帥 | Fleet Admiral | | 帝国元帥 = Imperial Marshal | Marshal (Alliance) |
+| 元帥 | Fleet Admiral | | 帝国元帥 = Imperial Fleet Admiral | |
 | 上級大将 | Senior Admiral | | Empire only | |
 | 大将 | Admiral | | | |
 | 中将 | Vice Admiral | | | |
@@ -206,8 +206,28 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | ローゼンリッター | Rosen Ritter | | 隊 = the Rosen Ritter regiment | Rosenritter |
 | トゥールハンマー | Thor's Hammer | | Iserlohn's main gun | Tool Hammer |
 | 全艦攻撃 | All ships, attack | | battle command | |
+| 星域 | stellar region | | "the Astarte stellar region" | sector |
+| 宙域 / 空域 | sector | | "this sector" | region of space |
+| 星系 | system | | アスターテ星系 = Astarte system | |
+| ヤン艦隊 | the Yang Fleet | | | |
+| 下士官 | Petty Officer | | generic crew speaker | |
+| 自治領主 | Landesherr | | Rubinsky | |
+| 宰相 | Imperial Prime Minister | | | |
+| 宇宙艦隊司令長官 | Commander-in-Chief of the Space Armada | | 司令長官 alone = Commander-in-Chief | |
+| 帝国元帥 | Imperial Fleet Admiral | | | |
+| 皇帝 | Emperor | | 皇帝万歳 = "Long live the Emperor!" | |
+| 公 | Duke | | Braunschweig, Littenheim, Lichtenlade, Lohengramm | |
+| 伯 | Count | | マリーンドルフ伯 = Count Mariendorf | |
+| 貴族連合軍 | noble coalition forces | | | |
+| 国璽 / 国じ | Imperial Seal | | | |
+| 元首 | Head of State | | | |
+| 属領 | dependency | | | |
 | 宇宙暦 | S.E. | | Space Era | |
 | 帝国暦 | I.C. | | Imperial Calendar | |
 | 新帝国暦 | N.I.C. | | New Imperial Calendar | |
 
 ## Decisions from earlier batches
+- wave 1: 星域 "stellar region" vs 宙域 "sector" (translators had mixed "sector" / "system" / "region of space").
+- wave 1: ライガール・トリプラ is one stellar region: "Raigal-Tripra".
+- wave 1: Littenheim is 公 in this game: Duke (the novels make him a Marquis).
+- wave 1: ⇕ written "Up/Down" (m106); the glyph is in en.tbl if wanted later.

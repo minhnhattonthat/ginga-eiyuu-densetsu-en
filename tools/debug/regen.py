@@ -46,7 +46,7 @@ def main():
         default = os.path.join(ROOT, "rom", "Ginga Eiyuu Densetsu (Japan).sfc")
     ap.add_argument("--rom", default=default)
     ap.add_argument("--jobs", type=int, default=3)
-    ap.add_argument("--frames", type=int, default=18000)  # intro_late arrives ~f15900
+    ap.add_argument("--frames", type=int, default=22000)  # intro_late arrives ~f15900 (JP), ~10% later in English
     ap.add_argument("--lua", action="append", default=[], help="extra probe script run beside warp.lua")
     ap.add_argument("--qa", default=QA, help="output dir (default work/qa/warp)")
     ap.add_argument("--no-states", action="store_true", help="don't overwrite work/states")

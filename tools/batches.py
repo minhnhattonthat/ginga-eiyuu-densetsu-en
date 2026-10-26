@@ -10,6 +10,7 @@ the authored form of tools/wrap.py (` / ` hard break, everything else wraps to t
 """
 import argparse
 import collections
+import functools
 import json
 import re
 import sys
@@ -28,6 +29,11 @@ CODE = re.compile(r"\{[^}]*\}")
 KATA = "ァ-ヴー"
 ENFORCED = ("Characters", "Places", "Ships")     # glossary sections whose terms must appear in the English
 SUB_SPEAKER = {"06": "Oberstein", "07": "Frederica", "08": "Reinhard", "0A": "Kircheis"}
+
+
+@functools.lru_cache(None)
+def BOX_LINES():  # noqa: N802
+    return {k: v[1] for k, v in json.loads(wrap.BOXES.read_text(encoding="utf-8")).items()}
 
 
 def rows():
@@ -175,6 +181,13 @@ def check_one(bid):
     if set(got) != set(ids):
         errs += [f"missing ids: {' '.join(sorted(set(ids) - set(got)))}"] * bool(set(ids) - set(got))
         errs += [f"extra ids: {' '.join(sorted(set(got) - set(ids)))}"] * bool(set(got) - set(ids))
+    return errs + lint(out, src)
+
+
+def lint(out, src=None):
+    """Per-entry rules for [(id, authored English)]; also tools/lint.py over the whole script."""
+    src = src or {r["id"]: (n, r) for n, r in rows()}
+    errs = []
     gl = glossary()
     for sid, en in out:
         if sid not in src:
@@ -184,7 +197,7 @@ def check_one(bid):
         e = []
         if not en.strip():
             e.append("empty")
-        bad = sorted({c for c in CODE.sub("", en) if not (0x20 <= ord(c) <= 0x7E)} - {"{", "}"})
+        bad = sorted({c for c in CODE.sub("", en) if not (0x20 <= ord(c) <= 0x7E)} - {"{", "}", "⇕"})
         if bad or "{" in CODE.sub("", en) or "}" in CODE.sub("", en):
             e.append(f"characters outside plain ASCII / stray braces: {''.join(bad)!r}")
         if "\\u" in en or "\\n" in en:
@@ -192,20 +205,25 @@ def check_one(bid):
         if codes(jp) != codes(en):
             want, have = codes(jp), codes(en)
             e.append(f"control codes differ: missing {dict(want - have)} extra {dict(have - want)}")
-        _, werr = wrap.wrap(en, wrap.box_px(sid) if name == "main" else None)
+        game, werr = wrap.wrap(en, wrap.box_px(sid) if name == "main" else None)
         e += werr
+        h = BOX_LINES().get(sid)
+        # a full box waits for A before it scrolls ($07:9DC0): the attract demo presses nothing and stalls
+        if h and jp.count("{nl}") < h < game.count("{nl}") + 1:
+            e.append(f"{game.count('{nl}') + 1} lines in a {h}-line box the JP fits in: tighten it "
+                     f"(an extra line waits for a key press; the attract demo hangs)")
         if re.search(r"\{sub0:[0-9A-F]{2}\}(st|nd|rd|th)\b", en):
             e.append("ordinal suffix glued onto a variable")
         if re.search(r"\b(a|an)\s+\{sub0", en, re.I):
             e.append("a/an before a variable")
-        if re.search(rf"[{KATA}]様|\}}様", jp) and "-sama" not in en:
+        if re.search(rf"[{KATA}]様|\{{sub0:..\}}様", jp.replace("{nl}", "")) and "-sama" not in en:
             e.append("様 after a name -> -sama (D1)")
         for sec, jps, ens, avoid in gl:
-            if any(has_term(jp, x) for x in jps):
-                if sec.startswith(ENFORCED) and not any(x.lower() in en.lower() for x in ens):
-                    e.append(f"glossary: {'/'.join(jps)} -> {' / '.join(ens)}")
-            for av in avoid:
-                if re.search(rf"\b{re.escape(av)}\b", en):
+            present = any(has_term(jp, x) for x in jps)
+            if present and sec.startswith(ENFORCED) and not any(x.lower() in en.lower() for x in ens):
+                e.append(f"glossary: {'/'.join(jps)} -> {' / '.join(ens)}")
+            for av in avoid:   # names: a wrong spelling anywhere; terms: only where the JP term is
+                if (present or sec.startswith(ENFORCED)) and re.search(rf"\b{re.escape(av)}\b", en):
                     e.append(f"glossary: avoid {av!r} (use {ens[0]})")
         errs += [f"{sid}: {x}" for x in e]
     return errs

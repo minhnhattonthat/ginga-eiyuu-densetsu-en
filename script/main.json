@@ -303,1267 +303,1267 @@
   "id": "m032",
   "off": "028F75",
   "jp": "そして二人をとりまく人びとも、{nl}大きな流れの中に、のみこまれて{nl}いくのだった。{nl}{nl}{nl}　銀河の歴史が、また１ページ…{end}",
-  "en": ""
+  "en": "And the people around the two of them, too, were swept up in the great current of history. / / / The history of the galaxy turns another page...{end}"
  },
  {
   "id": "m033",
   "off": "028FBB",
   "jp": "{speed:05}{sub0:08}「わが艦隊はこの宙域の{nl}敵艦隊を見つけ、これをたたく。{nl}わが軍に対する事のおろかさを{nl}やつらに思いしらせてくれる！{nl}わがほうの艦隊は２万隻。敵艦隊は{nl}４万隻で、３艦隊に分かれ、わが軍を{nl}とりかこもうとしている。やつらが合{nl}流する前にたたくのだ！{nl}わが艦隊が半数になるまでは逃げる{nl}事はゆるさん！　また敵を３万隻、{nl}つぶせば、わが軍の勝利である！」{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:08}: \"Our fleet will find the enemy fleets in this sector and strike them. I will teach them the folly of opposing us! We have 20,000 ships. The enemy has 40,000, split into three fleets, and means to surround us. We strike before they can join up! No one retreats until our fleet is down to half! Crush 30,000 enemy ships, and the victory is ours!\"{end}"
  },
  {
   "id": "m034",
   "off": "029095",
   "jp": "{speed:05}パエッタ「この戦闘は同盟領内に侵攻{nl}してきた帝国軍をくい止める事に{nl}ある。敵にわが軍の力を{nl}見せてやろうではないか！{nl}帝国艦隊はその数２万。{nl}これをわが４万隻の艦隊でたたく！{nl}かのダゴン会戦の大勝利を、ふたたび{nl}同盟のものとするのだ！{nl}よもやあるとは思わんが、艦数が半数{nl}となれば空域からの脱出もありうる。{nl}敵を１万５千隻つぶせば{nl}わが軍の勝利である！」{end}",
-  "en": ""
+  "en": "{speed:05}Paetta: \"The aim of this battle is to halt the Imperial forces that have invaded Alliance territory. Let us show the enemy the strength of our forces! The Imperial fleet numbers 20,000. We shall strike it with our 40,000 ships! We shall win for the Alliance once more the great victory of the Battle of Dagon! I hardly expect it, but should our ships be reduced by half, we may withdraw from the sector. Destroy 15,000 enemy ships, and the victory is ours!\"{end}"
  },
  {
   "id": "m035",
   "off": "02917C",
   "jp": "{speed:05}メルカッツ「敵は数において{nl}勝っています。これでは勝ち{nl}目が無いとおもわれます。」{end}",
-  "en": ""
+  "en": "{speed:05}Merkatz: \"The enemy outnumbers us. I see no chance of victory.\"{end}"
  },
  {
   "id": "m036",
   "off": "0291AE",
   "jp": "{speed:05}{sub0:08}「敵は合流して{nl}いない！　この戦闘は勝つ！{nl}なのになぜ逃げるのか！」{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:08}: \"The enemy has not joined up! We will win this battle! So why retreat?!\"{end}"
  },
  {
   "id": "m037",
   "off": "0291DC",
   "jp": "{speed:05}パエッタ「ヤン准将！{nl}第４艦隊が帝国軍の攻撃を{nl}うけている。{nl}わが艦隊は{nl}これを救出にむかう！」{end}",
-  "en": ""
+  "en": "{speed:05}Paetta: \"Commodore Yang! The 4th Fleet is under attack by the Imperial forces. Our fleet will go to its rescue!\"{end}"
  },
  {
   "id": "m038",
   "off": "02921E",
   "jp": "{speed:05}ヤン「しかし、このままでは{nl}３艦隊とも敵のえじきに{nl}なってしまいます。{nl}それに第４艦隊はもう…{nl}わが艦隊は合流先をかえ、{nl}第６艦隊と合流すべきです」{end}",
-  "en": ""
+  "en": "{speed:05}Yang: \"But at this rate, all three fleets will fall prey to the enemy. Besides, the 4th Fleet is already... We should change our rendezvous and join up with the 6th Fleet.\"{end}"
  },
  {
   "id": "m039",
   "off": "02927C",
   "jp": "{speed:05}パエッタ「第４艦隊を{nl}見すてろと言うのかね！{nl}そんな事はできん！{nl}わが艦隊は、第４艦隊の{nl}救出にむかう！」{end}",
-  "en": ""
+  "en": "{speed:05}Paetta: \"You're telling me to abandon the 4th Fleet?! I'll do no such thing! Our fleet goes to the rescue of the 4th Fleet!\"{end}"
  },
  {
   "id": "m03A",
   "off": "0292C2",
   "jp": "{speed:09}パエッタ「ヤン准将{nl}…私の…この{nl}ケガでは…艦隊に…{nl}司令ができん…{nl}{nl}無事な士官は…{nl}君だけのようだ…{nl}…君が全軍をひきい{nl}てくれ…」{wait}{end}",
-  "en": ""
+  "en": "{speed:09}Paetta: \"Commodore Yang... With my... wounds like this... I cannot command... the fleet... / / It seems... you are the only... officer unhurt... ...You must lead... all our forces...\"{wait}{end}"
  },
  {
   "id": "m03B",
   "off": "029323",
   "jp": "{speed:05}ヤン「全艦隊に{nl}つげる。{nl}パエッタ総司令官は{nl}ケガをなされた。{nl}{nl}よって私、ヤン准将{nl}が全軍に司令をだす{nl}私についてくれば{nl}まける事は無い」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Yang: \"To all fleets. Commander-in-Chief Paetta has been wounded. / / Therefore I, Commodore Yang, will take command of all forces. If you follow me, you won't lose.\"{wait}{end}"
  },
  {
   "id": "m03C",
   "off": "02937F",
   "jp": "{speed:09}同盟領アスターテ星系での{nl}帝国軍と同盟軍の戦いに、{nl}戦略としての意味は無かった。{nl}{nl}しかし、{sub0:08}とヤン{nl}が、全軍の司令官として戦っ{nl}た初めての戦闘であった。{end}",
-  "en": ""
+  "en": "{speed:09}The battle between the Imperial and Alliance forces in the Astarte system, in Alliance territory, held no strategic meaning. / / Yet it was the first battle that {sub0:08} and Yang fought as commanders of an entire force.{end}"
  },
  {
   "id": "m03D",
   "off": "0293EA",
   "jp": "{speed:09}戦闘の後、ヤンは、いきのこりを{nl}救出するため、戦闘空域をまわった。{nl}そして、第６艦隊にいたしんゆうの{nl}ラップ少佐をたすける事ができた。{end}",
-  "en": ""
+  "en": "{speed:09}After the battle, Yang searched the area to rescue survivors, and was able to save his close friend Lieutenant Commander Lappe of the 6th Fleet.{end}"
  },
  {
   "id": "m03E",
   "off": "029440",
   "jp": "{speed:05}ラップ「ヤン、これからは{nl}キミのもとではたらかせてもらうよ」{nl}{nl}{nl}{speed:09}ヤンは、ラップを自分の艦隊に{nl}よろこんでむかえた。{end}",
-  "en": ""
+  "en": "{speed:05}Lappe: \"Yang, from now on, let me serve under you.\" / / / {speed:09}Yang gladly welcomed Lappe into his fleet.{end}"
  },
  {
   "id": "m03F",
   "off": "029485",
   "jp": "{speed:09}帝国の主星オーディンに{nl}もどった{sub0:08}は、{nl}帝国元帥に昇進した。{nl}{nl}中将となった{sub0:0A}は、{nl}独裁がおこなわれていた惑星{nl}カストロプを制圧する事で、{nl}大将へと昇進した。{end}",
-  "en": ""
+  "en": "{speed:09}On his return to Odin, the Empire's capital world, {sub0:08} was promoted to Imperial Fleet Admiral. / / {sub0:0A}, now a Vice Admiral, subdued Kastrop, a planet under a dictatorship, and was promoted to Admiral.{end}"
  },
  {
   "id": "m040",
   "off": "0294F2",
   "jp": "{speed:05}{sub0:07}「{sub0:07}・グリーンヒ{nl}ル中尉です。{nl}この度ヤン少将の副官となるよう{nl}命令をうけました。」{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:07}: \"Lieutenant {sub0:07} Greenhill, reporting. I have been ordered to serve as Rear Admiral Yang's aide.\"{end}"
  },
  {
   "id": "m041",
   "off": "02952C",
   "jp": "ヤン「キミが？」{nl}{nl}{nl}{nl}{sub0:07}「はい。{nl}キャゼルヌ少将より、{nl}辞令をうけております。」{nl}{nl}ヤン「グリーンヒル中尉？{nl}君はもしかして…{nl}統合作戦…」{nl}{nl}{sub0:07}「はい。{nl}よく父のグリーンヒル大将より、{nl}ヤン少将の事を{nl}うかがっております。」{nl}{sub0:07}「おぼえておられますか？{nl}エル・ファシルで、閣下にコーヒーを{nl}さし上げた少女の事を？」{end}",
-  "en": ""
+  "en": "Yang: \"You?\" / / / / {sub0:07}: \"Yes. I received my orders from Rear Admiral Cazerne.\" / / Yang: \"Lieutenant Greenhill? Could you be... from Joint Operations...\" / / {sub0:07}: \"Yes. My father, Admiral Greenhill, has often told me about you, Rear Admiral Yang.\" / {sub0:07}: \"Do you remember, Your Excellency? The girl who brought you coffee at El Facil?\"{end}"
  },
  {
   "id": "m042",
   "off": "0295E9",
   "jp": "ヤン「いや。{nl}で、その時、私はなんと{nl}言ったのかな？」{nl}{nl}{sub0:07}「コーヒーは{nl}きらいだから、{nl}できれば紅茶がよかったと。」{end}",
-  "en": ""
+  "en": "Yang: \"No. So what did I say to her then?\" / / {sub0:07}: \"That you didn't like coffee, so you'd rather have had tea, if possible.\"{end}"
  },
  {
   "id": "m043",
   "off": "02962B",
   "jp": "ヤン「そんなしつれいな事を？」{nl}{nl}{nl}{nl}{sub0:07}「閣下はあの時、私の心に{nl}しんらいをあたえる事に{nl}成功したのですよ。」{end}",
-  "en": ""
+  "en": "Yang: \"I said something that rude?\" / / / / {sub0:07}: \"That day, Your Excellency, you succeeded in winning my trust.\"{end}"
  },
  {
   "id": "m044",
   "off": "02966D",
   "jp": "{speed:09}少将となったヤンに新たな{nl}命令が下った。{nl}それは、帝国のイゼルローン要塞を{nl}攻略せよ、というものだった。{nl}イゼルローンは帝国と同盟との中間に{nl}位置し、同盟軍の侵攻をいくどとなく{nl}阻止してきた大要塞であった。{end}",
-  "en": ""
+  "en": "{speed:09}New orders came down to Yang, now a Rear Admiral: capture the Empire's Iserlohn Fortress. Lying between the Empire and the Alliance, Iserlohn was a great fortress that had thwarted Alliance invasions time and again.{end}"
  },
  {
   "id": "m045",
   "off": "0297D8",
   "jp": "{speed:09}ヤンは要塞の帝国艦隊を{nl}おびきだし、帝国軍にへんそうさせた{nl}ローゼンリッター隊を、イゼルローン{nl}へおくりこんだ。{nl}ローゼンリッター隊の隊長シェーンコ{nl}ップ大佐は、要塞を手に入れ、ヤンの{nl}艦隊を要塞にむかえた。{end}",
-  "en": ""
+  "en": "{speed:09}Yang lured the Imperial fleet out of the fortress and sent the Rosen Ritter regiment, disguised as Imperial troops, into Iserlohn. The regiment's commander, Captain Schonkopf, seized the fortress and welcomed Yang's fleet into it.{end}"
  },
  {
   "id": "m046",
   "off": "02985B",
   "jp": "{speed:09}帝国艦隊は、ヤンの{nl}降伏のよびかけに従わず、{nl}突撃をかけてきた。{nl}{nl}ヤンは、要塞のトゥールハンマーで{nl}帝国艦隊を消滅させた。{end}",
-  "en": ""
+  "en": "{speed:09}The Imperial fleet refused Yang's call to surrender and charged. / / Yang annihilated the Imperial fleet with the fortress's Thor's Hammer.{end}"
  },
  {
   "id": "m047",
   "off": "0298AD",
   "jp": "{speed:09}帝国軍の{sub0:06}大佐は、{nl}突撃を決めた司令官をみすて、艦隊を{nl}脱出した。{nl}{nl}そして、{sub0:08}をたより{nl}彼のもとへむかった。{end}",
-  "en": ""
+  "en": "{speed:09}Captain {sub0:06} of the Imperial forces abandoned the commander who had ordered the charge and escaped from the fleet. / / Then, counting on {sub0:08}, he made his way to him.{end}"
  },
  {
   "id": "m048",
   "off": "0298F9",
   "jp": "{speed:09}イゼルローン攻略に成功したヤンは、{nl}今度こそ軍を辞めるつもりで、ハイ{nl}ネセンへもどった。{nl}{nl}しかしヤンは中将に昇進し、さらに{nl}新たな作戦への命令があたえられた。{nl}それはイゼルローン要塞から帝国領{nl}への２０万の大進攻だった。{end}",
-  "en": ""
+  "en": "{speed:09}Having captured Iserlohn, Yang returned to Heinessen, intending this time to resign from the military at last. / / But Yang was promoted to Vice Admiral and given orders for yet another operation: a massive invasion of Imperial territory, 200,000 strong, launched from Iserlohn Fortress.{end}"
  },
  {
   "id": "m049",
   "off": "029985",
   "jp": "{speed:09}同盟政府の作戦は、帝国の惑星を攻{nl}略しつつ、帝国の主星オーディンまで{nl}いっきに攻めこむというものだった。{nl}{nl}イゼルローン要塞から出撃した同盟{nl}艦隊は、帝国領を侵攻していった。{nl}帝国艦隊は、どこにも見えなかった。{nl}{nl}アムリッツァ星域に入った同盟軍{nl}は、惑星の人びとのかんげいをうけた{nl}{nl}{nl}帝国軍は同盟軍の侵攻のいくての惑{nl}星から、物資を引き上げ、のこされ{nl}た惑星の人びとは、同盟軍に補給をも{nl}とめたのだった。{end}",
-  "en": ""
+  "en": "{speed:09}The Alliance government's plan was to capture Imperial planets while driving straight on to Odin, the Empire's capital world. / / The Alliance fleets sortied from Iserlohn Fortress and advanced into Imperial territory. The Imperial fleets were nowhere to be seen. / / On entering the Amritsar stellar region, the Alliance forces were welcomed by the people of its planets. / / / The Imperial forces had stripped the supplies from the planets in the Alliance's path, and the people left behind turned to the Alliance forces for supplies.{end}"
  },
  {
   "id": "m04A",
   "off": "029A96",
   "jp": "{speed:09}{sub0:08}は同盟との全面戦闘を{nl}さけるため、同盟艦隊を戦わずに消耗{nl}させる作戦を立てたのだった。{nl}{nl}{sub0:09}からの補給艦隊が帝国軍{nl}につぶされ、補給がとだえた同盟軍と{nl}人びとの間で、少ない物資を巡る{nl}戦いがおきてしまった。{nl}同盟の艦隊司令官たちは、イゼルロ{nl}ーン要塞へもどる事を決定した。{end}",
-  "en": ""
+  "en": "{speed:09}To avoid an all-out battle with the Alliance, {sub0:08} had devised a plan to wear down the Alliance fleets without fighting them. / / The supply fleet from {sub0:09} was destroyed by the Imperial forces, and with their supplies cut off, the Alliance forces came to blows with the people over the scarce goods. The Alliance fleet commanders decided to return to Iserlohn Fortress.{end}"
  },
  {
   "id": "m04B",
   "off": "029B53",
   "jp": "{speed:05}{sub0:08}「敵軍の補給はきれた。{nl}時がきたのだ！　全軍、やつらの艦隊{nl}を逃すな！　わが帝国領に侵攻してき{nl}たやつらに、思いしらせてやれ！{nl}同盟の艦隊は１７万５千、だがおそる{nl}るにたらん！　わが方の艦隊は１０万{nl}でこれをむかえうつ。{nl}わが軍に５万の被害が出るまでは、{nl}宙域からの脱出はゆるさん！　敵艦を{nl}１５万隻たたきつぶし、わが軍の勝利{nl}とせよ！」{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:08}: \"The enemy's supply lines are cut. The time has come! All forces, let none of their fleets escape! Make those who invaded our Imperial territory pay for it! The Alliance fleets number 175,000, but they are nothing to fear! We meet them with 100,000. No one withdraws from the sector until we have lost 50,000! Crush 150,000 enemy ships and win the victory for us!\"{end}"
  },
  {
   "id": "m04C",
   "off": "029C2B",
   "jp": "{speed:05}ヤン「補給がきれた艦隊ではまともに{nl}戦闘ができるはずが無い。全軍、はや{nl}く同盟領へ逃げるんだ！　こんなつま{nl}らん戦闘で死ぬ事は無いのだから。{nl}１７万５千隻のわが軍に対し、帝国軍{nl}は１０万隻。われわれが１０万隻にな{nl}ったとき、わが軍はまけをみとめよう{nl}しかし、帝国艦隊を８万隻たたくこ{nl}とができれば、わが軍は勝利したと言{nl}えるだろう。」{end}",
-  "en": ""
+  "en": "{speed:05}Yang: \"A fleet with its supplies cut off can't possibly fight a proper battle. All forces, retreat to Alliance territory, quickly! There's no sense dying in a battle this pointless. We have 175,000 ships against the Empire's 100,000. When we're down to 100,000, we'll concede defeat. But if we can destroy 80,000 Imperial ships, I think we can call it a victory.\"{end}"
  },
  {
   "id": "m04D",
   "off": "029CFE",
   "jp": "{speed:09}同盟軍による帝国への侵攻は失敗に{nl}おわり、同盟国の被害は大きなものだ{nl}った。{end}",
-  "en": ""
+  "en": "{speed:09}The Alliance's invasion of the Empire ended in failure, and the Alliance's losses were heavy.{end}"
  },
  {
   "id": "m04E",
   "off": "029D36",
   "jp": "{speed:09}ヤンは大将に昇進しイゼルローン要{nl}塞および要塞艦隊の司令官となった。{nl}ヤンは、ユリアン、{sub0:07}らと{nl}ともにイゼルローンへとむかった。{nl}イゼルローン要塞、それは２万隻の艦{nl}隊をもち、２００万の兵士をふくめ{nl}５００万もの人びとがせいかつできる{nl}小さな惑星であった。{end}",
-  "en": ""
+  "en": "{speed:09}Yang was promoted to Admiral and made commander of Iserlohn Fortress and its fortress fleet. With Julian, {sub0:07} and the others, Yang set out for Iserlohn. Iserlohn Fortress: it held a fleet of 20,000 ships and was a small planet where 5,000,000 people, 2,000,000 soldiers among them, could live.{end}"
  },
  {
   "id": "m04F",
   "off": "029DD5",
   "jp": "{speed:05}ヤン「シェーンコップに銃をならって{nl}いるそうだな。」{end}",
-  "en": ""
+  "en": "{speed:05}Yang: \"I hear Schonkopf is teaching you to shoot.\"{end}"
  },
  {
   "id": "m050",
   "off": "029DF4",
   "jp": "{speed:05}ユリアン「准将がおっしゃるには、ぼ{nl}く、すじがいいそうです。{nl}司令官はなぜ、れんしゅうなさらな{nl}いのですか？」{nl}ヤン「私にはさいのうが無いらしい。{nl}今では同盟軍でもっともヘタなんじゃ{nl}ないかな？」{nl}{nl}ユリアン「でも、どうやってご自分を{nl}おまもりになるんです？」{nl}{nl}{nl}ヤン「司令官が自ら銃をもって、自分{nl}をまもらなくてはならないようでは、{nl}戦いは敗けさ。{nl}{nl}そんなハメに、ならない事だけを{nl}私はかんがえている。」{nl}{nl}{nl}ユリアン「そうですね、ええ、ボクが{nl}まもってさしあげます。」{nl}{nl}{nl}{speed:09}ヤンはユリアンを軍人にはしたくな{nl}かった。{nl}{nl}{nl}だがユリアンは、親を亡くした自分を{nl}ひきとってくれたヤンのような軍人に{nl}なりたいと思っていたのだった。{end}",
-  "en": ""
+  "en": "{speed:05}Julian: \"The Commodore says I have a knack for it. Commander, why don't you practice?\" / Yang: \"Apparently I have no talent for it. By now I may be the worst shot in the whole Alliance military.\" / / Julian: \"But then how will you protect yourself?\" / / / Yang: \"If a commander has to take up a gun to protect himself, the battle's already lost. / / All I think about is never ending up in that fix.\" / / / Julian: \"That's true... All right, then I'll protect you.\" / / / {speed:09}Yang did not want Julian to become a soldier. / / / But Julian, orphaned and taken in by Yang, wanted to become a soldier just like him.{end}"
  },
  {
   "id": "m051",
   "off": "029F57",
   "jp": "{speed:09}主星オーディンにもどったラインハ{nl}ルトを待っていたのは、帝国皇帝フリ{nl}ードリヒ４世の死亡のニュースだった{end}",
-  "en": ""
+  "en": "{speed:09}What awaited Reinhard on his return to Odin, the capital world, was news of the death of Emperor Friedrich IV.{end}"
  },
  {
   "id": "m052",
   "off": "02A115",
   "jp": "{speed:09}大きな歴史の中に、人はのみこまれ{nl}てしまう…{nl}{nl}{nl}歴史の中心にいるヤンと{sub0:08}{nl}にしても、その中からぬけ出す事は{nl}できない。{end}",
-  "en": ""
+  "en": "{speed:09}People are swallowed up by the great tide of history... / / / Even Yang and {sub0:08}, at the very center of history, could not escape it.{end}"
  },
  {
   "id": "m053",
   "off": "02A162",
   "jp": "{speed:09}ただ流れにのるか、流れにまかせる{nl}かの、ちがいはあるとしても{nl}人は自らの行き先をしらない。{nl}{nl}{nl}　銀河の歴史が、また１ページ…{end}",
-  "en": ""
+  "en": "{speed:09}Whether one rides the current or lets it carry one along, there may be a difference, yet no one knows where their own path leads. / / / The history of the galaxy turns another page...{end}"
  },
  {
   "id": "m054",
   "off": "02A1B0",
   "jp": "{speed:09}{sub0:08}とリヒテンラーデが後{nl}ろだてとなり、５歳になるエルウィン{nl}・ヨーゼフ２世が銀河帝国皇帝となっ{nl}た。{nl}{sub0:08}の軍隊とリヒテンラーデ{nl}の貴族内での力が結びついた事により{nl}これに反発できる貴族はいなかった。{nl}{nl}しかし大貴族の中では、力を合わせよ{nl}うとする動きがあった。{end}",
-  "en": ""
+  "en": "{speed:09}With {sub0:08} and Lichtenlade as his backers, the 5-year-old Erwin Josef II became Emperor of the Galactic Empire. With {sub0:08}'s military might joined to Lichtenlade's power among the nobility, no noble could stand against them. / / Among the great nobles, however, there were moves to join forces.{end}"
  },
  {
   "id": "m055",
   "off": "02A256",
   "jp": "{speed:09}その中でマリーンドルフ伯のむすめ{nl}で２０歳になるヒルデガルト・フォン{nl}・マリーンドルフが、{sub0:08}の{nl}もとにおとずれた。{nl}彼女は勝利が{sub0:08}にあるとか{nl}んがえ、自ら使者となり、マリーンド{nl}ルフは{sub0:08}に従うと申し出た{nl}のだった。{end}",
-  "en": ""
+  "en": "{speed:09}Amid all this, Hildegard von Mariendorf, the 20-year-old daughter of Count Mariendorf, came to see {sub0:08}. Believing that victory lay with {sub0:08}, she came as envoy herself and offered that House Mariendorf would follow {sub0:08}.{end}"
  },
  {
   "id": "m056",
   "off": "02A2DA",
   "jp": "{speed:05}{sub0:08}「すると内戦がおき、私{nl}が勝利するとおっしゃるのだな。{nl}フロイライン・マリーンドルフ？」{nl}{nl}ヒルダ「はい閣下。{nl}そして閣下は、勝利なさるでしょう。{nl}この内戦にさいして、マリーンドルフ{nl}は閣下のおやくにたつつもりです。」{nl}{sub0:08}「私が勝つとはかぎらな{nl}いが、それでも私に味方をしてくれる{nl}と？」{nl}{nl}ヒルダ「はい。{nl}貴族がわは、かりに手を結んだだけで{nl}軍隊としての統制がとれていません。{nl}{nl}またこの戦いは、貴族がわで兵士の{nl}反発が高まり、内からくずれさる事{nl}がありえます。{nl}{nl}従って統制のとれた閣下の軍の勝利は{nl}ひを見るよりあきらかです。」{nl}{nl}{nl}{sub0:08}「けっこう、そういう事{nl}であれば、私も味方がほしい。{nl}マリーンドルフには、かならずむく{nl}わせていただこう。」{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:08}: \"So you are saying civil war will break out, and that I will win, Fraulein Mariendorf?\" / / Hilda: \"Yes, Your Excellency. And you will be victorious. In this civil war, House Mariendorf intends to be of service to Your Excellency.\" / {sub0:08}: \"I am not certain to win, yet you will take my side all the same?\" / / Hilda: \"Yes. The nobles have joined hands only for the moment; as an army they have no discipline. / / Moreover, in this war their soldiers' resentment toward the nobles will grow, and they may well crumble from within. / / Therefore the victory of Your Excellency's disciplined army is as plain as day.\" / / / {sub0:08}: \"Very well. If that is so, I too would welcome allies. I shall be sure to reward House Mariendorf.\"{end}"
  },
  {
   "id": "m057",
   "off": "02A45C",
   "jp": "{speed:09}{sub0:08}は申し出をうけた。{nl}自分もヒルダより１歳上でしかなか{nl}ったが、{sub0:08}はおどろきをも{nl}って、ヒルダを見ていた。{nl}帝国のふるいものが消えつつある…{nl}そして、たしかに時代がかわろうとし{nl}ているのだった。{nl}{nl}そのするどさをみとめられたヒルダは{nl}秘書として、{sub0:08}のもとに{nl}つかえる事になった。{end}",
-  "en": ""
+  "en": "{speed:09}{sub0:08} accepted the offer. Though he himself was only a year older than Hilda, {sub0:08} regarded her with astonishment. The old ways of the Empire were fading... and the times were truly about to change. / / Her sharpness acknowledged, Hilda came to serve {sub0:08} as his secretary.{end}"
  },
  {
   "id": "m058",
   "off": "02A4FD",
   "jp": "{speed:09}５歳の皇帝ヨーゼフ２世をたてた{nl}{sub0:08}とリヒテンラーデ公の同{nl}盟におおくの貴族はふまんをもった。{nl}{nl}そして貴族たちの中でも、大貴族であ{nl}るブラウンシュヴァイク公とリッテン{nl}ハイム公が中心となり貴族たちは盟約{nl}を結んだ。{nl}これはリップシュタット盟約とよばれ{nl}{sub0:08}とリヒテンラーデ公に対{nl}するために、私兵を中心とする貴族連{nl}合軍が組織された。{end}",
-  "en": ""
+  "en": "{speed:09}Many nobles were discontented with the alliance between {sub0:08} and Duke Lichtenlade, who had set up the 5-year-old Emperor Josef II. / / Then, led by the greatest among them, Duke Braunschweig and Duke Littenheim, the nobles formed a pact. It was called the Lippstadt Pact, and to stand against {sub0:08} and Duke Lichtenlade, a noble coalition army built mainly around their private troops was organized.{end}"
  },
  {
   "id": "m059",
   "off": "02A5D4",
   "jp": "{speed:09}ブラウンシュヴァイク公は{nl}貴族でもあり、歴戦の司令官でもある{nl}帝国軍上級大将メルカッツを脅迫し{nl}貴族連合軍の総司令官とした。{nl}メルカッツは、副官のシュナイダー{nl}大佐とともに、ガイエスブルグ要塞の{nl}貴族連合軍と合流した。{nl}{nl}メルカッツは貴族でありながらも{nl}いくたの戦いをつうじて、兵士の心が{nl}わかるようになっていた。{nl}この戦いは敗けると思っていた…{nl}{sub0:08}は皇帝の名において{nl}貴族連合軍を倒すために、主星オーデ{nl}ィンから全軍を発進させ、ガイエスブ{nl}ルグ要塞をめざした。{nl}人びとが、かたずをのんで待ちかまえ{nl}ていた帝国の内戦、{sub0:08}軍と{nl}貴族連合軍との戦いが、開始された。{end}",
-  "en": ""
+  "en": "{speed:09}Duke Braunschweig coerced Merkatz, a noble himself, a veteran commander and a Senior Admiral of the Imperial forces, into becoming commander-in-chief of the noble coalition forces. Merkatz, together with his aide Captain Schneider, joined the noble coalition forces at Geiersburg Fortress. / / Though a noble, Merkatz had come through many battles to understand the hearts of soldiers. He believed this war would be lost... In the Emperor's name, {sub0:08} launched all his forces from Odin, the capital world, to defeat the noble coalition forces, and set course for Geiersburg Fortress. The Imperial civil war that people had awaited with bated breath, the battle between {sub0:08}'s forces and the noble coalition forces, had begun.{end}"
  },
  {
   "id": "m05A",
   "off": "02A747",
   "jp": "{speed:09}そのころ同盟では、同盟領のいくつか{nl}の惑星でクーデターがおきていた。{nl}そして同盟政府からイゼルローンの{nl}ヤンに命令が下った。{nl}ヤンがかんがえていたとおり、帝国の{nl}内戦に合わせ、同盟内でも内戦が始ま{nl}ろうとしていたのだ。{nl}{nl}ヤン艦隊がクーデター制圧のための{nl}会議をおこなっている時、主星ハイ{nl}ネセンで軍事クーデターがおこったと{nl}いうしらせがとどいた。{nl}それは救国軍事会議を名のり、しかも{nl}おどろいた事にその議長は{sub0:07}{nl}の父、グリーンヒル大将であった。{end}",
-  "en": ""
+  "en": "{speed:09}Meanwhile, in the Alliance, coups had broken out on several planets in Alliance territory, and the Alliance government sent orders to Yang at Iserlohn. Just as Yang had foreseen, civil war was about to begin within the Alliance too, in step with the Empire's. / / While the Yang Fleet was holding a conference on suppressing the coups, word arrived that a military coup had broken out on the capital world, Heinessen. It called itself the Military Congress for the Salvation of the Republic, and, astonishingly, its chairman was {sub0:07}'s father, Admiral Greenhill.{end}"
  },
  {
   "id": "m05B",
   "off": "02A85E",
   "jp": "{speed:09}ヤン艦隊は、とちゅうの惑星のクー{nl}デターを制圧しつつ、{sub0:09}へむ{nl}けて進軍を続けた。{nl}{nl}ドーリア星域では、救国軍事会議に{nl}従う第１１艦隊に勝利し、{sub0:09}{nl}へと進攻を続けた。{end}",
-  "en": ""
+  "en": "{speed:09}The Yang Fleet pressed on toward {sub0:09}, suppressing the coups on the planets along the way. / / In the Doria stellar region it defeated the 11th Fleet, loyal to the Military Congress for the Salvation of the Republic, and continued its advance on {sub0:09}.{end}"
  },
  {
   "id": "m05C",
   "off": "02A8D1",
   "jp": "{speed:05}{sub0:08}「なんだと？{nl}惑星ヴェスターラントへ核攻撃が{nl}おこなわれると言うのか！？{nl}{nl}貴族どもめ！{nl}ただちに艦隊をおくり{nl}それを阻止させよ！」{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:08}: \"What? You say a nuclear attack is to be made on the planet Westerland?! / / Those nobles! Send a fleet at once and stop it!\"{end}"
  },
  {
   "id": "m05D",
   "off": "02A925",
   "jp": "{speed:07}{sub0:06}「お待ち下さい。{nl}このまま貴族どもに、核を使わせる{nl}べきです。{nl}{nl}この内戦が長びけば、さらにおおく{nl}の死者が出る事でしょう。{nl}{nl}{nl}ですから、彼らに宇宙を治めさせては{nl}ならないと、銀河のすべての人びとに{nl}しらしめるよい機会だと思われます」{nl}{nl}{sub0:08}「では卿は、ヴェスター{nl}ラントへの核攻撃に目をつぶれと言う{nl}のか？」{nl}{nl}{sub0:06}「決心なさいませ{nl}閣下がお望みのものを、手に入れる{nl}ためには、ご自分の手をよごさねば{nl}ならないのです。」{end}",
-  "en": ""
+  "en": "{speed:07}{sub0:06}: \"Wait, please. We should let the nobles use their nuclear weapons as they intend. / / If this civil war drags on, still more people will die. / / / So I believe this is a good opportunity to show every person in the galaxy that such men must never be allowed to rule the universe.\" / / {sub0:08}: \"Then you are telling me to close my eyes to the nuclear attack on Westerland?\" / / {sub0:06}: \"Make your decision, Your Excellency. To obtain what you desire, you must dirty your own hands.\"{end}"
  },
  {
   "id": "m05E",
   "off": "02AA26",
   "jp": "{speed:09}艦隊をおくり、ヴェスターラントの{nl}核攻撃を阻止しますか？{nl}ⓎⓈ　　ⓃⒹ{wait}{end}",
-  "en": ""
+  "en": "{speed:09}Will you send a fleet to stop the nuclear attack on Westerland? / {yesno}{wait}{end}"
  },
  {
   "id": "m05F",
   "off": "02AA59",
   "jp": "{speed:05}{sub0:08}「ばかを言うな！{nl}あそこには女こどももいるのだぞ！」{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:08}: \"Don't be absurd! There are women and children there!\"{end}"
  },
  {
   "id": "m060",
   "off": "02AA7A",
   "jp": "{speed:05}{sub0:08}「目をつぶれと言うの{nl}だな…わかった…{nl}卿の言うとおりにしよう。」{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:08}: \"Close my eyes, you say... Very well... I will do as you say.\"{end}"
  },
  {
   "id": "m061",
   "off": "02AAA6",
   "jp": "{speed:09}連合軍の核攻撃は、人びとのいかり{nl}をうみ、人びとの心は貴族から離れた{nl}また貴族たちも、貴族連合軍に勝利は{nl}無し、とかんがえ始めていた。{end}",
-  "en": ""
+  "en": "{speed:09}The coalition's nuclear attack angered the people, turning their hearts from the nobles. The nobles, too, began to think the coalition could not win.{end}"
  },
  {
   "id": "m062",
   "off": "02AB03",
   "jp": "{speed:09}リッテンハイムはすでに死に{nl}ガイエスブルグ要塞は{sub0:08}軍{nl}にかこまれ、総攻撃を待っていた。{nl}貴族連合軍の敗北は決まった。{end}",
-  "en": ""
+  "en": "{speed:09}Littenheim was dead, and Geiersburg Fortress, surrounded by {sub0:08}'s forces, awaited the all-out assault. The coalition's defeat was sealed.{end}"
  },
  {
   "id": "m063",
   "off": "02AB52",
   "jp": "{speed:05}シュナイダー「おやめください！{nl}閣下！{nl}閣下がご自決なさる事は、ありま{nl}せん！」{nl}メルカッツ「だが、なにをやっていき{nl}ろと言うのだ？{nl}わしは敗軍の将で、まぎれもない反逆{nl}者なのだぞ。」{end}",
-  "en": ""
+  "en": "{speed:05}Schneider: \"Please stop! Your Excellency! There is no need for you to take your own life!\" / Merkatz: \"But what would you have me live for? I am a defeated general, and a traitor beyond any doubt.\"{end}"
  },
  {
   "id": "m064",
   "off": "02ABBF",
   "jp": "{speed:05}シュナイダー「ヤン提督のもとへ{nl}まいりましょう。{nl}あの方なら、きっとわれわれを{nl}うけ入れてくれるでしょう。」{nl}メルカッツ「同盟へいけと言うのか？{nl}私はこれまで、おおくの同盟の人びと{nl}を死なせてきた。{nl}うけ入れてくれるのだろうか？」{nl}シュナイダー「ヤン提督はかわり者と{nl}うかがっています。{nl}ダメでもともとではないですか。」{nl}{nl}メルカッツ「…わかった。{nl}卿にまかせる。{nl}ヤン提督をたよってみよう。」{end}",
-  "en": ""
+  "en": "{speed:05}Schneider: \"Let us go to Admiral Yang. He would surely take us in.\" / Merkatz: \"You're telling me to go to the Alliance? I have sent many of the Alliance's people to their deaths. Would they really take me in?\" / Schneider: \"They say Admiral Yang is an eccentric. We have nothing to lose by trying.\" / / Merkatz: \"...Very well. I leave it to you. Let us put our trust in Admiral Yang.\"{end}"
  },
  {
   "id": "m065",
   "off": "02AC9B",
   "jp": "{speed:05}アンスバッハ「閣下、連合軍の敗北は{nl}決まりました。{nl}このワインを、おのみになれば{nl}ヴァルハラへいく事ができます。」{nl}ブラウンシュヴァイク「いやだ！{nl}わしは死にたくない！{nl}い、いやだっ！　なにをするっ！{nl}ぶ、ぶれいな！　う、うぐっ…」{nl}アンスバッハ「私もすぐにヴァルハラ{nl}へとまいります。{nl}その前に、あの{sub0:08}だけは{nl}この手で…{nl}ゴールデンバウム王朝はたおれた。{nl}だがつぎにくるのがローエングラム{nl}王朝とは決まっていない…」{end}",
-  "en": ""
+  "en": "{speed:05}Ansbach: \"Your Excellency, the coalition's defeat is certain. If you drink this wine, you may go to Valhalla.\" / Braunschweig: \"No! I don't want to die! N-no! What are you doing?! H-how dare you! Ugh, urgh...\" / Ansbach: \"I too will soon follow you to Valhalla. But before that, {sub0:08} at least, by my own hand... The Goldenbaum dynasty has fallen. But it is not yet decided that the Lohengramm dynasty comes next...\"{end}"
  },
  {
   "id": "m066",
   "off": "02AD8D",
   "jp": "{speed:09}ブラウンシュヴァイク公の死をもって{nl}貴族連合軍は降伏した。{nl}新しい時代がおとずれようとしている{nl}ことを、人びとはかんじていた。{end}",
-  "en": ""
+  "en": "{speed:09}With Duke Braunschweig's death, the noble coalition forces surrendered. People sensed that a new era was about to arrive.{end}"
  },
  {
   "id": "m067",
   "off": "02ADDE",
   "jp": "{speed:09}ヤンは救国軍事会議が帝国のライン{nl}ハルトの策略によるものだとし、同盟{nl}領の惑星にニュースとして流した。{nl}{nl}救国軍事会議のメンバーは、それを{nl}みとめなかった。{nl}{nl}{nl}あくまでも軍事会議は、くさりきった{nl}政府から同盟をまもるために、おこな{nl}われたクーデターだったとかんがえて{nl}いたからだ。{nl}そんなメンバーを見てリンチは彼らを{nl}あざわらった。{nl}{nl}{nl}そして、このクーデターが、帝国の{nl}{sub0:08}のしくんだものだと{nl}あかした。{end}",
-  "en": ""
+  "en": "{speed:09}Yang declared that the Military Congress for the Salvation of the Republic was the product of a scheme by Reinhard of the Empire, and broadcast it as news to the planets of Alliance territory. / / The members of the Military Congress refused to accept it. / / / For they believed to the last that the Military Congress had been a coup carried out to protect the Alliance from a rotten government. Seeing such members, Lynch laughed at them. / / / And he revealed that this coup had been engineered by {sub0:08} of the Empire.{end}"
  },
  {
   "id": "m068",
   "off": "02AED3",
   "jp": "{speed:09}エル・ファシルの戦いで人びとを見{nl}すて逃亡したリンチ司令官は、帝国の{nl}捕虜となり、同じ捕虜からもさげすま{nl}れていた。{nl}そして先の捕虜こうかんで、同盟に{nl}もどる前にリンチは、この作戦をライ{nl}ンハルトから命じられたのだった。{end}",
-  "en": ""
+  "en": "{speed:09}Commander Lynch, who had abandoned the people and fled at the Battle of El Facil, had been taken prisoner by the Empire and was despised even by his fellow prisoners. Then, before returning to the Alliance in the recent prisoner exchange, Lynch had been ordered by Reinhard to carry out this operation.{end}"
  },
  {
   "id": "m069",
   "off": "02AF5D",
   "jp": "{speed:09}敗北をさとり、グリーンヒル大将は{nl}銃をぬいた。{nl}だが、それよりはやくリンチの銃が{nl}グリーンヒルを撃ちぬいた。{nl}リンチを撃ちぬいた救国軍事会議の{nl}メンバーは、全員自決した。{nl}救国軍事会議クーデターはおわった。{end}",
-  "en": ""
+  "en": "{speed:09}Realizing they were beaten, Admiral Greenhill drew his gun. But faster still, Lynch's gun shot Greenhill down. The members of the Military Congress who shot Lynch then all took their own lives. So ended the coup of the Military Congress for the Salvation of the Republic.{end}"
  },
  {
   "id": "m06A",
   "off": "02AFE1",
   "jp": "{speed:05}{sub0:06}「閣下…{nl}式の時、{sub0:0A}提督だけに銃を{nl}もつ事を、おゆるしにならない様{nl}おすすめします。{nl}{sub0:0A}提督が閣下の友である{nl}事は、しっています。{nl}しかし、他の提督方に、しめしが{nl}つきません。」{nl}{sub0:08}「{sub0:0A}を特別に{nl}するなと言うのだな？」{nl}{nl}{nl}{sub0:06}「はい。{nl}組織にナンバー２はいらないのです」{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:06}: \"Your Excellency... At the ceremony, I recommend that you not permit Admiral {sub0:0A} alone to carry a gun. I know that Admiral {sub0:0A} is your friend. But it sets a poor example to the other admirals.\" / {sub0:08}: \"You're saying I should not treat {sub0:0A} as special?\" / / / {sub0:06}: \"Yes. An organization has no need of a Number Two.\"{end}"
  },
  {
   "id": "m06B",
   "off": "02B08C",
   "jp": "{speed:09}{sub0:06}の意見をうけい{nl}れますか？{nl}ⓎⓈ　　ⓃⒹ{wait}{end}",
-  "en": ""
+  "en": "{speed:09}Will you accept {sub0:06}'s advice? / {yesno}{wait}{end}"
  },
  {
   "id": "m06C",
   "off": "02B0AC",
   "jp": "{speed:05}{sub0:08}「わかった、もういい{nl}くどくど言うな。」{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:08}: \"Very well, enough. Don't keep harping on it.\"{end}"
  },
  {
   "id": "m06D",
   "off": "02B0C6",
   "jp": "{speed:05}{sub0:08}「全宇宙が私の敵になっ{nl}たとしても、{sub0:0A}だけは{nl}私に味方するだろう。{nl}{nl}だからこそ私も、彼にむくいてき{nl}たのだ。{nl}それのどこが悪いのか？」{nl}{nl}{sub0:06}「わかりました。{nl}閣下がそこまでおっしゃるのでしたら{nl}私もこれいじょうは申しません。」{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:08}: \"Even if the whole universe became my enemy, {sub0:0A} alone would stand by me. / / That is exactly why I have rewarded him. What is wrong with that?\" / / {sub0:06}: \"I understand. If you feel so strongly, Your Excellency, I will say no more.\"{end}"
  },
  {
   "id": "m06E",
   "off": "02B14E",
   "jp": "{speed:09}勝利の式の前、{sub0:0A}は兵か{nl}ら銃をもつ事を止められた。{nl}彼は銃をあずけ、式にのぞんだ。{nl}{nl}式は捕虜の引見からおこなわれる事に{nl}なっていた。{end}",
-  "en": ""
+  "en": "{speed:09}Before the victory ceremony, {sub0:0A} was stopped by a soldier from carrying his gun. He handed it over and attended the ceremony. / / The ceremony was to begin with the presentation of the prisoners.{end}"
  },
  {
   "id": "m06F",
   "off": "02B1A6",
   "jp": "{speed:09}アンスバッハがブラウンシュヴァイク{nl}公の死体を、ひつぎに入れ式に現れた{end}",
-  "en": ""
+  "en": "{speed:09}Ansbach appeared at the ceremony with Duke Braunschweig's body in a coffin.{end}"
  },
  {
   "id": "m070",
   "off": "02B1D5",
   "jp": "{speed:09}{sub0:0A}がアンスバッハにとび{nl}かかった。{end}",
-  "en": ""
+  "en": "{speed:09}{sub0:0A} leapt at Ansbach.{end}"
  },
  {
   "id": "m071",
   "off": "02B1EB",
   "jp": "{speed:05}{sub0:0A}{speed:0A}「{sub0:08}様…{nl}ご無事で…{nl}もう私は{sub0:08}様の…{nl}おやくにたてそうも…ありません。」{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:0A}: {speed:0A}\"{sub0:08}-sama... You're unhurt... It seems I can no longer... be of any use... to you, {sub0:08}-sama...\"{end}"
  },
  {
   "id": "m072",
   "off": "02B222",
   "jp": "{speed:05}{sub0:0A}{speed:0A}「{sub0:08}様…{nl}宇宙を手にお入れ下さい…{nl}それとアンネローゼ様に…{nl}{nl}…お伝えください{nl}ジークは…むかしの約束を…{nl}まもったと…」{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:0A}: {speed:0A}\"{sub0:08}-sama... Take the universe into your hands... And to Annerose-sama... / / ...please tell her... that Siegfried... kept the promise... he made long ago...\"{end}"
  },
  {
   "id": "m073",
   "off": "02B279",
   "jp": "{speed:05}{sub0:08}{speed:02}「いやだ！{nl}{speed:05}お前の口から、あねうえに伝える{nl}のだ…{nl}{nl}{sub0:0A}…{speed:03}返事をしろ！{nl}{speed:0A}　{speed:03}{sub0:0A}！」{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:08}: {speed:02}\"No! {speed:05}You will tell Sister that yourself, with your own lips... / / {sub0:0A}... {speed:03}Answer me! / {speed:0A} {speed:03}{sub0:0A}!\"{end}"
  },
  {
   "id": "m074",
   "off": "02B2B9",
   "jp": "{speed:09}{sub0:0A}の死は{sub0:08}を{nl}うちのめした。{nl}{nl}{nl}{sub0:06}は、自決したアン{nl}スバッハの後ろに、帝国の宰相である{nl}リヒテンラーデ公がいるとし、提督{nl}たちに彼を捕らえよと命令した。{nl}そして宰相がもつ、銀河帝国の国じを{nl}うばわせた。{nl}それこそ、銀河帝国皇帝がもっている{nl}力を意のままにできる印だった。{end}",
-  "en": ""
+  "en": "{speed:09}{sub0:0A}'s death crushed {sub0:08}. / / / {sub0:06} declared that Duke Lichtenlade, the Imperial Prime Minister, stood behind Ansbach, who had taken his own life, and ordered the admirals to arrest him. He then had them seize the Imperial Seal that the Prime Minister held. It was the very seal that let its holder wield as he pleased the power of the Emperor of the Galactic Empire.{end}"
  },
  {
   "id": "m075",
   "off": "02B368",
   "jp": "{speed:09}{sub0:0A}の死をしったアンネロー{nl}ゼより、たちどまってはならないと、{nl}{sub0:08}はおしえられた。{nl}{nl}そして{sub0:08}は、この宇宙を{nl}手に入れる事を、{sub0:0A}に{nl}ちかうのだった。{end}",
-  "en": ""
+  "en": "{speed:09}Annerose, learning of {sub0:0A}'s death, taught {sub0:08} that he must not stand still. / / And {sub0:08} vowed to {sub0:0A} that he would take this universe into his hands.{end}"
  },
  {
   "id": "m076",
   "off": "02B3BE",
   "jp": "{speed:09}式は捕虜の引見から、始められる{nl}事になっていた。{end}",
-  "en": ""
+  "en": "{speed:09}The ceremony was to begin with the presentation of the prisoners.{end}"
  },
  {
   "id": "m077",
   "off": "02B3E0",
   "jp": "{speed:09}{sub0:0A}の銃がアンスバッハを{nl}撃った。{nl}アンスバッハは倒れた。{end}",
-  "en": ""
+  "en": "{speed:09}{sub0:0A}'s shot struck Ansbach. Ansbach fell.{end}"
  },
  {
   "id": "m078",
   "off": "02B405",
   "jp": "{speed:05}{sub0:06}「これをりゆうに{nl}リヒテンラーデ公を捕らえられるべき{nl}だと、思います。」{nl}{nl}{sub0:08}「うむ、そうしよう。」{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:06}: \"I believe you should use this as grounds to have Duke Lichtenlade arrested.\" / / {sub0:08}: \"Hm. So be it.\"{end}"
  },
  {
   "id": "m079",
   "off": "02B441",
   "jp": "{speed:09}国じを手に入れた{sub0:08}は{nl}帝国の全ての力を、にぎることに{nl}なった。{end}",
-  "en": ""
+  "en": "{speed:09}With the Imperial Seal in his hands, {sub0:08} came to hold all the power of the Empire.{end}"
  },
  {
   "id": "m07A",
   "off": "02B46B",
   "jp": "{speed:05}ビュコック「まったく、救国軍事会議{nl}の連中に捕らえられて、これではな…{nl}もう、わしの時代では、無いのかも{nl}しれん。{nl}どうかねヤン提督{nl}わしの代わりに宇宙艦隊司令長官に{nl}なってくれんかね。」{end}",
-  "en": ""
+  "en": "{speed:05}Bucock: \"Honestly, getting captured by that Military Congress for the Salvation of the Republic lot... Perhaps my time has passed. What do you say, Admiral Yang? Won't you become Commander-in-Chief of the Space Armada in my place?\"{end}"
  },
  {
   "id": "m07B",
   "off": "02B4E5",
   "jp": "{speed:09}ビュコックの代わりに、司令長官に{nl}なりますか？{nl}ⓎⓈ　　ⓃⒹ{wait}{end}",
-  "en": ""
+  "en": "{speed:09}Will you take Bucock's place as Commander-in-Chief? / {yesno}{wait}{end}"
  },
  {
   "id": "m07C",
   "off": "02B511",
   "jp": "{speed:05}ヤン「わかりました。{nl}すぎたことですが、閣下がそうおっ{nl}しゃるなら。」{nl}{nl}ビュコック「引きうけてくれるか！{nl}うむ、これでわしもラクできるな。」{end}",
-  "en": ""
+  "en": "{speed:05}Yang: \"Very well. It's more than I deserve, but if Your Excellency says so.\" / / Bucock: \"You'll take it on! Good, now I can take it easy.\"{end}"
  },
  {
   "id": "m07D",
   "off": "02B55F",
   "jp": "ヤン「とんでもない！{nl}そうなったら、ひるねの時間もなく{nl}なります。」{nl}{nl}ビュコック「やれやれ、まだわしは、{nl}はたらかなくてはならんのか。」{end}",
-  "en": ""
+  "en": "Yang: \"Out of the question! If that happened, I wouldn't even have time for my naps.\" / / Bucock: \"Hmph. So I still have to keep working, do I?\"{end}"
  },
  {
   "id": "m07E",
   "off": "02B5A8",
   "jp": "{speed:09}イゼルローンのヤンをたより、帝国{nl}のメルカッツ大将が、亡命してきた。{nl}ヤンは心から彼をむかえた。{end}",
-  "en": ""
+  "en": "{speed:09}Turning to Yang at Iserlohn, the Empire's Admiral Merkatz defected to the Alliance. Yang welcomed him wholeheartedly.{end}"
  },
  {
   "id": "m07F",
   "off": "02B5E3",
   "jp": "{speed:09}そんなヤンのもとに、{sub0:09}での{nl}査問会に出席しろという命令がとどい{nl}た。{nl}{nl}ヤンは{sub0:07}を連れ、{sub0:09}{nl}へとむかった。{end}",
-  "en": ""
+  "en": "{speed:09}Then orders reached Yang to attend a board of inquiry on {sub0:09}. / / Yang took {sub0:07} with him and set out for {sub0:09}.{end}"
  },
  {
   "id": "m080",
   "off": "02B626",
   "jp": "{speed:09}しかし査問会とは、ヤンに対する政府{nl}高官たちの、精神的リンチでしかなか{nl}った。{nl}{nl}ヤンと引きはなされた{sub0:07}たち{nl}には、ヤンのいどころさえつかめなか{nl}った。{end}",
-  "en": ""
+  "en": "{speed:09}But the board of inquiry was nothing more than a psychological lynching of Yang by high government officials. / / Separated from Yang, {sub0:07} and the others could not even learn where he was.{end}"
  },
  {
   "id": "m081",
   "off": "02B682",
   "jp": "{speed:09}ビュコックの代わりはヤンしかいな{nl}かった。{nl}昇進したヤンはすぐにイゼルローン{nl}要塞へむかった。{end}",
-  "en": ""
+  "en": "{speed:09}No one but Yang could take Bucock's place. Promoted, Yang left at once for Iserlohn Fortress.{end}"
  },
  {
   "id": "m082",
   "off": "02B6BA",
   "jp": "{speed:09}イゼルローンにもどったヤンのもと{nl}に、帝国のメルカッツ大将が、亡命し{nl}てきた。{nl}ヤンは心から彼をむかえた。{end}",
-  "en": ""
+  "en": "{speed:09}After Yang returned to Iserlohn, the Empire's Admiral Merkatz came to him to defect. Yang welcomed him wholeheartedly.{end}"
  },
  {
   "id": "m083",
   "off": "02B6FA",
   "jp": "{speed:09}{sub0:08}のもとに、シャフト大{nl}将から、ひとつの作戦が出された。{nl}{nl}{nl}それは、ガイエスブルグ要塞をワープ{nl}させ、同盟のものとなっているイゼル{nl}ローン要塞を攻略しようとするものだ{nl}った。{end}",
-  "en": ""
+  "en": "{speed:09}Admiral Shaft brought a plan of operations before {sub0:08}. / / / It was a plan to warp Geiersburg Fortress across space and capture Iserlohn Fortress, now in the hands of the Alliance.{end}"
  },
  {
   "id": "m084",
   "off": "02B765",
   "jp": "{speed:09}ワープしたガイエスブルグが、イゼ{nl}ルローン要塞の防空域に入ったとの{nl}しらせに、政府高官はおどろき、査問{nl}会をとりやめた。{nl}そしてヤンに、５５００隻の艦隊を{nl}あたえ、イゼルローンへとむかわせた{nl}ヤンは{sub0:07}らと合流し、イゼ{nl}ルローンへむけて発進した。{end}",
-  "en": ""
+  "en": "{speed:09}At the news that the warped Geiersburg had entered Iserlohn Fortress's defense zone, the high officials of the government were stunned and called off the board of inquiry. They gave Yang a fleet of 5,500 ships and sent him to Iserlohn. Yang joined up with {sub0:07} and the others and set out for Iserlohn.{end}"
  },
  {
   "id": "m085",
   "off": "02B7F9",
   "jp": "{speed:05}{sub0:08}{nl}「ガイエスブルグ要塞を動かすからに{nl}は、なんとしてもイゼルローン要塞を{nl}とりかえしてくるがよい！{nl}同盟はイゼルローン要塞と、１万５千{nl}の艦隊、わが方はガイエスブルグと{nl}１万６千の艦隊で、これをうつ！{nl}{nl}ガイエスブルグの要塞があるかぎり{nl}宙域からの脱出はゆるさん！{nl}イゼルローンの力をへらし、わ{nl}が軍の勝利とせよ！」{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:08} / \"Now that we are moving Geiersburg Fortress, you will take back Iserlohn Fortress, whatever the cost! The Alliance has Iserlohn Fortress and a fleet of 15,000; we strike with Geiersburg and a fleet of 16,000! / / So long as Geiersburg Fortress stands, no one escapes this sector! Wear down Iserlohn's strength and win the victory for our forces!\"{end}"
  },
  {
   "id": "m086",
   "off": "02B8BB",
   "jp": "{speed:05}キャゼルヌ「これは要塞対要塞という{nl}歴史上初めての戦闘である。{nl}ヤンがもどってくるまで、なんとし{nl}ても、敵をくいとめるんだ！{nl}われわれの３万１千隻の艦隊とイゼル{nl}ローン要塞に対し、帝国軍は３万２千{nl}の艦隊とガイエスブルグ要塞である。{nl}{nl}イゼルローンが移動できないため、{nl}わが軍はガイエスブルグをつぶさなく{nl}てはならない。{nl}そしてそれがわが軍の勝利となる！」{end}",
-  "en": ""
+  "en": "{speed:05}Cazerne: \"This is the first battle in history of fortress against fortress. We must hold off the enemy at all costs until Yang returns! Against our fleet of 31,000 ships and Iserlohn Fortress, the Imperial forces have a fleet of 32,000 and Geiersburg Fortress. / / Since Iserlohn cannot move, we must crush Geiersburg. And that will be our victory!\"{end}"
  },
  {
   "id": "m087",
   "off": "02B995",
   "jp": "{speed:09}ヤン「これは要塞対要塞という歴史{nl}上初めての戦闘である。イゼルロー{nl}ン要塞を帝国にかえしてはならない。{nl}たいへんな戦闘になるぞ！{nl}われわれの３万１千隻の艦隊とイゼル{nl}ローン要塞に対し、帝国軍は３万２千{nl}の艦隊とガイエスブルグ要塞で攻めて{nl}きている。{nl}イゼルローンが移動できないため、{nl}わが軍はガイエスブルグをつぶさなく{nl}てはならない。{nl}そしてそれがわが軍の勝利となる。」{end}",
-  "en": ""
+  "en": "{speed:09}Yang: \"This is the first battle in history of fortress against fortress. We must not hand Iserlohn Fortress back to the Empire. This is going to be a hard fight! Against our fleet of 31,000 ships and Iserlohn Fortress, the Imperial forces are attacking with a fleet of 32,000 and Geiersburg Fortress. Since Iserlohn can't move, we have to crush Geiersburg. And that will be our victory.\"{end}"
  },
  {
   "id": "m088",
   "off": "02BA7C",
   "jp": "{speed:04}ヤン「要塞が動いた！{nl}ひだりはしのエンジンに{nl}攻撃を！」{wait}{end}",
-  "en": ""
+  "en": "{speed:04}Yang: \"The fortress moved! Attack the engine on the far left!\"{wait}{end}"
  },
  {
   "id": "m089",
   "off": "02BAA1",
   "jp": "{speed:09}ガイエスブルグのエンジン{nl}が爆発した要塞はバランスを{nl}くずした。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}Geiersburg's engine exploded, and the fortress lost its balance.{wait}{end}"
  },
  {
   "id": "m08A",
   "off": "02BACB",
   "jp": "{speed:03}ケンプ「エ、エンジンが{nl}爆発した！はやく他の{nl}エンジンを！」{wait}{end}",
-  "en": ""
+  "en": "{speed:03}Kempf: \"Th-the engine exploded! Quick, the other engines!\"{wait}{end}"
  },
  {
   "id": "m08B",
   "off": "02BAF1",
   "jp": "{speed:09}要塞はスピンを始めまわりの{nl}艦隊をまきこみ、そして{nl}大爆発をおこした。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}The fortress began to spin, dragged in the nearby fleets, and blew up in a huge blast.{wait}{end}"
  },
  {
   "id": "m08C",
   "off": "02BB21",
   "jp": "{speed:09}かろうじてガイエスブルグ要塞の攻{nl}撃をかわし、ヤンはイゼルローンをま{nl}もることができた。{end}",
-  "en": ""
+  "en": "{speed:09}Narrowly evading the attack of Geiersburg Fortress, Yang was able to defend Iserlohn.{end}"
  },
  {
   "id": "m08D",
   "off": "02BB55",
   "jp": "{speed:09}イゼルローンの被害は大きかった。{nl}ヤンは艦隊の半分を{sub0:09}へと{nl}むかわせた。{nl}{nl}要塞には全艦隊の補給をするよゆう{nl}が、なかったからだ。{end}",
-  "en": ""
+  "en": "{speed:09}Iserlohn's losses were heavy. Yang sent half of his fleet to {sub0:09}. / / The fortress did not have the capacity to resupply the entire fleet.{end}"
  },
  {
   "id": "m08E",
   "off": "02BBA8",
   "jp": "{speed:05}ルパート「ともかくイゼルローンを手{nl}に入れた時に同盟は帝国と和約を結ぶ{nl}べきだったのです。{nl}{nl}それを同盟のバカどもは、アムリッ{nl}ツァにまで、のこのこと、出て行くと{nl}は…」{end}",
-  "en": ""
+  "en": "{speed:05}Rupert: \"In any case, the Alliance ought to have made peace with the Empire the moment it took Iserlohn. / / Instead those Alliance fools went blundering all the way out to Amritsar...\"{end}"
  },
  {
   "id": "m08F",
   "off": "02BC11",
   "jp": "ルビンスキー「わが自治領が歴史を動{nl}かしていることに{nl}きづかれてはならん。{nl}{nl}だが、同盟と帝国のバランスがくず{nl}れすぎたようだな。{nl}なんとかしなくてはならない。」{nl}{nl}ルパート「私めによいアイデアがござ{nl}います。{nl}おまかせください、自治領主どの。」{end}",
-  "en": ""
+  "en": "Rubinsky: \"No one must realize that our Dominion is the one moving history. / / But the balance between the Alliance and the Empire seems to have tipped too far. Something must be done.\" / / Rupert: \"Your humble servant has a fine idea. Leave it to me, Landesherr.\"{end}"
  },
  {
   "id": "m090",
   "off": "02BCA0",
   "jp": "{speed:09}フェザーンから{sub0:08}にひと{nl}つのたくらみがしらされた。{nl}{nl}{nl}それはおさない帝国皇帝エルウィン{nl}・ヨーゼフ２世を、帝国から連れ出そ{nl}うというものだった。{nl}{nl}皇帝はもと帝国貴族に連れられ、フ{nl}ェザーンをぬけ、同盟に逃げこんだ。{nl}{nl}{nl}そして同盟政府にみとめられ、同盟{nl}内に銀河帝国正統政府を設立した。{end}",
-  "en": ""
+  "en": "{speed:09}Word of a certain scheme reached {sub0:08} from Phezzan. / / / It was a plan to carry the young Emperor Erwin Josef II out of the Empire. / / Taken by former Imperial nobles, the Emperor passed through Phezzan and fled into the Alliance. / / / Recognized by the Alliance government, they set up the Legitimate Government of the Galactic Empire within the Alliance.{end}"
  },
  {
   "id": "m091",
   "off": "02BD5A",
   "jp": "{speed:09}{sub0:08}は同盟に対して戦闘に{nl}よるちょうばつを決め、新しい皇帝{nl}をたてた。{nl}{nl}同盟と帝国は、最後の戦闘を開始した{end}",
-  "en": ""
+  "en": "{speed:09}{sub0:08} resolved to punish the Alliance by force of arms, and set up a new emperor. / / The Alliance and the Empire began their final battle.{end}"
  },
  {
   "id": "m092",
   "off": "02BDA6",
   "jp": "{speed:09}ユリアンに政府から命令がきた{nl}それはフェザーン行きの命令だった。{nl}{nl}{nl}{speed:05}ユリアン「ボクはこちらにいたほうが{nl}おやくにたてると思いますけど。」{end}",
-  "en": ""
+  "en": "{speed:09}An order came to Julian from the government. It was an order to go to Phezzan. / / / {speed:05}Julian: \"I think I'd be more use to you if I stayed here.\"{end}"
  },
  {
   "id": "m093",
   "off": "02BDF9",
   "jp": "ヤン「だが帝国は、イゼルローンをと{nl}おるのだろうか。{nl}{sub0:08}の事だ{nl}そんなことはしないだろう。」{nl}ユリアン「でも、だとしたら{nl}どこから…{nl}もしかしてフェザーン！」{end}",
-  "en": ""
+  "en": "Yang: \"But will the Empire really come through Iserlohn? Knowing {sub0:08}, he won't do anything of the kind.\" / Julian: \"But then, where would they come from... Could it be... Phezzan!\"{end}"
  },
  {
   "id": "m094",
   "off": "02BE4E",
   "jp": "ヤン「そうさ。{nl}しかし、フェザーンの目的が、{nl}わからないんだ。」{nl}{nl}ユリアン「フェザーンでそれをさぐれ{nl}たら、提督のおやくにたてますね。{nl}ボク、フェザーンへ行きます。」{end}",
-  "en": ""
+  "en": "Yang: \"That's right. But I don't know what Phezzan is after.\" / / Julian: \"If I can find that out on Phezzan, I'll be of use to you, Admiral. I'll go to Phezzan.\"{end}"
  },
  {
   "id": "m095",
   "off": "02BEA9",
   "jp": "{speed:09}{sub0:08}の作戦は、フェザーン{nl}を攻略し、そして{sub0:09}へ侵攻す{nl}るというものだった。{nl}{nl}作戦はラグナロックとされた。{end}",
-  "en": ""
+  "en": "{speed:09}{sub0:08}'s plan was to take Phezzan and then invade {sub0:09}. / / The operation was named Ragnarok.{end}"
  },
  {
   "id": "m096",
   "off": "02BEEA",
   "jp": "{speed:09}イゼルローン要塞に、帝国の大艦隊{nl}が、すがたをみせた。{nl}フェザーンへの侵攻の前に、ヤン艦隊{nl}を要塞にくぎづけにするためだった。{end}",
-  "en": ""
+  "en": "{speed:09}A great Imperial fleet appeared before Iserlohn Fortress. Its purpose was to pin the Yang Fleet to the fortress before the invasion of Phezzan.{end}"
  },
  {
   "id": "m097",
   "off": "02BF3A",
   "jp": "{speed:09}フェザーンに現れた帝国軍は{nl}自治領をかんたんに攻略した。{nl}{nl}{nl}{sub0:08}をむかえるこえが、フ{nl}ェザーンにひびいていた。{nl}皇帝万歳！　と。{end}",
-  "en": ""
+  "en": "{speed:09}The Imperial forces that appeared at Phezzan took the Dominion with ease. / / / Voices welcoming {sub0:08} rang out across Phezzan: \"Long live the Emperor!\"{end}"
  },
  {
   "id": "m098",
   "off": "02BF8B",
   "jp": "{speed:05}ヤン「このままイゼルローン要塞にい{nl}れば、いずれまわりは全て敵だけに{nl}なってしまうだろう。{nl}{nl}せめて艦隊だけでも帝国軍に、あた{nl}らせないといけない。」{end}",
-  "en": ""
+  "en": "{speed:05}Yang: \"If we stay at Iserlohn Fortress like this, sooner or later we'll have nothing but enemies all around us. / / At the very least, we have to send the fleet out to face the Imperial forces.\"{end}"
  },
  {
   "id": "m099",
   "off": "02BFE2",
   "jp": "シェーンコップ「すると勝てると思っ{nl}ていらっしゃるのですか？」{nl}{nl}{nl}ヤン「今ならまだできるんだ。」{nl}{nl}{nl}{nl}{speed:09}帝国軍をおとりで引き離し、ヤン{nl}がひきいる５００万の人びとは、す{nl}みなれたイゼルローン要塞を離れた。{end}",
-  "en": ""
+  "en": "Schonkopf: \"So you think we can win, then?\" / / / Yang: \"Right now, we still can.\" / / / / {speed:09}Drawing the Imperial forces away with a decoy, the 5,000,000 people Yang led left Iserlohn Fortress, the home they had come to know so well.{end}"
  },
  {
   "id": "m09A",
   "off": "02C05A",
   "jp": "{speed:05}ビュコック「帝国軍を{sub0:09}へ{nl}ちかづけてはならない。{nl}なんとしても帝国軍の侵攻を止める{nl}のだ！{nl}とはいえ、われわれは３万３千隻、{nl}帝国は１１万と、戦いは決ったような{nl}ものだ。{nl}だが敵を１隻でもつぶすのだ！{nl}１万５千隻がやられたなら、引き上{nl}げてもよい。{nl}だが敵を５万隻おとせば、わが軍の{nl}勝利といえよう！」{end}",
-  "en": ""
+  "en": "{speed:05}Bucock: \"We must not let the Imperial forces near {sub0:09}. We must stop the Imperial invasion, whatever it takes! That said, we have 33,000 ships and the Empire 110,000. The battle is as good as decided. But destroy even one enemy ship! If we lose 15,000 ships, we may withdraw. But if we bring down 50,000 enemy ships, we may call it a victory for our forces!\"{end}"
  },
  {
   "id": "m09B",
   "off": "02C114",
   "jp": "{speed:05}ヤン「帝国軍を{sub0:09}へちかづけ{nl}てはならない。{nl}なんとしても帝国軍の侵攻を止める{nl}のだ！{nl}とはいえ、われわれは３万３千隻、{nl}帝国は１１万と、戦いは決ったような{nl}ものだ。{nl}だが敵を１隻でもつぶしたい。{nl}１万５千隻がやられたなら、引き上{nl}げることもできる。{nl}だが敵を５万隻おとせば、わが軍の{nl}勝利といえるだろう。」{end}",
-  "en": ""
+  "en": "{speed:05}Yang: \"We must not let the Imperial forces near {sub0:09}. We must stop the Imperial invasion, whatever it takes! That said, we have 33,000 ships and the Empire 110,000. The battle is as good as decided. But I want to destroy even a single enemy ship. If we lose 15,000 ships, we can withdraw. But if we bring down 50,000 enemy ships, I think we can call it a victory for our forces.\"{end}"
  },
  {
   "id": "m09C",
   "off": "02C1CF",
   "jp": "{speed:05}{sub0:08}「ここまで攻めた帝国の{nl}艦隊はわれわれが初めてだ。{nl}みな心して戦闘を開始せよ！{nl}{nl}わが軍は１１万であり、敵は３万３{nl}千隻でしかない。{nl}だが、おいつめられた同盟軍が、{nl}どんな手をとるかもしれん。{nl}ありえんことだが、３万隻がやられ{nl}たなら、引き上げる事もよい。{nl}だが敵を３万隻おとせば、わが軍の{nl}勝利であろう。」{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:08}: \"We are the first Imperial fleet ever to push this far. All of you, begin the battle with resolve! / / Our forces number 110,000; the enemy has a mere 33,000 ships. Yet there is no telling what a cornered Alliance army may try. Unlikely as it is, if we lose 30,000 ships, you may withdraw. But if we bring down 30,000 enemy ships, the victory is ours.\"{end}"
  },
  {
   "id": "m09D",
   "off": "02C28E",
   "jp": "{speed:09}イゼルローンから離れたヤン艦隊は{nl}{sub0:09}へもどり、艦隊をととの{nl}える事になった。{end}",
-  "en": ""
+  "en": "{speed:09}Having left Iserlohn, the Yang Fleet returned to {sub0:09} to regroup.{end}"
  },
  {
   "id": "m09E",
   "off": "02C2BE",
   "jp": "{speed:09}しかし、ランテマリオでの被害が大{nl}きく、ヤン艦隊は補給をうける事が{nl}できず、また戦いの待つ宇宙へ、出撃{nl}していった。{end}",
-  "en": ""
+  "en": "{speed:09}But the losses at Rantemario were heavy. Unable to resupply, the Yang Fleet sortied once more into the space where battle awaited.{end}"
  },
  {
   "id": "m09F",
   "off": "02C309",
   "jp": "{speed:09}同盟政府はのこっている艦の全てを{nl}ヤンに合流させることを決めた。{nl}同盟のみらいは、ヤンに全て{nl}かかっていたのだった。{end}",
-  "en": ""
+  "en": "{speed:09}The Alliance government decided to send every remaining ship to join Yang. The future of the Alliance rested entirely on Yang.{end}"
  },
  {
   "id": "m0A0",
   "off": "02C352",
   "jp": "{speed:09}ヤンはとつぜん元帥に昇進した。{nl}それは今まで昇進が止めれていた事に{nl}対する、いいわけの様にヤンはかんじ{nl}た。{end}",
-  "en": ""
+  "en": "{speed:09}Yang was suddenly promoted to Fleet Admiral. To Yang, it felt like an excuse for all the promotions that had been held back until now.{end}"
  },
  {
   "id": "m0A1",
   "off": "02C396",
   "jp": "{speed:09}フェザーンからユリアンが{nl}うばった帝国軍の艦で、ヤン艦隊に合{nl}流した。{nl}{nl}ユリアンは、フェザーンの後ろに地{nl}球があるとかんがえていた。{end}",
-  "en": ""
+  "en": "{speed:09}Julian rejoined the Yang Fleet from Phezzan aboard an Imperial ship he had seized. / / Julian believed that Earth stood behind Phezzan.{end}"
  },
  {
   "id": "m0A2",
   "off": "02C3E7",
   "jp": "{speed:05}ユリアン「ともかく、地球にはなにか{nl}があるとしか、わかりませんでした」{nl}{nl}{nl}ヤン「たしかにしらべてみるひつよう{nl}があるね。」{end}",
-  "en": ""
+  "en": "{speed:05}Julian: \"In any case, all I could find out was that there's something on Earth.\" / / / Yang: \"We certainly need to look into it.\"{end}"
  },
  {
   "id": "m0A3",
   "off": "02C42A",
   "jp": "{speed:09}{sub0:09}を離れたヤン艦隊は{nl}歴史上でもめずらしい作戦をおこなっ{nl}ていく事になる。{nl}{nl}ヤンのねらう相手は{sub0:08}{nl}一人だけだったのだ。{end}",
-  "en": ""
+  "en": "{speed:09}Leaving {sub0:09}, the Yang Fleet would go on to carry out an operation rare even in history. / / Yang's target was one man alone: {sub0:08}.{end}"
  },
  {
   "id": "m0A4",
   "off": "02C478",
   "jp": "{speed:09}ヤンは後継者のいない{sub0:08}{nl}を倒す事によって、帝国内に内戦を{nl}おこし、同盟と帝国の戦闘を中止させ{nl}ようとかんがえていたのだ。{end}",
-  "en": ""
+  "en": "{speed:09}By defeating the heirless {sub0:08}, Yang meant to spark civil war in the Empire and so end the war between the Alliance and the Empire.{end}"
  },
  {
   "id": "m0A5",
   "off": "02C4CA",
   "jp": "{speed:09}つぎの作戦が、なかなか決まらずにい{nl}た{sub0:08}は高いねつをだした。{nl}{nl}{nl}あねが皇帝にうばわれてから、今まで{nl}のつかれが、ここにきてでてしまった{nl}様だった。{end}",
-  "en": ""
+  "en": "{speed:09}Unable to settle on his next operation, {sub0:08} came down with a high fever. / / / All the exhaustion of the years since his sister was taken by the Emperor seemed to have caught up with him at last.{end}"
  },
  {
   "id": "m0A6",
   "off": "02C520",
   "jp": "{speed:09}ねつにうなされながら、ユメの中に{nl}出てきた{sub0:0A}に、{nl}「お前がいきていてくれたら…」{nl}とグチをこぼす{sub0:08}だった。{end}",
-  "en": ""
+  "en": "{speed:09}Tossing in his fever, {sub0:08} poured out his grievance to {sub0:0A}, who came to him in a dream: \"If only you were still alive...\"{end}"
  },
  {
   "id": "m0A7",
   "off": "02C55E",
   "jp": "{speed:09}だが戦いは動いていた。{nl}帝国の補給艦隊が、ヤン艦隊にうば{nl}われたのだ。{nl}{nl}{sub0:08}はヤン艦隊の壊滅を{nl}命令した。{end}",
-  "en": ""
+  "en": "{speed:09}But the war had begun to move again. An Imperial supply fleet had been seized by the Yang Fleet. / / {sub0:08} ordered the Yang Fleet destroyed.{end}"
  },
  {
   "id": "m0A8",
   "off": "02C5A7",
   "jp": "{speed:05}ヤン「この星域にあるブラックホール{nl}をうまく使い、敵艦隊をその中におい{nl}つめるんだ。{nl}{nl}われわれは１万３千隻、帝国は１万{nl}５千隻である。{nl}わが艦隊が５千隻つぶされたら、ひ{nl}くべきだろう。{nl}また敵を１万隻つぶせば、わが軍の{nl}勝利であろう。」{end}",
-  "en": ""
+  "en": "{speed:05}Yang: \"We'll make good use of the black hole in this stellar region and drive the enemy fleet into it. / / We have 13,000 ships; the Empire has 15,000. If 5,000 of our ships are destroyed, we should pull back. And if we destroy 10,000 enemy ships, the victory will be ours.\"{end}"
  },
  {
   "id": "m0A9",
   "off": "02C63B",
   "jp": "{speed:05}{sub0:08}「ヤン艦隊を見つけ、こ{nl}れをたたく！{nl}だが、ヤツの奇策に、引っかからぬ{nl}よう、きをつけるがよい。{nl}わが軍は１万５千隻をひきい、ヤン{nl}艦隊は１万３千隻である。{nl}わが艦隊が５千隻つぶされたら、ひ{nl}くがよい。{nl}また敵を１万隻つぶせば、わが軍の{nl}勝利であろう！」{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:08}: \"Find the Yang Fleet and strike it! But take care not to fall for that man's tricks. We lead 15,000 ships; the Yang Fleet has 13,000. If 5,000 of our ships are destroyed, withdraw. And if you destroy 10,000 enemy ships, the victory is ours!\"{end}"
  },
  {
   "id": "m0AA",
   "off": "02C6D8",
   "jp": "{speed:05}下士官「た、たすけてくれ{nl}ブラックホールに{nl}すいこまれる…」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Petty Officer: \"H-help me! We're being sucked into the black hole...\"{wait}{end}"
  },
  {
   "id": "m0AB",
   "off": "02C6FF",
   "jp": "{speed:09}ヤン艦隊はその位置をつねにかえて{nl}いた。{nl}{nl}{nl}それは同盟領内全てが、ヤン艦隊の{nl}かくればしょだという事を{nl}意味していた。{end}",
-  "en": ""
+  "en": "{speed:09}The Yang Fleet kept changing its position. / / / That meant the whole of Alliance territory was the Yang Fleet's hiding place.{end}"
  },
  {
   "id": "m0AC",
   "off": "02C74C",
   "jp": "{speed:09}帝国艦隊はブラックホールにすいこ{nl}まれたはずの提督を救出した。{nl}救命ポッドで脱出していたのだ。{end}",
-  "en": ""
+  "en": "{speed:09}The Imperial fleet rescued the admiral who was thought to have been swallowed by the black hole. He had escaped in a lifepod.{end}"
  },
  {
   "id": "m0AD",
   "off": "02C78D",
   "jp": "{speed:05}ヤン「帝国の艦隊もわれわれをさがす{nl}のに、つかれたことだろう。{nl}そこで、わが艦隊はおみやげをもっ{nl}て、出かけていこうと思っている。{nl}われわれは１万隻、帝国も１万隻で{nl}ある。{nl}わが艦隊が５千隻つぶされたら、引く{nl}事にしよう。{nl}また敵を９千隻つぶせば、わが軍の{nl}勝利となるであろう。」{end}",
-  "en": ""
+  "en": "{speed:05}Yang: \"The Imperial fleets must be tired of searching for us by now. So our fleet means to pay them a visit, bearing gifts. We have 10,000 ships, and the Empire has 10,000 too. If 5,000 of our ships are destroyed, we'll pull back. And if we destroy 9,000 enemy ships, the victory will be ours.\"{end}"
  },
  {
   "id": "m0AE",
   "off": "02C836",
   "jp": "{speed:05}{sub0:08}「卿らは、ヤン艦隊にふ{nl}りまわされているだけではないか？{nl}ヤン艦隊とて補給がひつようなはず。{nl}これを見つけ出し、たたくのだ！{nl}わが軍は１万隻をひきいる。{nl}ヤン艦隊も１万隻である。{nl}わが艦隊が５千隻つぶされたら、引{nl}くがよい。{nl}また敵を８千隻つぶせば、わが軍の{nl}勝利であろう！」{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:08}: \"Are you doing nothing but letting the Yang Fleet lead you around by the nose? Even the Yang Fleet must need supplies. Find them and strike! Our forces will lead 10,000 ships. The Yang Fleet has 10,000 as well. If 5,000 of our ships are destroyed, withdraw. And if you destroy 8,000 enemy ships, the victory is ours!\"{end}"
  },
  {
   "id": "m0AF",
   "off": "02C8E0",
   "jp": "{speed:05}帝国軍は補給艦を{nl}破壊した。補給艦の{nl}中は爆業だった{wait}{end}",
-  "en": ""
+  "en": "{speed:05}The Imperial forces destroyed a supply ship. It was packed with explosives.{wait}{end}"
  },
  {
   "id": "m0B0",
   "off": "02C90C",
   "jp": "帝国艦隊は補給艦の{nl}大爆発により艦を{nl}失った。{wait}{end}",
-  "en": ""
+  "en": "The Imperial fleet lost ships in the supply ship's massive explosion.{wait}{end}"
  },
  {
   "id": "m0B1",
   "off": "02C931",
   "jp": "{speed:09}奇策によってヤンは、帝国軍を{nl}ほんろうしていた。{nl}それも{sub0:08}を戦闘に、引き{nl}ずりだすためだった。{end}",
-  "en": ""
+  "en": "{speed:09}With his stratagems, Yang was running rings around the Imperial forces. It was all to drag {sub0:08} out into battle.{end}"
  },
  {
   "id": "m0B2",
   "off": "02C96C",
   "jp": "{speed:09}{sub0:08}はつぎの戦闘にのぞみ{nl}艦をふやした。{end}",
-  "en": ""
+  "en": "{speed:09}Facing the next battle, {sub0:08} added more ships to his forces.{end}"
  },
  {
   "id": "m0B3",
   "off": "02C986",
   "jp": "{speed:09}同盟政府は、各惑星にのこっていた{nl}全ての艦隊をヤン艦隊に合流させた。{end}",
-  "en": ""
+  "en": "{speed:09}The Alliance government sent every fleet left on its planets to join the Yang Fleet.{end}"
  },
  {
   "id": "m0B4",
   "off": "02C9B9",
   "jp": "{speed:05}{sub0:08}「わが軍はヤンに名をな{nl}さしめるためにあるのか？」{nl}{nl}{nl}ワーレン「勝利によって敗北をつぐな{nl}うことを、おゆるしいただきたい。」{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:08}: \"Do our forces exist only to make a name for Yang?\" / / / Wahlen: \"I ask your leave to atone for this defeat with a victory.\"{end}"
  },
  {
   "id": "m0B5",
   "off": "02CA03",
   "jp": "{sub0:08}「期待しよう。{nl}だがそろそろ私が出撃せんと、らちが{nl}あかんのでな。」{end}",
-  "en": ""
+  "en": "{sub0:08}: \"I shall look forward to it. But it seems nothing will be settled unless I take the field myself.\"{end}"
  },
  {
   "id": "m0B6",
   "off": "02CA2D",
   "jp": "{speed:09}銀河帝国正統政府のメルカッツが{nl}ローエングラム公を倒す最後のチャン{nl}スとして、ヤン艦隊に合流してきた。{nl}{nl}ヤンは{sub0:08}との、最後の{nl}決戦を決めた。{end}",
-  "en": ""
+  "en": "{speed:09}Merkatz of the Legitimate Government of the Galactic Empire joined the Yang Fleet, seeing it as the last chance to bring down Duke Lohengramm. / / Yang resolved on a final, decisive battle with {sub0:08}.{end}"
  },
  {
   "id": "m0B7",
   "off": "02CA8D",
   "jp": "{speed:05}{sub0:07}「{sub0:07}・グリーンヒ{nl}ル少佐、入ります。」{nl}{nl}{nl}ヤン「{sub0:07}、この戦いがおわっ{nl}たら{speed:0A}…{speed:09}私はキミより７歳も年上だし{nl}…{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:07}: \"Lieutenant Commander {sub0:07} Greenhill, reporting.\" / / / Yang: \"{sub0:07}, when this battle is over{speed:0A}...{speed:09} I know I'm a full seven years older than you, and...{end}"
  },
  {
   "id": "m0B8",
   "off": "02CAD9",
   "jp": "こんな時にこんなことを申しこむのは{nl}{speed:0A}…{nl}{speed:05}ああ、こまったものだな。{nl}{nl}{speed:09}ようするに{speed:0A}結婚して{speed:05}ほしいんだ。」{end}",
-  "en": ""
+  "en": "I know it's a poor time to be asking this{speed:0A}... {speed:05}Oh, I'm hopeless at this. / / {speed:09}What I mean is,{speed:0A} I'd like you to marry{speed:05} me.\"{end}"
  },
  {
   "id": "m0B9",
   "off": "02CB1B",
   "jp": "{sub0:07}「{speed:0A}…{speed:09}イエスです、閣下。{nl}{speed:05}ええ、よろこんで…」{nl}{nl}{nl}ヤン「{speed:09}ありがとう。{nl}なんと言うか…{nl}なんと言ったらいいのか…」{end}",
-  "en": ""
+  "en": "{sub0:07}: \"{speed:0A}...{speed:09}Yes, Your Excellency. {speed:05}Yes, gladly...\" / / / Yang: \"{speed:09}Thank you. How should I put it... I don't know what to say...\"{end}"
  },
  {
   "id": "m0BA",
   "off": "02CB66",
   "jp": "{speed:09}ヤン「いよいよ最後の戦いだ！{nl}この１戦が、同盟を救う最後のチャ{nl}ンスだ。{nl}がんばってほしい。{nl}われわれは１万７千隻、帝国は１万{nl}９千隻である。{nl}だが、彼らには、他の宙域に艦隊{nl}がおり、いつもどるかわからない。{nl}これが最後の戦いであり、帝国か同{nl}盟かが決るまで、戦闘をおこなう。{nl}一人でもおおくの者が、いきのこれ{nl}る事を…」{end}",
-  "en": ""
+  "en": "{speed:09}Yang: \"At last, the final battle! This one battle is our last chance to save the Alliance. I'm counting on you. We have 17,000 ships; the Empire has 19,000. But they have fleets in other sectors, and there's no telling when those will return. This is the final battle, and we will fight until it is decided: Empire or Alliance. I only hope as many of you as possible come through alive...\"{end}"
  },
  {
   "id": "m0BB",
   "off": "02CC30",
   "jp": "{speed:09}{sub0:08}「同盟軍を、わが軍の{nl}ワナに引きこみ、消耗させる。{nl}そうすれば、わが軍の勝利は、より{nl}かくじつなものとなる。{nl}われわれは１万９千隻、同盟は１万{nl}７千隻である。{nl}そして、他の宙域にいる帝国艦隊が{nl}こちらに合流しようとむかっている{nl}これを最後の戦いとする。{nl}かならずや、ヤン艦隊をつぶし、帝{nl}国の勝利とせよ！{nl}全軍、続け！」{end}",
-  "en": ""
+  "en": "{speed:09}{sub0:08}: \"We will draw the Alliance forces into our trap and wear them down. That will make our victory all the more certain. We have 19,000 ships; the Alliance has 17,000. And the Imperial fleets in other sectors are on their way to join us. This shall be the final battle. Crush the Yang Fleet without fail and win the victory for the Empire! All forces, follow me!\"{end}"
  },
  {
   "id": "m0BC",
   "off": "02CCFC",
   "jp": "{speed:09}大艦隊とみえたのは{nl}おとり小惑星だった{nl}それはおおくの艦を{nl}おしつぶした。{end}",
-  "en": ""
+  "en": "{speed:09}What had looked like a great fleet was decoy asteroids. They crushed a great many ships.{end}"
  },
  {
   "id": "m0BD",
   "off": "02CD2B",
   "jp": "{speed:05}ミッターマイヤー{nl}「今からバーミリオン星域にむかっ{nl}ても間に合わないと…」{end}",
-  "en": ""
+  "en": "{speed:05}Mittermeyer / \"So even if we head for the Vermillion stellar region now, we won't make it in time...\"{end}"
  },
  {
   "id": "m0BE",
   "off": "02CD5A",
   "jp": "ヒルダ「ええ、そしてローエングラム{nl}公は初めてで最後の敗北をなさる{nl}でしょう。{nl}{nl}しかし、同盟軍もバーミリオン星域{nl}にむけて全戦力をむかわせ、首都の{nl}まもりは手うすなハズです。{nl}そこで…」{end}",
-  "en": ""
+  "en": "Hilda: \"Yes. And Duke Lohengramm will suffer his first and last defeat. / / However, the Alliance forces must also have sent their entire strength toward the Vermillion stellar region, so the capital's defenses should be thin. And so...\"{end}"
  },
  {
   "id": "m0BF",
   "off": "02CDCC",
   "jp": "ミッターマイヤー「…なるほど{nl}わかりました。{nl}あなたに従いましょう。」{end}",
-  "en": ""
+  "en": "Mittermeyer: \"...I see. Very well. I will follow your lead.\"{end}"
  },
  {
   "id": "m0C0",
   "off": "02CDF2",
   "jp": "{speed:09}３万隻の帝国艦隊が{sub0:09}の上{nl}空をうめつくした。{nl}{nl}{nl}歴史上初めて、帝国艦隊が、その{nl}すがたを同盟の人びとに見せたのであ{nl}る。{end}",
-  "en": ""
+  "en": "{speed:09}A fleet of 30,000 Imperial ships filled the sky over {sub0:09}. / / / For the first time in history, an Imperial fleet showed itself to the people of the Alliance.{end}"
  },
  {
   "id": "m0C1",
   "off": "02CE47",
   "jp": "{speed:05}トリューニヒト{nl}「私は自由惑星同盟政府元首{nl}ヨブ・トリューニヒトである{nl}同盟政府は帝国に対し、無条{nl}件降伏をうけ入れる事をここ{nl}に決定した。{nl}従って、同盟軍各艦隊は{nl}ただちに攻撃を中止し停戦を{nl}申し出よ。」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Trunicht / \"I am Job Trunicht, Head of State of the Free Planets Alliance government. The Alliance government has hereby decided to accept unconditional surrender to the Empire. Accordingly, all Alliance fleets are to cease their attack at once and request a ceasefire.\"{wait}{end}"
  },
  {
   "id": "m0C2",
   "off": "02CEDE",
   "jp": "{speed:03}シェーンコップ{nl}「さあ、攻撃を命令なさい！{nl}{nl}みんな、それを{nl}待っているのです{nl}{nl}あなたはこのまま前進する{nl}だけで歴史のまん中を{nl}あるけるんだ」{wait}{end}",
-  "en": ""
+  "en": "{speed:03}Schonkopf / \"Now, give the order to attack! / / Everyone is waiting for it. / / Just keep moving forward, and you'll walk right through the middle of history.\"{wait}{end}"
  },
  {
   "id": "m0C3",
   "off": "02CF35",
   "jp": "{speed:09}同盟政府に従い{nl}この戦闘を中止しますか？{nl}ⓎⓈ　　ⓃⒹ{wait}{end}",
-  "en": ""
+  "en": "{speed:09}Obey the Alliance government and call off this battle? / {yesno}{wait}{end}"
  },
  {
   "id": "m0C4",
   "off": "02CF61",
   "jp": "{speed:09}ヤン「…うん、その策も{nl}あるね。でも、私には合わ{nl}ないだろう。{nl}全軍に攻撃をやめるよう{nl}伝えてくれ。」{wait}{end}",
-  "en": ""
+  "en": "{speed:09}Yang: \"...Yes, that's one way to do it. But it wouldn't suit me. Tell all forces to stop the attack.\"{wait}{end}"
  },
  {
   "id": "m0C5",
   "off": "02CFA1",
   "jp": "{speed:09}ヤン「…そうだね{nl}私に合うとは思えないけれど{nl}やってみようか…」{end}",
-  "en": ""
+  "en": "{speed:09}Yang: \"...I suppose so. I don't think it suits me, but shall I give it a try...\"{end}"
  },
  {
   "id": "m0C6",
   "off": "02CFC9",
   "jp": "{speed:05}ヤン「メルカッツ提督、戦艦をなん隻{nl}かお連れ下さい。後のために、同盟{nl}軍の艦をとっておきたいのです。」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Yang: \"Admiral Merkatz, please take a few battleships with you. I want to keep some of the Alliance's ships for later.\"{wait}{end}"
  },
  {
   "id": "m0C7",
   "off": "02D00C",
   "jp": "メルカッツ「私は亡命してきた時、あ{nl}なたに全てをゆだねました。{nl}よろこんで、あなたの希望にそいま{nl}しょう。」{wait}{end}",
-  "en": ""
+  "en": "Merkatz: \"When I defected, I entrusted everything to you. I will gladly do as you wish.\"{wait}{end}"
  },
  {
   "id": "m0C8",
   "off": "02D04B",
   "jp": "{speed:05}{sub0:08}「{speed:0A}すまぬ、{sub0:0A}{nl}お前との約束をはたせなかった…{nl}ゆるしてくれ、{sub0:0A}…」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:08}: \"{speed:0A}I'm sorry, {sub0:0A}. I could not keep my promise to you... Forgive me, {sub0:0A}...\"{wait}{end}"
  },
  {
   "id": "m0C9",
   "off": "02D07B",
   "jp": "{speed:05}ヤン「{speed:0A}やはり、私にはすぎたことだっ{nl}たようだね、ユリアン…{nl}{sub0:07}…ゆるしておくれ…」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Yang: \"{speed:0A}It seems this was more than I could manage after all, Julian... {sub0:07}... forgive me...\"{wait}{end}"
  },
  {
   "id": "m0CA",
   "off": "02D0AF",
   "jp": "{speed:09}銀河の歴史は、とどまることをしら{nl}ない。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}The history of the galaxy never stands still.{wait}{end}"
  },
  {
   "id": "m0CB",
   "off": "02D0CB",
   "jp": "{speed:05}{sub0:08}「卿にはぜひ一度会って{nl}みたいとながいこと思っていた。{nl}ようやく望みがかなったと{nl}いうわけだ。」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:08}: \"For a long time I have wanted to meet you, just once. At last, it seems, my wish is granted.\"{wait}{end}"
  },
  {
   "id": "m0CC",
   "off": "02D107",
   "jp": "{speed:05}{sub0:08}「どうだ、私につかえな{nl}いか？」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:08}: \"Well? Will you not serve me?\"{wait}{end}"
  },
  {
   "id": "m0CD",
   "off": "02D11E",
   "jp": "{speed:05}{sub0:08}「なぜだ？」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:08}: \"Why not?\"{wait}{end}"
  },
  {
   "id": "m0CE",
   "off": "02D12A",
   "jp": "{speed:05}{sub0:08}「ところで、卿を自由に{nl}したら、卿は今後どうするか？」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:08}: \"Tell me, if I were to set you free, what would you do then?\"{wait}{end}"
  },
  {
   "id": "m0CF",
   "off": "02D151",
   "jp": "{speed:09}バーラトの和約が結ばれ、同盟は{nl}帝国の属領となった。{nl}自由惑星同盟は消滅した。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}The Baalat Treaty was concluded, and the Alliance became a dependency of the Empire. The Free Planets Alliance ceased to exist.{wait}{end}"
  },
  {
   "id": "m0D0",
   "off": "02D18E",
   "jp": "{speed:09}ヤンの死亡により同盟軍は帝国に降伏{nl}した。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}With Yang's death, the Alliance forces surrendered to the Empire.{wait}{end}"
  },
  {
   "id": "m0D1",
   "off": "02D1B0",
   "jp": "{speed:09}{sub0:08}の死亡により、帝国軍{nl}は結束を失い、同盟との間に{nl}バーラトの和約が結ばれた。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}With {sub0:08}'s death, the Imperial forces lost their unity, and the Baalat Treaty was concluded with the Alliance.{wait}{end}"
  },
  {
   "id": "m0D2",
   "off": "02D1EB",
   "jp": "{speed:09}銀河に、２人の英雄が現れた。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}Two heroes appeared in the galaxy.{wait}{end}"
  },
  {
   "id": "m0D3",
   "off": "02D203",
   "jp": "{speed:09}同盟のヤン・ウェンリー。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}Of the Alliance, Yang Wen-li.{wait}{end}"
  },
  {
   "id": "m0D4",
   "off": "02D216",
   "jp": "{speed:09}宇宙暦７９６年、帝国暦４８７年{nl}アスターテ会戦おこる。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}S.E. 796, I.C. 487 / The Battle of Astarte is fought.{wait}{end}"
  },
  {
   "id": "m0D5",
   "off": "02D23F",
   "jp": "宇宙暦７９６年、帝国暦４８７年{nl}同盟軍ヤン少将、帝国イゼルローン{nl}要塞攻略に成功。{wait}{end}",
-  "en": ""
+  "en": "S.E. 796, I.C. 487 / Rear Admiral Yang of the Alliance forces succeeds in capturing the Empire's Iserlohn Fortress.{wait}{end}"
  },
  {
   "id": "m0D6",
   "off": "02D27F",
   "jp": "{speed:09}宇宙暦７９６年、帝国暦４８７年{nl}アムリッツァ会戦おこる。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}S.E. 796, I.C. 487 / The Battle of Amritsar is fought.{wait}{end}"
  },
  {
   "id": "m0D7",
   "off": "02D2A9",
   "jp": "{speed:09}宇宙暦７９６年、帝国暦４８７年{nl}銀河帝国皇帝フリードリヒ４世死亡。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}S.E. 796, I.C. 487 / Friedrich IV, Emperor of the Galactic Empire, dies.{wait}{end}"
  },
  {
   "id": "m0D8",
   "off": "02D2E0",
   "jp": "{speed:09}宇宙暦７９７年、帝国暦４８８年{nl}同盟主星{sub0:09}にて、救国軍事{nl}会議クーデターおきる。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}S.E. 797, I.C. 488 / The Military Congress for the Salvation of the Republic stages a coup in the Alliance capital {sub0:09}.{wait}{end}"
  },
  {
   "id": "m0D9",
   "off": "02D320",
   "jp": "{speed:09}宇宙暦７９８年、帝国暦４８９年{nl}帝国軍ガイエスブルグ要塞による、{nl}イゼルローン要塞攻略がおこなわれる{wait}{end}",
-  "en": ""
+  "en": "{speed:09}S.E. 798, I.C. 489 / The Imperial forces attack Iserlohn Fortress with Geiersburg Fortress.{wait}{end}"
  },
  {
   "id": "m0DA",
   "off": "02D368",
   "jp": "{speed:09}宇宙暦７９８年、帝国暦４８９年{nl}銀河皇帝エルウィン・ヨーゼフ２世{nl}同盟へ逃げる。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}S.E. 798, I.C. 489 / Galactic Emperor Erwin Josef II flees to the Alliance.{wait}{end}"
  },
  {
   "id": "m0DB",
   "off": "02D3A5",
   "jp": "{speed:09}宇宙暦７９９年、新帝国暦１年{nl}ランテマリオ会戦おこる。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}S.E. 799, N.I.C. 1 / The Battle of Rantemario is fought.{wait}{end}"
  },
  {
   "id": "m0DC",
   "off": "02D3CF",
   "jp": "{speed:09}宇宙暦７９９年、新帝国暦１年{nl}ライガール・トリプラ戦おこる。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}S.E. 799, N.I.C. 1 / The Battle of Raigal-Tripra is fought.{wait}{end}"
  },
  {
   "id": "m0DD",
   "off": "02D3FD",
   "jp": "{speed:09}宇宙暦７９９年、新帝国暦１年{nl}タッシリ会戦おこる。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}S.E. 799, N.I.C. 1 / The Battle of Tassili is fought.{wait}{end}"
  },
  {
   "id": "m0DE",
   "off": "02D425",
   "jp": "{speed:09}宇宙暦７９９年、新帝国暦１年{nl}バーミリオン会戦おこる。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}S.E. 799, N.I.C. 1 / The Battle of Vermillion is fought.{wait}{end}"
  },
  {
   "id": "m0DF",
   "off": "02D450",
   "jp": "{speed:09}宇宙暦７９９年、新帝国暦１年{nl}帝国と同盟の間に、バーラトの和約{nl}が、結ばれ、２国の戦闘はおわった。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}S.E. 799, N.I.C. 1 / The Baalat Treaty is concluded between the Empire and the Alliance, ending the war between the two.{wait}{end}"
  },
  {
   "id": "m0E0",
   "off": "02D49A",
   "jp": "{speed:09}同盟軍のほとんどが軍を辞め、ヤン{nl}と{sub0:07}は結婚した。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}Most of the Alliance forces left the military, and Yang and {sub0:07} were married.{wait}{end}"
  },
  {
   "id": "m0E1",
   "off": "02D4BF",
   "jp": "{speed:09}しかしヤンには、艦隊をひきいたメ{nl}ルカッツ提督たち、地球へむかったユ{nl}リアン、そして同盟のこれからなど、{nl}かんがえる事がおおくあった。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}But Yang had much to think about: Admiral Merkatz and the others, who had taken a fleet; Julian, gone to Earth; and the future of the Alliance.{wait}{end}"
  },
  {
   "id": "m0E2",
   "off": "02D50F",
   "jp": "{speed:09}{sub0:08}は、銀河帝国皇帝とな{nl}った。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}{sub0:08} became Emperor of the Galactic Empire.{wait}{end}"
  },
  {
   "id": "m0E3",
   "off": "02D529",
   "jp": "{speed:09}プレイヤー１は？{nl}{nl}同盟　　帝国{wait}{end}",
-  "en": ""
+  "en": "{speed:09}Which side for Player 1? / / Alliance    Empire{wait}{end}"
  },
  {
   "id": "m0E4",
   "off": "02D542",
   "jp": "{speed:09}{sub0:08}の死によりくずれ始め{nl}た帝国では、内戦が続いていた。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}In the Empire, which had begun to crumble with {sub0:08}'s death, civil war raged on.{wait}{end}"
  },
  {
   "id": "m0E5",
   "off": "02D569",
   "jp": "{speed:09}{nl}　銀河の歴史が、また１ページ…{wait}{end}",
-  "en": ""
+  "en": "{speed:09} / The history of the galaxy turns another page...{wait}{end}"
  },
  {
   "id": "m0E6",
   "off": "02D583",
   "jp": "{speed:05}「命令に従います。」{end}",
-  "en": ""
+  "en": "{speed:05}\"I will obey your orders.\"{end}"
  },
  {
   "id": "m0E7",
   "off": "02D593",
   "jp": "{speed:05}「やってみましょう。」{end}",
-  "en": ""
+  "en": "{speed:05}\"Let us give it a try.\"{end}"
  },
  {
   "id": "m0E8",
   "off": "02D5A1",
   "jp": "{speed:05}「命令には従えません。{nl}独自のはんだんで{nl}行動します。」{end}",
-  "en": ""
+  "en": "{speed:05}\"I cannot obey those orders. I will act on my own judgment.\"{end}"
  },
  {
   "id": "m0E9",
   "off": "02D5C7",
   "jp": "{speed:05}「わが隊はひきません！」{end}",
-  "en": ""
+  "en": "{speed:05}\"My unit will not retreat!\"{end}"
  },
  {
   "id": "m0EA",
   "off": "02D5D7",
   "jp": "{speed:05}「わかりました。{nl}敵艦を攻撃しつつ、艦隊を{nl}進めます。」{end}",
-  "en": ""
+  "en": "{speed:05}\"Understood. We will advance the fleet while attacking enemy ships.\"{end}"
  },
  {
   "id": "m0EB",
   "off": "02D5FD",
   "jp": "{speed:05}ヤン「勝敗は決まった{nl}逃げるぞ！」{end}",
-  "en": ""
+  "en": "{speed:05}Yang: \"The outcome is decided. We're getting out of here!\"{end}"
  },
  {
   "id": "m0EC",
   "off": "02D615",
   "jp": "{speed:05}「いきてはじを、さらせませ{nl}ん！」{end}",
-  "en": ""
+  "en": "{speed:05}\"I will not live on in disgrace!\"{end}"
  },
  {
   "id": "m0ED",
   "off": "02D629",
   "jp": "{speed:05}「わかりました。{nl}目標までいそぎます。」{end}",
-  "en": ""
+  "en": "{speed:05}\"Understood. Proceeding to the objective with all speed.\"{end}"
  },
  {
   "id": "m0EE",
   "off": "02D642",
   "jp": "{speed:05}「わかりました{nl}このままようすをみます。」{end}",
-  "en": ""
+  "en": "{speed:05}\"Understood. We will hold here and see how things develop.\"{end}"
  },
  {
   "id": "m0EF",
   "off": "02D65A",
   "jp": "{speed:05}「それでやってみよう。」{end}",
-  "en": ""
+  "en": "{speed:05}\"Let's try it that way.\"{end}"
  },
  {
   "id": "m0F0",
   "off": "02D669",
   "jp": "{speed:05}「そんな命令には従えん！」{end}",
-  "en": ""
+  "en": "{speed:05}\"I cannot obey an order like that!\"{end}"
  },
  {
   "id": "m0F1",
   "off": "02D67C",
   "jp": "{speed:05}「あまりいいとは思えんが」{end}",
-  "en": ""
+  "en": "{speed:05}\"I can't say I think much of it...\"{end}"
  },
  {
   "id": "m0F2",
   "off": "02D68D",
   "jp": "{speed:05}「それはできんよ。」{end}",
-  "en": ""
+  "en": "{speed:05}\"I can't do that.\"{end}"
  },
  {
   "id": "m0F3",
   "off": "02D69A",
   "jp": "{speed:05}「前方攻撃態勢をとれ！」{end}",
-  "en": ""
+  "en": "{speed:05}\"Assume a forward attack posture!\"{end}"
  },
  {
   "id": "m0F4",
   "off": "02D6AF",
   "jp": "{speed:05}「全天攻撃態勢！{nl}どれでもかまわん！{nl}敵艦を撃て！」{end}",
-  "en": ""
+  "en": "{speed:05}\"All-around attack posture! Any target will do! Fire on the enemy ships!\"{end}"
  },
  {
   "id": "m0F5",
   "off": "02D6D5",
   "jp": "{speed:05}「集中攻撃態勢をとれ！」{end}",
-  "en": ""
+  "en": "{speed:05}\"Assume a concentrated attack posture!\"{end}"
  },
  {
   "id": "m0F6",
   "off": "02D6EA",
   "jp": "{speed:00}分離できません。{end}",
-  "en": ""
+  "en": "{speed:00}Unable to detach.{end}"
  },
  {
   "id": "m0F7",
   "off": "02D6F7",
   "jp": "{speed:00}合流できません。{end}",
-  "en": ""
+  "en": "{speed:00}Unable to join.{end}"
  },
  {
   "id": "m0F8",
   "off": "02D704",
   "jp": "{speed:05}{sub0:08}「いいだろう」{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:08}: \"Very well.\"{end}"
  },
  {
   "id": "m0F9",
   "off": "02D710",
   "jp": "{speed:05}ヤン「これでいこう。」{end}",
-  "en": ""
+  "en": "{speed:05}Yang: \"Let's go with this.\"{end}"
  },
  {
   "id": "m0FA",
   "off": "02D71E",
   "jp": "{speed:05}{sub0:08}「ここまでだな{nl}脱出するぞ！」{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:08}: \"This is as far as we go. We are getting out!\"{end}"
  },
  {
   "id": "m0FB",
   "off": "02D734",
   "jp": "{speed:05}{sub0:08}「そんな事は{nl}できん！」{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:08}: \"I will do no such thing!\"{end}"
  },
  {
   "id": "m0FC",
   "off": "02D746",
   "jp": "{speed:05}ヤン「それはできないな。」{end}",
-  "en": ""
+  "en": "{speed:05}Yang: \"I can't do that.\"{end}"
  },
  {
   "id": "m0FD",
   "off": "02D756",
   "jp": "{speed:05}「わが隊は宙域より、脱出し{nl}ます。」{end}",
-  "en": ""
+  "en": "{speed:05}\"My unit is escaping from this sector.\"{end}"
  },
  {
   "id": "m0FE",
   "off": "02D770",
   "jp": "……　……　……{end}",
-  "en": ""
+  "en": "... ... ...{end}"
  },
  {
   "id": "m0FF",
   "off": "02D77F",
   "jp": "……　……　……{end}",
-  "en": ""
+  "en": "... ... ...{end}"
  },
  {
   "id": "m100",
   "off": "02D78E",
   "jp": "　{sub0:05}軍　{sub0:00}{nl}　{sub0:01}{sub0:02}{nl}　脱出に失敗、死亡しました。{end}",
-  "en": ""
+  "en": "{sub0:05} ship {sub0:00} / {sub0:02} {sub0:01} / failed to escape and died.{end}"
  },
  {
   "id": "m101",
   "off": "02D7B2",
   "jp": "　{sub0:05}軍　{sub0:00}{nl}　{sub0:01}{sub0:02}{nl}　脱出に成功しました。{end}",
-  "en": ""
+  "en": "{sub0:05} ship {sub0:00} / {sub0:02} {sub0:01} / escaped safely.{end}"
  },
  {
   "id": "m102",
   "off": "02D7D1",
   "jp": "{speed:05}副官「この大隊の戦力は{nl}この様になっています。」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Aide: \"Here is this group's current strength.\"{wait}{end}"
  },
  {
   "id": "m103",
   "off": "02D7F4",
   "jp": "{speed:00}副官「この艦隊の戦力は{nl}この様になっています。」{wait}{end}",
-  "en": ""
+  "en": "{speed:00}Aide: \"Here is this fleet's current strength.\"{wait}{end}"
  },
  {
   "id": "m104",
   "off": "02D817",
   "jp": "{speed:00}副官「この分艦隊の戦力は{nl}この様になっています。」{wait}{end}",
-  "en": ""
+  "en": "{speed:00}Aide: \"Here is this division's current strength.\"{wait}{end}"
  },
  {
   "id": "m105",
@@ -1575,157 +1575,157 @@
   "id": "m106",
   "off": "02D83E",
   "jp": "どのコマンドをおこないます{nl}か？{nl}⇕で選択、Ａボタンで決定{wait}{end}",
-  "en": ""
+  "en": "Which command will you give? / ⇕ to choose, A to confirm.{wait}{end}"
  },
  {
   "id": "m107",
   "off": "028794",
   "jp": "新しい星では、希望にもえた人びとが{nl}自らの力で国を育てようと命をかけた{wait}{end}",
-  "en": ""
+  "en": "On the new worlds, people burning with hope staked their lives on building nations with their own strength.{wait}{end}"
  },
  {
   "id": "m108",
   "off": "0287C3",
   "jp": "しかし時の流れが、人びとの希望とそ{nl}の力をうばいさった。人びとは、より{nl}大きな力を望むようになった。{wait}{end}",
-  "en": ""
+  "en": "But the passage of time robbed the people of their hope and their strength. They came to long for a greater power.{wait}{end}"
  },
  {
   "id": "m109",
   "off": "02883F",
   "jp": "一兵士から少将までなった彼は、軍を{nl}やめ政治へと進んだ。人びとはルドル{nl}フによろこんで従った。{wait}{end}",
-  "en": ""
+  "en": "Having risen from a common soldier to Rear Admiral, he left the military and went into politics. The people followed Rudolf gladly.{wait}{end}"
  },
  {
   "id": "m10A",
   "off": "02887D",
   "jp": "宇宙暦３１０年。{nl}彼は自らを銀河皇帝とし、この年を帝{nl}国暦１年とした。ゴールデンバウム王{nl}朝が始まったのだ。{wait}{end}",
-  "en": ""
+  "en": "S.E. 310. He made himself Galactic Emperor and named that year I.C. 1. The Goldenbaum dynasty had begun.{wait}{end}"
  },
  {
   "id": "m10B",
   "off": "0288C9",
   "jp": "しかし時がたち、ルドルフは独裁者へ{nl}とかわっていった。{wait}{end}",
-  "en": ""
+  "en": "But as time passed, Rudolf turned into a dictator.{wait}{end}"
  },
  {
   "id": "m10C",
   "off": "0288EB",
   "jp": "ルドルフは貴族中心の政治をおこない{nl}彼と帝国に反発する者を捕らえていっ{nl}た。{wait}{end}",
-  "en": ""
+  "en": "Rudolf ruled through the nobility, and one by one arrested those who opposed him and the Empire.{wait}{end}"
  },
  {
   "id": "m10D",
   "off": "028921",
   "jp": "人びとはルドルフと帝国、そしてその{nl}軍隊に従う他は無かった。{wait}{end}",
-  "en": ""
+  "en": "The people had no choice but to obey Rudolf, the Empire, and its armed forces.{wait}{end}"
  },
  {
   "id": "m10E",
   "off": "02897D",
   "jp": "帝国の政治に反発する人びとは捕らえ{nl}られ、へんきょうの惑星へとおくられ{nl}てしまった。{wait}{end}",
-  "en": ""
+  "en": "Those who opposed the Empire's rule were arrested and sent off to planets on the remote frontier.{wait}{end}"
  },
  {
   "id": "m10F",
   "off": "0289B3",
   "jp": "帝国暦１６４年。{nl}アルタイル星系の人びとは、ハイネセ{nl}ンとともに、ドライアイスでふねをつ{nl}くり、帝国から逃げだした。{wait}{end}",
-  "en": ""
+  "en": "I.C. 164. The people of the Altair system, together with Heinessen, built ships out of dry ice and fled the Empire.{wait}{end}"
  },
  {
   "id": "m110",
   "off": "0289FA",
   "jp": "帝国軍をふりきり、だれもおとずれた{nl}事の無い宙域をめざし、彼らは銀河の{nl}おくへと進んでいった。それは、つら{nl}く長いたびだった。{wait}{end}",
-  "en": ""
+  "en": "Shaking off the Imperial forces, they headed for sectors no one had ever visited, deep into the galaxy. It was a long, bitter journey.{wait}{end}"
  },
  {
   "id": "m111",
   "off": "028A77",
   "jp": "彼らは、たどりついた惑星にハイネセ{nl}ンと名づけ自由惑星同盟を建国した。{wait}{end}",
-  "en": ""
+  "en": "They named the planet they reached Heinessen and founded the Free Planets Alliance.{wait}{end}"
  },
  {
   "id": "m112",
   "off": "028AA8",
   "jp": "宇宙暦５２７年、帝国暦２１８年の事{nl}だった。{wait}{end}",
-  "en": ""
+  "en": "It was S.E. 527, I.C. 218.{wait}{end}"
  },
  {
   "id": "m113",
   "off": "028B0B",
   "jp": "それいらい、帝国と同盟の戦闘は続け{nl}られた。しかし長い戦闘の間でうまれ{nl}たものもあった。フェザーン自治領で{nl}ある。{wait}{end}",
-  "en": ""
+  "en": "From then on, the war between the Empire and the Alliance went on. But the long war also gave rise to something: the Dominion of Phezzan.{wait}{end}"
  },
  {
   "id": "m114",
   "off": "028B54",
   "jp": "地球出のレオポルド・ラープが、帝国{nl}皇帝にはたらきかけ、みとめさせたも{nl}ので、これは帝国と同盟の間に位置し{nl}ていた。{wait}{end}",
-  "en": ""
+  "en": "Leopold Raap, a native of Earth, had persuaded the Emperor to recognize it, and it lay between the Empire and the Alliance.{wait}{end}"
  },
  {
   "id": "m115",
   "off": "028BA2",
   "jp": "帝国と同盟は、このフェザーンをとお{nl}してのみ、政治的なつながりをもって{nl}いた。{wait}{end}",
-  "en": ""
+  "en": "Only through Phezzan alone did the Empire and the Alliance have any political ties.{wait}{end}"
  },
  {
   "id": "m116",
   "off": "028C0A",
   "jp": "彼が１０歳の時、まずしい貴族であっ{nl}た彼の父は、金と引きかえにむすめの{nl}アンネローゼを皇帝にわたしてしまっ{nl}たのだ。{wait}{end}",
-  "en": ""
+  "en": "When he was ten, his father, an impoverished noble, handed his daughter Annerose over to the Emperor in exchange for money.{wait}{end}"
  },
  {
   "id": "m117",
   "off": "028C51",
   "jp": "軍人となった{sub0:08}は、彼自ら{nl}の力と皇帝のもとにいるアンネローゼ{nl}の力により、昇進を続けた。{wait}{end}",
-  "en": ""
+  "en": "As a soldier, {sub0:08} kept rising in rank, by his own ability and the influence of Annerose, at the Emperor's side.{wait}{end}"
  },
  {
   "id": "m118",
   "off": "028C8B",
   "jp": "そしてまた、{sub0:08}の友である{nl}ジークフリード・{sub0:0A}も彼を{nl}たすけ昇進していった。{wait}{end}",
-  "en": ""
+  "en": "And {sub0:08}'s friend Siegfried {sub0:0A} also aided him and rose through the ranks.{wait}{end}"
  },
  {
   "id": "m119",
   "off": "028D1F",
   "jp": "親を亡くしていたヤンは、ただで歴史{nl}をまなぶため、しかたなく軍に入った{wait}{end}",
-  "en": ""
+  "en": "Having lost his parents, Yang reluctantly joined the military so he could study history for free.{wait}{end}"
  },
  {
   "id": "m11A",
   "off": "028D4A",
   "jp": "そのままであれば、歴史に名をとどめ{nl}る事はなかったであろう。彼は、惑星{nl}エル・ファシルで英雄になってしまっ{nl}たのだ。{wait}{end}",
-  "en": ""
+  "en": "Had things stayed that way, he would never have left his name in history. But on the planet El Facil, he ended up a hero.{wait}{end}"
  },
  {
   "id": "m11B",
   "off": "028D90",
   "jp": "ヤンは、帝国軍にかこまれた惑星から{nl}リンチ司令官の艦隊をおとりにし、人{nl}びとを脱出させた。{wait}{end}",
-  "en": ""
+  "en": "Using Commander Lynch's fleet as a decoy, Yang got the people out of a planet surrounded by Imperial forces.{wait}{end}"
  },
  {
   "id": "m11C",
   "off": "028DCC",
   "jp": "同盟政府は帝国の捕虜となったリンチ{nl}の事をかくすため、ヤンを英雄にまつ{nl}り上げてしまった。{wait}{end}",
-  "en": ""
+  "en": "To hide the fact that Lynch had been taken prisoner by the Empire, the Alliance government built Yang up into a hero.{wait}{end}"
  },
  {
   "id": "m11D",
   "off": "028E07",
   "jp": "ヤンは帝国との戦闘において奇策をも{nl}ちい、同盟を勝利にみちびいていった{wait}{end}",
-  "en": ""
+  "en": "In battle against the Empire, Yang used unorthodox stratagems and led the Alliance to victory after victory.{wait}{end}"
  },
  {
   "id": "m11E",
   "off": "028E98",
   "jp": "そして今、同盟と帝国に現れた二人の{nl}英雄が銀河を駆け巡り始めた。{wait}{end}",
-  "en": ""
+  "en": "And now the two heroes who had appeared in the Alliance and the Empire began to race across the galaxy.{wait}{end}"
  },
  {
   "id": "m11F",
   "off": "028EC9",
   "jp": "{nl}　銀河の歴史が、また１ページ…{wait}{end}",
-  "en": ""
+  "en": " / And so another page of galactic history is turned...{wait}{end}"
  },
  {
   "id": "m120",
@@ -1743,13 +1743,13 @@
   "id": "m122",
   "off": "0296F5",
   "jp": "{speed:05}ヤン「まったく、{nl}政府のおエライさんは、半分の艦隊で{nl}あのイゼルローン要塞をおとせると{nl}思っているのかね？」{end}",
-  "en": ""
+  "en": "{speed:05}Yang: \"Honestly, do the bigwigs in the government really think we can take Iserlohn Fortress with half a fleet?\"{end}"
  },
  {
   "id": "m123",
   "off": "029737",
   "jp": "{speed:05}{sub0:07}「閣下になら、{nl}おできになりますわ。{nl}そうでなければ、この作戦をおひき{nl}うけにはならなかったでしょ？」{nl}ヤン「そりゃ、まぁそうだが…」{nl}{nl}{nl}{nl}{sub0:07}「閣下にできなくて、他{nl}のだれにできるのでしょう？{nl}閣下は成功なさいますわ。{nl}{nl}エル・ファシルでも、閣下は{nl}成功なさいましたもの。」{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:07}: \"You can do it, Your Excellency. Otherwise you would never have accepted this operation, would you?\" / Yang: \"Well, that's true, but...\" / / / / {sub0:07}: \"If Your Excellency can't do it, who else could? You will succeed. / / After all, you succeeded at El Facil.\"{end}"
  },
  {
   "id": "m124",
@@ -1779,1405 +1779,1405 @@
   "id": "m128",
   "off": "029F9A",
   "jp": "{speed:05}{sub0:08}「皇帝が死んだ？{nl}しぜん死か、あの男にはもったいない{nl}{nl}{nl}あと５年…いや２年いきていれば{nl}ふさわしい死に様を{nl}させてやったのに。」{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:08}: \"The Emperor is dead? A natural death... more than that man deserved. / / Had he lived five more years... no, two, I would have given him a death befitting him.\"{end}"
  },
  {
   "id": "m129",
   "off": "029FEA",
   "jp": "{speed:05}{sub0:06}「閣下、皇帝は後{nl}継者を定めぬまま、死にました。{nl}後継者を巡る戦いがおこる事は{nl}あきらかです。」{nl}{sub0:08}「卿の言う事は正しい。{nl}そして、だれにつくかで私の命も決ま{nl}るわけだ。{nl}{nl}…で、{nl}卿はだれが私に{nl}手をさしのべると思う？」{nl}{nl}{sub0:06}「おそらく{nl}軍隊をもたぬリヒテンラーデ公で{nl}ありましょう。」{nl}{nl}{sub0:08}「ではせいぜい、高くう{nl}りつけてやるとしよう。」{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:06}: \"Your Excellency, the Emperor has died without naming a successor. A struggle over the succession is certain.\" / {sub0:08}: \"You are right. And whom I side with will decide my own fate as well. / / ...So, who do you think will offer me his hand?\" / / {sub0:06}: \"Most likely Duke Lichtenlade, who has no army of his own.\" / / {sub0:08}: \"Then I shall sell myself to him as dearly as I can.\"{end}"
  },
  {
   "id": "m12A",
   "off": "02A0BD",
   "jp": "{speed:09}皇帝の死によって、{sub0:08}の{nl}もとにアンネローゼがもどってきた。{nl}しかし{sub0:08}には、あねに見せ{nl}られない野心があった。{nl}{sub0:08}の望みはとどまる事を{nl}しらなかった。{end}",
-  "en": ""
+  "en": "{speed:09}With the Emperor's death, Annerose returned to {sub0:08}. But {sub0:08} harbored an ambition he could not show his sister. {sub0:08}'s desires knew no bounds.{end}"
  },
  {
   "id": "m12B",
   "off": "02D86A",
   "jp": "{speed:09}宇宙暦７９６年、帝国暦４８７年、{nl}帝国は同盟領へ２万隻の艦隊を侵攻さ{nl}せた。{nl}{nl}対する同盟艦隊は、４万隻をもって{nl}３方から、自軍の半分しかいない敵{nl}艦隊をとりかこもうとしていた。{nl}　{nl}これは定期的な侵攻であり、戦略{nl}としての意味の、ほとんど無い戦いに{nl}なるはずだった。{end}",
-  "en": ""
+  "en": "{speed:09}In S.E. 796, I.C. 487, the Empire sent a fleet of 20,000 ships into Alliance territory. / / The Alliance fleet of 40,000 ships moved to surround the enemy, half its own size, from three directions. / / It was a routine incursion, and should have been a battle with almost no strategic meaning.{end}"
  },
  {
   "id": "m12C",
   "off": "02D920",
   "jp": "{speed:09}銀河帝国皇帝フリードリヒ４世死す{nl}そのニュースは、帝国をゆるがして{nl}いた。{nl}{nl}人びとはつぎの皇帝がだれになるの{nl}かについてひそひそと、ことばをかわ{nl}していた。{nl}{nl}そのころ同盟軍のイゼルローン要塞{nl}に帝国からの使者がやってきた。たが{nl}いの捕虜をこうかんしたいという申し{nl}出だった。{nl}同盟政府はこれをみとめ、イゼルロ{nl}ーン要塞にて、こうかん式はおこなわ{nl}れた。{nl}イゼルローンはよろこびにあふれた。{nl}しかしヤンは独り、{sub0:08}{nl}の策略をかんじていた。{end}",
-  "en": ""
+  "en": "{speed:09}Friedrich IV, Emperor of the Galactic Empire, was dead. The news shook the Empire. / / People whispered among themselves about who the next emperor would be. / / Around that time, an envoy from the Empire arrived at the Alliance's Iserlohn Fortress, proposing an exchange of prisoners. The Alliance government agreed, and the exchange ceremony was held at Iserlohn Fortress. Iserlohn overflowed with joy. But Yang alone sensed a scheme of {sub0:08}'s behind it.{end}"
  },
  {
   "id": "m12D",
   "off": "02DA24",
   "jp": "{speed:09}{sub0:08}は帝国を手に入れていた{nl}たしかに皇帝の下ではあるが、おさな{nl}い皇帝になんら決定権はなかった。{nl}{nl}{sub0:08}の望みはあとみっつ…{nl}ひとつは同盟、フェザーンをふくむ{nl}銀河全てを手に入れる事。{nl}ひとつは自ら皇帝の位にたつ事。{nl}そしてもうひとつは、同盟のヤン・{nl}ウェンリーとの勝敗を決める事であ{nl}った。{nl}{nl}ヤンは自らをしばる同盟政府の命令{nl}に従ってきた。{nl}{nl}{nl}たしかに{sub0:08}がおこなってい{nl}る政策は、ヤンが望む政治かもしれな{nl}い。{nl}{nl}はるかに同盟政府より、人びとをかん{nl}がえた政治を{sub0:08}はおこなっ{nl}ている。{nl}その事はみとめている。{nl}しかし{sub0:08}が人びとに選ばれ{nl}たのではなく、自らの力によって今の{nl}地位を手にした事だけがヤンにはうけ{nl}入れる事ができなかった。{end}",
-  "en": ""
+  "en": "{speed:09}{sub0:08} had taken the Empire. He stood beneath the Emperor, to be sure, but the child Emperor had no power of decision at all. / / {sub0:08} had three wishes left... / First, to take the whole galaxy, the Alliance and Phezzan included. / Second, to take the throne himself. / And third, to settle the contest with the Alliance's Yang Wen-li. / / Yang had obeyed the orders of the Alliance government that bound him. / / / It was true that the policies {sub0:08} carried out might be the very politics Yang wished for. / / {sub0:08} governed with far more thought for the people than the Alliance government did. Yang acknowledged that much. But {sub0:08} had not been chosen by the people; he had won his present position by his own power. That alone Yang could not accept.{end}"
  },
  {
   "id": "m12E",
   "off": "02DBAB",
   "jp": "{speed:05}ビッテンフェルト「主君の死体とは、{nl}いいみやげだな。」{end}",
-  "en": ""
+  "en": "{speed:05}Bittenfeld: \"Your master's corpse, is it? A fine gift.\"{end}"
  },
  {
   "id": "m12F",
   "off": "02DBCE",
   "jp": "{speed:05}アンスバッハは、おもむろに主君の{nl}死体から、ハンドキャノンをとり出し{nl}それをかまえた。{end}",
-  "en": ""
+  "en": "{speed:05}Slowly, Ansbach drew a hand cannon from his master's corpse and took aim.{end}"
  },
  {
   "id": "m130",
   "off": "02DC03",
   "jp": "{speed:05}アンスバッハ「ローエングラム公！{nl}わが主君のかたき！{nl}とらせてもらう！」{end}",
-  "en": ""
+  "en": "{speed:05}Ansbach: \"Duke Lohengramm! Enemy of my lord! I'll have your head!\"{end}"
  },
  {
   "id": "m131",
   "off": "02DC2E",
   "jp": "{speed:05}{sub0:08}「ばか！　なにを申す」{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:08}: \"Fool! What nonsense is this?!\"{end}"
  },
  {
   "id": "m132",
   "off": "02DC3F",
   "jp": "{speed:05}{sub0:0A}「ご無事ですか？{nl}{sub0:08}様。」{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:0A}: \"Are you unhurt, {sub0:08}-sama?\"{end}"
  },
  {
   "id": "m133",
   "off": "02DC55",
   "jp": "{speed:05}{sub0:08}「また、お前に、たすけ{nl}られたな。」{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:08}: \"So you have saved me once again.\"{end}"
  },
  {
   "id": "m134",
   "off": "02DC6D",
   "jp": "　この戦闘での、{sub0:05}の被害は{nl}　{sub0:03}隻でした。{end}",
-  "en": ""
+  "en": "In this battle, the {sub0:05} lost {sub0:03} ships.{end}"
  },
  {
   "id": "m135",
   "off": "02DC8A",
   "jp": "　{sub0:05}　{sub0:00}{nl}　{sub0:01}{sub0:02}{nl}　死亡。{end}",
-  "en": ""
+  "en": "{sub0:05} {sub0:00} / {sub0:02} {sub0:01} / Killed in action.{end}"
  },
  {
   "id": "m136",
   "off": "02DC9E",
   "jp": "　{sub0:05}　{sub0:00}{nl}　{sub0:01}{nl}　{sub0:02}に昇進しました。{end}",
-  "en": ""
+  "en": "{sub0:05} {sub0:00} / {sub0:01} / Promoted to {sub0:02}.{end}"
  },
  {
   "id": "m137",
   "off": "02DCB7",
   "jp": "{speed:00}オートプレイ？{nl}{nl}ⓎⓈ　　ⓃⒹ{wait}{nl}{end}",
-  "en": ""
+  "en": "{speed:00}Auto-play? / / {yesno}{wait} / {end}"
  },
  {
   "id": "m138",
   "off": "02DCD0",
   "jp": "{speed:00}「敵、攻撃エリアに{nl}入りました！{nl}攻撃します！」{wait}{end}",
-  "en": ""
+  "en": "{speed:00}\"The enemy has entered our attack area! Attacking!\"{wait}{end}"
  },
  {
   "id": "m139",
   "off": "02DCF2",
   "jp": "{speed:00}「敵艦隊移動中です」{end}",
-  "en": ""
+  "en": "{speed:00}\"The enemy fleet is on the move.\"{end}"
  },
  {
   "id": "m13A",
   "off": "02DD05",
   "jp": "{speed:05}アッテンボロー{nl}「わが軍の総艦数は{nl}およそ{nl}３５０００隻です。{nl}まだまだいけます」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Attenborough / \"Our fleet totals about 35,000 ships. Plenty of fight left in us.\"{wait}{end}"
  },
  {
   "id": "m13B",
   "off": "02DD38",
   "jp": "{speed:05}アッテンボロー{nl}「わが軍の総艦数は{nl}およそ３００００隻{nl}すでに１／４ほどが{nl}やられています。」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Attenborough / \"Our fleet totals about 30,000 ships. We've already lost about a quarter.\"{wait}{end}"
  },
  {
   "id": "m13C",
   "off": "02DD71",
   "jp": "{speed:05}アッテンボロー{nl}「わが軍の総艦数は{nl}約２５０００隻！{nl}かなりのひがいです{nl}{nl}このままじゃ{nl}敗北は決定的{nl}ですね…」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Attenborough / \"Our fleet totals about 25,000 ships! That's heavy damage. / / At this rate, we're sure to lose...\"{wait}{end}"
  },
  {
   "id": "m13D",
   "off": "02DDBB",
   "jp": "{speed:05}{sub0:0A}{nl}「わが軍の総艦数は{nl}およそ{nl}１７０００隻です」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:0A} / \"Our fleet totals about 17,000 ships.\"{wait}{end}"
  },
  {
   "id": "m13E",
   "off": "02DDDE",
   "jp": "{speed:05}{sub0:0A}{nl}{sub0:0D}{nl}約１５０００隻が{nl}けんざいです。{nl}{sub0:08}様」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:0A} / {sub0:0D} about 15,000 ships remain, {sub0:08}-sama.\"{wait}{end}"
  },
  {
   "id": "m13F",
   "off": "02DE00",
   "jp": "{speed:05}{sub0:0A}{nl}「{sub0:08}様{nl}現在{nl}わが軍の総艦数は{nl}約１２０００隻。{nl}すでに半数ちかく{nl}までへっています。{nl}このままでは{nl}敗北です。」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:0A} / \"{sub0:08}-sama, our fleet currently totals about 12,000 ships. We are already down to nearly half. At this rate, we will be defeated.\"{wait}{end}"
  },
  {
   "id": "m140",
   "off": "02DE4E",
   "jp": "{speed:05}{sub0:07}{nl}{sub0:0D}{nl}わが軍の総艦数は{nl}約１６００００隻{nl}です。」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:07} / {sub0:0D} our fleet totals about 160,000 ships.\"{wait}{end}"
  },
  {
   "id": "m141",
   "off": "02DE74",
   "jp": "{speed:05}{sub0:07}{nl}{sub0:0D}{nl}わが軍の総艦数は{nl}約１４００００隻{nl}となっています。{nl}かなりのダメージ{nl}です。」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:07} / {sub0:0D} our fleet stands at about 140,000 ships. That is considerable damage.\"{wait}{end}"
  },
  {
   "id": "m142",
   "off": "02DEAC",
   "jp": "{speed:05}{sub0:07}{nl}{sub0:0D}{nl}わが軍の総艦数は{nl}約１２００００隻{nl}となりました。{nl}このままでは敗北{nl}してしまいます」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:07} / {sub0:0D} our fleet is down to about 120,000 ships. At this rate, we will be defeated.\"{wait}{end}"
  },
  {
   "id": "m143",
   "off": "02DEE9",
   "jp": "{speed:05}{sub0:06}{nl}{sub0:0D}{nl}{sub0:0C}{nl}約８００００隻。」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:06} / {sub0:0D} {sub0:0C} about 80,000 ships.\"{wait}{end}"
  },
  {
   "id": "m144",
   "off": "02DF01",
   "jp": "{speed:05}{sub0:06}{nl}{sub0:0D}{nl}わが軍の総艦数は{nl}約７００００隻。」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:06} / {sub0:0D} our fleet totals about 70,000 ships.\"{wait}{end}"
  },
  {
   "id": "m145",
   "off": "02DF23",
   "jp": "{speed:05}{sub0:06}{nl}{sub0:0D}{nl}わが軍の総艦数は{nl}約５５０００隻。{nl}{nl}このままでは{nl}おそらく敗北{nl}します。」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:06} / {sub0:0D} our fleet totals about 55,000 ships. / / At this rate, we will most likely be defeated.\"{wait}{end}"
  },
  {
   "id": "m146",
   "off": "02DF5B",
   "jp": "{speed:05}シェーンコップ{nl}{sub0:0D}{nl}{sub0:0B}{nl}約４００００隻。{nl}びびたるもんです」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Schonkopf / {sub0:0D} {sub0:0B} about 40,000 ships. A drop in the bucket.\"{wait}{end}"
  },
  {
   "id": "m147",
   "off": "02DF82",
   "jp": "{speed:05}シェーンコップ{nl}{sub0:0D}{nl}{sub0:0B}{nl}約３７０００隻。」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Schonkopf / {sub0:0D} {sub0:0B} about 37,000 ships.\"{wait}{end}"
  },
  {
   "id": "m148",
   "off": "02DFA0",
   "jp": "{speed:05}シェーンコップ{nl}{sub0:0D}{nl}{sub0:0B}{nl}約３４０００隻。{nl}{nl}敗北は決定的{nl}ですな。」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Schonkopf / {sub0:0D} {sub0:0B} about 34,000 ships. / / I'd say defeat is a certainty.\"{wait}{end}"
  },
  {
   "id": "m149",
   "off": "02DFD0",
   "jp": "{speed:05}{sub0:06}{nl}{sub0:0D}{nl}{sub0:0C}{nl}約４００００隻。」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:06} / {sub0:0D} {sub0:0C} about 40,000 ships.\"{wait}{end}"
  },
  {
   "id": "m14A",
   "off": "02DFE8",
   "jp": "{speed:05}{sub0:06}{nl}{sub0:0D}{nl}{sub0:0C}{nl}約３６０００隻。」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:06} / {sub0:0D} {sub0:0C} about 36,000 ships.\"{wait}{end}"
  },
  {
   "id": "m14B",
   "off": "02E000",
   "jp": "{speed:05}{sub0:06}{nl}{sub0:0D}{nl}{sub0:0C}{nl}約３３０００隻。{nl}{nl}まけるおそれが{nl}あります。」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:06} / {sub0:0D} {sub0:0C} about 33,000 ships. / / We risk defeat.\"{wait}{end}"
  },
  {
   "id": "m14C",
   "off": "02E027",
   "jp": "{speed:05}{sub0:07}{nl}{sub0:0D}{nl}{sub0:0B}{nl}約３００００隻。」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:07} / {sub0:0D} {sub0:0B} about 30,000 ships.\"{wait}{end}"
  },
  {
   "id": "m14D",
   "off": "02E03F",
   "jp": "{speed:05}{sub0:07}{nl}{sub0:0D}{nl}{sub0:0B}{nl}約２５０００隻。」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:07} / {sub0:0D} {sub0:0B} about 25,000 ships.\"{wait}{end}"
  },
  {
   "id": "m14E",
   "off": "02E057",
   "jp": "{speed:05}{sub0:07}{nl}{sub0:0D}{nl}{sub0:0B}{nl}約２００００隻。{nl}{nl}まけてしまいます」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:07} / {sub0:0D} {sub0:0B} about 20,000 ships. / / We are going to lose.\"{wait}{end}"
  },
  {
   "id": "m14F",
   "off": "02E079",
   "jp": "{speed:05}{sub0:06}{nl}{sub0:0D}{nl}{sub0:0C}{nl}約１０００００隻」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:06} / {sub0:0D} {sub0:0C} about 100,000 ships.\"{wait}{end}"
  },
  {
   "id": "m150",
   "off": "02E091",
   "jp": "{speed:05}{sub0:06}{nl}{sub0:0D}{nl}{sub0:0C}{nl}約９００００隻」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:06} / {sub0:0D} {sub0:0C} about 90,000 ships.\"{wait}{end}"
  },
  {
   "id": "m151",
   "off": "02E0A8",
   "jp": "{speed:05}{sub0:06}{nl}{sub0:0D}{nl}{sub0:0C}{nl}約８２５００隻{nl}おそらくこの戦闘は{nl}敗北でしょう…」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:06} / {sub0:0D} {sub0:0C} about 82,500 ships. We will most likely lose this battle...\"{wait}{end}"
  },
  {
   "id": "m152",
   "off": "02E0D6",
   "jp": "{speed:05}{sub0:07}{nl}{sub0:0D}{nl}{sub0:0B}{nl}約１００００隻」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:07} / {sub0:0D} {sub0:0B} about 10,000 ships.\"{wait}{end}"
  },
  {
   "id": "m153",
   "off": "02E0ED",
   "jp": "{speed:05}{sub0:07}{nl}{sub0:0D}{nl}{sub0:0B}{nl}約９０００隻」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:07} / {sub0:0D} {sub0:0B} about 9,000 ships.\"{wait}{end}"
  },
  {
   "id": "m154",
   "off": "02E103",
   "jp": "{speed:05}{sub0:07}{nl}{sub0:0D}{nl}{sub0:0B}{nl}約８５００隻！{nl}{nl}かなりのダメージ{nl}です。ここは引くべ{nl}きでは…」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:07} / {sub0:0D} {sub0:0B} about 8,500 ships! / / That is heavy damage. Shouldn't we withdraw...?\"{wait}{end}"
  },
  {
   "id": "m155",
   "off": "02E135",
   "jp": "{speed:05}{sub0:06}{nl}{sub0:0D}{nl}{sub0:0C}{nl}約１３０００隻」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:06} / {sub0:0D} {sub0:0C} about 13,000 ships.\"{wait}{end}"
  },
  {
   "id": "m156",
   "off": "02E14C",
   "jp": "{speed:05}{sub0:06}{nl}{sub0:0D}{nl}{sub0:0C}{nl}約１２０００隻」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:06} / {sub0:0D} {sub0:0C} about 12,000 ships.\"{wait}{end}"
  },
  {
   "id": "m157",
   "off": "02E163",
   "jp": "{speed:05}{sub0:06}{nl}{sub0:0D}{nl}{sub0:0C}{nl}約１１０００隻。{nl}{nl}このままでは{nl}敗北は決定的です」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:06} / {sub0:0D} {sub0:0C} about 11,000 ships. / / At this rate, defeat is certain.\"{wait}{end}"
  },
  {
   "id": "m158",
   "off": "02E191",
   "jp": "{speed:05}{sub0:07}{nl}{sub0:0D}{nl}{sub0:0B}{nl}約８０００隻」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:07} / {sub0:0D} {sub0:0B} about 8,000 ships.\"{wait}{end}"
  },
  {
   "id": "m159",
   "off": "02E1A7",
   "jp": "{speed:05}{sub0:07}{nl}{sub0:0D}{nl}{sub0:0B}{nl}約６５００隻」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:07} / {sub0:0D} {sub0:0B} about 6,500 ships.\"{wait}{end}"
  },
  {
   "id": "m15A",
   "off": "02E1BD",
   "jp": "{speed:05}{sub0:07}{nl}{sub0:0D}{nl}{sub0:0B}{nl}約５５００隻！{nl}{nl}きけんです！{nl}ここは引くべきかと{nl}思われます。」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:07} / {sub0:0D} {sub0:0B} about 5,500 ships! / / This is dangerous! I believe we should withdraw.\"{wait}{end}"
  },
  {
   "id": "m15B",
   "off": "02E1EF",
   "jp": "{speed:05}{sub0:06}{nl}{sub0:0D}{nl}{sub0:0C}{nl}約８０００隻」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:06} / {sub0:0D} {sub0:0C} about 8,000 ships.\"{wait}{end}"
  },
  {
   "id": "m15C",
   "off": "02E205",
   "jp": "{speed:05}{sub0:06}{nl}{sub0:0D}{nl}{sub0:0C}{nl}約６５００隻」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:06} / {sub0:0D} {sub0:0C} about 6,500 ships.\"{wait}{end}"
  },
  {
   "id": "m15D",
   "off": "02E21B",
   "jp": "{speed:05}{sub0:06}{nl}{sub0:0D}{nl}{sub0:0C}{nl}約５５００隻。{nl}{nl}まけてしまいます」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:06} / {sub0:0D} {sub0:0C} about 5,500 ships. / / We are going to lose.\"{wait}{end}"
  },
  {
   "id": "m15E",
   "off": "02E23C",
   "jp": "{speed:05}{sub0:07}{nl}{sub0:0D}{nl}{sub0:0B}{nl}約１５０００隻」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:07} / {sub0:0D} {sub0:0B} about 15,000 ships.\"{wait}{end}"
  },
  {
   "id": "m15F",
   "off": "02E253",
   "jp": "{speed:05}{sub0:07}{nl}{sub0:0D}{nl}{sub0:0B}{nl}約１２０００隻」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:07} / {sub0:0D} {sub0:0B} about 12,000 ships.\"{wait}{end}"
  },
  {
   "id": "m160",
   "off": "02E26A",
   "jp": "{speed:05}{sub0:07}{nl}{sub0:0D}{nl}{sub0:0B}{nl}約１００００隻！{nl}{nl}このままでは{nl}もう…」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:07} / {sub0:0D} {sub0:0B} about 10,000 ships! / / At this rate, we can't hold...\"{wait}{end}"
  },
  {
   "id": "m161",
   "off": "02E28F",
   "jp": "{speed:05}{sub0:06}{nl}{sub0:0D}{nl}{sub0:0C}{nl}約１５０００隻」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:06} / {sub0:0D} {sub0:0C} about 15,000 ships.\"{wait}{end}"
  },
  {
   "id": "m162",
   "off": "02E2A6",
   "jp": "{speed:05}{sub0:06}{nl}{sub0:0D}{nl}{sub0:0C}{nl}約１２０００隻」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:06} / {sub0:0D} {sub0:0C} about 12,000 ships.\"{wait}{end}"
  },
  {
   "id": "m163",
   "off": "02E2BD",
   "jp": "{speed:05}{sub0:06}{nl}{sub0:0D}{nl}{sub0:0C}{nl}約１００００隻…{nl}{nl}勝敗は決しました」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:06} / {sub0:0D} {sub0:0C} about 10,000 ships... / / The battle is decided.\"{wait}{end}"
  },
  {
   "id": "m164",
   "off": "02E2E3",
   "jp": "{speed:05}{sub0:06}「閣下…{nl}ミュラーひきいる第６艦隊が{nl}援軍にかけつけました。」{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:06}: \"Your Excellency... Muller's 6th Fleet has arrived to reinforce us.\"{end}"
  },
  {
   "id": "m165",
   "off": "02E30F",
   "jp": "{speed:05}{sub0:08}{nl}「どういう事だ！」{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:08} / \"What is the meaning of this?!\"{end}"
  },
  {
   "id": "m166",
   "off": "02E31F",
   "jp": "{speed:05}{sub0:06}{nl}「同盟軍が前進を止めました{nl}…{nl}それだけでなく{nl}停戦を申し出ています。」{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:06} / \"The Alliance forces have halted their advance... Not only that, they are requesting a ceasefire.\"{end}"
  },
  {
   "id": "m167",
   "off": "02E354",
   "jp": "{speed:05}「ヒルデガルト・フォン・マ{nl}リーンドルフの進言によって{nl}ミッターマイヤーとロイエン{nl}タールのひきいる帝国艦隊が{nl}自由同盟惑星首都{sub0:09}{nl}を制圧、ヨブ・トリューニヒ{nl}トの決定により、同盟は帝国{nl}に対し無条件降伏をうけ入れ{nl}たのであった…」{end}",
-  "en": ""
+  "en": "{speed:05}\"On the advice of Hildegard von Mariendorf, the Imperial fleets led by Mittermeyer and Reuenthal seized {sub0:09}, capital of the Free Planets Alliance, and by the decision of Job Trunicht, the Alliance accepted unconditional surrender to the Empire...\"{end}"
  },
  {
   "id": "m168",
   "off": "02E3F0",
   "jp": "{speed:05}{sub0:07}「ヤン提督{nl}{sub0:09}から入電です。」{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:07}: \"Admiral Yang, a transmission from {sub0:09}.\"{end}"
  },
  {
   "id": "m169",
   "off": "02E409",
   "jp": "{speed:05}アッテンボロー{nl}「なんだって！無条件降伏？{nl}どうなっているんだ！」{end}",
-  "en": ""
+  "en": "{speed:05}Attenborough / \"What?! Unconditional surrender? What's going on?!\"{end}"
  },
  {
   "id": "m16A",
   "off": "02E433",
   "jp": "{speed:05}トリューニヒト{nl}「なっなんだとっ！？{nl}{nl}貴様、われわれを見ごろしに{nl}するつもりかっ！{nl}ただちに戦闘を中止せよ！」{end}",
-  "en": ""
+  "en": "{speed:05}Trunicht / \"Wh-what?! / / You mean to leave us to die?! Cease fighting at once!\"{end}"
  },
  {
   "id": "m16B",
   "off": "02E475",
   "jp": "{speed:05}ヤン「全艦に攻撃命令を！{nl}{nl}{nl}目標は帝国軍元帥ラインハル{nl}ト・フォン・ローエングラム{nl}ただ一人！」{end}",
-  "en": ""
+  "en": "{speed:05}Yang: \"Order all ships to attack! / / / Our target is Imperial Fleet Admiral Reinhard von Lohengramm, and him alone!\"{end}"
  },
  {
   "id": "m16C",
   "off": "02E4BA",
   "jp": "{speed:05}ヤン「私は自由惑星同盟軍{nl}第１３艦隊司令官、ヤン・ウ{nl}ェンリー元帥であります。{nl}わが自由惑星同盟軍は、ただ{nl}今より、いっさいの攻撃の中{nl}止と、{nl}銀河帝国軍に対し敵意が無い{nl}事をここにしめすものであり{nl}ます。」{end}",
-  "en": ""
+  "en": "{speed:05}Yang: \"I am Fleet Admiral Yang Wen-li, commander of the 13th Fleet of the Free Planets Alliance forces. As of this moment, the Free Planets Alliance forces cease all attacks, and hereby declare that we bear no hostility toward the forces of the Galactic Empire.\"{end}"
  },
  {
   "id": "m16D",
   "off": "02E54C",
   "jp": "{speed:05}ヤン{nl}「よし攻撃だ！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Yang / \"All right, attack!\"{wait}{end}"
  },
  {
   "id": "m16E",
   "off": "02E55D",
   "jp": "{speed:05}ヤン「全艦攻撃！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Yang: \"All ships, attack!\"{wait}{end}"
  },
  {
   "id": "m16F",
   "off": "02E56E",
   "jp": "{speed:05}ヤン「全艦いっせい{nl}攻撃！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Yang: \"All ships, attack together!\"{wait}{end}"
  },
  {
   "id": "m170",
   "off": "02E584",
   "jp": "{speed:05}ヤン「おっと{nl}お出ましだ。{nl}全艦攻撃開始！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Yang: \"Whoops, here they come. All ships, commence attack!\"{wait}{end}"
  },
  {
   "id": "m171",
   "off": "02E5A5",
   "jp": "{speed:05}ヤン「あぶない{nl}あぶない。」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Yang: \"Whew, that was close.\"{wait}{end}"
  },
  {
   "id": "m172",
   "off": "02E5B7",
   "jp": "{speed:05}ヤン「敵さんも{nl}なかなかやるな。」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Yang: \"The other side's not bad either.\"{wait}{end}"
  },
  {
   "id": "m173",
   "off": "02E5CD",
   "jp": "{speed:05}ヤン「みんな{nl}だいじょうぶか？」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Yang: \"Everyone all right?\"{wait}{end}"
  },
  {
   "id": "m174",
   "off": "02E5E1",
   "jp": "{speed:05}ヤン「各艦ダメージ{nl}をチェックせよ。」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Yang: \"All ships, check for damage.\"{wait}{end}"
  },
  {
   "id": "m175",
   "off": "02E5FA",
   "jp": "{speed:05}メルカッツ{nl}「よし攻撃だ！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Merkatz / \"All right, attack!\"{wait}{end}"
  },
  {
   "id": "m176",
   "off": "02E60E",
   "jp": "{speed:05}メルカッツ{nl}「全艦攻撃！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Merkatz / \"All ships, attack!\"{wait}{end}"
  },
  {
   "id": "m177",
   "off": "02E623",
   "jp": "{speed:05}メルカッツ{nl}「全艦いっせい{nl}攻撃！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Merkatz / \"All ships, attack together!\"{wait}{end}"
  },
  {
   "id": "m178",
   "off": "02E63D",
   "jp": "{speed:05}メルカッツ{nl}「全艦攻撃開始！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Merkatz / \"All ships, commence attack!\"{wait}{end}"
  },
  {
   "id": "m179",
   "off": "02E656",
   "jp": "{speed:05}メルカッツ{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Merkatz / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m17A",
   "off": "02E667",
   "jp": "{speed:05}メルカッツ{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Merkatz / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m17B",
   "off": "02E678",
   "jp": "{speed:05}メルカッツ{nl}「ひるむな！！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Merkatz / \"Don't falter!!\"{wait}{end}"
  },
  {
   "id": "m17C",
   "off": "02E68A",
   "jp": "{speed:05}メルカッツ{nl}「ひるむな！！！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Merkatz / \"Don't falter!!!\"{wait}{end}"
  },
  {
   "id": "m17D",
   "off": "02E69D",
   "jp": "{speed:05}ビュコック{nl}「よし攻撃だ！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Bucock / \"All right, attack!\"{wait}{end}"
  },
  {
   "id": "m17E",
   "off": "02E6B2",
   "jp": "{speed:05}ビュコック{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Bucock / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m17F",
   "off": "02E6C4",
   "jp": "{speed:05}ウランフ{nl}「よし攻撃だ！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Uranff / \"All right, attack!\"{wait}{end}"
  },
  {
   "id": "m180",
   "off": "02E6D7",
   "jp": "{speed:05}ウランフ{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Uranff / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m181",
   "off": "02E6E7",
   "jp": "{speed:05}ボロディン{nl}「よし攻撃だ！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Borodin / \"All right, attack!\"{wait}{end}"
  },
  {
   "id": "m182",
   "off": "02E6FD",
   "jp": "{speed:05}ボロディン{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Borodin / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m183",
   "off": "02E710",
   "jp": "{speed:05}モートン{nl}「よし攻撃だ！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Morton / \"All right, attack!\"{wait}{end}"
  },
  {
   "id": "m184",
   "off": "02E723",
   "jp": "{speed:05}モートン{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Morton / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m185",
   "off": "02E733",
   "jp": "{speed:05}ルグランジュ{nl}「よし攻撃だ！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Legrange / \"All right, attack!\"{wait}{end}"
  },
  {
   "id": "m186",
   "off": "02E748",
   "jp": "{speed:05}ルグランジュ{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Legrange / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m187",
   "off": "02E75A",
   "jp": "{speed:05}アル・サレム{nl}「よし攻撃だ！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Al Salem / \"All right, attack!\"{wait}{end}"
  },
  {
   "id": "m188",
   "off": "02E770",
   "jp": "{speed:05}アル・サレム{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Al Salem / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m189",
   "off": "02E783",
   "jp": "{speed:05}アップルトン{nl}「よし攻撃だ！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Appleton / \"All right, attack!\"{wait}{end}"
  },
  {
   "id": "m18A",
   "off": "02E799",
   "jp": "{speed:05}アップルトン{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Appleton / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m18B",
   "off": "02E7AC",
   "jp": "{speed:05}ホーウッド{nl}「よし攻撃だ！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Hawood / \"All right, attack!\"{wait}{end}"
  },
  {
   "id": "m18C",
   "off": "02E7C1",
   "jp": "{speed:05}ホーウッド{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Hawood / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m18D",
   "off": "02E7D3",
   "jp": "{speed:05}パエッタ{nl}「よし攻撃だ！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Paetta / \"All right, attack!\"{wait}{end}"
  },
  {
   "id": "m18E",
   "off": "02E7E7",
   "jp": "{speed:05}パエッタ{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Paetta / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m18F",
   "off": "02E7F8",
   "jp": "{speed:05}パストーレ{nl}「よし攻撃だ！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Pastolle / \"All right, attack!\"{wait}{end}"
  },
  {
   "id": "m190",
   "off": "02E80D",
   "jp": "{speed:05}パストーレ{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Pastolle / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m191",
   "off": "02E81F",
   "jp": "{speed:05}ムーア{nl}「よし攻撃だ！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Moore / \"All right, attack!\"{wait}{end}"
  },
  {
   "id": "m192",
   "off": "02E831",
   "jp": "{speed:05}ムーア{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Moore / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m193",
   "off": "02E840",
   "jp": "{speed:05}ルフェーブル{nl}「よし攻撃だ！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Lefebvre / \"All right, attack!\"{wait}{end}"
  },
  {
   "id": "m194",
   "off": "02E856",
   "jp": "{speed:05}ルフェーブル{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Lefebvre / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m195",
   "off": "02E869",
   "jp": "{speed:05}キャゼルヌ{nl}「よし攻撃だ！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Cazerne / \"All right, attack!\"{wait}{end}"
  },
  {
   "id": "m196",
   "off": "02E87D",
   "jp": "{speed:05}キャゼルヌ{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Cazerne / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m197",
   "off": "02E88E",
   "jp": "{speed:05}アッテンボロー{nl}「よし攻撃だ！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Attenborough / \"All right, attack!\"{wait}{end}"
  },
  {
   "id": "m198",
   "off": "02E8A5",
   "jp": "{speed:05}アッテンボロー{nl}「全艦攻撃！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Attenborough / \"All ships, attack!\"{wait}{end}"
  },
  {
   "id": "m199",
   "off": "02E8BD",
   "jp": "{speed:05}アッテンボロー{nl}「全艦いっせい{nl}攻撃！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Attenborough / \"All ships, attack together!\"{wait}{end}"
  },
  {
   "id": "m19A",
   "off": "02E8DA",
   "jp": "{speed:05}アッテンボロー{nl}「全艦攻撃開始！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Attenborough / \"All ships, commence attack!\"{wait}{end}"
  },
  {
   "id": "m19B",
   "off": "02E8F6",
   "jp": "{speed:05}アッテンボロー{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Attenborough / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m19C",
   "off": "02E90A",
   "jp": "{speed:05}アッテンボロー{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Attenborough / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m19D",
   "off": "02E91E",
   "jp": "{speed:05}アッテンボロー{nl}「ひるむな！！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Attenborough / \"Don't falter!!\"{wait}{end}"
  },
  {
   "id": "m19E",
   "off": "02E933",
   "jp": "{speed:05}アッテンボロー{nl}「ひるむな！！！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Attenborough / \"Don't falter!!!\"{wait}{end}"
  },
  {
   "id": "m19F",
   "off": "02E949",
   "jp": "{speed:05}フィッシャー{nl}「よし攻撃だ！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Fischer / \"All right, attack!\"{wait}{end}"
  },
  {
   "id": "m1A0",
   "off": "02E95E",
   "jp": "{speed:05}フィッシャー{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Fischer / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m1A1",
   "off": "02E970",
   "jp": "{speed:05}グエン{nl}「よし攻撃だ！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Nguyen / \"All right, attack!\"{wait}{end}"
  },
  {
   "id": "m1A2",
   "off": "02E982",
   "jp": "{speed:05}グエン{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Nguyen / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m1A3",
   "off": "02E991",
   "jp": "{speed:05}マリノ{nl}「よし攻撃だ！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Marino / \"All right, attack!\"{wait}{end}"
  },
  {
   "id": "m1A4",
   "off": "02E9A3",
   "jp": "{speed:05}マリノ{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Marino / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m1A5",
   "off": "02E9B2",
   "jp": "{speed:05}ストークス{nl}「よし攻撃だ！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Stokes / \"All right, attack!\"{wait}{end}"
  },
  {
   "id": "m1A6",
   "off": "02E9C6",
   "jp": "{speed:05}ストークス{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Stokes / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m1A7",
   "off": "02E9D7",
   "jp": "{speed:05}アラルコン{nl}「よし攻撃だ！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Alarcon / \"All right, attack!\"{wait}{end}"
  },
  {
   "id": "m1A8",
   "off": "02E9EB",
   "jp": "{speed:05}アラルコン{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Alarcon / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m1A9",
   "off": "02E9FC",
   "jp": "{speed:05}マリネッティ{nl}「よし攻撃だ！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Marinetti / \"All right, attack!\"{wait}{end}"
  },
  {
   "id": "m1AA",
   "off": "02EA11",
   "jp": "{speed:05}マリネッティ{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Marinetti / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m1AB",
   "off": "02EA23",
   "jp": "{speed:05}ザーニアル{nl}「よし攻撃だ！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Zanial / \"All right, attack!\"{wait}{end}"
  },
  {
   "id": "m1AC",
   "off": "02EA37",
   "jp": "{speed:05}ザーニアル{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Zanial / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m1AD",
   "off": "02EA48",
   "jp": "{speed:00}分艦隊数が合わないため{nl}合流はできません。{end}",
-  "en": ""
+  "en": "{speed:00}The numbers of divisions do not match, so the fleets cannot join.{end}"
  },
  {
   "id": "m1AE",
   "off": "02EA67",
   "jp": "{speed:00}エリアをこえているため{nl}合流できません。{nl}{end}",
-  "en": ""
+  "en": "{speed:00}The fleet is out of range, so they cannot join. / {end}"
  },
  {
   "id": "m1AF",
   "off": "02EA81",
   "jp": "{speed:05}{nl}「よし攻撃だ！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05} / \"All right, attack!\"{wait}{end}"
  },
  {
   "id": "m1B0",
   "off": "02EA90",
   "jp": "{speed:05}下士官{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Petty Officer / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m1B1",
   "off": "02EAA2",
   "jp": "{speed:00}相手のかいきゅうが{nl}上のため合流できません。{end}",
-  "en": ""
+  "en": "{speed:00}The other fleet's commander is of higher rank, so it cannot be joined.{end}"
  },
  {
   "id": "m1B2",
   "off": "02EAC0",
   "jp": "{speed:00}要塞は移動できません{nl}攻撃ほうこうの決定を{nl}行います{end}",
-  "en": ""
+  "en": "{speed:00}Fortresses cannot move. Choose the direction of attack.{end}"
  },
  {
   "id": "m1B3",
   "off": "02EAE6",
   "jp": "{speed:05}ポプラン{nl}「シェリー、{nl}ウォッカ各戦隊！{nl}出るぞっ！！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Poplin / \"Sherry and Vodka squadrons, launching!!\"{wait}{end}"
  },
  {
   "id": "m1B4",
   "off": "02EB0C",
   "jp": "{speed:00}要塞に合流しているため{nl}移動できません{nl}{nl}攻撃ほうこうの決定を{nl}行います{end}",
-  "en": ""
+  "en": "{speed:00}This fleet has joined the fortress and cannot move. / / Choose the direction of attack.{end}"
  },
  {
   "id": "m1B5",
   "off": "02EB3E",
   "jp": "{speed:05}この戦いにおいて帝国軍は{nl}てったいを決意、この宙域か{nl}らさった。{end}",
-  "en": ""
+  "en": "{speed:05}In this battle, the Imperial forces resolved to withdraw and left this sector.{end}"
  },
  {
   "id": "m1B6",
   "off": "02EB69",
   "jp": "{speed:05}この戦いにおいて同盟軍は{nl}てったいを決意、この宙域か{nl}らさった。{end}",
-  "en": ""
+  "en": "{speed:05}In this battle, the Alliance forces resolved to withdraw and left this sector.{end}"
  },
  {
   "id": "m1B7",
   "off": "02EB94",
   "jp": "{speed:05}{sub0:08}{nl}「全艦攻撃！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:08} / \"All ships, attack!\"{wait}{end}"
  },
  {
   "id": "m1B8",
   "off": "02EBA6",
   "jp": "{speed:05}{sub0:08}{nl}「返りうちに{nl}してくれる！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:08} / \"I will turn their attack back on them!\"{wait}{end}"
  },
  {
   "id": "m1B9",
   "off": "02EBBC",
   "jp": "{speed:05}{sub0:08}{nl}「撃破せよ！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:08} / \"Destroy them!\"{wait}{end}"
  },
  {
   "id": "m1BA",
   "off": "02EBCC",
   "jp": "{speed:05}{sub0:08}{nl}「撃て！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:08} / \"Fire!\"{wait}{end}"
  },
  {
   "id": "m1BB",
   "off": "02EBD9",
   "jp": "{speed:05}{sub0:08}{nl}「ほほう、なかなか{nl}やるな…」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:08} / \"Hoh, not bad at all...\"{wait}{end}"
  },
  {
   "id": "m1BC",
   "off": "02EBF0",
   "jp": "{speed:05}{sub0:08}{nl}「さすが{nl}ヤン・ウェンリー」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:08} / \"Just what I would expect of Yang Wen-li.\"{wait}{end}"
  },
  {
   "id": "m1BD",
   "off": "02EC06",
   "jp": "{speed:05}{sub0:08}{nl}「{sub0:0A}…{nl}おれは宇宙を{nl}手に入れられる{nl}だろうか…」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:08} / \"{sub0:0A}... Can I truly take the universe for my own...?\"{wait}{end}"
  },
  {
   "id": "m1BE",
   "off": "02EC2D",
   "jp": "{speed:05}{sub0:08}{nl}「こしゃくな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:08} / \"How impudent!\"{wait}{end}"
  },
  {
   "id": "m1BF",
   "off": "02EC3C",
   "jp": "{speed:05}{sub0:0A}{nl}「全艦攻撃！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:0A} / \"All ships, attack!\"{wait}{end}"
  },
  {
   "id": "m1C0",
   "off": "02EC4E",
   "jp": "{speed:05}{sub0:0A}{nl}「全艦{nl}いっせい攻撃！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:0A} / \"All ships, attack together!\"{wait}{end}"
  },
  {
   "id": "m1C1",
   "off": "02EC65",
   "jp": "{speed:05}{sub0:0A}{nl}「攻撃開始」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:0A} / \"Commence attack.\"{wait}{end}"
  },
  {
   "id": "m1C2",
   "off": "02EC76",
   "jp": "{speed:05}{sub0:0A}{nl}「撃破せよ！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:0A} / \"Destroy them!\"{wait}{end}"
  },
  {
   "id": "m1C3",
   "off": "02EC86",
   "jp": "{speed:05}{sub0:0A}{nl}「撃て！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:0A} / \"Fire!\"{wait}{end}"
  },
  {
   "id": "m1C4",
   "off": "02EC93",
   "jp": "{speed:05}{sub0:0A}{nl}「はい{nl}{sub0:08}様。」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:0A} / \"Yes, {sub0:08}-sama.\"{wait}{end}"
  },
  {
   "id": "m1C5",
   "off": "02ECA4",
   "jp": "{speed:05}{sub0:0A}{nl}「さすが{nl}ヤン・ウェンリー」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:0A} / \"Just what I would expect of Yang Wen-li.\"{wait}{end}"
  },
  {
   "id": "m1C6",
   "off": "02ECBA",
   "jp": "{speed:05}{sub0:0A}{nl}「なかなか{nl}やりますね。」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:0A} / \"They are quite good.\"{wait}{end}"
  },
  {
   "id": "m1C7",
   "off": "02ECCE",
   "jp": "{speed:05}{sub0:0A}{nl}「全艦被害{nl}じょうきょうを{nl}チェック！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:0A} / \"All ships, check damage status!\"{wait}{end}"
  },
  {
   "id": "m1C8",
   "off": "02ECED",
   "jp": "{speed:05}ミッターマイヤー{nl}「全艦攻撃！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Mittermeyer / \"All ships, attack!\"{wait}{end}"
  },
  {
   "id": "m1C9",
   "off": "02ED05",
   "jp": "{speed:05}ミッターマイヤー{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Mittermeyer / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m1CA",
   "off": "02ED19",
   "jp": "{speed:05}ロイエンタール{nl}「全艦攻撃！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Reuenthal / \"All ships, attack!\"{wait}{end}"
  },
  {
   "id": "m1CB",
   "off": "02ED30",
   "jp": "{speed:05}ロイエンタール{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Reuenthal / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m1CC",
   "off": "02ED43",
   "jp": "{speed:05}ビュッテンフェルト{nl}「全艦攻撃！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Bittenfeld / \"All ships, attack!\"{wait}{end}"
  },
  {
   "id": "m1CD",
   "off": "02ED5D",
   "jp": "{speed:05}ビュッテンフェルト{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Bittenfeld / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m1CE",
   "off": "02ED73",
   "jp": "{speed:05}ミュラー{nl}「全艦攻撃！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Muller / \"All ships, attack!\"{wait}{end}"
  },
  {
   "id": "m1CF",
   "off": "02ED87",
   "jp": "{speed:05}ミュラー{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Muller / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m1D0",
   "off": "02ED97",
   "jp": "{speed:05}メックリンガー{nl}「全艦攻撃！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Mecklinger / \"All ships, attack!\"{wait}{end}"
  },
  {
   "id": "m1D1",
   "off": "02EDAE",
   "jp": "{speed:05}メックリンガー{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Mecklinger / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m1D2",
   "off": "02EDC1",
   "jp": "{speed:05}ケンプ{nl}「攻撃！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Kempf / \"Attack!\"{wait}{end}"
  },
  {
   "id": "m1D3",
   "off": "02EDD1",
   "jp": "{speed:05}ケンプ{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Kempf / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m1D4",
   "off": "02EDE1",
   "jp": "{speed:05}ルッツ{nl}「全艦攻撃！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Lutz / \"All ships, attack!\"{wait}{end}"
  },
  {
   "id": "m1D5",
   "off": "02EDF4",
   "jp": "{speed:05}ルッツ{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Lutz / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m1D6",
   "off": "02EE03",
   "jp": "{speed:05}ワーレン{nl}「全艦攻撃！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Wahlen / \"All ships, attack!\"{wait}{end}"
  },
  {
   "id": "m1D7",
   "off": "02EE17",
   "jp": "{speed:05}ワーレン{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Wahlen / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m1D8",
   "off": "02EE27",
   "jp": "{speed:05}アイゼナッハ{nl}「全艦攻撃！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Eisenach / \"All ships, attack!\"{wait}{end}"
  },
  {
   "id": "m1D9",
   "off": "02EE3D",
   "jp": "{speed:05}アイゼナッハ{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Eisenach / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m1DA",
   "off": "02EE4F",
   "jp": "{speed:05}ファーレンハイト{nl}「全艦攻撃！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Fahrenheit / \"All ships, attack!\"{wait}{end}"
  },
  {
   "id": "m1DB",
   "off": "02EE67",
   "jp": "{speed:05}ファーレンハイト{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Fahrenheit / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m1DC",
   "off": "02EE7B",
   "jp": "{speed:05}シュタインメッツ{nl}「全艦攻撃！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Steinmetz / \"All ships, attack!\"{wait}{end}"
  },
  {
   "id": "m1DD",
   "off": "02EE93",
   "jp": "{speed:05}シュタインメッツ{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Steinmetz / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m1DE",
   "off": "02EEA7",
   "jp": "{speed:05}レンネンカンプ{nl}「全艦攻撃！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Lennenkamp / \"All ships, attack!\"{wait}{end}"
  },
  {
   "id": "m1DF",
   "off": "02EEBF",
   "jp": "{speed:05}レンネンカンプ{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Lennenkamp / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m1E0",
   "off": "02EED3",
   "jp": "{speed:05}ケスラー{nl}「全艦攻撃！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Kessler / \"All ships, attack!\"{wait}{end}"
  },
  {
   "id": "m1E1",
   "off": "02EEE7",
   "jp": "{speed:05}ケスラー{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Kessler / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m1E2",
   "off": "02EEF7",
   "jp": "{speed:05}メルカッツ{nl}「全艦攻撃！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Merkatz / \"All ships, attack!\"{wait}{end}"
  },
  {
   "id": "m1E3",
   "off": "02EF0C",
   "jp": "{speed:05}メルカッツ{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Merkatz / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m1E4",
   "off": "02EF1D",
   "jp": "{speed:05}シュターデン{nl}「全艦攻撃！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Staden / \"All ships, attack!\"{wait}{end}"
  },
  {
   "id": "m1E5",
   "off": "02EF34",
   "jp": "{speed:05}シュターデン{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Staden / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m1E6",
   "off": "02EF47",
   "jp": "{speed:05}エルラッハ{nl}「全艦攻撃！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Erlach / \"All ships, attack!\"{wait}{end}"
  },
  {
   "id": "m1E7",
   "off": "02EF5C",
   "jp": "{speed:05}エルラッハ{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Erlach / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m1E8",
   "off": "02EF6D",
   "jp": "{speed:05}バイエルライン{nl}「全艦攻撃！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Bayerlein / \"All ships, attack!\"{wait}{end}"
  },
  {
   "id": "m1E9",
   "off": "02EF85",
   "jp": "{speed:05}バイエルライン{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Bayerlein / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m1EA",
   "off": "02EF99",
   "jp": "{speed:05}ドロイゼン{nl}「全艦攻撃！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Droysen / \"All ships, attack!\"{wait}{end}"
  },
  {
   "id": "m1EB",
   "off": "02EFAF",
   "jp": "{speed:05}ドロイゼン{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Droysen / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m1EC",
   "off": "02EFC1",
   "jp": "{speed:05}トゥルナイゼン{nl}「全艦攻撃！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Thurneisen / \"All ships, attack!\"{wait}{end}"
  },
  {
   "id": "m1ED",
   "off": "02EFD8",
   "jp": "{speed:05}トゥルナイゼン{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Thurneisen / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m1EE",
   "off": "02EFEB",
   "jp": "{speed:05}アルトリンゲン{nl}「全艦攻撃！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Altringen / \"All ships, attack!\"{wait}{end}"
  },
  {
   "id": "m1EF",
   "off": "02F002",
   "jp": "{speed:05}アルトリンゲン{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Altringen / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m1F0",
   "off": "02F015",
   "jp": "{speed:05}ブラウヒッチ{nl}「全艦攻撃！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Brauchitsch / \"All ships, attack!\"{wait}{end}"
  },
  {
   "id": "m1F1",
   "off": "02F02C",
   "jp": "{speed:05}ブラウナヒッチ{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Brauchitsch / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m1F2",
   "off": "02F040",
   "jp": "{speed:05}カルナップ{nl}「全艦攻撃！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Karnap / \"All ships, attack!\"{wait}{end}"
  },
  {
   "id": "m1F3",
   "off": "02F056",
   "jp": "{speed:05}カルナップ{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Karnap / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m1F4",
   "off": "02F068",
   "jp": "{speed:05}アイヘンドルフ{nl}「全艦攻撃！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Eichendorf / \"All ships, attack!\"{wait}{end}"
  },
  {
   "id": "m1F5",
   "off": "02F080",
   "jp": "{speed:05}アイヘンドルフ{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Eichendorf / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m1F6",
   "off": "02F094",
   "jp": "{speed:05}パトリッケン{nl}「全艦攻撃！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Patricken / \"All ships, attack!\"{wait}{end}"
  },
  {
   "id": "m1F7",
   "off": "02F0AB",
   "jp": "{speed:05}パトリッケン{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Patricken / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m1F8",
   "off": "02F0BE",
   "jp": "{speed:05}オルラウ{nl}「全艦攻撃！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Orlau / \"All ships, attack!\"{wait}{end}"
  },
  {
   "id": "m1F9",
   "off": "02F0D2",
   "jp": "{speed:05}オルラウ{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Orlau / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m1FA",
   "off": "02F0E2",
   "jp": "{speed:05}レッケンドルフ{nl}「全艦攻撃！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Reckendorf / \"All ships, attack!\"{wait}{end}"
  },
  {
   "id": "m1FB",
   "off": "02F0FA",
   "jp": "{speed:05}レッケンドルフ{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Reckendorf / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m1FC",
   "off": "02F10E",
   "jp": "{speed:05}下士官{nl}「全艦攻撃！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Petty Officer / \"All ships, attack!\"{wait}{end}"
  },
  {
   "id": "m1FD",
   "off": "02F124",
   "jp": "{speed:05}下士官{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Petty Officer / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m1FE",
   "off": "02F136",
   "jp": "{speed:05}{sub0:06}{nl}「御意…」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:06} / \"As you wish...\"{wait}{end}"
  },
  {
   "id": "m1FF",
   "off": "02F145",
   "jp": "{speed:05}{sub0:06}{nl}「はい閣下…」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}{sub0:06} / \"Yes, Your Excellency...\"{wait}{end}"
  },
  {
   "id": "m200",
   "off": "02F156",
   "jp": "{speed:05}シュナイダー{nl}「全艦攻撃！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Schneider / \"All ships, attack!\"{wait}{end}"
  },
  {
   "id": "m201",
   "off": "02F16C",
   "jp": "{speed:05}シュナイダー{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Schneider / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m202",
   "off": "02F17E",
   "jp": "{speed:05}シャフト{nl}「全艦攻撃！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Shaft / \"All ships, attack!\"{wait}{end}"
  },
  {
   "id": "m203",
   "off": "02F192",
   "jp": "{speed:05}シャフト{nl}「ひるむな！」{wait}{end}",
-  "en": ""
+  "en": "{speed:05}Shaft / \"Don't falter!\"{wait}{end}"
  },
  {
   "id": "m204",
   "off": "02F1A2",
   "jp": "{speed:01}下士官{nl}「うわぁー！」{wait}{end}",
-  "en": ""
+  "en": "{speed:01}Petty Officer / \"Aaaagh!\"{wait}{end}"
  },
  {
   "id": "m205",
   "off": "02F1B4",
   "jp": "{speed:00}この戦闘は同盟が目的をはたし{nl}おわった。{speed:00}{end}",
-  "en": ""
+  "en": "{speed:00}This battle ended with the Alliance achieving its objective.{speed:00}{end}"
  },
  {
   "id": "m206",
   "off": "02F1D3",
   "jp": "{speed:00}この戦闘は帝国が目的をはたし{nl}おわった。{speed:00}{end}",
-  "en": ""
+  "en": "{speed:00}This battle ended with the Empire achieving its objective.{speed:00}{end}"
  },
  {
   "id": "m207",
   "off": "02F1F2",
   "jp": "{speed:00}要塞は分離できません{speed:00}{end}",
-  "en": ""
+  "en": "{speed:00}Fortresses cannot be split.{speed:00}{end}"
  },
  {
   "id": "m208",
   "off": "02F205",
   "jp": "{speed:00}組み合ったアンスバッハの手から、{nl}レーザーがのび、{sub0:0A}の首に{nl}ふれた。{nl}{sub0:0A}が倒れた。{speed:00}{end}",
-  "en": ""
+  "en": "{speed:00}From the hand of Ansbach, locked in a struggle, a laser lanced out and touched {sub0:0A}'s throat. {sub0:0A} fell.{speed:00}{end}"
  },
  {
   "id": "m209",
   "off": "02F23B",
   "jp": "{speed:00}フラグデバッグです{end}",
-  "en": ""
+  "en": "{speed:00}Flag debug.{end}"
  },
  {
   "id": "m20A",
   "off": "02F249",
   "jp": "{speed:00}ラップ？{nl}{nl}死亡　　いきてる{wait}{end}",
-  "en": ""
+  "en": "{speed:00}Lappe? / / Dead    Alive{wait}{end}"
  },
  {
   "id": "m20B",
   "off": "02F25E",
   "jp": "{speed:00}核攻撃阻止？{nl}{nl}阻止　　もくにん{wait}{end}",
-  "en": ""
+  "en": "{speed:00}Stop the nuclear attack? / / Stop    Allow{wait}{end}"
  },
  {
   "id": "m20C",
   "off": "02F279",
   "jp": "{speed:00}{sub0:0A}？{nl}{nl}いき　　死亡{wait}{end}",
-  "en": ""
+  "en": "{speed:00}{sub0:0A}? / / Alive   Dead{wait}{end}"
  },
  {
   "id": "m20D",
   "off": "02F28A",
   "jp": "{speed:00}査問会？{nl}{nl}いかないいく{wait}{end}",
-  "en": ""
+  "en": "{speed:00}Board of inquiry? / / Skip    Go{wait}{end}"
  },
  {
   "id": "m20E",
   "off": "02F29D",
   "jp": "{speed:00}停戦？{nl}{nl}しない　する{wait}{end}",
-  "en": ""
+  "en": "{speed:00}Ceasefire? / / Refuse  Accept{wait}{end}"
  },
  {
   "id": "m20F",
   "off": "02F2AE",
   "jp": "{speed:00}ヤン？{nl}{nl}しに　　いきてる{wait}{end}",
-  "en": ""
+  "en": "{speed:00}Yang? / / Dead    Alive{wait}{end}"
  },
  {
   "id": "m210",
   "off": "02F2BF",
   "jp": "{speed:00}{sub0:08}？{nl}{nl}しに　　いきてる{wait}{end}",
-  "en": ""
+  "en": "{speed:00}{sub0:08}? / / Dead    Alive{wait}{end}"
  },
  {
   "id": "m211",
   "off": "02F2D0",
   "jp": "{speed:00}メルカッツ？{nl}{nl}しに　　いきてる{wait}{end}",
-  "en": ""
+  "en": "{speed:00}Merkatz? / / Dead    Alive{wait}{end}"
  },
  {
   "id": "m212",
@@ -3189,127 +3189,127 @@
   "id": "m213",
   "off": "02F2E5",
   "jp": "{speed:00}「同盟に{nl}えいこうあれっ！」{wait}{end}",
-  "en": ""
+  "en": "{speed:00}\"Glory to the Alliance!\"{wait}{end}"
  },
  {
   "id": "m214",
   "off": "02F2F9",
   "jp": "{speed:00}「帝国万歳！」{wait}{end}",
-  "en": ""
+  "en": "{speed:00}\"Long live the Empire!\"{wait}{end}"
  },
  {
   "id": "m215",
   "off": "02F308",
   "jp": "{speed:00}ヤン「みんな！{nl}脱出だっ！」{nl}ヤンは脱出し、各艦{nl}隊にてったい命令を{nl}出した。{wait}{end}",
-  "en": ""
+  "en": "{speed:00}Yang: \"Everyone! Abandon ship!\" / Yang escaped and ordered each fleet to withdraw.{wait}{end}"
  },
  {
   "id": "m216",
   "off": "02F33D",
   "jp": "{speed:00}ヤン「ユリアン{nl}{sub0:07}…{nl}ゆるしてくれっ！」{wait}{end}",
-  "en": ""
+  "en": "{speed:00}Yang: \"Julian... {sub0:07}... Forgive me!\"{wait}{end}"
  },
  {
   "id": "m217",
   "off": "02F357",
   "jp": "{speed:00}{sub0:08}{nl}「総員脱出！」{nl}{sub0:08}は{nl}脱出し、各艦隊にて{nl}ったい命令を出した{wait}{end}",
-  "en": ""
+  "en": "{speed:00}{sub0:08} / \"All hands, abandon ship!\" / {sub0:08} escaped and ordered each fleet to withdraw.{wait}{end}"
  },
  {
   "id": "m218",
   "off": "02F389",
   "jp": "{speed:00}{sub0:08}{nl}「{sub0:0A}！」{wait}{end}",
-  "en": ""
+  "en": "{speed:00}{sub0:08} / \"{sub0:0A}!\"{wait}{end}"
  },
  {
   "id": "m219",
   "off": "02F395",
   "jp": "{speed:00}提督は脱出した{wait}{end}",
-  "en": ""
+  "en": "{speed:00}The admiral escaped.{wait}{end}"
  },
  {
   "id": "m21A",
   "off": "02F3A4",
   "jp": "{speed:09}そしてその行く先をしる者は、この世{nl}にはいない。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}And no one in this world knows where he went.{wait}{end}"
  },
  {
   "id": "m21B",
   "off": "02F3C4",
   "jp": "{speed:09}ヤン「おそれいります。」{wait}{end}",
-  "en": ""
+  "en": "{speed:09}Yang: \"You honor me.\"{wait}{end}"
  },
  {
   "id": "m21C",
   "off": "02F3D4",
   "jp": "{speed:09}ヤン「みにあまる事ですが、辞たい{nl}させていただきます。」{wait}{end}",
-  "en": ""
+  "en": "{speed:09}Yang: \"It is more than I deserve, but I must respectfully decline.\"{wait}{end}"
  },
  {
   "id": "m21D",
   "off": "02F3F6",
   "jp": "{speed:09}ヤン「私は帝国の人とはちがう水で{nl}育ちました。{nl}のみなれない水は体をこわすおそれ{nl}があると聞きます。」{wait}{end}",
-  "en": ""
+  "en": "{speed:09}Yang: \"I was raised on different water from the people of the Empire. I hear that unfamiliar water can ruin one's health.\"{wait}{end}"
  },
  {
   "id": "m21E",
   "off": "02F436",
   "jp": "{speed:09}ヤン「軍を辞めます。」{wait}{end}",
-  "en": ""
+  "en": "{speed:09}Yang: \"I am leaving the military.\"{wait}{end}"
  },
  {
   "id": "m21F",
   "off": "02F447",
   "jp": "{speed:09}{sub0:08}は{sub0:09}へついた。{nl}同盟と帝国の間にバーラトの和約が{nl}結ばれ、同盟は帝国の属領となった。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}{sub0:08} arrived at {sub0:09}. The Baalat Treaty was concluded between the Alliance and the Empire, making the Alliance an Imperial dependency.{wait}{end}"
  },
  {
   "id": "m220",
   "off": "02F487",
   "jp": "{speed:09}自由惑星同盟は消滅した。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}The Free Planets Alliance was no more.{wait}{end}"
  },
  {
   "id": "m221",
   "off": "02F49F",
   "jp": "{speed:09}同盟と帝国の戦闘はおわった。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}The war between the Alliance and the Empire was over.{wait}{end}"
  },
  {
   "id": "m222",
   "off": "02F4B7",
   "jp": "{speed:09}帝国の{sub0:08}・フォン・ロ{nl}ーエングラム。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}{sub0:08} von Lohengramm of the Empire.{wait}{end}"
  },
  {
   "id": "m223",
   "off": "02F4D2",
   "jp": "{speed:09}そして{wait}{end}",
-  "en": ""
+  "en": "{speed:09}And{wait}{end}"
  },
  {
   "id": "m224",
   "off": "02F4D9",
   "jp": "{speed:09}この二人によって、銀河の歴史は{nl}大きく、その流れをかえていった。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}Because of these two, the course of galactic history changed greatly.{wait}{end}"
  },
  {
   "id": "m225",
   "off": "02F505",
   "jp": "{speed:09}帝国軍{sub0:08}上級大将ひきいる{nl}帝国艦隊２万隻、同盟領アスターテ{nl}星域へ侵攻。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}Imperial Senior Admiral {sub0:08} leads an Imperial fleet of 20,000 ships into the Astarte stellar region of Alliance territory.{wait}{end}"
  },
  {
   "id": "m226",
   "off": "02F542",
   "jp": "{speed:09}総司令官パエッタ中将に代わり、司令{nl}官となったヤンと帝国軍{sub0:08}{nl}の初めて戦闘。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}Yang, who has taken command in place of Commander-in-Chief Vice Admiral Paetta, meets {sub0:08} of the Imperial forces in battle for the first time.{wait}{end}"
  },
  {
   "id": "m227",
   "off": "02F57E",
   "jp": "{speed:09}２０万隻もの艦隊からなる同盟軍{nl}帝国領アムリッツァ星域へ侵攻。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}The Alliance forces, a fleet of no fewer than 200,000 ships, invade the Amritsar stellar region of Imperial territory.{wait}{end}"
  },
  {
   "id": "m228",
@@ -3321,19 +3321,19 @@
   "id": "m229",
   "off": "02F5B0",
   "jp": "{speed:09}宇宙暦７９７年、帝国暦４８８年{nl}帝国、リップシュタット盟約の戦い{nl}おきる。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}S.E. 797, I.C. 488: the War of the Lippstadt Pact breaks out in the Empire.{wait}{end}"
  },
  {
   "id": "m22A",
   "off": "02F5E7",
   "jp": "{speed:09}{sub0:08}軍が勝利し、ラインハ{nl}ルト元帥が帝国の全権を手にする。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}{sub0:08}'s forces are victorious, and the Fleet Admiral takes full power over the Empire.{wait}{end}"
  },
  {
   "id": "m22B",
   "off": "02F612",
   "jp": "{speed:09}イゼルローンよりもどったヤン艦隊{nl}により阻止され、グリーンヒル大将を{nl}ふくむメンバー全員、自決。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}The coup is thwarted by the Yang Fleet on its return from Iserlohn; every member, Admiral Greenhill included, takes his own life.{wait}{end}"
  },
  {
   "id": "m22C",
@@ -3345,84 +3345,84 @@
   "id": "m22D",
   "off": "02F652",
   "jp": "{speed:09}銀河帝国正統政府、同盟{sub0:09}{nl}にて設立。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}The Legitimate Government of the Galactic Empire is founded in {sub0:09}, in the Alliance.{wait}{end}"
  },
  {
   "id": "m22E",
   "off": "02F675",
   "jp": "{speed:09}{sub0:08}により、新しい皇帝が{nl}たてられる。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}A new emperor is installed by {sub0:08}.{wait}{end}"
  },
  {
   "id": "m22F",
   "off": "02F68F",
   "jp": "{speed:09}銀河帝国は自由惑星同盟に対し{nl}最後の戦いをおこなう事を決定。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}The Galactic Empire resolves to wage a final war against the Free Planets Alliance.{wait}{end}"
  },
  {
   "id": "m230",
   "off": "02F6C2",
   "jp": "{speed:09}帝国軍、フェザーン自治領へ侵攻。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}The Imperial forces invade the Dominion of Phezzan.{wait}{end}"
  },
  {
   "id": "m231",
   "off": "02F6DE",
   "jp": "{speed:09}{sub0:08}ひきいる帝国軍、同盟{nl}領ランテマリオ星域へ侵攻。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}Imperial forces led by {sub0:08} invade the Rantemario stellar region of Alliance territory.{wait}{end}"
  },
  {
   "id": "m232",
   "off": "02F706",
   "jp": "{speed:09}ヤン艦隊、イゼルローンから出撃、{nl}戦闘。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}The Yang Fleet sorties from Iserlohn and gives battle.{wait}{end}"
  },
  {
   "id": "m233",
   "off": "02F724",
   "jp": "{speed:09}同盟領ライガール・トリプラ星域に{nl}て、同盟軍ヤン艦隊と帝国軍が戦闘。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}In the Raigal-Tripra stellar region of Alliance territory, the Alliance's Yang Fleet battles the Imperial forces.{wait}{end}"
  },
  {
   "id": "m234",
   "off": "02F75B",
   "jp": "{speed:09}同盟領タッシリ星域にて、同盟軍ヤン{nl}艦隊と帝国軍が戦闘。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}In the Tassili stellar region of Alliance territory, the Alliance's Yang Fleet battles the Imperial forces.{wait}{end}"
  },
  {
   "id": "m235",
   "off": "02F78A",
   "jp": "{speed:09}同盟領バーラト星域にて、帝国軍ライ{nl}ンハルト対同盟軍ヤン艦隊の決戦。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}In the Baalat stellar region of Alliance territory, the decisive battle: Reinhard of the Imperial forces against the Alliance's Yang Fleet.{wait}{end}"
  },
  {
   "id": "m236",
   "off": "02F7C1",
   "jp": "{speed:09}ヤンのあこがれだった、ささやかな{nl}くらしが始まったのだ。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}The modest life Yang had longed for had begun.{wait}{end}"
  },
  {
   "id": "m237",
   "off": "02F7E2",
   "jp": "{speed:09}４９０年と続いたゴールデンバウム{nl}王朝はくずれ、ローエングラム王朝が{nl}ここに始まったのだ。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}The Goldenbaum dynasty, which had lasted 490 years, crumbled, and here the Lohengramm dynasty began.{wait}{end}"
  },
  {
   "id": "m238",
   "off": "02F81C",
   "jp": "{speed:00}プレイヤー数？{nl}{nl}二人　　一人{wait}{end}",
-  "en": ""
+  "en": "{speed:00}Number of players? / / Two     One{wait}{end}"
  },
  {
   "id": "m239",
   "off": "02F835",
   "jp": "{speed:09}ヤンは、戦闘の下でくるしむ人びと{nl}のため、帝国領への侵攻を決めた。{wait}{end}",
-  "en": ""
+  "en": "{speed:09}For the sake of the people suffering under the war, Yang decided to invade Imperial territory.{wait}{end}"
  },
  {
   "id": "m23A",
   "off": "02F864",
   "jp": "{speed:00}各艦隊の攻撃エリアは{nl}この様になっています{wait}{end}",
-  "en": ""
+  "en": "{speed:00}This is each fleet's attack area.{wait}{end}"
  }
 ]
