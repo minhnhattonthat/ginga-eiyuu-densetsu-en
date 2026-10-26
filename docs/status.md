@@ -44,8 +44,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
     `tools/lua/callx.lua` (log a routine's calls with registers). States regenerated on the current build.
 - **Next:**
   1. Graphics text left: G11 title logo + G16 copyright lines (boot route, after start, f650-f850; graphics.md),
-     G8 in-game check (find the screen: results of the $00:CCDE hook runs in `work/qa/ship_*`, or trace who
-     calls it), G10/G12 unconfirmed blocks. Then regen states and run the full warp tour.
+     G8 in-game check (find the screen: 15000-frame A-mash runs from sys_auto, astarte_command and cmd_menu
+     never called $00:CCDE; trace the indirect caller, or it may be unused), G10/G12 unconfirmed blocks. Then regen states and run the full warp tour.
   2. Phase 8 QA, items flagged by translators to see in game: m0E3 "Alliance    Empire" and m20A-m211/m238
      two-option menus (cursor columns), m13E-m163 `{sub0:0D}` joined to the next line, m071-m073 {speed} after the
      speaker colon, m026 indent, s0E ",000 ships" / s11 "Supply" / s13-s17 (where are they drawn?), m0D8 4th line
