@@ -113,14 +113,19 @@ def test_rank_maps():
         w = rom[off]
         ents = [int.from_bytes(rom[off + 1 + 2 * k:off + 3 + 2 * k], "little") for k in range(2 * w)]
         assert all(e & 0xFF00 == 0x0900 and e & 0xFF < gfxtext.RANK_TILES for e in ents), i
-        rows, width = gfxtext.tiny(text)
-        assert w == (width + 7) // 8
-        for k, e in enumerate(ents[:w]):
-            t = e & 0xFF
-            for r, xs in enumerate(rows):
-                assert sheet[16 * t + 2 * (gfxtext.RANK_ROW + r)] == sum(0x80 >> (x - 8 * k) for x in xs
-                                                                          if 8 * k <= x < 8 * k + 8), (i, k)
-        assert all(not any(sheet[16 * (e & 0xFF):16 * (e & 0xFF) + 16]) for e in ents[w:]), i
+        top, _, bot = text.partition("/")   # two-line ranks: top line at glyph row 2, bottom line at row 1
+        lines = [(top, 2, ents[:w]), (bot, 1, ents[w:])] if bot else [(top, gfxtext.RANK_ROW, ents[:w])]
+        assert w <= 6, i                    # the panel clears 6 columns: a 7th stays on screen
+        assert w == max((gfxtext.tiny(t)[1] + 7) // 8 for t, _, _ in lines)
+        for t_, row, es in lines:
+            rows, width = gfxtext.tiny(t_)
+            for k, e in enumerate(es[:(width + 7) // 8]):
+                t = e & 0xFF
+                for r, xs in enumerate(rows):
+                    assert sheet[16 * t + 2 * (row + r)] == sum(0x80 >> (x - 8 * k) for x in xs
+                                                                if 8 * k <= x < 8 * k + 8), (i, k)
+        if not bot:
+            assert all(not any(sheet[16 * (e & 0xFF):16 * (e & 0xFF) + 16]) for e in ents[w:]), i
 
 
 def test_gfxtext_decodes_through_directory():

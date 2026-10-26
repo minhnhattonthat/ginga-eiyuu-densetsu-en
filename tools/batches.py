@@ -184,6 +184,17 @@ def check_one(bid):
     return errs + lint(out, src)
 
 
+def widow(game, h):
+    """the text of the last page when a box of h lines pages to one holding <= 2 words, else '' (a full box clears
+    on A, so the last h-line page shows alone)"""
+    lines = [re.sub(r"\{sub0:..\}", "X", l) for l in game.split("{nl}")]
+    lines = [CODE.sub("", l).strip() for l in lines]
+    while lines and not lines[-1]:
+        lines.pop()
+    last = " ".join(lines[(len(lines) - 1) // h * h:]).split() if len(lines) > h else []
+    return " ".join(last) if 0 < len(last) <= 2 else ""
+
+
 def lint(out, src=None):
     """Per-entry rules for [(id, authored English)]; also tools/lint.py over the whole script."""
     src = src or {r["id"]: (n, r) for n, r in rows()}
@@ -202,6 +213,8 @@ def lint(out, src=None):
             e.append(f"characters outside plain ASCII / stray braces: {''.join(bad)!r}")
         if "\\u" in en or "\\n" in en:
             e.append("escape sequence in the text (use ` / ` for a line break)")
+        if re.search(r"/\{|\}/", en):  # " /{yesno}" drew a literal "/" and kept the icons on the text line
+            e.append("'/' touching a {code}: a line break is ' / ' with spaces")
         if codes(jp) != codes(en):
             want, have = codes(jp), codes(en)
             e.append(f"control codes differ: missing {dict(want - have)} extra {dict(have - want)}")
@@ -212,6 +225,8 @@ def lint(out, src=None):
         if h and jp.count("{nl}") < h < game.count("{nl}") + 1:
             e.append(f"{game.count('{nl}') + 1} lines in a {h}-line box the JP fits in: tighten it "
                      f"(an extra line waits for a key press; the attract demo hangs)")
+        if h and widow(game, h) and not widow(jp, h):
+            e.append(f"last page of the {h}-line box holds only {widow(game, h)!r}: rewrap or tighten")
         if re.search(r"\{sub0:[0-9A-F]{2}\}(st|nd|rd|th)\b", en):
             e.append("ordinal suffix glued onto a variable")
         if re.search(r"\b(a|an)\s+\{sub0", en, re.I):

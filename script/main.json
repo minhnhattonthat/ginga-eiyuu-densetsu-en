@@ -117,7 +117,7 @@
   "id": "m013",
   "off": "028577",
   "jp": "{speed:00}選択をおわります{nl}よろしいですか？{nl}ⓎⓈ　　ⓃⒹ{wait}{end}",
-  "en": "{speed:00}End your selection. / Are you sure? /{yesno}{wait}{end}"
+  "en": "{speed:00}End your selection. / Are you sure? / {yesno}{wait}{end}"
  },
  {
   "id": "m014",
@@ -549,7 +549,7 @@
   "id": "m05B",
   "off": "02A85E",
   "jp": "{speed:09}ヤン艦隊は、とちゅうの惑星のクー{nl}デターを制圧しつつ、{sub0:09}へむ{nl}けて進軍を続けた。{nl}{nl}ドーリア星域では、救国軍事会議に{nl}従う第１１艦隊に勝利し、{sub0:09}{nl}へと進攻を続けた。{end}",
-  "en": "{speed:09}The Yang Fleet pressed on toward {sub0:09}, suppressing the coups on the planets along the way. / / In the Doria stellar region it defeated the 11th Fleet, loyal to the Military Congress for the Salvation of the Republic, and continued its advance on {sub0:09}.{end}"
+  "en": "{speed:09}The Yang Fleet pressed on toward {sub0:09}, suppressing the coups on the planets along the way. / / In the Doria stellar region it defeated the 11th Fleet, loyal to the Military Congress for the Salvation of the Republic, and advanced on {sub0:09}.{end}"
  },
  {
   "id": "m05C",
@@ -603,7 +603,7 @@
   "id": "m064",
   "off": "02ABBF",
   "jp": "{speed:05}シュナイダー「ヤン提督のもとへ{nl}まいりましょう。{nl}あの方なら、きっとわれわれを{nl}うけ入れてくれるでしょう。」{nl}メルカッツ「同盟へいけと言うのか？{nl}私はこれまで、おおくの同盟の人びと{nl}を死なせてきた。{nl}うけ入れてくれるのだろうか？」{nl}シュナイダー「ヤン提督はかわり者と{nl}うかがっています。{nl}ダメでもともとではないですか。」{nl}{nl}メルカッツ「…わかった。{nl}卿にまかせる。{nl}ヤン提督をたよってみよう。」{end}",
-  "en": "{speed:05}Schneider: \"Let us go to Admiral Yang. He would surely take us in.\" / Merkatz: \"You're telling me to go to the Alliance? I have sent many of the Alliance's people to their deaths. Would they really take me in?\" / Schneider: \"They say Admiral Yang is an eccentric. We have nothing to lose by trying.\" / / Merkatz: \"...Very well. I leave it to you. Let us put our trust in Admiral Yang.\"{end}"
+  "en": "{speed:05}Schneider: \"Let us go to Admiral Yang. He would surely take us in.\" / Merkatz: \"You're telling me to go to the Alliance? I have sent many of the Alliance's people to their deaths. Would they really take me in?\" / Schneider: \"They say Admiral Yang is an eccentric. What do we have to lose?\" / / Merkatz: \"...Very well. I leave it to you. Let us trust in Admiral Yang.\"{end}"
  },
  {
   "id": "m065",
@@ -621,13 +621,13 @@
   "id": "m067",
   "off": "02ADDE",
   "jp": "{speed:09}ヤンは救国軍事会議が帝国のライン{nl}ハルトの策略によるものだとし、同盟{nl}領の惑星にニュースとして流した。{nl}{nl}救国軍事会議のメンバーは、それを{nl}みとめなかった。{nl}{nl}{nl}あくまでも軍事会議は、くさりきった{nl}政府から同盟をまもるために、おこな{nl}われたクーデターだったとかんがえて{nl}いたからだ。{nl}そんなメンバーを見てリンチは彼らを{nl}あざわらった。{nl}{nl}{nl}そして、このクーデターが、帝国の{nl}{sub0:08}のしくんだものだと{nl}あかした。{end}",
-  "en": "{speed:09}Yang declared that the Military Congress for the Salvation of the Republic was the product of a scheme by Reinhard of the Empire, and broadcast it as news to the planets of Alliance territory. / / The members of the Military Congress refused to accept it. / / / For they believed to the last that the Military Congress had been a coup carried out to protect the Alliance from a rotten government. Seeing such members, Lynch laughed at them. / / / And he revealed that this coup had been engineered by {sub0:08} of the Empire.{end}"
+  "en": "{speed:09}Yang declared that the Military Congress for the Salvation of the Republic was the product of a scheme by Reinhard of the Empire, and broadcast it as news to the planets of Alliance territory. / / The members of the Military Congress refused to accept it. / / / For they believed to the last that the Military Congress had been a coup carried out to protect the Alliance from a rotten government. Seeing such members, Lynch laughed at them. / / / And he revealed that this coup was the work of {sub0:08} of the Empire.{end}"
  },
  {
   "id": "m068",
   "off": "02AED3",
   "jp": "{speed:09}エル・ファシルの戦いで人びとを見{nl}すて逃亡したリンチ司令官は、帝国の{nl}捕虜となり、同じ捕虜からもさげすま{nl}れていた。{nl}そして先の捕虜こうかんで、同盟に{nl}もどる前にリンチは、この作戦をライ{nl}ンハルトから命じられたのだった。{end}",
-  "en": "{speed:09}Commander Lynch, who had abandoned the people and fled at the Battle of El Facil, had been taken prisoner by the Empire and was despised even by his fellow prisoners. Then, before returning to the Alliance in the recent prisoner exchange, Lynch had been ordered by Reinhard to carry out this operation.{end}"
+  "en": "{speed:09}Commander Lynch, who had abandoned the people and fled at the Battle of El Facil, had been taken prisoner by the Empire and was despised even by his fellow prisoners. Then, before his return in the recent prisoner exchange, Reinhard had ordered Lynch to carry out this operation.{end}"
  },
  {
   "id": "m069",
@@ -1011,7 +1011,7 @@
   "id": "m0A8",
   "off": "02C5A7",
   "jp": "{speed:05}ヤン「この星域にあるブラックホール{nl}をうまく使い、敵艦隊をその中におい{nl}つめるんだ。{nl}{nl}われわれは１万３千隻、帝国は１万{nl}５千隻である。{nl}わが艦隊が５千隻つぶされたら、ひ{nl}くべきだろう。{nl}また敵を１万隻つぶせば、わが軍の{nl}勝利であろう。」{end}",
-  "en": "{speed:05}Yang: \"We'll make good use of the black hole in this stellar region and drive the enemy fleet into it. / / We have 13,000 ships; the Empire has 15,000. If 5,000 of our ships are destroyed, we should pull back. And if we destroy 10,000 enemy ships, the victory will be ours.\"{end}"
+  "en": "{speed:05}Yang: \"We'll make good use of the black hole in this stellar region and drive the enemy fleet into it. / / We have 13,000 ships; the Empire has 15,000. If we lose 5,000, we should pull back. And if we destroy 10,000 of theirs, victory is ours.\"{end}"
  },
  {
   "id": "m0A9",
@@ -1041,7 +1041,7 @@
   "id": "m0AD",
   "off": "02C78D",
   "jp": "{speed:05}ヤン「帝国の艦隊もわれわれをさがす{nl}のに、つかれたことだろう。{nl}そこで、わが艦隊はおみやげをもっ{nl}て、出かけていこうと思っている。{nl}われわれは１万隻、帝国も１万隻で{nl}ある。{nl}わが艦隊が５千隻つぶされたら、引く{nl}事にしよう。{nl}また敵を９千隻つぶせば、わが軍の{nl}勝利となるであろう。」{end}",
-  "en": "{speed:05}Yang: \"The Imperial fleets must be tired of searching for us by now. So our fleet means to pay them a visit, bearing gifts. We have 10,000 ships, and the Empire has 10,000 too. If 5,000 of our ships are destroyed, we'll pull back. And if we destroy 9,000 enemy ships, the victory will be ours.\"{end}"
+  "en": "{speed:05}Yang: \"The Imperial fleets must be tired of searching for us by now. So our fleet means to pay them a visit, bearing gifts. We have 10,000 ships, and the Empire has 10,000 too. If we lose 5,000, we'll pull back. And if we destroy 9,000 of theirs, victory is ours.\"{end}"
  },
  {
   "id": "m0AE",
@@ -1107,7 +1107,7 @@
   "id": "m0B8",
   "off": "02CAD9",
   "jp": "こんな時にこんなことを申しこむのは{nl}{speed:0A}…{nl}{speed:05}ああ、こまったものだな。{nl}{nl}{speed:09}ようするに{speed:0A}結婚して{speed:05}ほしいんだ。」{end}",
-  "en": "I know it's a poor time to be asking this{speed:0A}... {speed:05}Oh, I'm hopeless at this. / / {speed:09}What I mean is,{speed:0A} I'd like you to marry{speed:05} me.\"{end}"
+  "en": "I know it's a poor time to be asking this{speed:0A}... {speed:05}Oh, I'm hopeless at this. / / {speed:09}In short,{speed:0A} I'd like you to marry{speed:05} me.\"{end}"
  },
  {
   "id": "m0B9",
@@ -1131,7 +1131,7 @@
   "id": "m0BC",
   "off": "02CCFC",
   "jp": "{speed:09}大艦隊とみえたのは{nl}おとり小惑星だった{nl}それはおおくの艦を{nl}おしつぶした。{end}",
-  "en": "{speed:09}What had looked like a great fleet was decoy asteroids. They crushed a great many ships.{end}"
+  "en": "{speed:09}The great fleet had been decoy asteroids. They crushed a great many ships.{end}"
  },
  {
   "id": "m0BD",
@@ -1179,7 +1179,7 @@
   "id": "m0C4",
   "off": "02CF61",
   "jp": "{speed:09}ヤン「…うん、その策も{nl}あるね。でも、私には合わ{nl}ないだろう。{nl}全軍に攻撃をやめるよう{nl}伝えてくれ。」{wait}{end}",
-  "en": "{speed:09}Yang: \"...Yes, that's one way to do it. But it wouldn't suit me. Tell all forces to stop the attack.\"{wait}{end}"
+  "en": "{speed:09}Yang: \"...Yes, that's one way. But it wouldn't suit me. Tell all forces to cease fire.\"{wait}{end}"
  },
  {
   "id": "m0C5",
@@ -1899,7 +1899,7 @@
   "id": "m13C",
   "off": "02DD71",
   "jp": "{speed:05}アッテンボロー{nl}「わが軍の総艦数は{nl}約２５０００隻！{nl}かなりのひがいです{nl}{nl}このままじゃ{nl}敗北は決定的{nl}ですね…」{wait}{end}",
-  "en": "{speed:05}Attenborough / \"Our fleet totals about 25,000 ships! That's heavy damage. / / At this rate, we're sure to lose...\"{wait}{end}"
+  "en": "{speed:05}Attenborough / \"We're down to about 25,000 ships! Heavy damage. / At this rate, we're sure to lose...\"{wait}{end}"
  },
  {
   "id": "m13D",

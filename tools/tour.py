@@ -46,9 +46,9 @@ def main():
                                 "--timeout", "600"], capture_output=True, text=True)
             if r.returncode == 0:
                 break
-        if r.returncode == 0:
+        if r.returncode == 0:  # --changed 0.02 dropped whole text pages (a page of text is <2% of the pixels)
             r = subprocess.run([sys.executable, "-X", "utf8", os.path.join(SKILL, "scripts", "sheet.py"), out,
-                                "--changed", "0.02", "--div", "1", "--out", os.path.join(out, "sheet.png")],
+                                "--changed", "0.001","--div", "1", "--out", os.path.join(out, "sheet.png")],
                                capture_output=True, text=True)
         print(("ok   " if r.returncode == 0 else f"FAIL {r.returncode} ") + n, flush=True)
         return r.returncode == 0

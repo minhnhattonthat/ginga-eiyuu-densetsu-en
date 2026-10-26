@@ -72,7 +72,7 @@ GFX.update({(0xE, s): [("label", t)] for s, t in LABELS.items()})
 # screens draw at $1BB+), so the tile count stays 178.
 RANK_SHEET, RANK_TILES, RANK_ROW = (8, 0x35), 50, 3        # glyph rows 3-7 of the top tile
 RANK_TABLE, RANK_MAPS = 0x10054, (0x17F00, 0x18000)
-RANKS = {29: "COMMANDER", 30: "FLEET ADMIRAL", 31: "SENIOR ADMIRAL", 32: "ADMIRAL", 33: "VICE ADMIRAL",
+RANKS = {29: "COMMANDER", 30: "FLEET/ADMIRAL", 31: "SENIOR/ADMIRAL", 32: "ADMIRAL", 33: "VICE ADMIRAL",
          34: "REAR ADMIRAL", 35: "COMMODORE", 36: "LIEUTENANT"}
 TINY = {"A": "010 101 111 101 101", "C": "011 100 100 100 011", "D": "110 101 101 101 110",
         "E": "111 100 110 100 111", "F": "111 100 110 100 100", "I": "1 1 1 1 1", "L": "100 100 100 100 111",
@@ -210,22 +210,32 @@ def ranks(orig):
     d = gfx.lorom(RANK_SHEET[0], 0x8000 + 4 * RANK_SHEET[1])
     n = orig[d + 2] | orig[d + 3] << 8
     tiles, _ = gfx.decompress(orig, gfx.lorom(RANK_SHEET[0], orig[d] | orig[d + 1] << 8), n, 2)
-    tiles, blank, nxt, maps = bytearray(tiles), RANK_TILES - 1, 0, {}
+    tiles, blank, maps, done = bytearray(tiles), RANK_TILES - 1, {}, {}
     tiles[16 * blank:16 * blank + 16] = bytes(16)
+
+    def put(text, row):
+        """tile ids holding text at glyph rows row..row+4 of their tile (same text and row share tiles)"""
+        if (text, row) not in done:
+            rows, w = tiny(text)
+            nxt = sum(map(len, done.values()))
+            ids = list(range(nxt, nxt + (w + 7) // 8))
+            if ids and ids[-1] >= blank:
+                raise SystemExit(f"ranks need {ids[-1] + 2} tiles, the sheet has {RANK_TILES}")
+            for k, t in enumerate(ids):
+                tiles[16 * t:16 * t + 16] = bytes(16)
+                for r, xs in enumerate(rows):
+                    tiles[16 * t + 2 * (row + r)] = sum(0x80 >> (x - 8 * k) for x in xs if 8 * k <= x < 8 * k + 8)
+            done[text, row] = ids
+        return done[text, row]
+
     for i, text in RANKS.items():
-        rows, w = tiny(text)
-        cols = (w + 7) // 8
-        if cols > 8:
-            raise SystemExit(f"rank {text!r}: {w} px, room for 64")
-        ids = list(range(nxt, nxt + cols))
-        nxt += cols
-        if nxt > blank:
-            raise SystemExit(f"ranks need {nxt + 1} tiles, the sheet has {RANK_TILES}")
-        for k, t in enumerate(ids):
-            tiles[16 * t:16 * t + 16] = bytes(16)
-            for r, xs in enumerate(rows):
-                tiles[16 * t + 2 * (RANK_ROW + r)] = sum(0x80 >> (x - 8 * k) for x in xs if 8 * k <= x < 8 * k + 8)
-        maps[i] = bytes([cols]) + b"".join((0x0900 | t).to_bytes(2, "little") for t in ids + [blank] * cols)
+        top, _, bot = text.partition("/")   # two lines: rows 2-6 of the top tile, 1-5 of the bottom one
+        t, b = (put(top, 2), put(bot, 1)) if bot else (put(top, RANK_ROW), [])
+        cols = max(len(t), len(b))
+        if cols > 6:   # the panel clears 6 columns from the plate's start: a 7th is left on screen
+            raise SystemExit(f"rank {text!r}: {cols} tiles, room for 6")
+        t, b = t + [blank] * (cols - len(t)), b + [blank] * (cols - len(b))
+        maps[i] = bytes([cols]) + b"".join((0x0900 | n).to_bytes(2, "little") for n in t + b)
     return bytes(tiles), maps
 
 
