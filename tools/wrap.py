@@ -84,6 +84,11 @@ def wrap(text, px):
             if text_px(word) > px:
                 errs.append(f"word {word!r} is {text_px(word)} px, line is {px}")
         lines.append(cur)
+        # no one-word last line: pull the previous line's last word down (same line count, so pages don't move)
+        if len(lines) > 1 and lines[-1] and " " not in lines[-1] and lines[-2].count(" ") >= 2:
+            head, last = lines[-2].rsplit(" ", 1)
+            if last and text_px(last + " " + lines[-1]) <= px:
+                lines[-2:] = [head, last + " " + lines[-1]]
         out.append("{nl}".join(lines))
     return "{nl}".join(out), errs
 
