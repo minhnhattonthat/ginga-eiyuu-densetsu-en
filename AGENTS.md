@@ -8,6 +8,7 @@ Skill: translate-retro-game; `python tools/skill.py` prints its folder. Read its
 - Smoke:    `python -X utf8 "$(python tools/skill.py)/scripts/emu.py" build/logh_en.sfc --out work/qa/smoke --route tools/routes/boot.txt --smoke`
 - Warp:     `python -X utf8 "$(python tools/skill.py)/scripts/emu.py" build/logh_en.sfc --out work/qa/warp1 --script tools/debug/warp.lua --var "SCENE='<name>'" --frames 22000 --sheet` (scenes: `tools/debug/scenes.lua`, facts `docs/re/debug.md`; never ask the user to play to a scene)
 - States:   `python -X utf8 tools/debug/regen.py [SCENE..]` (every scene from a cold boot -> `work/states/<scene>.mss` + `work/qa/warp/proof*.png`; rerun after code/font/gfx changes)
+- Tour:     `python -X utf8 tools/tour.py [SCENE..]` (phase-8 QA: every state -> a shot per complete box -> `work/qa/tour/<scene>/sheet*.png`; JP side: see its docstring) then `qa_gate.py init|todo|check work/qa/manifest.tsv ...`, visual-qa agents per `docs/visual-qa-brief.md`
 - Events:   `python -X utf8 tools/events.py [--event N [--dump]] [--unreached]` (event scripts -> message ids)
 - Marker:   `python -X utf8 tools/build.py --marker` (every string shows `[id]`); `--qa ID=TEXT` overrides one string
 - Widths:   `python -X utf8 tools/widthgate.py` (ruler + torture line per box variant -> work/qa/width/*.png); `tools/boxes.py` (message -> box, script/boxes.json)

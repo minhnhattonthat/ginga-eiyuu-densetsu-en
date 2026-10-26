@@ -3,7 +3,7 @@ in work/states/<scene>.mss and a proof sheet of the arrival shots in work/qa/war
 Exit 1 if any scene was not reached.
 
     python -X utf8 tools/debug/regen.py [SCENE ...] [--rom ROM] [--jobs 3] [--frames 8000]
-        [--lua probe.lua ...] [--qa DIR] [--no-states]      (probe runs: trap tests, message/box logs)
+        [--lua probe.lua ...] [--qa DIR] [--no-states | --states DIR]    (probe runs: trap tests, message/box logs)
 """
 import argparse
 import os
@@ -50,6 +50,7 @@ def main():
     ap.add_argument("--lua", action="append", default=[], help="extra probe script run beside warp.lua")
     ap.add_argument("--qa", default=QA, help="output dir (default work/qa/warp)")
     ap.add_argument("--no-states", action="store_true", help="don't overwrite work/states")
+    ap.add_argument("--states", default=os.path.join(ROOT, "work", "states"), help="state dir (JP: work/states_jp)")
     ap.add_argument("--settle", type=int, help="frames from arrival to the shot, for every scene")
     a = ap.parse_args()
     qa = os.path.abspath(a.qa)
@@ -63,11 +64,11 @@ def main():
     if not a.scenes:  # a full run starts the proof sheets afresh; a partial one updates its scenes only
         shutil.rmtree(proof, ignore_errors=True)
     os.makedirs(proof, exist_ok=True)
-    os.makedirs(os.path.join(ROOT, "work", "states"), exist_ok=True)
+    os.makedirs(a.states, exist_ok=True)
 
     def one(n):
         out = os.path.join(qa, n)
-        state = None if a.no_states else os.path.join(ROOT, "work", "states", n + ".mss")
+        state = None if a.no_states else os.path.join(os.path.abspath(a.states), n + ".mss")
         for _ in range(2):  # one retry: with several parallel Mesen runs one occasionally dies mid-run
             shutil.rmtree(out, ignore_errors=True)
             log = run(rom, out, n, a.frames, state, [os.path.abspath(s) for s in a.lua], a.settle)
