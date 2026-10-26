@@ -195,6 +195,15 @@ def widow(game, h):
     return " ".join(last) if 0 < len(last) <= 2 else ""
 
 
+SPEAKER_JP = re.compile(r"^(?:\{[^}]*\})*(?:\{sub0:..\}|[^「」{ ]{1,12})(?:\{[^}]*\})*「")
+SPEAKER_EN = re.compile(r"^(?:\{[^}]*\})*(?:\{sub0:..\}|[A-Z][\w'. -]{0,20}): ")
+
+
+def turns(game, pat):
+    """Line indexes of game text ({nl} lines) that open a speaker turn."""
+    return [i for i, line in enumerate(game.split("{nl}")) if pat.match(line)]
+
+
 def lint(out, src=None):
     """Per-entry rules for [(id, authored English)]; also tools/lint.py over the whole script."""
     src = src or {r["id"]: (n, r) for n, r in rows()}
@@ -231,6 +240,13 @@ def lint(out, src=None):
         if "Ⓨ" in jp and game.split("Ⓨ")[0].count("{nl}") != jp.split("Ⓨ")[0].count("{nl}"):
             e.append(f"{{yesno}} must be on line {jp.split('Ⓨ')[0].count('{nl}') + 1} as in the JP "
                      "(the cursor highlight stays there)")
+        # the JP gives a speaker turn its own page (the box clears when full): keep it so in English
+        jt, et = turns(jp, SPEAKER_JP), turns(game, SPEAKER_EN)
+        if h and len(jt) == len(et):
+            for j, x in zip(jt, et):
+                if j % h == 0 and x % h:
+                    e.append(f"speaker turn on line {x + 1} starts a page in the JP: pad it with ' / ' "
+                             f"to line {x + h - x % h + 1}")
         if re.search(r"\{sub0:[0-9A-F]{2}\}(st|nd|rd|th)\b", en):
             e.append("ordinal suffix glued onto a variable")
         if re.search(r"\b(a|an)\s+\{sub0", en, re.I):

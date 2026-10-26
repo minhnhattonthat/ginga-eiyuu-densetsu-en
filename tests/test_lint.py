@@ -28,3 +28,10 @@ def test_widow():
     assert batches.widow("a{nl}b{nl}c{nl}d{nl}{wait}{nl}", 4) == ""       # trailing blank lines don't page
     assert batches.widow("a{nl}{sub0:08}.", 1) == "X."
     assert batches.widow("one{nl}two", 3) == ""
+
+
+def test_speaker_turn_page():  # m093 is a 4-line box
+    src = {"m093": ("main", {"id": "m093", "jp": "ヤン「あ{nl}い{nl}う{nl}え」{nl}ユリアン「お」{end}"})}
+    bad = batches.lint([("m093", 'Yang: "Yes." / Julian: "No."{end}')], src)
+    good = batches.lint([("m093", 'Yang: "Yes." / / / / Julian: "No."{end}')], src)
+    assert any("speaker turn" in x for x in bad) and not any("speaker turn" in x for x in good)

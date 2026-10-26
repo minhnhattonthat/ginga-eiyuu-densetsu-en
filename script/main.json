@@ -393,13 +393,13 @@
   "id": "m041",
   "off": "02952C",
   "jp": "ヤン「キミが？」{nl}{nl}{nl}{nl}{sub0:07}「はい。{nl}キャゼルヌ少将より、{nl}辞令をうけております。」{nl}{nl}ヤン「グリーンヒル中尉？{nl}君はもしかして…{nl}統合作戦…」{nl}{nl}{sub0:07}「はい。{nl}よく父のグリーンヒル大将より、{nl}ヤン少将の事を{nl}うかがっております。」{nl}{sub0:07}「おぼえておられますか？{nl}エル・ファシルで、閣下にコーヒーを{nl}さし上げた少女の事を？」{end}",
-  "en": "Yang: \"You?\" / / / / {sub0:07}: \"Yes. I received my orders from Rear Admiral Cazerne.\" / / Yang: \"Lieutenant Greenhill? Could you be... from Joint Operations...\" / / {sub0:07}: \"Yes. My father, Admiral Greenhill, has often told me about you, Rear Admiral Yang.\" / {sub0:07}: \"Do you remember, Your Excellency? The girl who brought you coffee at El Facil?\"{end}"
+  "en": "Yang: \"You?\" / / / / {sub0:07}: \"Yes. I received my orders from Rear Admiral Cazerne.\" / / / Yang: \"Lieutenant Greenhill? Could you be... from Joint Operational...\" / / / {sub0:07}: \"Yes. My father, Admiral Greenhill, has often told me about you, Rear Admiral Yang.\" / / {sub0:07}: \"Do you remember, Your Excellency? The girl who brought you coffee at El Facil?\"{end}"
  },
  {
   "id": "m042",
   "off": "0295E9",
   "jp": "ヤン「いや。{nl}で、その時、私はなんと{nl}言ったのかな？」{nl}{nl}{sub0:07}「コーヒーは{nl}きらいだから、{nl}できれば紅茶がよかったと。」{end}",
-  "en": "Yang: \"No. So what did I say to her then?\" / / {sub0:07}: \"That you didn't like coffee, so you'd rather have had tea, if possible.\"{end}"
+  "en": "Yang: \"No. So what did I say to her then?\" / / / {sub0:07}: \"That you didn't like coffee, so you'd rather have had tea, if possible.\"{end}"
  },
  {
   "id": "m043",
@@ -483,7 +483,7 @@
   "id": "m050",
   "off": "029DF4",
   "jp": "{speed:05}ユリアン「准将がおっしゃるには、ぼ{nl}く、すじがいいそうです。{nl}司令官はなぜ、れんしゅうなさらな{nl}いのですか？」{nl}ヤン「私にはさいのうが無いらしい。{nl}今では同盟軍でもっともヘタなんじゃ{nl}ないかな？」{nl}{nl}ユリアン「でも、どうやってご自分を{nl}おまもりになるんです？」{nl}{nl}{nl}ヤン「司令官が自ら銃をもって、自分{nl}をまもらなくてはならないようでは、{nl}戦いは敗けさ。{nl}{nl}そんなハメに、ならない事だけを{nl}私はかんがえている。」{nl}{nl}{nl}ユリアン「そうですね、ええ、ボクが{nl}まもってさしあげます。」{nl}{nl}{nl}{speed:09}ヤンはユリアンを軍人にはしたくな{nl}かった。{nl}{nl}{nl}だがユリアンは、親を亡くした自分を{nl}ひきとってくれたヤンのような軍人に{nl}なりたいと思っていたのだった。{end}",
-  "en": "{speed:05}Julian: \"The Commodore says I have a knack for it. Commander, why don't you practice?\" / Yang: \"Apparently I have no talent for it. By now I may be the worst shot in the whole Alliance military.\" / / Julian: \"But then how will you protect yourself?\" / / / Yang: \"If a commander has to take up a gun to protect himself, the battle's already lost. / / All I think about is never ending up in that fix.\" / / / Julian: \"That's true... All right, then I'll protect you.\" / / / {speed:09}Yang did not want Julian to become a soldier. / / / But Julian, orphaned and taken in by Yang, wanted to become a soldier just like him.{end}"
+  "en": "{speed:05}Julian: \"The Commodore says I have a knack for it. Commander, why don't you practice?\" / / Yang: \"Apparently I have no talent for it. By now I may be the worst shot in the whole Alliance military.\" / / Julian: \"But then how will you protect yourself?\" / / / Yang: \"If a commander has to take up a gun to protect himself, the battle's already lost. / / All I think about is never ending up in that fix.\" / / / Julian: \"That's true... All right, then I'll protect you.\" / / / {speed:09}Yang did not want Julian to become a soldier. / / / But Julian, orphaned and taken in by Yang, wanted to become a soldier just like him.{end}"
  },
  {
   "id": "m051",
@@ -519,7 +519,7 @@
   "id": "m056",
   "off": "02A2DA",
   "jp": "{speed:05}{sub0:08}「すると内戦がおき、私{nl}が勝利するとおっしゃるのだな。{nl}フロイライン・マリーンドルフ？」{nl}{nl}ヒルダ「はい閣下。{nl}そして閣下は、勝利なさるでしょう。{nl}この内戦にさいして、マリーンドルフ{nl}は閣下のおやくにたつつもりです。」{nl}{sub0:08}「私が勝つとはかぎらな{nl}いが、それでも私に味方をしてくれる{nl}と？」{nl}{nl}ヒルダ「はい。{nl}貴族がわは、かりに手を結んだだけで{nl}軍隊としての統制がとれていません。{nl}{nl}またこの戦いは、貴族がわで兵士の{nl}反発が高まり、内からくずれさる事{nl}がありえます。{nl}{nl}従って統制のとれた閣下の軍の勝利は{nl}ひを見るよりあきらかです。」{nl}{nl}{nl}{sub0:08}「けっこう、そういう事{nl}であれば、私も味方がほしい。{nl}マリーンドルフには、かならずむく{nl}わせていただこう。」{end}",
-  "en": "{speed:05}{sub0:08}: \"So you are saying civil war will break out, and that I will win, Fraulein Mariendorf?\" / / Hilda: \"Yes, Your Excellency. And you will be victorious. In this civil war, House Mariendorf intends to be of service to Your Excellency.\" / {sub0:08}: \"I am not certain to win, yet you will take my side all the same?\" / / Hilda: \"Yes. The nobles have joined hands only for the moment; as an army they have no discipline. / / Moreover, in this war their soldiers' resentment toward the nobles will grow, and they may well crumble from within. / / Therefore the victory of Your Excellency's disciplined army is as plain as day.\" / / / {sub0:08}: \"Very well. If that is so, I too would welcome allies. I shall be sure to reward House Mariendorf.\"{end}"
+  "en": "{speed:05}{sub0:08}: \"So you are saying civil war will break out, and that I will win, Fraulein Mariendorf?\" / / Hilda: \"Yes, Your Excellency. And you will be victorious. In this civil war, House Mariendorf intends to be of service to Your Excellency.\" / {sub0:08}: \"I am not certain to win, yet you will take my side all the same?\" / / / Hilda: \"Yes. The nobles have joined hands only for the moment; as an army they have no discipline. / / Moreover, in this war their soldiers' resentment toward the nobles will grow, and they may well crumble from within. / / Therefore the victory of Your Excellency's disciplined army is as plain as day.\" / {sub0:08}: \"Very well. If that is so, I too would welcome allies. I shall be sure to reward House Mariendorf.\"{end}"
  },
  {
   "id": "m057",
@@ -561,7 +561,7 @@
   "id": "m05D",
   "off": "02A925",
   "jp": "{speed:07}{sub0:06}「お待ち下さい。{nl}このまま貴族どもに、核を使わせる{nl}べきです。{nl}{nl}この内戦が長びけば、さらにおおく{nl}の死者が出る事でしょう。{nl}{nl}{nl}ですから、彼らに宇宙を治めさせては{nl}ならないと、銀河のすべての人びとに{nl}しらしめるよい機会だと思われます」{nl}{nl}{sub0:08}「では卿は、ヴェスター{nl}ラントへの核攻撃に目をつぶれと言う{nl}のか？」{nl}{nl}{sub0:06}「決心なさいませ{nl}閣下がお望みのものを、手に入れる{nl}ためには、ご自分の手をよごさねば{nl}ならないのです。」{end}",
-  "en": "{speed:07}{sub0:06}: \"Wait, please. We should let the nobles use their nuclear weapons as they intend. / / If this civil war drags on, still more people will die. / / / So I believe this is a good opportunity to show every person in the galaxy that such men must never be allowed to rule the universe.\" / / {sub0:08}: \"Then you are telling me to close my eyes to the nuclear attack on Westerland?\" / / {sub0:06}: \"Make your decision, Your Excellency. To obtain what you desire, you must dirty your own hands.\"{end}"
+  "en": "{speed:07}{sub0:06}: \"Wait, please. We should let the nobles use their nuclear weapons as they intend. / / If this civil war drags on, still more people will die. / / / So I believe this is a good opportunity to show every person in the galaxy that such men must never be allowed to rule the universe.\" / {sub0:08}: \"Then you are telling me to close my eyes to the nuclear attack on Westerland?\" / / {sub0:06}: \"Make your decision, Your Excellency. To obtain what you desire, you must dirty your own hands.\"{end}"
  },
  {
   "id": "m05E",
@@ -597,19 +597,19 @@
   "id": "m063",
   "off": "02AB52",
   "jp": "{speed:05}シュナイダー「おやめください！{nl}閣下！{nl}閣下がご自決なさる事は、ありま{nl}せん！」{nl}メルカッツ「だが、なにをやっていき{nl}ろと言うのだ？{nl}わしは敗軍の将で、まぎれもない反逆{nl}者なのだぞ。」{end}",
-  "en": "{speed:05}Schneider: \"Please stop! Your Excellency! There is no need for you to take your own life!\" / Merkatz: \"But what would you have me live for? I am a defeated general, and a traitor beyond any doubt.\"{end}"
+  "en": "{speed:05}Schneider: \"Please stop! Your Excellency! There is no need for you to take your own life!\" / / Merkatz: \"But what would you have me live for? I am a defeated general, and a traitor beyond any doubt.\"{end}"
  },
  {
   "id": "m064",
   "off": "02ABBF",
   "jp": "{speed:05}シュナイダー「ヤン提督のもとへ{nl}まいりましょう。{nl}あの方なら、きっとわれわれを{nl}うけ入れてくれるでしょう。」{nl}メルカッツ「同盟へいけと言うのか？{nl}私はこれまで、おおくの同盟の人びと{nl}を死なせてきた。{nl}うけ入れてくれるのだろうか？」{nl}シュナイダー「ヤン提督はかわり者と{nl}うかがっています。{nl}ダメでもともとではないですか。」{nl}{nl}メルカッツ「…わかった。{nl}卿にまかせる。{nl}ヤン提督をたよってみよう。」{end}",
-  "en": "{speed:05}Schneider: \"Let us go to Admiral Yang. He would surely take us in.\" / Merkatz: \"You're telling me to go to the Alliance? I have sent many of the Alliance's people to their deaths. Would they really take me in?\" / Schneider: \"They say Admiral Yang is an eccentric. What do we have to lose?\" / / Merkatz: \"...Very well. I leave it to you. Let us trust in Admiral Yang.\"{end}"
+  "en": "{speed:05}Schneider: \"Let us go to Admiral Yang. He would surely take us in.\" / / / Merkatz: \"You're telling me to go to the Alliance? I have sent many of the Alliance's people to their deaths. Would they really take me in?\" / Schneider: \"They say Admiral Yang is an eccentric. What do we have to lose?\" / / Merkatz: \"...Very well. I leave it to you. Let us trust in Admiral Yang.\"{end}"
  },
  {
   "id": "m065",
   "off": "02AC9B",
   "jp": "{speed:05}アンスバッハ「閣下、連合軍の敗北は{nl}決まりました。{nl}このワインを、おのみになれば{nl}ヴァルハラへいく事ができます。」{nl}ブラウンシュヴァイク「いやだ！{nl}わしは死にたくない！{nl}い、いやだっ！　なにをするっ！{nl}ぶ、ぶれいな！　う、うぐっ…」{nl}アンスバッハ「私もすぐにヴァルハラ{nl}へとまいります。{nl}その前に、あの{sub0:08}だけは{nl}この手で…{nl}ゴールデンバウム王朝はたおれた。{nl}だがつぎにくるのがローエングラム{nl}王朝とは決まっていない…」{end}",
-  "en": "{speed:05}Ansbach: \"Your Excellency, the coalition's defeat is certain. If you drink this wine, you may go to Valhalla.\" / Braunschweig: \"No! I don't want to die! N-no! What are you doing?! H-how dare you! Ugh, urgh...\" / Ansbach: \"I too will soon follow you to Valhalla. But before that, {sub0:08} at least, by my own hand... The Goldenbaum dynasty has fallen. But it is not yet decided that the Lohengramm dynasty comes next...\"{end}"
+  "en": "{speed:05}Ansbach: \"Your Excellency, the coalition's defeat is certain. If you drink this wine, you may go to Valhalla.\" / Braunschweig: \"No! I don't want to die! N-no! What are you doing?! H-how dare you! Ugh, urgh...\" / / Ansbach: \"I too will soon follow you to Valhalla. But before that, {sub0:08} at least, by my own hand... The Goldenbaum dynasty has fallen. But it is not yet decided that the Lohengramm dynasty comes next...\"{end}"
  },
  {
   "id": "m066",
@@ -639,7 +639,7 @@
   "id": "m06A",
   "off": "02AFE1",
   "jp": "{speed:05}{sub0:06}「閣下…{nl}式の時、{sub0:0A}提督だけに銃を{nl}もつ事を、おゆるしにならない様{nl}おすすめします。{nl}{sub0:0A}提督が閣下の友である{nl}事は、しっています。{nl}しかし、他の提督方に、しめしが{nl}つきません。」{nl}{sub0:08}「{sub0:0A}を特別に{nl}するなと言うのだな？」{nl}{nl}{nl}{sub0:06}「はい。{nl}組織にナンバー２はいらないのです」{end}",
-  "en": "{speed:05}{sub0:06}: \"Your Excellency... At the ceremony, I recommend that you not permit Admiral {sub0:0A} alone to carry a gun. I know that Admiral {sub0:0A} is your friend. But it sets a poor example to the other admirals.\" / {sub0:08}: \"You're saying I should not treat {sub0:0A} as special?\" / / / {sub0:06}: \"Yes. An organization has no need of a Number Two.\"{end}"
+  "en": "{speed:05}{sub0:06}: \"Your Excellency... At the ceremony, I recommend that you not permit Admiral {sub0:0A} alone to carry a gun. I know that Admiral {sub0:0A} is your friend. But it sets a poor example to the other admirals.\" / / / {sub0:08}: \"You're saying I should not treat {sub0:0A} as special?\" / / / {sub0:06}: \"Yes. An organization has no need of a Number Two.\"{end}"
  },
  {
   "id": "m06B",
@@ -657,7 +657,7 @@
   "id": "m06D",
   "off": "02B0C6",
   "jp": "{speed:05}{sub0:08}「全宇宙が私の敵になっ{nl}たとしても、{sub0:0A}だけは{nl}私に味方するだろう。{nl}{nl}だからこそ私も、彼にむくいてき{nl}たのだ。{nl}それのどこが悪いのか？」{nl}{nl}{sub0:06}「わかりました。{nl}閣下がそこまでおっしゃるのでしたら{nl}私もこれいじょうは申しません。」{end}",
-  "en": "{speed:05}{sub0:08}: \"Even if the whole universe became my enemy, {sub0:0A} alone would stand by me. / / That is exactly why I have rewarded him. What is wrong with that?\" / / {sub0:06}: \"I understand. If you feel so strongly, Your Excellency, I will say no more.\"{end}"
+  "en": "{speed:05}{sub0:08}: \"Even if the whole universe became my enemy, {sub0:0A} alone would stand by me. / / That is exactly why I have rewarded him. What is wrong with that?\" / / / {sub0:06}: \"I understand. If you feel so strongly, Your Excellency, I will say no more.\"{end}"
  },
  {
   "id": "m06E",
@@ -879,19 +879,19 @@
   "id": "m092",
   "off": "02BDA6",
   "jp": "{speed:09}ユリアンに政府から命令がきた{nl}それはフェザーン行きの命令だった。{nl}{nl}{nl}{speed:05}ユリアン「ボクはこちらにいたほうが{nl}おやくにたてると思いますけど。」{end}",
-  "en": "{speed:09}An order came to Julian from the government. It was an order to go to Phezzan. / / / {speed:05}Julian: \"I think I'd be more use to you if I stayed here.\"{end}"
+  "en": "{speed:09}An order came to Julian from the government. It was an order to go to Phezzan. / / {speed:05}Julian: \"I think I'd be more use to you if I stayed here.\"{end}"
  },
  {
   "id": "m093",
   "off": "02BDF9",
   "jp": "ヤン「だが帝国は、イゼルローンをと{nl}おるのだろうか。{nl}{sub0:08}の事だ{nl}そんなことはしないだろう。」{nl}ユリアン「でも、だとしたら{nl}どこから…{nl}もしかしてフェザーン！」{end}",
-  "en": "Yang: \"But will the Empire really come through Iserlohn? Knowing {sub0:08}, he won't do anything of the kind.\" / Julian: \"But then, where would they come from... Could it be... Phezzan!\"{end}"
+  "en": "Yang: \"But will the Empire really come through Iserlohn? Knowing {sub0:08}, he won't do anything of the kind.\" / / Julian: \"But then, where would they come from... Could it be... Phezzan!\"{end}"
  },
  {
   "id": "m094",
   "off": "02BE4E",
   "jp": "ヤン「そうさ。{nl}しかし、フェザーンの目的が、{nl}わからないんだ。」{nl}{nl}ユリアン「フェザーンでそれをさぐれ{nl}たら、提督のおやくにたてますね。{nl}ボク、フェザーンへ行きます。」{end}",
-  "en": "Yang: \"That's right. But I don't know what Phezzan is after.\" / / Julian: \"If I can find that out on Phezzan, I'll be of use to you, Admiral. I'll go to Phezzan.\"{end}"
+  "en": "Yang: \"That's right. But I don't know what Phezzan is after.\" / / / Julian: \"If I can find that out on Phezzan, I'll be of use to you, Admiral. I'll go to Phezzan.\"{end}"
  },
  {
   "id": "m095",
@@ -975,7 +975,7 @@
   "id": "m0A2",
   "off": "02C3E7",
   "jp": "{speed:05}ユリアン「ともかく、地球にはなにか{nl}があるとしか、わかりませんでした」{nl}{nl}{nl}ヤン「たしかにしらべてみるひつよう{nl}があるね。」{end}",
-  "en": "{speed:05}Julian: \"In any case, all I could find out was that there's something on Earth.\" / / / Yang: \"We certainly need to look into it.\"{end}"
+  "en": "{speed:05}Julian: \"In any case, all I could find out was that there's something on Earth.\" / / Yang: \"We certainly need to look into it.\"{end}"
  },
  {
   "id": "m0A3",
@@ -1005,7 +1005,7 @@
   "id": "m0A7",
   "off": "02C55E",
   "jp": "{speed:09}だが戦いは動いていた。{nl}帝国の補給艦隊が、ヤン艦隊にうば{nl}われたのだ。{nl}{nl}{sub0:08}はヤン艦隊の壊滅を{nl}命令した。{end}",
-  "en": "{speed:09}But the war had begun to move again. An Imperial supply fleet had been seized by the Yang Fleet. / / {sub0:08} ordered the Yang Fleet destroyed.{end}"
+  "en": "{speed:09}But the war had begun to move again. An Imperial supply fleet had been seized by the Yang Fleet. / / {sub0:08} ordered / the Yang Fleet destroyed.{end}"
  },
  {
   "id": "m0A8",
@@ -1785,7 +1785,7 @@
   "id": "m129",
   "off": "029FEA",
   "jp": "{speed:05}{sub0:06}「閣下、皇帝は後{nl}継者を定めぬまま、死にました。{nl}後継者を巡る戦いがおこる事は{nl}あきらかです。」{nl}{sub0:08}「卿の言う事は正しい。{nl}そして、だれにつくかで私の命も決ま{nl}るわけだ。{nl}{nl}…で、{nl}卿はだれが私に{nl}手をさしのべると思う？」{nl}{nl}{sub0:06}「おそらく{nl}軍隊をもたぬリヒテンラーデ公で{nl}ありましょう。」{nl}{nl}{sub0:08}「ではせいぜい、高くう{nl}りつけてやるとしよう。」{end}",
-  "en": "{speed:05}{sub0:06}: \"Your Excellency, the Emperor has died without naming a successor. A struggle over the succession is certain.\" / {sub0:08}: \"You are right. And whom I side with will decide my own fate as well. / / ...So, who do you think will offer me his hand?\" / / {sub0:06}: \"Most likely Duke Lichtenlade, who has no army of his own.\" / / {sub0:08}: \"Then I shall sell myself to him as dearly as I can.\"{end}"
+  "en": "{speed:05}{sub0:06}: \"Your Excellency, the Emperor has died without naming a successor. A struggle over the succession is certain.\" / {sub0:08}: \"You are right. And whom I side with will decide my own fate as well. / / ...So, who do you think will offer me his hand?\" / / / {sub0:06}: \"Most likely Duke Lichtenlade, who has no army of his own.\" / / {sub0:08}: \"Then I shall sell myself to him as dearly as I can.\"{end}"
  },
  {
   "id": "m12A",

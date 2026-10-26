@@ -21,6 +21,7 @@ sys.path.insert(0, os.path.join(ROOT, "tools"))
 from skill import SKILL  # noqa: E402
 
 PRESS = os.path.join(ROOT, "tools", "lua", "tourpress.lua")
+MSGLOG = os.path.join(ROOT, "tools", "lua", "msgcall.lua")  # log.txt lists the messages shown (coverage)
 
 
 def main():
@@ -42,7 +43,8 @@ def main():
             r = subprocess.run([sys.executable, "-X", "utf8", os.path.join(SKILL, "scripts", "emu.py"),
                                 os.path.abspath(a.rom), "--out", out,
                                 "--state-in", os.path.abspath(os.path.join(a.states, n + ".mss")),
-                                "--frames", str(a.frames), "--script", PRESS, "--var", f"IDLE={a.idle}",
+                                "--frames", str(a.frames), "--script", PRESS, "--script", MSGLOG,
+                                "--var", f"IDLE={a.idle}",
                                 "--timeout", "600"], capture_output=True, text=True)
             if r.returncode == 0:
                 break
