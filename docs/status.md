@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 4 (extract) done 2026-10-26. Next: phase 5 (engine spike + marker build).
+- **Phase:** 5 (engine spike + marker build) done 2026-10-26. Next: phase 6 (translate).
 - **Done:**
   - Step 0: MesenCE 2.2.1 in `tools/mesen/`, guard hook proven, pre-commit runs `tools/check.py`, rom.sha1.
   - Recon (`docs/re/text.md`, `docs/re/graphics.md`): encoding + `tbl/jp.tbl`, control codes, main table (571
@@ -18,10 +18,18 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Extract: `tests/test_roundtrip.py`: per-string roundtrip, script/*.json jp == ROM, coverage (main, sub, the five
     name tables back to back, no gaps), and the renderer's string pointer has only the four known writers (no other
     text source; whole-ROM jp_left is noise with a 1-byte encoding). `docs/re/text.md` §Extraction coverage.
+  - Engine + marker (`docs/re/engine.md`): `asm/engine.asm` (asar) = VWF (Ark Pixel 12px proportional,
+    `tools/font.py`), F8 far-text jump (strings overflow bank $05 into bank $0F/$1F), name slots hold a 24-bit
+    pointer (no 15-byte cap), names relocated to bank $02 tail. `build.py --marker`: every string `[id] filler` in
+    its JP shape; blank (control-code-only) strings kept. Marker tour: 100/100 scenes reached (regen default
+    frames now 18000). Width gate: all 6 seen box variants measured in game (table in engine.md; 208/160 px);
+    `script/boxes.json` maps each message to its box. `tests/test_engine.py`.
 - **Next:**
-  1. Phase 5 engine: VWF in the 12px renderer ($07:9B66-9D9F, canvas at tile $2B0); name tables have zero slack and
-     16-byte RAM slots $1F10-$1F6F cap names at 15 bytes (relocate strings to bank $02 tail 0x16DEA+, trap-test);
-     graphics text G1-G8, G13, G14 need a small-font plate generator. Trace the 68 message ids no event/direct call
-     shows (`tools/events.py --unreached`).
+  1. Phase 6: set up translator batches (work/tl/*.tsv from script/*.json + boxes.json px limits, glossary
+     names per D2), batch check (line px <= box px, var 0/1 bottom line before {wait} -8 px), dispatch
+     translator agents, reviewer pass.
+  2. Carried over: graphics text G1-G8, G13, G14 need a small-font plate generator (phase 7/8); 68 message ids
+     no event/direct call shows (`tools/events.py --unreached`) bind to the 17x4 box by default; bank $1F not
+     trap-tested yet. work/states are from the marker build before the blank-string change (text only).
 - **Open bugs:** none.
 - **Waiting on the user:** nothing.

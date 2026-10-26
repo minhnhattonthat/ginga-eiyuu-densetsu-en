@@ -2,6 +2,7 @@
 --   emu.py ROM --out DIR --script tools/debug/warp.lua --var "SCENE='step04_rein'" --frames 3000 --sheet
 -- Globals (--var): SCENE (name), or ad hoc SIDE STEP E5 E6 EVENT LOSE WMASH MSG (arrive on message id) without SCENE;
 --   WARP_STOP=true ends the run at the proof shot; WARP_STATE='abs/path.mss' saves a state there;
+--   WARP_SETTLE=n overrides every scene's frames from arrival to the shot;
 --   SCENES_FILE overrides the scene list path (default: ../debug/scenes.lua from the emulator dir, the cwd).
 -- Writes <out>/warp.png and logs "WARP <scene> reached f<n>" (or "WARP <scene> NOT reached" at the last frame).
 local mem, rom = emu.memType.snesMemory, emu.memType.snesPrgRom
@@ -103,7 +104,7 @@ L.on_frame(function(n)
     for a, v in pairs(sc.arrive.ram) do if rd(a) ~= v then ok = false end end
     if ok then arrive(n) end
   end
-  if arrived_at and not done and n >= arrived_at + (sc.settle or 90) then
+  if arrived_at and not done and n >= arrived_at + (WARP_SETTLE or sc.settle or 90) then
     done = true
     L.shot("warp.png")
     L.log(string.format("WARP %s reached f%d", name, n))

@@ -6,14 +6,17 @@ Skill: translate-retro-game; `python tools/skill.py` prints its folder. Read its
 - Build:    `python -X utf8 tools/build.py`  -> build/logh_en.sfc (checks the dump against `rom.sha1` first)
 - Check:    `python -X utf8 tools/check.py`  (tests + lint; the pre-commit hook runs this)
 - Smoke:    `python -X utf8 "$(python tools/skill.py)/scripts/emu.py" build/logh_en.sfc --out work/qa/smoke --route tools/routes/boot.txt --smoke`
-- Warp:     `python -X utf8 "$(python tools/skill.py)/scripts/emu.py" build/logh_en.sfc --out work/qa/warp1 --script tools/debug/warp.lua --var "SCENE='<name>'" --frames 16000 --sheet` (scenes: `tools/debug/scenes.lua`, facts `docs/re/debug.md`; never ask the user to play to a scene)
+- Warp:     `python -X utf8 "$(python tools/skill.py)/scripts/emu.py" build/logh_en.sfc --out work/qa/warp1 --script tools/debug/warp.lua --var "SCENE='<name>'" --frames 18000 --sheet` (scenes: `tools/debug/scenes.lua`, facts `docs/re/debug.md`; never ask the user to play to a scene)
 - States:   `python -X utf8 tools/debug/regen.py [SCENE..]` (every scene from a cold boot -> `work/states/<scene>.mss` + `work/qa/warp/proof*.png`; rerun after code/font/gfx changes)
 - Events:   `python -X utf8 tools/events.py [--event N [--dump]] [--unreached]` (event scripts -> message ids)
+- Marker:   `python -X utf8 tools/build.py --marker` (every string shows `[id]`); `--qa ID=TEXT` overrides one string
+- Widths:   `python -X utf8 tools/widthgate.py` (ruler + torture line per box variant -> work/qa/width/*.png); `tools/boxes.py` (message -> box, script/boxes.json)
 - Release:  `python -X utf8 tools/release.py` (patch + verify; never publish without the user)
 - Clean:    `python -X utf8 tools/clean.py` (published projects: lists rebuildable/downloadable files; `--yes` deletes)
 
 ## Paths
 - Original ROM: `rom/Ginga Eiyuu Densetsu (Japan).sfc` (LoROM 1 MB, no header; gitignored; SHA-1 in `rom.sha1`, checked by `tools/check_rom.py`). Emulator: this repo's own copy in `tools/mesen/` (MesenCE 2.2.1, https://github.com/nesdev-org/MesenCE/releases/download/2.2.1/Mesen_2.2.1_Windows.zip; gitignored; settings in `tools/emu-config/`). Savestates: `work/states/`.
+- Engine: `asm/engine.asm` (VWF, far text, name slots; facts `docs/re/engine.md`), assembled by asar 1.91 in `tools/asar/` (committed with its licences; https://github.com/RPGHacker/asar/releases/tag/v1.91). Font: `tools/font.py`.
 - Text: `script/` (JSON). Tables: `tbl/`. Glossary: `glossary.md`. RE notes index: `docs/re/README.md`. Fonts and their licences: `docs/fonts.md`.
 
 ## Rulings

@@ -5,5 +5,4 @@ per file; a font with no known licence doesn't go into a release.
 
 | File | Source (URL, version) | Licence | Redistributable in a patch | Used for | Changes made |
 |---|---|---|---|---|---|
-| <fonts/vwf_8px.png> | <drawn for this project> | <MIT, same as repo> | yes | <dialogue VWF> | <-> |
-| <fonts/Title.ttf> | <url, v1.2> | <OFL 1.1> | <yes, as rendered glyphs> | <typeset.py title cards> | <-> |
+| fonts/ark-pixel-12px-proportional-latin.bdf | Ark Pixel Font by TakWolf, https://github.com/TakWolf/ark-pixel-font release 2026.10.25 (`ark-pixel-font-12px-proportional-bdf`) | SIL OFL 1.1 (`fonts/OFL-ark-pixel.txt`) | yes (OFL allows embedding; ship OFL text with the patch) | dialogue VWF (tools/font.py -> asm/engine.asm) | trimmed to printable ASCII; space advance 6 -> 4 px in tools/font.py |

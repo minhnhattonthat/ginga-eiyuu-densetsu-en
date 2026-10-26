@@ -54,6 +54,7 @@ end
 S.title_load = { title = true, menu = 2, load = true, arrive = { msg = 0x0B } }   -- DATA 1/2 select
 
 -- Phases of the first battle (Astarte), Yang side, reached by pressing A through the earlier ones
+S.astarte_brief   = { side = 0, step = 0, mash = 40, arrive = { msg = 0x34 } }      -- Paetta's briefing (box var 1)
 S.astarte_assign  = { side = 0, step = 0, mash = 40, arrive = { msg = 0x10 } }      -- admiral placement
 S.astarte_command = { side = 0, step = 0, mash = 40, arrive = { msg = 0x26 } }      -- "operation under way"
 S.astarte_battle  = { side = 0, step = 0, mash = 40, arrive = { msg = 0x138 }, settle = 30 }
