@@ -98,6 +98,31 @@ def test_blank_strings_kept(marker):
     assert len(blank) == 26 and all(tx[r["id"]] == r["jp"] for r in blank)
 
 
+def test_rank_maps():
+    """Each rank map is reached through $02:8054, uses only sheet tiles 0-49, and its top row draws the text."""
+    import gfx, gfxtext
+    orig = ROM.read_bytes()
+    rom = bytearray(orig)
+    for off, data, _ in gfxtext.writes(orig):
+        rom[off:off + len(data)] = data
+    d = gfx.lorom(*gfxtext.RANK_SHEET[:1], 0x8000 + 4 * gfxtext.RANK_SHEET[1])
+    sheet, _ = gfx.decompress(rom, gfx.lorom(8, rom[d] | rom[d + 1] << 8), 178, 2)
+    for i, text in gfxtext.RANKS.items():
+        p = rom[gfxtext.RANK_TABLE + 2 * i] | rom[gfxtext.RANK_TABLE + 2 * i + 1] << 8
+        off = gfx.lorom(2, p)
+        w = rom[off]
+        ents = [int.from_bytes(rom[off + 1 + 2 * k:off + 3 + 2 * k], "little") for k in range(2 * w)]
+        assert all(e & 0xFF00 == 0x0900 and e & 0xFF < gfxtext.RANK_TILES for e in ents), i
+        rows, width = gfxtext.tiny(text)
+        assert w == (width + 7) // 8
+        for k, e in enumerate(ents[:w]):
+            t = e & 0xFF
+            for r, xs in enumerate(rows):
+                assert sheet[16 * t + 2 * (gfxtext.RANK_ROW + r)] == sum(0x80 >> (x - 8 * k) for x in xs
+                                                                          if 8 * k <= x < 8 * k + 8), (i, k)
+        assert all(not any(sheet[16 * (e & 0xFF):16 * (e & 0xFF) + 16]) for e in ents[w:]), i
+
+
 def test_gfxtext_decodes_through_directory():
     """Every redrawn block, in place or relocated, decompresses through the bank directory to its new tiles, and
     differs from the JP only inside its text rect."""

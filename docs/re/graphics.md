@@ -20,7 +20,7 @@
 | G1 | Officer name plates (fleet panel, assignment) | 08_3D-08_70 (52) | 2bpp, 9x2 tiles (left 64 px shown) | yes (パエッタ, メルカッツ) | **English** (tools/gfxtext.py, Ark Pixel 10px; seen in `astarte_assign`, `cmd_fleet`) |
 | G2 | Flagship name plates (no place names) | 09_00-09_24 (37) | 2bpp, 9x2 | not yet | **English** (gfxtext.py; ship order differs from the name tables, mapped by eye) |
 | G3 | Battle title banners (アスターテ会戦, アムリッツァ星域会戦 ...) | 09_25-09_2B (15x2), 08_37-08_3C + 08_74 (26x2 briefing bar) | 2bpp | yes (`astarte_brief`) | **English** (gfxtext.py; JP outlines spill into the frame rows, redrawn) |
-| G4 | Rank plates + panel icons (大将 中将 ... 一般将校) | 08_34, 08_35, 08_70 | 2bpp | yes | |
+| G4 | Rank plates (司令官 元帥 上級 大将 中将 少将 准将 大尉) | 08_35 tiles 0-49 (sheet at BG3 $100) via bank-$02 maps 29-36 ($02:8054; drawn by $00:A5C4) | 2bpp | yes | **English** (gfxtext.py `ranks`: 3x5 caps, one tile row; maps moved to 0x17F00). 一般将校 is plate 08_70 (G1). VRAM after the sheet is used by result screens: don't grow it |
 | G5 | Title menu buttons (LOAD NEW DATA 1PLAY 2PLAY ON OFF), NO DATA | 08_30, 08_31, 08_71 | 2bpp | yes | already English |
 | G6 | Title character buttons (ヤン, ラインハルト) | 08_31 tiles 60-80 (BG3 tile = block tile + $80; 09_32 is only portraits) | 2bpp | yes | **English** (gfxtext.py btn_rein/btn_yang) |
 | G7 | Command help labels (攻撃 移動 終了 艦隊 ...) | 0E_0F-0E_18, 0E_27-0E_31 (icons: the rest of 0E_00-0E_31, no text) | 2bpp, 3x2 -> 6x2 | yes (`cmd_menu`, `cmd_fleet`, `cmd_area`) | **English** (gfxtext.py `label` + engine.md §Command buttons) |

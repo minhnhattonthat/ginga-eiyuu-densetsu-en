@@ -34,7 +34,7 @@ ENGINE = ROOT / "asm" / "engine.asm"
 EN_TBL = ROOT / "tbl" / "en.tbl"
 MAIN_REGION = (0x28000 + 2 * textdb.MAIN_COUNT, textdb.SUB_TABLE)   # strings + free 0xFF run up to the sub table
 SUB_REGION = (0x2FF30, 0x30000)                                     # bank $05 ends here; the font follows
-NAME_TAIL = (0x16DEA, 0x18000)                                      # bank $02 0xFF tail (trap-tested, engine.md)
+NAME_TAIL = (0x16DEA, gfxtext.RANK_MAPS[0])                         # bank $02 0xFF tail (trap-tested, engine.md)
 FAR_REGIONS = [(0x7B000, 0x80000), (0xF8000, 0x100000)]             # bank $0F after the font, bank $1F
 SIDE_FAR = {"side_0": 0x78E00, "side_1": 0x78E80}                   # $0F:8E00/8E80, asm/engine.asm points $00:F4D6 here
 ALLOWED = [                                                         # every write must land in one (romdiff ranges)
@@ -43,7 +43,9 @@ ALLOWED = [                                                         # every writ
     (0x28000, 0x30000, "bank $05 main/sub tables + strings"), (0x39A39, 0x39A3E, "hook $07:9A39 ff_code"),
     (0x39BBF, 0x39BC3, "hook $07:9BBF vwf_draw"), (0x78000, 0x80000, "bank $0F engine, font, side names, far"),
     (0xF8000, 0x100000, "bank $1F far"),
-    (0x40000, 0x401E4, "bank $08 gfx directory"), (0x440CC, 0x4445D, "title buttons 08_30/08_31"), (0x4517C, 0x46A56, "wide banners 08_37-08_3C + plates 08_3D-08_70"),
+    (0x40000, 0x401E4, "bank $08 gfx directory"), (0x440CC, 0x4445D, "title buttons 08_30/08_31"),
+    (0x44B7A, 0x45178, "rank sheet 08_35"), gfxtext.RANK_MAPS + ("rank maps",),
+    (gfxtext.RANK_TABLE + 2 * 29, gfxtext.RANK_TABLE + 2 * 37, "rank map pointers"), (0x4517C, 0x46A56, "wide banners 08_37-08_3C + plates 08_3D-08_70"),
     (0x46C78, 0x46E01, "wide banner 08_74"),
     (0x70000, 0x70100, "bank $0E gfx directory"), (0x2705, 0x270D, "hook $00:A705 label_clear"),
     (0x2752, 0x2763, "hook $00:A752 label_draw"), (0x27C6, 0x27C8, "label slot 7 position"),

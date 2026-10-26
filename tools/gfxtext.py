@@ -63,6 +63,21 @@ LABELS = {0x0F: "Defend", 0x10: "Join", 0x11: "Move", 0x12: "End", 0x13: "System
           0x30: "Standby", 0x31: "Priority"}
 GFX.update({(0xE, s): [("label", t)] for s, t in LABELS.items()})
 
+# Ranks (G4): bank-$02 maps 29-36 ($02:8054 pointer table: width byte + 2 rows of map words $0900 + n = BG3 tile
+# $100 + n) draw tiles 0-49 of 08_35 (loaded at $100; the rest of the sheet is icons). English won't fit 50 tiles
+# at two tile rows, so each rank is one tile row of 3x5 caps (TINY, ink 1) over a shared blank tile, and the maps
+# move to RANK_MAPS (end of the bank $02 tail) with their new widths. VRAM after the sheet is not free (result
+# screens draw at $1BB+), so the tile count stays 178.
+RANK_SHEET, RANK_TILES, RANK_ROW = (8, 0x35), 50, 3        # glyph rows 3-7 of the top tile
+RANK_TABLE, RANK_MAPS = 0x10054, (0x17F00, 0x18000)
+RANKS = {29: "COMMANDER", 30: "FLEET ADMIRAL", 31: "SENIOR ADMIRAL", 32: "ADMIRAL", 33: "VICE ADMIRAL",
+         34: "REAR ADMIRAL", 35: "COMMODORE", 36: "LIEUTENANT"}
+TINY = {"A": "010 101 111 101 101", "C": "011 100 100 100 011", "D": "110 101 101 101 110",
+        "E": "111 100 110 100 111", "F": "111 100 110 100 100", "I": "1 1 1 1 1", "L": "100 100 100 100 111",
+        "M": "10001 11011 10101 10001 10001", "N": "1001 1101 1011 1001 1001", "O": "010 101 101 101 010",
+        "R": "110 101 110 101 101", "S": "011 100 010 001 110", "T": "111 010 010 010 010",
+        "U": "101 101 101 101 111", "V": "101 101 101 101 010", " ": "00 00 00 00 00"}
+
 
 def names():
     rows = json.loads((ROOT / "script" / "names.json").read_text(encoding="utf-8"))
@@ -157,13 +172,57 @@ def blocks(orig):
     return out
 
 
+def tiny(text):
+    """Rows (5) of ink columns for TINY caps text, 1 px between letters."""
+    rows, x = [[] for _ in range(5)], 2          # 2 px clear of the rank icon on its left
+    for ch in text:
+        g = TINY[ch].split()
+        for r, bits in enumerate(g):
+            rows[r] += [x + c for c, b in enumerate(bits) if b == "1"]
+        x += len(g[0]) + 1
+    return rows, x - 1
+
+
+def ranks(orig):
+    """(new 08_35 tiles, {map id: template bytes}) for RANKS: one tile row each, tile RANK_TILES - 1 blank."""
+    d = gfx.lorom(RANK_SHEET[0], 0x8000 + 4 * RANK_SHEET[1])
+    n = orig[d + 2] | orig[d + 3] << 8
+    tiles, _ = gfx.decompress(orig, gfx.lorom(RANK_SHEET[0], orig[d] | orig[d + 1] << 8), n, 2)
+    tiles, blank, nxt, maps = bytearray(tiles), RANK_TILES - 1, 0, {}
+    tiles[16 * blank:16 * blank + 16] = bytes(16)
+    for i, text in RANKS.items():
+        rows, w = tiny(text)
+        cols = (w + 7) // 8
+        if cols > 8:
+            raise SystemExit(f"rank {text!r}: {w} px, room for 64")
+        ids = list(range(nxt, nxt + cols))
+        nxt += cols
+        if nxt > blank:
+            raise SystemExit(f"ranks need {nxt + 1} tiles, the sheet has {RANK_TILES}")
+        for k, t in enumerate(ids):
+            tiles[16 * t:16 * t + 16] = bytes(16)
+            for r, xs in enumerate(rows):
+                tiles[16 * t + 2 * (RANK_ROW + r)] = sum(0x80 >> (x - 8 * k) for x in xs if 8 * k <= x < 8 * k + 8)
+        maps[i] = bytes([cols]) + b"".join((0x0900 | t).to_bytes(2, "little") for t in ids + [blank] * cols)
+    return bytes(tiles), maps
+
+
 def writes(orig):
     """[(file offset, bytes, by)]: each compressed block, plus its directory entries (every slot sharing the
     stream, e.g. 08_30 = the first 20 tiles of 08_31) when relocated."""
     tail = {b: list(r) for b, r in TAIL.items()}
     dirs = gfx.blocks(orig)
+    sheet, maps = ranks(orig)
     out = []
-    for bank, slot, _, _, new in blocks(orig):
+    at = RANK_MAPS[0]
+    for i, m in maps.items():
+        out.append((at, m, "rank:map%d" % i))
+        addr = 0x8000 | at & 0x7FFF
+        out.append((RANK_TABLE + 2 * i, bytes([addr & 0xFF, addr >> 8]), "rank:ptr%d" % i))
+        at += len(m)
+    if at > RANK_MAPS[1]:
+        raise SystemExit("rank maps overflow RANK_MAPS")
+    for bank, slot, _, _, new in blocks(orig) + [(*RANK_SHEET, None, None, sheet)]:
         d = gfx.lorom(bank, 0x8000 + 4 * slot)
         off = gfx.lorom(bank, orig[d] | orig[d + 1] << 8)
         n, count = orig[d + 2] | orig[d + 3] << 8, len(new) // 16
