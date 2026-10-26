@@ -40,6 +40,9 @@ Standing non-bugs, `ok`:
   key press per page, as the JP does);
 - the small round blink cursor at a box's bottom right (the wait-for-key mark);
 - names and numbers in romaji/digits in battle panels (`Legrange`, `VICE ADMIRAL`, `20000`) are the English build's;
+- an empty battle cut-in box (portrait/emblem on both sides, no text) after a shout: the battle script opens m000, a
+  blank message, to clear the box (the JP does too); battles differ by run, so the JP tour may show a shout there;
+- stray emblem strips in the first narration box of ev28/ev29: the JP shows them too (tour_jp/ev29 f000228);
 - after a command is picked (Front, Fleet...), the message box stays empty while the icon picker waits for input
   before the next prompt ("Which area will you attack?"): the JP does the same;
 - the 3x5 all-caps rank and ship-type plates (`VICE ADMIRAL`) are deliberate (small sheet tiles).
