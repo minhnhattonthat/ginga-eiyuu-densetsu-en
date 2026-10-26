@@ -33,13 +33,13 @@
   "id": "s0B",
   "off": "02FF56",
   "jp": "同盟軍の総艦数は{end}",
-  "en": "the Alliance fleet totals{end}"
+  "en": "the Alliance has{end}"
  },
  {
   "id": "s0C",
   "off": "02FF65",
   "jp": "帝国軍の総艦数は{end}",
-  "en": "the Imperial fleet totals{end}"
+  "en": "the Empire has{end}"
  },
  {
   "id": "s0D",

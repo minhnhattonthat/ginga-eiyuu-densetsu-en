@@ -14,6 +14,7 @@ reaches its string through `{far}` stubs, far strings stay in their bank) and th
 | $00:F46B | copy a name into its 16-byte RAM slot | `JML name_slot` | slot gets `F8 <24-bit ptr>`: no name length cap |
 | $00:F4D7/F4DE/F4E3 | side name source $00:F4EE/F4F6 | $0F:8E00/8E80 | 同盟軍/帝国軍 lived inside code (8 bytes) |
 | $00:F557 | `ADC #$89` (JP digit 0) | `ADC #$30` | number writer $00:F538 -> slot $1F40 ({sub0:03}, losses in m134): $89 is past the English font, result scenes crashed |
+| $07:9B00 | `STA $116F STA $1170` (F6 speed) | `JML speed_set` | box variant 4: speed n -> n/2, so a shout in English (~2x the JP glyphs) ends before the timeout, as the JP's does |
 | $00:A705, $00:A752, $00:A7C6 | button slot map 3x2 / slot 7 at x 26 | `JML label_clear` / `JML label_draw`, x 23 | help label (slot 7) 6x2 tiles $AA-$B5; slot 6 (x 21, only ever cleared) clears 2 columns, not 3: the SYS bar clears slots 3-6 after drawing the label, which cut its first column |
 
 ## Command buttons ($00:A6DD; verified: `work/qa/lbl1`)
@@ -57,7 +58,7 @@ reaches its string through `{far}` stubs, far strings stay in their bank) and th
 - Box setup $07:9E84: X = width in JP chars (w), Y = lines (h); `$117F` = w + w/2 + 3 tiles with the frame, so
   the canvas is 8 * (w + w/2 + 1) px wide: 17 -> 208 px, 13 -> 160 px, 9 -> 112 px. Variants ($11A1, table
   $07:9E5A: x, y, w, h): 0 17x2 title, 1 17x4 battle start lines, 2 13x3 admiral placement, 3 13x3 battle /
-  command menu, 4 9x5 (not seen), 5 17x4 results, 6 17x4 story.
+  command menu, 4 9x5 battle cut-ins, 5 17x4 results, 6 17x4 story.
 - Boxes scroll, but a full box waits for A first ($07:99D1 newline: line count $116D reaches h = $11A3 -> state
   $1116 = 7, handler $07:9DC0 polls $08D4/$08D6 bit 7). Story text may run past h (the JP does: one key press per
   scroll), but a message the JP fits in h lines must fit in English too: the attract demo presses nothing and
@@ -70,7 +71,7 @@ reaches its string through `{far}` stubs, far strings stay in their bank) and th
 | 1 | 17x4 battle briefing | 208 | 4 | astarte_brief | same cursor; box closes by itself ~240 frames in |
 | 2 | 13x3 admiral placement | 160 | 3 | astarte_assign | |
 | 3 | 13x3 battle / command | 160 | 3 | cmd_menu | portrait left of the text |
-| 4 | 9x5 | 112 | 5 | never seen | no message binds to it (`script/boxes.json`) |
+| 4 | 9x5 battle cut-in | 112 | 5 | ev12 (m13A) | events 3A-FF (`{speed}` halved, below); the battle script ($01, op 10) closes the box ~20 frames after the text ends, or on a timeout (~125 frames for a 2-line shout) |
 | 5 | 17x4 results | 208 | 4 | step00_yang_result0 | types slowly, `{speed}` ignored |
 | 6 | 17x4 story | 208 | 4 | intro | |
 

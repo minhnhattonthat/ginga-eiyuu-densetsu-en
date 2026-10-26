@@ -66,6 +66,14 @@ assert read2($00A7C6) == $111A, "label position moved"
 org $00A7C6
         dw $1117                ; slot 7 map position: x 26 -> 23, y 17
 
+; 5. F6 n (text speed, frames per glyph) is halved in battle cut-ins (box variant 4): the battle script closes them on
+;    a fixed timer (op 10), and English has about twice the JP's glyphs, so a short shout finished typing 2 frames
+;    before the box closed.
+assert read1($079B00) == $8D && read2($079B01) == $116F && read1($079B03) == $8D, "speed store moved"
+org $079B00
+        jml speed_set           ; M8, A = n
+        nop #2
+
 org $0F8000
 vwf_draw:
         php
@@ -349,6 +357,19 @@ label_draw:                     ; M8 X16
 label_map:                      ; 6x2 map entries for tiles $AA-$B5, palette 2 (as $00:94E3 builds them)
         dw $08AA, $08AB, $08AC, $08AD, $08AE, $08AF
         dw $08B0, $08B1, $08B2, $08B3, $08B4, $08B5
+
+speed_set:                      ; M8
+        pha
+        lda $11A1
+        cmp #$04
+        beq .cut
+        pla
+        bra .store
+.cut:   pla
+        lsr
+.store: sta $116F
+        sta $1170
+        jml $07993A
 
 assert pc() <= $0F8E00          ; $0F:8E00-8EFF: side names (written by tools/build.py)
 org $0F8F00

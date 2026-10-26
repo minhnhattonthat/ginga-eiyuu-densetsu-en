@@ -17,10 +17,11 @@ import events  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "script" / "boxes.json"
-BOX = {1: (17, 4, 1), 2: (13, 3, 2), 3: (13, 3, 3), 5: (17, 4, 5), 6: (17, 4, 6), 0: (17, 2, 0)}
-# Event groups (docs/re/debug.md): battle-start lines, battle speeches, interludes, results; 2D = debug menu.
+BOX = {1: (17, 4, 1), 2: (13, 3, 2), 3: (13, 3, 3), 4: (9, 5, 4), 5: (17, 4, 5), 6: (17, 4, 6), 0: (17, 2, 0)}
+# Event groups (docs/re/debug.md): battle-start lines, battle speeches, interludes, results; 2D = debug menu;
+# 3A-FF battle cut-ins (9x5 beside the portrait; the few with a JP line over 9 glyphs are command-panel 13x3).
 EVENT_BOX = [(range(0x00, 0x0E), 1), (range(0x12, 0x14), 3), (range(0x14, 0x25), 6), (range(0x26, 0x2D), 3),
-             (range(0x2D, 0x2E), 3), (range(0x2E, 0x3A), 5), (range(0x3A, 0x100), 3)]
+             (range(0x2D, 0x2E), 3), (range(0x2E, 0x3A), 5), (range(0x3A, 0x100), 4)]
 # Direct calls by caller: title menus (bank $07 $9000-$9700), command menus (bank $04), admiral placement,
 # result screen (bank $00 $F2xx-$F4xx).
 CALL_BOX = [(lambda a: 0x079000 <= a < 0x079700, 0), (lambda a: a >> 16 == 0x04, 3),
@@ -71,7 +72,7 @@ def assign(logdirs):
         for m in msgs:
             k = "m%03X" % m
             if var is not None and k not in out:
-                out[k] = [*BOX[var], "event"]
+                out[k] = [*BOX[3 if var == 4 and jp_line_max(jp[k]) > 9 else var], "event"]
     for m in re.finditer(rb"\xa2(..)\x22\x9f\x97\x07", d, re.S):
         k = "m%03X" % (m.group(1)[0] | m.group(1)[1] << 8)
         o = m.start()

@@ -1059,7 +1059,7 @@
   "id": "m0B0",
   "off": "02C90C",
   "jp": "帝国艦隊は補給艦の{nl}大爆発により艦を{nl}失った。{wait}{end}",
-  "en": "The Imperial fleet lost ships in the supply ship's massive explosion.{wait}{end}"
+  "en": "The Imperial fleet / lost ships in the supply ship's massive explosion.{wait}{end}"
  },
  {
   "id": "m0B1",
@@ -1959,7 +1959,7 @@
   "id": "m146",
   "off": "02DF5B",
   "jp": "{speed:05}シェーンコップ{nl}{sub0:0D}{nl}{sub0:0B}{nl}約４００００隻。{nl}びびたるもんです」{wait}{end}",
-  "en": "{speed:05}Schonkopf / {sub0:0D} {sub0:0B} about 40,000 ships. A drop in the bucket.\"{wait}{end}"
+  "en": "{speed:05}Schonkopf / {sub0:0D} {sub0:0B} about 40,000 ships. A pittance.\"{wait}{end}"
  },
  {
   "id": "m147",
