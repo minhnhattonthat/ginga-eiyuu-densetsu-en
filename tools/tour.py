@@ -5,7 +5,8 @@
     python -X utf8 tools/tour.py [SCENE ..] [--rom ROM] [--states work/states] [--out work/qa/tour]
         [--frames 12000] [--idle 300] [--jobs 4] [--unique]
 Full coverage (round 7): story scenes need --frames 60000 (12000 cut most mid-text), battle cut-ins ev3A-evFF
-1500 (a second run); --unique drops the repeats within a run (sheets then hold each message/box once).
+1500 (a second run); --unique drops the repeats within a run (sheets then hold each message/box once);
+`--resheet --unique` (no scene names = every state) redoes that across all runs already in --out, no emulator.
 Japanese side (same scenes, for reviewers to tell the game's own behaviour from a translation bug):
     python -X utf8 tools/debug/regen.py --rom "rom/Ginga Eiyuu Densetsu (Japan).sfc" --states work/states_jp --qa work/qa/warp_jp
     python -X utf8 tools/tour.py --rom "rom/Ginga Eiyuu Densetsu (Japan).sfc" --states work/states_jp --out work/qa/tour_jp
@@ -30,9 +31,11 @@ MSGLOG = os.path.join(ROOT, "tools", "lua", "msgcall.lua")  # log.txt lists the 
 def dedupe(out, scene, seen):
     """Move to out/dup/ every shot whose run of (message, box) already showed in this or an earlier scene.
     A shot belongs to the last message opened before it (log.txt); shots before the first logged open show the
-    message the scene's state was saved on, unique to the scene."""
+    message the scene's state was saved on, unique to the scene. Blank m000 (box clear) opens while the last page is
+    still up, so it starts no run."""
     opens = [(int(m[1]), (m[2], m[3])) for m in
-             re.finditer(r"^f(\d+) msg (\w+) ret \w+ var (\d+)", open(os.path.join(out, "log.txt")).read(), re.M)]
+             re.finditer(r"^f(\d+) msg (\w+) ret \w+ var (\d+)", open(os.path.join(out, "log.txt")).read(), re.M)
+             if m[2] != "000"]
     shots = sorted((1 << 30 if f == "final.png" else int(f[1:-4]), f) for f in os.listdir(out)
                    if re.fullmatch(r"f\d+\.png|final\.png", f))
     run, keep = None, False
@@ -57,6 +60,7 @@ def main():
     ap.add_argument("--jobs", type=int, default=4)
     ap.add_argument("--unique", action="store_true",
                     help="keep a shot only the first time its (message, box) shows across the scenes; repeats -> dup/")
+    ap.add_argument("--resheet", action="store_true", help="no runs: redo --unique and the sheets of the runs in --out")
     a = ap.parse_args()
     names = a.scenes or sorted(f[:-4] for f in os.listdir(a.states) if f.endswith(".mss"))
 
@@ -75,8 +79,18 @@ def main():
         print(("ok   " if r.returncode == 0 else f"FAIL {r.returncode} ") + n, flush=True)
         return r.returncode == 0
 
+    def restore(n):  # undo an earlier dedupe and its sheets
+        out = os.path.join(a.out, n)
+        for f in os.listdir(out):
+            if f.startswith("sheet"):
+                os.remove(os.path.join(out, f))
+        dup = os.path.join(out, "dup")
+        for f in os.listdir(dup) if os.path.isdir(dup) else []:
+            os.replace(os.path.join(dup, f), os.path.join(out, f))
+        return os.path.isfile(os.path.join(out, "log.txt"))
+
     with ThreadPoolExecutor(a.jobs) as ex:
-        results = list(ex.map(one, names))
+        results = list(ex.map(restore if a.resheet else one, names))
     bad = [n for n, ok in zip(names, results) if not ok]
     seen = set()
     for n in [n for n in names if n not in bad]:

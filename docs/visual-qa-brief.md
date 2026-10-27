@@ -14,6 +14,11 @@ except your one verdict file: no edits to the repo, no git, no subagents.
 How the tour was made (`tools/tour.py`): each scene starts from a savestate; a frame is shot when a text box is
 complete and waits for a key, then A is pressed; on screens with no text wait (menus, battles, maps) A is pressed
 and a frame shot every 300 frames. So pressing A in menus picks commands: odd menu paths are the tour's, not bugs.
+A page that ends with no key wait (a battle cut-in's last page, closed by a timer) is shot as it completes.
+The English sheets keep each (message, box) once across all scenes (`tour.py --unique`): a scene's sheets skip
+text an earlier scene showed (the dropped frames are in `<scene>/dup/`), so a jump in the story between tiles is
+not a bug. The JP sheets keep every frame. `evNN` scenes (NN 3A-FF) are one-line battle cut-ins run inside the
+first battle, so the portrait/emblem is Astarte's, not the speaker's: `ok` when the JP's evNN sheet shows the same.
 
 ## How to look
 - Read each sheet whole first. Where text is small, zoom into it with

@@ -51,7 +51,11 @@ for step = 0, 11 do
   end
 end
 
-S.title_load = { title = true, menu = 2, load = true, arrive = { msg = 0x0B } }   -- DATA 1/2 select
+-- Event 1A's second yes/no (m06B) answered No: m06D, m076-079, m132/133 (the tour's A takes Yes)
+S.step03_rein_no = { side = 1, step = 3, mash = 40, arrive = { msg = 0x6B }, keys = "300 - 6 right 30 - 6 a",
+  settle = 500 }
+
+S.title_load ={ title = true, menu = 2, load = true, arrive = { msg = 0x0B } }   -- DATA 1/2 select
 
 -- Phases of the first battle (Astarte), Yang side, reached by pressing A through the earlier ones
 S.astarte_brief   = { side = 0, step = 0, mash = 40, arrive = { msg = 0x34 } }      -- Paetta's briefing (box var 1)
@@ -100,7 +104,7 @@ S.credits = S.step11_yang
 
 -- Endings: step 10 runs event 23, which branches on story flags 10, 11, 14 (none set = the fourth ending).
 for _, e in ipairs({ { "ending_f10", { 0x10 } }, { "ending_f11", { 0x11 } }, { "ending_f14", { 0x14 } },
-                     { "ending_none", nil } }) do
+                     { "ending_none", nil }, { "ending_f0F11", { 0x0F, 0x11 } } }) do  -- 0F+11: m0E4/m239
   for side = 0, 1 do
     S[e[1] .. (side == 0 and "_yang" or "_rein")] = { side = side, step = 10, flags = e[2], settle = 150,
       arrive = { ev = 0x23, next_msg = true } }

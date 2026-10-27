@@ -61,11 +61,10 @@ L.on_exec(0x00A589, 0x00A589, function()
   if sc.step then wr(0x11CB, emu.read(STEP_TBL + 8 * sc.step, rom)); wr(0x11CC, emu.read(STEP_TBL + 8 * sc.step + 1, rom)) end
 end)
 -- Game init clears the flags ($00:D4DE) and sets its own; add ours just before it loads the step ($00:D538).
-if sc.flags then
-  L.on_exec(0x00D538, 0x00D538, function()
-    for _, f in ipairs(sc.flags) do wr(0x1A9D + (f >> 3), rd(0x1A9D + (f >> 3)) | (1 << (f & 7))) end
-  end)
+local function set_flags()
+  for _, f in ipairs(sc.flags) do wr(0x1A9D + (f >> 3), rd(0x1A9D + (f >> 3)) | (1 << (f & 7))) end
 end
+if sc.flags then L.on_exec(0x00D538, 0x00D538, set_flags) end
 
 -- Outcome: $00:F296 picks the result event from table $00:F2AB by stage*2 + $0B91 (1 = loss).
 if sc.lose ~= nil then L.on_exec(0x00F296, 0x00F296, function() wr(0x0B91, sc.lose) end) end
@@ -88,6 +87,8 @@ L.on_exec(0x018000, 0x018000, function()
     a = sc.event
   end
   L.log(string.format("f%d event %02X", L.frame, a))
+  -- the step's code clears some flags (0F) before the ending: set them again as the scene's event starts
+  if sc.arrive.ev == a and sc.flags then set_flags() end
   if sc.arrive.ev == a then arrive(L.frame) end
 end)
 L.on_exec(0x0797A0, 0x0797A0, function()
