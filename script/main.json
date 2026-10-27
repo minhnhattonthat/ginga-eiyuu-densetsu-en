@@ -351,13 +351,13 @@
   "id": "m03A",
   "off": "0292C2",
   "jp": "{speed:09}パエッタ「ヤン准将{nl}…私の…この{nl}ケガでは…艦隊に…{nl}司令ができん…{nl}{nl}無事な士官は…{nl}君だけのようだ…{nl}…君が全軍をひきい{nl}てくれ…」{wait}{end}",
-  "en": "{speed:09}Paetta: \"Commodore / Yang... With these wounds... I cannot command... the fleet... / / It seems... you are the only... officer unhurt... ...You must lead... all our forces...\"{wait}{end}"
+  "en": "{speed:09}Paetta: \"Commodore Yang... With these wounds... I cannot command the fleet... / / It seems you are the only officer unhurt... You must lead all our forces...\"{wait}{end}"
  },
  {
   "id": "m03B",
   "off": "029323",
   "jp": "{speed:05}ヤン「全艦隊に{nl}つげる。{nl}パエッタ総司令官は{nl}ケガをなされた。{nl}{nl}よって私、ヤン准将{nl}が全軍に司令をだす{nl}私についてくれば{nl}まける事は無い」{wait}{end}",
-  "en": "{speed:05}Yang: \"To all fleets. Commander-in-Chief Paetta has been wounded. / / Therefore I, Commodore Yang, will take command of all forces. If you follow me, you won't lose.\"{wait}{end}"
+  "en": "{speed:05}Yang: \"To all fleets. Commander-in-Chief Paetta has been wounded. / / I, Commodore Yang, therefore take command of all forces. Follow me and we won't lose.\"{wait}{end}"
  },
  {
   "id": "m03C",

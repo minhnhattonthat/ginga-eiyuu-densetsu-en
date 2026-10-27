@@ -63,6 +63,11 @@ def main():
     ap.add_argument("--resheet", action="store_true", help="no runs: redo --unique and the sheets of the runs in --out")
     a = ap.parse_args()
     names = a.scenes or sorted(f[:-4] for f in os.listdir(a.states) if f.endswith(".mss"))
+    # a state saved mid-message holds a pointer into the old build's text: on a rebuilt ROM it reads another string
+    stale = [n for n in names if not a.resheet
+             and os.path.getmtime(os.path.join(a.states, n + ".mss")) < os.path.getmtime(a.rom)]
+    if stale:
+        sys.exit(f"{len(stale)} states older than {a.rom} (first: {stale[0]}): run tools/debug/regen.py first")
 
     def one(n):
         out = os.path.abspath(os.path.join(a.out, n))

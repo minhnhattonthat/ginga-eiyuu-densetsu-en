@@ -8,7 +8,7 @@ L.on_frame(function(n)
   if not L.route_done() then return end
   local s = emu.read(0x7E1116, mem)
   -- 3 -> 1: the text ended with no wait (battle cut-ins' last page closes on a timer): shoot it after the flush
-  if prev == 3 and s == 1 then nowait = n + 3 end
+  if prev == 3 and s == 1 then nowait = n + 8 end  -- +3 missed the last glyph (m0B0); the box closes ~20 later
   prev = s
   if n == nowait then L.shot(string.format("f%06d.png", n)) end
   if s == 5 or s == 7 then held = held + 1 else held = 0 end
