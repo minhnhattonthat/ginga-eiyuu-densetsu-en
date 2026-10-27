@@ -112,7 +112,9 @@ end
 -- of Astarte's first battle event (2A). Not here: 14 (attract-mode screen: `intro_late`) and 2D (leftover debug
 -- flag menu, draws nothing outside the debug menu; msgs 209-212 unused in play).
 S.ev24 = { side = 0, step = 0, event = 0x24, settle = 150, arrive = { ev = 0x24, next_msg = true } }
-for _, ev in ipairs({ 0x12, 0x13, 0x26, 0x27, 0x28, 0x29, 0x2A, 0x2B, 0x2C }) do
+local battle_ev = { 0x12, 0x13, 0x26, 0x27, 0x28, 0x29, 0x2A, 0x2B, 0x2C }
+for ev = 0x3A, 0xFF do battle_ev[#battle_ev + 1] = ev end  -- one-line battle cut-ins (9x5 box)
+for _, ev in ipairs(battle_ev) do
   S[string.format("ev%02X", ev)] = { side = 0, step = 0, mash = 40, event = ev, swap = 0x2A, settle = 60,
     arrive = { ev = ev, next_msg = true } }
 end
