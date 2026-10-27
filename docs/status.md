@@ -2,8 +2,17 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8 (visual QA) gate passed 2026-10-27 (round 6: 506/506 sheets ok, `qa_gate.py check` exit 0).
-  Next: the translator-flagged in-game checks and the polish pass below, then release (phase 9).
+- **Phase:** 8 (visual QA), round 7 in progress (2026-10-28). Round 6's pass covered only what a 12000-frame tour
+  showed: nearly every scene was cut mid-text (event 1A m05A-082, endings, all cut-ins 3A-FF never in a sheet).
+  Round 7: cut-in scenes ev3A-evFF, step03_rein_no, ending_f0F11 added; story tours 60000 frames, cut-ins 1500;
+  `tour.py --unique` keeps each (message, box) once (`--resheet` redoes it with no emulator). Every event message
+  but 2D (debug menu) now reaches a sheet. Round 7a (10 of 16 chunks) found: m213/214/215/219 and ev26/28/29 lines
+  open in the 9x5 cut-in in play (boxes.json was from the 12000-frame probe; now from `boxes.py work/qa/probe
+  work/qa/tour_jp`), m03A/m03B tightened; and every story state predated the last text commit (a state saved
+  mid-message reads another string on a rebuilt ROM: tour.py now refuses states older than the ROM).
+  Round 7b: rebuild, regen all, re-tour (`work/qa/r7b_*.log`), then `qa_gate init` (manifest kept: identical
+  sheets keep their r7 verdicts), `todo --size 34`, visual-qa 4 at a time. Check evFD's first page portrait
+  (EN emblem, JP portrait: timing?). Then the polish pass, then release (phase 9).
 - **Done:**
   - Step 0: MesenCE 2.2.1 in `tools/mesen/`, guard hook proven, pre-commit runs `tools/check.py`, rom.sha1.
   - Recon (`docs/re/text.md`, `docs/re/graphics.md`): encoding + `tbl/jp.tbl`, control codes, main table (571
@@ -66,13 +75,12 @@ Updated at the end of every session. Keep it to what the next session needs; his
      work/qa/oldN; round 6 is the current one in work/qa/verdicts, round 5 in old5), visual-qa agents 4 at a time, `check` exit 0.
      Controller overrides say why in their note (round 6: verdicts/r6_controller.tsv, m13A timeout). After a tour,
      drop manifest ids whose sheet no longer exists (a shorter run makes fewer sheets).
-  2. Phase 8 QA, items flagged by translators to see in game: m0E3 "Alliance    Empire" and m20A-m211/m238
-     two-option menus (cursor columns), m13E-m163 `{sub0:0D}` joined to the next line, m071-m073 {speed} after the
-     speaker colon, m026 indent, s0E ",000 ships" / s11 "Supply" / s13-s17 (where are they drawn?), m0D8 4th line
-     exactly 208 px with {sub0:09}.
+  2. Translator-flagged in-game items: done. m026/m0D8 seen ok; m0E3, m20A-211, m238 are the debug menu (event 2D)
+     only; s0E/s11/s13-s17 are called by no message (dead); m13E (ev40) matches the JP; m13E-163 and m071-073 are
+     in round 7's sheets.
   3. Polish pass (m0A7, speaker-turn pages, Joint Operational done): Minors deferred from review (reports were in the session; re-review sampled ~150 before release).
-  4. Carried over: 68 message ids no event/direct call shows (`tools/events.py --unreached`) bind to the 17x4 box
-     by default.
+  4. Carried over: message ids no event/direct call shows (`tools/events.py --unreached`) and no tour logged keep
+     boxes.py's "jp" guess (narrowest box the JP fits); m213-219 were among them and turned out to be 9x5.
 - **Open bugs:**
   - none. (Closed: the "empty box after Front" was the Front/All Sides/Focus picker waiting for input; same route
     from `cmd_fleet` gives the same frames and screens in JP, m01C at f378 both, `work/qa/probe/d3.png`.)
