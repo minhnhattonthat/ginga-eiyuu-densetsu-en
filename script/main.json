@@ -807,13 +807,13 @@
   "id": "m086",
   "off": "02B8BB",
   "jp": "{speed:05}キャゼルヌ「これは要塞対要塞という{nl}歴史上初めての戦闘である。{nl}ヤンがもどってくるまで、なんとし{nl}ても、敵をくいとめるんだ！{nl}われわれの３万１千隻の艦隊とイゼル{nl}ローン要塞に対し、帝国軍は３万２千{nl}の艦隊とガイエスブルグ要塞である。{nl}{nl}イゼルローンが移動できないため、{nl}わが軍はガイエスブルグをつぶさなく{nl}てはならない。{nl}そしてそれがわが軍の勝利となる！」{end}",
-  "en": "{speed:05}Cazerne: \"This is the first battle in history of fortress against fortress. We must hold off the enemy at all costs until Yang returns! Against our fleet of 31,000 ships and Iserlohn Fortress, the Imperial forces have a fleet of 32,000 and Geiersburg Fortress. / / Since Iserlohn cannot move, we must crush Geiersburg. And that will be our victory!\"{end}"
+  "en": "{speed:05}Cazerne: \"This is the first battle in history between two fortresses. We must hold off the enemy at all costs until Yang returns! Against our fleet of 31,000 ships and Iserlohn Fortress, the Imperial forces have a fleet of 32,000 and Geiersburg Fortress. / / Since Iserlohn cannot move, we must crush Geiersburg. And that will be our victory!\"{end}"
  },
  {
   "id": "m087",
   "off": "02B995",
   "jp": "{speed:09}ヤン「これは要塞対要塞という歴史{nl}上初めての戦闘である。イゼルロー{nl}ン要塞を帝国にかえしてはならない。{nl}たいへんな戦闘になるぞ！{nl}われわれの３万１千隻の艦隊とイゼル{nl}ローン要塞に対し、帝国軍は３万２千{nl}の艦隊とガイエスブルグ要塞で攻めて{nl}きている。{nl}イゼルローンが移動できないため、{nl}わが軍はガイエスブルグをつぶさなく{nl}てはならない。{nl}そしてそれがわが軍の勝利となる。」{end}",
-  "en": "{speed:09}Yang: \"This is the first battle in history of fortress against fortress. We must not hand Iserlohn Fortress back to the Empire. This is going to be a hard fight! Against our fleet of 31,000 ships and Iserlohn Fortress, the Imperial forces are attacking with a fleet of 32,000 and Geiersburg Fortress. Since Iserlohn can't move, we have to crush Geiersburg. And that will be our victory.\"{end}"
+  "en": "{speed:09}Yang: \"This is the first battle in history between two fortresses. We must not hand Iserlohn Fortress back to the Empire. This is going to be a hard fight! Against our fleet of 31,000 ships and Iserlohn Fortress, the Imperial forces are attacking with a fleet of 32,000 and Geiersburg Fortress. Since Iserlohn can't move, we have to crush Geiersburg. And that will be our victory.\"{end}"
  },
  {
   "id": "m088",
