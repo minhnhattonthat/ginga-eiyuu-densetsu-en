@@ -19,6 +19,9 @@ The English sheets keep each (message, box) once across all scenes (`tour.py --u
 text an earlier scene showed (the dropped frames are in `<scene>/dup/`), so a jump in the story between tiles is
 not a bug. The JP sheets keep every frame. `evNN` scenes (NN 3A-FF) are one-line battle cut-ins run inside the
 first battle, so the portrait/emblem is Astarte's, not the speaker's: `ok` when the JP's evNN sheet shows the same.
+There they open in the map's 3-line 13x3 box; in play they open in the 5-line 9x5 cut-in (lines wrap at its
+112 px). So an English shout of 4-5 lines pages there, with a key wait and a late portrait change, where the JP
+fits one page (evFD): `ok`, note it. Text past the 112 px wrap or garbled glyphs are still issues.
 
 ## How to look
 - Read each sheet whole first. Where text is small, zoom into it with
