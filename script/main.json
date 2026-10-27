@@ -441,7 +441,7 @@
   "id": "m049",
   "off": "029985",
   "jp": "{speed:09}同盟政府の作戦は、帝国の惑星を攻{nl}略しつつ、帝国の主星オーディンまで{nl}いっきに攻めこむというものだった。{nl}{nl}イゼルローン要塞から出撃した同盟{nl}艦隊は、帝国領を侵攻していった。{nl}帝国艦隊は、どこにも見えなかった。{nl}{nl}アムリッツァ星域に入った同盟軍{nl}は、惑星の人びとのかんげいをうけた{nl}{nl}{nl}帝国軍は同盟軍の侵攻のいくての惑{nl}星から、物資を引き上げ、のこされ{nl}た惑星の人びとは、同盟軍に補給をも{nl}とめたのだった。{end}",
-  "en": "{speed:09}The Alliance government's plan was to capture Imperial planets while driving straight on to Odin, the Empire's capital world. / / The Alliance fleets sortied from Iserlohn Fortress and advanced into Imperial territory. The Imperial fleets were nowhere to be seen. / / On entering the Amritsar stellar region, the Alliance forces were welcomed by the people of its planets. / / / The Imperial forces had stripped the supplies from the planets in the Alliance's path, and the people left behind turned to the Alliance forces for supplies.{end}"
+  "en": "{speed:09}The Alliance government's plan was to capture Imperial planets while driving straight on to Odin, the Empire's capital world. / / The Alliance fleets sortied from Iserlohn Fortress and advanced into Imperial territory. The Imperial fleets were nowhere to be seen. / / On entering the Amritsar stellar region, the Alliance forces were welcomed by the people of its planets. / / / / The Imperial forces had stripped the planets in the Alliance's path of supplies, and the people left behind turned to the Alliance forces for help.{end}"
  },
  {
   "id": "m04A",
@@ -1107,7 +1107,7 @@
   "id": "m0B8",
   "off": "02CAD9",
   "jp": "こんな時にこんなことを申しこむのは{nl}{speed:0A}…{nl}{speed:05}ああ、こまったものだな。{nl}{nl}{speed:09}ようするに{speed:0A}結婚して{speed:05}ほしいんだ。」{end}",
-  "en": "I know it's a poor time to be asking this{speed:0A}... {speed:05}Oh, I'm hopeless at this. / / {speed:09}In short,{speed:0A} I'd like you to marry{speed:05} me.\"{end}"
+  "en": "I know it's a poor time to be asking this{speed:0A}... {speed:05}Oh, I'm hopeless at this. / / / {speed:09}In short,{speed:0A} I'd like you to marry{speed:05} me.\"{end}"
  },
  {
   "id": "m0B9",
@@ -1143,7 +1143,7 @@
   "id": "m0BE",
   "off": "02CD5A",
   "jp": "ヒルダ「ええ、そしてローエングラム{nl}公は初めてで最後の敗北をなさる{nl}でしょう。{nl}{nl}しかし、同盟軍もバーミリオン星域{nl}にむけて全戦力をむかわせ、首都の{nl}まもりは手うすなハズです。{nl}そこで…」{end}",
-  "en": "Hilda: \"Yes. And Duke Lohengramm will suffer his first and last defeat. / / However, the Alliance forces must also have sent their entire strength toward the Vermillion stellar region, so the capital's defenses should be thin. And so...\"{end}"
+  "en": "Hilda: \"Yes. And Duke Lohengramm will suffer his first and last defeat. / / / However, the Alliance must also have sent its full strength toward the Vermillion stellar region, leaving the capital thinly defended. And so...\"{end}"
  },
  {
   "id": "m0BF",

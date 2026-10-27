@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8 (visual QA) gate passed 2026-10-27 (round 5: 508/508 sheets ok, `qa_gate.py check` exit 0).
+- **Phase:** 8 (visual QA) gate passed 2026-10-27 (round 6: 506/506 sheets ok, `qa_gate.py check` exit 0).
   Next: the translator-flagged in-game checks and the polish pass below, then release (phase 9).
 - **Done:**
   - Step 0: MesenCE 2.2.1 in `tools/mesen/`, guard hook proven, pre-commit runs `tools/check.py`, rom.sha1.
@@ -57,18 +57,20 @@ Updated at the end of every session. Keep it to what the next session needs; his
     (452 sheets): battle cut-ins (events 3A-FF) are the 9x5 box at 112 px, not 13x3 (boxes.py; m13A ran off the
     box and never finished); `{speed}` halved in that box by an engine hook (shouts ended 2 frames before the box
     closed; JP ~20); s0B/s0C "the Alliance has"/"the Empire has" (fit 112 px); m146; m0B0 line 1 under the plate.
+    Round 6 (473 sheets; after the speaker-turn page lint, 16 msgs padded, m0A7 split, m03B Joint Operational):
+    m049/m0BE/m0B8 new paragraph landed mid-page where the JP starts a page (padded/tightened). m13A (long
+    fleet-count shout) is closed by the battle timeout before its wait; the JP's is too (probe e29jp), so ok. A lint
+    rule for paragraph page starts was tried and dropped: 29 hits, mostly narration where sharing a page is fine.
 - **Next:**
   1. After any change that touches text, fonts or the engine: regen, tour, a fresh manifest (old rounds go to
-     work/qa/oldN; round 5 is the current one in work/qa/verdicts), visual-qa agents 4 at a time, `check` exit 0.
-     Four round-5 verdicts were overridden by the controller with probe evidence (m000 blank clears, mosaic
-     frames, JP emblem strips); each says why in its note.
+     work/qa/oldN; round 6 is the current one in work/qa/verdicts, round 5 in old5), visual-qa agents 4 at a time, `check` exit 0.
+     Controller overrides say why in their note (round 6: verdicts/r6_controller.tsv, m13A timeout). After a tour,
+     drop manifest ids whose sheet no longer exists (a shorter run makes fewer sheets).
   2. Phase 8 QA, items flagged by translators to see in game: m0E3 "Alliance    Empire" and m20A-m211/m238
      two-option menus (cursor columns), m13E-m163 `{sub0:0D}` joined to the next line, m071-m073 {speed} after the
      speaker colon, m026 indent, s0E ",000 ships" / s11 "Supply" / s13-s17 (where are they drawn?), m0D8 4th line
      exactly 208 px with {sub0:09}.
-  3. Polish pass: m0A7 "ordered the Yang / Fleet destroyed" (the one-word-last-line pass splits "Yang Fleet"); Yang
-     and Julian share one box with a blank line in step04/05 (JP: two boxes); "Joint Operations" vs the glossary's
-     Joint Operational Headquarters (step00_rein_after); Minors deferred from review (reports were in the session; re-review sampled ~150 before release).
+  3. Polish pass (m0A7, speaker-turn pages, Joint Operational done): Minors deferred from review (reports were in the session; re-review sampled ~150 before release).
   4. Carried over: 68 message ids no event/direct call shows (`tools/events.py --unreached`) bind to the 17x4 box
      by default.
 - **Open bugs:**
