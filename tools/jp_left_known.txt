@@ -1,0 +1,1 @@
+2FF00 sub-string pointer table (data, rewritten by the build only when a sub string moves)

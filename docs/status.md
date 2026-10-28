@@ -2,7 +2,10 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8 (visual QA), round 7 passed (2026-10-28): `qa_gate check` 541/541 (r7c full re-tour with the
+- **Phase:** 9 (release) done 2026-10-28: `tools/release.py` built release/LoGH_EN_v1.0.zip (bps + README +
+  OFL), all gates passed, patched CRC32 EE59F731. Polish re-review skipped by the user. Waiting on the user to
+  publish (never `gh release create` ourselves).
+- **Phase 8:** visual QA round 7 passed (2026-10-28): `qa_gate check` 541/541 (r7c full re-tour with the
   no-wait +2/+4 shots, 16 chunks; r7d 27 sheets after m086/m087 "between two fortresses" and the new intro
   narration shot: tourpress shoots when the next message opens if the last one had no key wait, since the intro
   narration types with $1116 = 1 and never got a text frame). Controller overrides in verdicts/r7c_main.tsv:
@@ -90,4 +93,4 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Open bugs:**
   - none. (Closed: the "empty box after Front" was the Front/All Sides/Focus picker waiting for input; same route
     from `cmd_fleet` gives the same frames and screens in JP, m01C at f378 both, `work/qa/probe/d3.png`.)
-- **Waiting on the user:** nothing.
+- **Waiting on the user:** publish v1.0 (release/LoGH_EN_v1.0.zip).
