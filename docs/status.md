@@ -93,4 +93,5 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Open bugs:**
   - none. (Closed: the "empty box after Front" was the Front/All Sides/Focus picker waiting for input; same route
     from `cmd_fleet` gives the same frames and screens in JP, m01C at f378 both, `work/qa/probe/d3.png`.)
-- **Waiting on the user:** publish v1.0 (release/LoGH_EN_v1.0.zip).
+- **Waiting on the user:** nothing. v1.0 published by the user 2026-10-28:
+  https://github.com/minhnhattonthat/ginga-eiyuu-densetsu-en/releases/tag/v1.0. Next: player bug reports (issues).
