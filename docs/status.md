@@ -82,7 +82,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
      only; s0E/s11/s13-s17 are called by no message (dead); m13E (ev40) matches the JP; m13E-163 and m071-073 are
      in round 7's sheets.
   3. Polish pass (m0A7, speaker-turn pages, Joint Operational done): Minors deferred from review (reports were in the session; re-review sampled ~150 before release).
-     Round 7 candidates: Kircheis "Yes, Reinhard-sama." (~115 px) wraps in the 112 px cut-in; speaker name on its
+     Round 7 candidates: m1C4 Kircheis "Yes, Reinhard-sama." wraps in the 112 px cut-in: the JP breaks there too
+     (はい{nl}name様), ok; speaker name on its
      own line vs "Name:" follows the JP (m085, m0BD, m16E), left as is.
   4. Carried over: message ids no event/direct call shows (`tools/events.py --unreached`) and no tour logged keep
      boxes.py's "jp" guess (narrowest box the JP fits); m213-219 were among them and turned out to be 9x5.
