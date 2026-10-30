@@ -9,6 +9,18 @@ no game data you can play; you need your own dump of the Japanese game.
 **Found a bug?** [Report it](../../issues/new/choose): untranslated text, typos, overflow, crashes. Attaching a savestate
 helps most.
 
+## Translation status
+
+| Part | Status |
+|---|---|
+| Dialogue / story (all three scenarios, battle cut-ins) | Translated |
+| Names, ranks, ship types, command labels | Translated |
+| Battle banners and scenario title bars | Translated |
+| Title screen (logo, copyright, buttons) | Translated |
+| Staff credits | Already in English/German in the original |
+
+Known issues: none known; [report one](../../issues/new/choose).
+
 ## What's here
 
 | Path | What it is |
